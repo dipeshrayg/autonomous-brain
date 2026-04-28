@@ -39,11 +39,33 @@
       ],
       "safety_notes": "N/A - pure utility.",
       "errors_encountered_count": 2
+    },
+    {
+      "date": "2026-04-28",
+      "name": "dynamic-physics-simulator",
+      "repo_url": "https://github.com/dipeshrayg/2026-04-28-dynamic-physics-simulator",
+      "pages_url": "https://dipeshrayg.github.io/2026-04-28-dynamic-physics-simulator/",
+      "language": "JavaScript",
+      "tech_stack": [
+        "HTML Canvas API",
+        "JavaScript ES6"
+      ],
+      "complexity_score": 7,
+      "concepts_demonstrated": [
+        "Physics simulation",
+        "Collision detection",
+        "Elastic collisions",
+        "Dynamic rendering on HTML Canvas",
+        "Vector algebra and Newtonian mechanics"
+      ],
+      "safety_notes": "N/A - pure utility. This project operates entirely within the user's browser, contains no network calls, and no external dependencies other than CDNs explicitly specified in the README. It is safe and educational.",
+      "errors_encountered_count": 1
     }
   ],
   "complexity_trajectory": [
     3,
-    5
+    5,
+    7
   ],
   "concepts_explored": [
     "neural networks",
@@ -54,6 +76,11 @@
     "heuristic optimization",
     "graph traversal",
     "maze generation",
-    "visualization of pathfinding algorithms"
+    "visualization of pathfinding algorithms",
+    "Physics simulation",
+    "Collision detection",
+    "Elastic collisions",
+    "Dynamic rendering on HTML Canvas",
+    "Vector algebra and Newtonian mechanics"
   ]
 }
