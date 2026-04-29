@@ -182,8 +182,10 @@ def verify_web(workspace: Path, timeout: int = 30) -> dict[str, Any]:
                 browser.close()
                 return {"errors": errors, "issues": issues, "metrics": metrics, "screenshot": None}
 
-            # Let rAF / animations run for a bit before sampling.
-            time.sleep(2.5)
+            # Let rAF / animations run for several frames before sampling.
+            # 5s is the empirically-tuned floor where canvas-blank false-positives
+            # disappear for slow-startup visualizations.
+            time.sleep(5.0)
 
             try:
                 metrics = page.evaluate(_METRICS_JS)
