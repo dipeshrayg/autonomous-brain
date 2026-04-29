@@ -60,12 +60,66 @@
       ],
       "safety_notes": "N/A - pure utility. This project operates entirely within the user's browser, contains no network calls, and no external dependencies other than CDNs explicitly specified in the README. It is safe and educational.",
       "errors_encountered_count": 1
+    },
+    {
+      "date": "2026-04-29",
+      "name": "genetic-algorithm-art-optimizer",
+      "repo_url": "https://github.com/dipeshrayg/2026-04-29-genetic-algorithm-art-optimizer",
+      "pages_url": "https://dipeshrayg.github.io/2026-04-29-genetic-algorithm-art-optimizer/",
+      "language": "JavaScript",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Canvas 2D",
+        "chroma.js (color manipulation)"
+      ],
+      "complexity_score": 8,
+      "concepts_demonstrated": [
+        "Genetic algorithms",
+        "Crossover and mutation operations",
+        "Fitness function customization",
+        "Dynamic fitness criteria",
+        "Canvas-based real-time rendering",
+        "Population diversity maintenance",
+        "Color manipulation with chroma.js"
+      ],
+      "novel_concepts": [
+        "Genetic algorithms",
+        "Crossover and mutation operations",
+        "Dynamic fitness criteria",
+        "Population diversity maintenance",
+        "Color manipulation with chroma.js"
+      ],
+      "advancement_axis": "This project advances on previous work by incorporating a more complex algorithm (genetic algorithms with dynamic fitness criteria) coupled with real-time rendering, richer user interaction, and integration of a new library (chroma.js) for advanced visual design.",
+      "safety_notes": "This project is purely client-side and does not involve any network requests, user data storage, or security-sensitive operations.",
+      "file_count": 6,
+      "loc": 608,
+      "quality_cycles_used": 4,
+      "final_verify_metrics": {
+        "bodyText": 204,
+        "bodyHtml": 1545,
+        "canvasCount": 1,
+        "canvasBlank": false,
+        "canvasSize": {
+          "w": 800,
+          "h": 500,
+          "cssW": 800,
+          "cssH": 500
+        },
+        "interactiveCount": 5,
+        "scriptCount": 4,
+        "title": "Genetic Algorithm Art Optimizer",
+        "viewportMeta": true,
+        "hasMain": true
+      }
     }
   ],
   "complexity_trajectory": [
     3,
     5,
-    7
+    7,
+    8
   ],
   "concepts_explored": [
     "neural networks",
@@ -81,6 +135,13 @@
     "Collision detection",
     "Elastic collisions",
     "Dynamic rendering on HTML Canvas",
-    "Vector algebra and Newtonian mechanics"
+    "Vector algebra and Newtonian mechanics",
+    "Genetic algorithms",
+    "Crossover and mutation operations",
+    "Fitness function customization",
+    "Dynamic fitness criteria",
+    "Canvas-based real-time rendering",
+    "Population diversity maintenance",
+    "Color manipulation with chroma.js"
   ]
 }
