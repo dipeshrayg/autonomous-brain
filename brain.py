@@ -163,19 +163,29 @@ def publish(plan: dict, src: Path, gh_token: str) -> tuple[str, str, str]:
     """Returns (repo_url, pages_url, owner_login)."""
     g = Github(gh_token)
     user = g.get_user()
-    repo_name = date_prefixed_name(plan["name"])
-    log.info("Creating GitHub repo %s/%s", user.login, repo_name)
-    try:
-        repo = user.create_repo(
-            name=repo_name,
-            description=plan["description"][:350],
-            private=False,
-            has_issues=True,
-            has_wiki=False,
-            auto_init=False,
-        )
-    except GithubException as e:
-        raise RuntimeError(f"create_repo failed: {e}") from e
+    base = date_prefixed_name(plan["name"])
+    repo_name = base
+    repo = None
+    for attempt in range(1, 11):
+        log.info("Creating GitHub repo %s/%s (attempt %d)", user.login, repo_name, attempt)
+        try:
+            repo = user.create_repo(
+                name=repo_name,
+                description=plan["description"][:350],
+                private=False,
+                has_issues=True,
+                has_wiki=False,
+                auto_init=False,
+            )
+            break
+        except GithubException as e:
+            if e.status == 422 and "name already exists" in str(e):
+                repo_name = f"{base[:90]}-v{attempt + 1}"
+                log.warning("Repo name collision; retrying with %s", repo_name)
+                continue
+            raise RuntimeError(f"create_repo failed: {e}") from e
+    if repo is None:
+        raise RuntimeError(f"Could not find a free repo name after 10 attempts (base={base})")
 
     # Don't push the verifier's screenshot artefact.
     artefact = src / ".verify-screenshot.png"

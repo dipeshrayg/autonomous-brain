@@ -32,11 +32,19 @@ log = logging.getLogger("brain.verifier")
 # console errors and warnings. Examples: WebGL software-renderer stalls,
 # autoplay policy hints, etc.
 _NOISE_PATTERNS = (
+    # WebGL driver chatter on software-rendered headless Chromium
     "GL_CLOSE_PATH_NV",
     "GPU stall due to ReadPixels",
+    "GL Driver Message",
+    "OpenGL, Performance",
+    "OpenGL, Other",
     "WEBGL_lose_context",
+    # Browser policy hints, not bugs
     "play() failed because the user didn't interact",
+    "AudioContext was not allowed to start",
+    # 404s for things we don't care about
     "favicon.ico",
+    "/sw.js",
 )
 
 
