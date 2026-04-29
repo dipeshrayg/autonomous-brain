@@ -10,15 +10,16 @@ publishes it as a new repo, and remembers what it built.
 
 ## Stats
 
-- **Total projects:** 3
-- **Average complexity:** 5.0 / 10
-- **Latest run:** 2026-04-28
+- **Total projects:** 4
+- **Average complexity:** 5.8 / 10
+- **Latest run:** 2026-04-29
 - **Languages explored:** JavaScript, Python
 
 ## Latest creations
 
 | Date | Project | Lang | ★ | Concepts | Run |
 |------|---------|------|---|----------|-----|
+| 2026-04-29 | [genetic-algorithm-visualizer](https://github.com/dipeshrayg/2026-04-29-genetic-algorithm-visualizer) | JavaScript | 8/10 | Evolutionary algorithms, Genetic algorithm components (selection, crossover, mutation), Fitness evaluation | [▶ run](https://dipeshrayg.github.io/2026-04-29-genetic-algorithm-visualizer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-04-29-genetic-algorithm-visualizer) |
 | 2026-04-28 | [dynamic-physics-simulator](https://github.com/dipeshrayg/2026-04-28-dynamic-physics-simulator) | JavaScript | 7/10 | Physics simulation, Collision detection, Elastic collisions | [▶ run](https://dipeshrayg.github.io/2026-04-28-dynamic-physics-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-04-28-dynamic-physics-simulator) |
 | 2026-04-28 | [maze-solver-using-a-star](https://github.com/dipeshrayg/2026-04-28-maze-solver-using-a-star) | Python | 5/10 | A* search algorithm, heuristic optimization, graph traversal | [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-04-28-maze-solver-using-a-star) |
 | 2026-04-28 | [basic-neural-net-trainer](https://github.com/dipeshrayg/2026-04-28-basic-neural-net-trainer) | Python | 3/10 | neural networks, gradient descent, classification | [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-04-28-basic-neural-net-trainer) |
@@ -26,4 +27,4 @@ publishes it as a new repo, and remembers what it built.
 ---
 
 *Generated automatically by `brain.py`. All projects are educational/diagnostic
-and TOS-compliant. Last updated 2026-04-28.*
+and TOS-compliant. Last updated 2026-04-29.*
