@@ -45,7 +45,7 @@ import dashboard
 GH_MODELS_BASE_URL = "https://models.inference.ai.azure.com"
 MODEL = "gpt-4o"
 
-MAX_QUALITY_CYCLES = 4       # critique+fix iterations
+MAX_QUALITY_CYCLES = 5       # critique+fix iterations
 TEST_TIMEOUT_SECONDS = 300
 
 MEMORY_LOG_PATH = Path("memory_log.json")
@@ -333,8 +333,15 @@ def main() -> int:
         log.info("════════ STAGE 3+4: QUALITY LOOP ════════")
         files, cycles_used, _ = quality_loop(client, plan, files, WORKSPACE)
 
-        # 5. POLISH
+        # 5. POLISH (with rollback safety: if polish introduces NEW problems
+        #    that weren't there pre-polish, ship the pre-polish version).
         log.info("════════ STAGE 5: POLISH ════════")
+        pre_polish_files = dict(files)
+        pre_polish_verify = verify_project(plan, WORKSPACE)
+        pre_polish_problem_count = (
+            len(pre_polish_verify.get("errors", []))
+            + len(pre_polish_verify.get("issues", []))
+        )
         polish_updates = pipeline.stage_polish(client, MODEL, plan, files)
         if polish_updates:
             files = merge_updates(files, polish_updates)
@@ -343,8 +350,20 @@ def main() -> int:
         # 6. FINAL VERIFY
         log.info("════════ STAGE 6: FINAL VERIFY ════════")
         final_verify = verify_project(plan, WORKSPACE)
-        if final_verify.get("errors") or final_verify.get("issues"):
-            log.warning("Polish introduced issues; running one fix pass.")
+        post_polish_problem_count = (
+            len(final_verify.get("errors", []))
+            + len(final_verify.get("issues", []))
+        )
+        if post_polish_problem_count > pre_polish_problem_count:
+            log.warning(
+                "Polish regressed quality (problems %d -> %d); reverting to pre-polish files.",
+                pre_polish_problem_count, post_polish_problem_count,
+            )
+            files = pre_polish_files
+            materialize(files, WORKSPACE)
+            final_verify = pre_polish_verify
+        elif final_verify.get("errors") or final_verify.get("issues"):
+            log.warning("Polish kept quality the same but issues remain; running one fix pass.")
             issues = (final_verify.get("errors") or []) + (final_verify.get("issues") or [])
             updates = pipeline.stage_fix(client, MODEL, plan, files, issues)
             if updates:

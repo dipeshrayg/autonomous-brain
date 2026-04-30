@@ -28,6 +28,56 @@ from typing import Any, Iterator
 
 log = logging.getLogger("brain.verifier")
 
+import re as _re
+
+_LOCAL_REF_RE = _re.compile(
+    r"""(?:src|href)\s*=\s*["']([^"'#?]+)["']""",
+    _re.IGNORECASE,
+)
+
+
+def check_local_references(workspace: Path) -> list[str]:
+    """
+    Parse every HTML/CSS file for src/href attributes that point to a local
+    (relative, no-protocol) resource and confirm the file exists in workspace.
+
+    Catches the very common failure where the LLM writes
+        <script src="d3-delaunay.js"></script>
+    but never generates that file (and doesn't use a CDN URL).
+
+    Returns a list of issue strings to feed back to the LLM.
+    """
+    workspace = Path(workspace).resolve()
+    issues: list[str] = []
+    for html in list(workspace.rglob("*.html")) + list(workspace.rglob("*.htm")) + list(workspace.rglob("*.css")):
+        try:
+            text = html.read_text(encoding="utf-8", errors="ignore")
+        except Exception:
+            continue
+        for m in _LOCAL_REF_RE.finditer(text):
+            ref = m.group(1).strip()
+            if not ref:
+                continue
+            # Skip absolute, data:, blob:, mailto:, javascript:, anchors, etc.
+            if "://" in ref or ref.startswith(("//", "data:", "blob:", "mailto:",
+                                               "javascript:", "tel:", "#")):
+                continue
+            target = (html.parent / ref).resolve()
+            try:
+                target.relative_to(workspace)
+            except ValueError:
+                issues.append(f"{html.name} references path that escapes workspace: {ref}")
+                continue
+            if not target.exists():
+                rel = html.relative_to(workspace)
+                issues.append(
+                    f"{rel} references missing local file '{ref}'. "
+                    f"Either generate that file as part of the project, OR replace "
+                    f"the reference with a pinned CDN URL "
+                    f"(e.g. https://cdn.jsdelivr.net/npm/<pkg>@<version>/<file>)."
+                )
+    return issues
+
 # Substrings that indicate noise, not real bugs. Filtered from both
 # console errors and warnings. Examples: WebGL software-renderer stalls,
 # autoplay policy hints, etc.
@@ -142,6 +192,12 @@ def verify_web(workspace: Path, timeout: int = 30) -> dict[str, Any]:
     issues: list[str] = []
     metrics: dict[str, Any] = {}
     screenshot_path = workspace / ".verify-screenshot.png"
+
+    # Cheap mechanical check first: dangling local file references. Catches
+    # the 'wrote <script src=foo.js> but never generated foo.js' failure
+    # before we even launch Chrome.
+    ref_issues = check_local_references(workspace)
+    issues.extend(ref_issues)
 
     with static_server(workspace) as port:
         with sync_playwright() as p:

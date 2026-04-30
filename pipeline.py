@@ -52,6 +52,10 @@ ABSOLUTE CONSTRAINTS - non-negotiable:
    - At least 3 interactive controls (buttons, sliders, selects).
    - <meta name="viewport">.
    - The canvas (if any) must actually render content — the loop must be running and drawing on first frame.
+6. EXTERNAL LIBRARIES — ABSOLUTE RULE:
+   Every external library MUST be loaded from a pinned CDN URL (jsdelivr / unpkg / cdnjs) with explicit version, e.g.:
+       <script src="https://cdn.jsdelivr.net/npm/d3-delaunay@6.0.4/dist/d3-delaunay.min.js"></script>
+   NEVER write <script src="some-lib.js"> referencing a local library file you are not also generating. The verifier mechanically checks that every src/href local reference resolves to a file that exists in the project. Dangling refs are a hard fail.
 
 OUTPUT — single JSON object, no prose, no markdown fences, schema:
 {
@@ -91,6 +95,7 @@ RULES:
 - For JS: handle DOMContentLoaded properly, no top-level statements that touch the DOM before it's ready, handle resize, handle edge cases, no unhandled promise rejections.
 - For CSS: responsive, accessible, polished — use modern selectors, custom properties, prefers-color-scheme.
 - Pin any CDN versions explicitly (e.g., d3@7.8.5).
+- ABSOLUTE RULE: every <script src="..."> and <link href="..."> with a relative URL MUST refer to a file that is actually present in this project's `files` list. If you need an external library, use a pinned CDN URL (https://cdn.jsdelivr.net/npm/<pkg>@<version>/<file>). Never write `src="some-lib.js"` and assume someone will provide it.
 - The result must be runnable as-is when served statically.
 
 OUTPUT - single JSON, no prose, no fences:
