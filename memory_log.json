@@ -113,13 +113,62 @@
         "viewportMeta": true,
         "hasMain": true
       }
+    },
+    {
+      "date": "2026-04-30",
+      "name": "cellular-automata-pattern-generator",
+      "repo_url": "https://github.com/dipeshrayg/2026-04-30-cellular-automata-pattern-generator",
+      "pages_url": "https://dipeshrayg.github.io/2026-04-30-cellular-automata-pattern-generator/",
+      "language": "JavaScript",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Canvas 2D",
+        "FileSaver.js"
+      ],
+      "complexity_score": 9,
+      "concepts_demonstrated": [
+        "Cellular automata theory",
+        "Rule-based simulation",
+        "Dynamic visualization",
+        "Real-time interactivity",
+        "File export functionality"
+      ],
+      "novel_concepts": [
+        "Cellular automata simulation",
+        "Dynamic ruleset customization"
+      ],
+      "advancement_axis": "This project is more advanced due to the complexity of implementing customizable cellular automata rulesets, grid manipulations, and pattern exporting, as well as the real-time interactivity with user-defined parameters.",
+      "safety_notes": "No unsafe or malicious behavior is involved. The project complies fully with GitHub's terms of service. All external libraries are loaded from pinned CDN URLs.",
+      "file_count": 6,
+      "loc": 551,
+      "quality_cycles_used": 3,
+      "final_verify_metrics": {
+        "bodyText": 219,
+        "bodyHtml": 1608,
+        "canvasCount": 1,
+        "canvasBlank": false,
+        "canvasSize": {
+          "w": 500,
+          "h": 500,
+          "cssW": 798,
+          "cssH": 798
+        },
+        "interactiveCount": 10,
+        "scriptCount": 4,
+        "title": "Cellular Automata Pattern Generator",
+        "viewportMeta": true,
+        "hasMain": true
+      }
     }
   ],
   "complexity_trajectory": [
     3,
     5,
     7,
-    8
+    8,
+    9
   ],
   "concepts_explored": [
     "neural networks",
@@ -142,6 +191,11 @@
     "Dynamic fitness criteria",
     "Canvas-based real-time rendering",
     "Population diversity maintenance",
-    "Color manipulation with chroma.js"
+    "Color manipulation with chroma.js",
+    "Cellular automata theory",
+    "Rule-based simulation",
+    "Dynamic visualization",
+    "Real-time interactivity",
+    "File export functionality"
   ]
 }
