@@ -170,7 +170,7 @@ def render_dashboard(memory: dict[str, Any], owner: str,
 
     readme = (
         f"# 🤖 Autonomous Brain\n\n"
-        f"A self-improving AI software-engineering pipeline. Every day at 06:17 UTC, a\n"
+        f"A self-improving software-engineering pipeline. Every day at 06:17 UTC, a\n"
         f"GitHub Action wakes up, asks an LLM (free GitHub Models) to design a brand-new\n"
         f"browser-runnable project that's more advanced than yesterday's. The pipeline:\n\n"
         f"1. **Plan** — architect the project at the design level.\n"
