@@ -21,6 +21,7 @@ on:
 
 permissions:
   contents: read
+  actions: write     # required so the auto-injected GITHUB_TOKEN can call workflow_dispatch
 
 concurrency:
   group: watchdog
@@ -37,7 +38,10 @@ jobs:
 
       - name: Health check + dispatch if needed
         env:
-          GH_TOKEN: ${{ secrets.GH_PAT }}
+          # Auto-injected token with actions:write permission above. workflow_dispatch
+          # is one of the exceptions to GitHub's "no GITHUB_TOKEN-triggered workflows"
+          # rule, so this DOES create a real new daily_build run.
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -eu
 
