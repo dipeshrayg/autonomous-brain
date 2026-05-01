@@ -1,0 +1,98 @@
+name: Watchdog
+
+# Autonomous monitor for the daily-build pipeline.
+#
+# Wakes up every 15 minutes, 24/7, no user intervention ever required:
+#   1. Reads memory_log.json for today's UTC date.
+#   2. If today already has a project   → exits silently. (Done.)
+#   3. If a daily_build is already running or queued → backs off.
+#   4. If we've already dispatched 4 times today  → emits a ::warning:: and
+#      stops, to prevent runaway loops on persistent failures.
+#   5. Otherwise → dispatches daily_build.yml via the GH_PAT and emits a
+#      ::notice:: that surfaces in the Actions UI.
+#
+# This is the cloud-side autonomous consciousness for the system: it runs
+# independently of any human, examines the pipeline state, and acts.
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"     # every 15 minutes, all day, every day
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: watchdog
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout master repo (for memory_log.json)
+        uses: actions/checkout@v4
+
+      - name: Health check + dispatch if needed
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          set -eu
+
+          today=$(date -u +%Y-%m-%d)
+          hour=$(date -u +%H)
+          echo "Watchdog tick: $today ${hour}:xx UTC"
+
+          # Idempotency: if today's project is already in memory_log, we're done.
+          has_today=$(jq -r --arg t "$today" '[.projects[] | select(.date == $t)] | length' memory_log.json)
+          if [ "$has_today" -gt 0 ]; then
+            echo "✓ Today has $has_today project(s) in memory_log. Watchdog satisfied."
+            exit 0
+          fi
+
+          # Don't churn between 23:00 and 02:00 UTC — give the new day's first
+          # scheduled cron a chance to fire before we start force-dispatching.
+          if [ "$hour" -ge 23 ] || [ "$hour" -lt 2 ]; then
+            echo "Quiet hours (23-02 UTC). No action."
+            exit 0
+          fi
+
+          # Don't pile on if a daily_build is already running or queued.
+          active=$(gh run list \
+            --repo "$GITHUB_REPOSITORY" \
+            --workflow daily_build.yml \
+            --limit 5 \
+            --json status \
+            --jq '[.[] | select(.status == "in_progress" or .status == "queued")] | length')
+          if [ "$active" -gt 0 ]; then
+            echo "⏳ daily_build already in_progress/queued. Backing off."
+            exit 0
+          fi
+
+          # Cap watchdog dispatches per day to prevent runaway billing if the
+          # pipeline is persistently broken.
+          dispatches_today=$(gh run list \
+            --repo "$GITHUB_REPOSITORY" \
+            --workflow daily_build.yml \
+            --limit 50 \
+            --json event,createdAt \
+            --jq "[.[] | select(.event == \"workflow_dispatch\" and (.createdAt | startswith(\"$today\")))] | length")
+          if [ "$dispatches_today" -ge 4 ]; then
+            echo "::warning::Already dispatched daily_build $dispatches_today times today. Refusing further auto-dispatches — investigate manually."
+            exit 0
+          fi
+
+          # Surface recent failures as a notice so the user can see them in the run log.
+          recent=$(gh run list \
+            --repo "$GITHUB_REPOSITORY" \
+            --workflow daily_build.yml \
+            --limit 5 \
+            --json conclusion,createdAt \
+            --jq '[.[] | "\(.createdAt[0:16]) \(.conclusion)"] | join(", ")')
+          echo "Recent runs: $recent"
+
+          echo "::notice::No project for $today and no run pending. Force-dispatching daily_build.yml (auto-dispatch #$((dispatches_today + 1)) for today)."
+          gh workflow run daily_build.yml --repo "$GITHUB_REPOSITORY" --ref main
+          echo "✓ Dispatched."

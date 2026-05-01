@@ -2,16 +2,29 @@ name: Daily Build
 
 on:
   schedule:
-    # Five attempts per day spread across UTC time zones.
-    # Idempotency in brain.py ensures only the first to actually fire creates a
-    # project — the rest see today's entry in memory_log and exit cleanly. This
-    # works around GitHub Actions' notoriously delayed/dropped cron firings on
-    # the free tier (we routinely see 60+ min delays at top-of-hour times).
-    - cron: "17 6 * * *"       # 06:17 UTC
-    - cron: "43 9 * * *"       # 09:43 UTC
+    # Goal: a new project must exist before 06:00 UTC (07:00 London BST) every
+    # day. GitHub Actions cron firings are dropped/delayed by 30-90 min on the
+    # free tier, so we saturate the pre-dawn window with 12 attempts. Combined
+    # with brain.py's idempotency, only the first to actually fire creates the
+    # project; the rest see today's entry in memory_log and exit cleanly.
+    # The watchdog workflow (.github/workflows/watchdog.yml) is the safety net.
+    - cron: "07 2 * * *"       # 02:07 UTC
+    - cron: "29 2 * * *"       # 02:29 UTC
+    - cron: "47 2 * * *"       # 02:47 UTC
+    - cron: "11 3 * * *"       # 03:11 UTC
+    - cron: "33 3 * * *"       # 03:33 UTC
+    - cron: "53 3 * * *"       # 03:53 UTC
+    - cron: "13 4 * * *"       # 04:13 UTC
+    - cron: "37 4 * * *"       # 04:37 UTC
+    - cron: "53 4 * * *"       # 04:53 UTC
+    - cron: "11 5 * * *"       # 05:11 UTC
+    - cron: "29 5 * * *"       # 05:29 UTC
+    - cron: "47 5 * * *"       # 05:47 UTC
+    # Daytime backups in case the entire morning gets dropped.
+    - cron: "23 9 * * *"       # 09:23 UTC
     - cron: "23 12 * * *"      # 12:23 UTC
-    - cron: "37 15 * * *"      # 15:37 UTC
-    - cron: "17 18 * * *"      # 18:17 UTC
+    - cron: "23 15 * * *"      # 15:23 UTC
+    - cron: "23 18 * * *"      # 18:23 UTC
   workflow_dispatch:
 
 permissions:
