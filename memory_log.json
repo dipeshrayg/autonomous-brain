@@ -262,6 +262,83 @@
         "viewportMeta": true,
         "hasMain": true
       }
+    },
+    {
+      "date": "2026-05-01",
+      "completed_at": "2026-05-01T23:10:15Z",
+      "completed_at_unix": 1777677015,
+      "name": "healthcare-simulation-dashboard",
+      "repo_url": "https://github.com/dipeshrayg/2026-05-01-healthcare-simulation-dashboard",
+      "pages_url": "https://dipeshrayg.github.io/2026-05-01-healthcare-simulation-dashboard/",
+      "language": "JavaScript",
+      "tech_stack": [
+        "https://cdn.jsdelivr.net/npm/chart.js@3.6.0",
+        "https://cdn.jsdelivr.net/npm/vue@2.6.14"
+      ],
+      "complexity_score": 12,
+      "concepts_demonstrated": [
+        "Resource allocation simulation",
+        "Dynamic patient flow visualization",
+        "Interactive logs and statistics",
+        "Real-time data updates",
+        "Keyboard shortcuts for navigation"
+      ],
+      "novel_concepts": [
+        "Dynamic resource allocation algorithms",
+        "Patient queuing theory"
+      ],
+      "advancement_axis": "This project exceeds previous ones by integrating a substantial simulation backend that interacts with a multi-pane front end, offering a practical use case in the healthcare domain and advanced user interaction through keyboard shortcuts.",
+      "pattern": "dashboard",
+      "domain": "Healthcare",
+      "visual_identity": "A calming blue and green color palette with sans-serif typography, featuring a multi-pane layout for clear organization and interaction.",
+      "safety_notes": "This project uses synthetic data for simulation and is purely educational in nature. No real patient data or healthcare systems are involved.",
+      "file_count": 9,
+      "loc": 692,
+      "quality_cycles_used": 7,
+      "final_verify_metrics": {
+        "bodyText": 499,
+        "bodyHtml": 3648,
+        "canvasCount": 1,
+        "canvasBlank": false,
+        "canvasSize": {
+          "w": 491,
+          "h": 13270,
+          "cssW": 491,
+          "cssH": 13270
+        },
+        "interactiveCount": 9,
+        "scriptCount": 9,
+        "title": "Healthcare Simulation Dashboard",
+        "viewportMeta": true,
+        "hasMain": true
+      },
+      "model_attribution": {
+        "plan_judge": "gpt-4o",
+        "plan_candidates": [
+          "gpt-4o-mini",
+          "gpt-4o-mini"
+        ],
+        "candidates_considered": 2,
+        "implement_per_file": {
+          "index.html": "gpt-4o",
+          "style.css": "gpt-4o",
+          "app.js": "gpt-4o",
+          "backend.js": "gpt-4o",
+          "data.js": "gpt-4o",
+          "logs.js": "gpt-4o",
+          "keyboard.js": "gpt-4o",
+          "config.js": "gpt-4o",
+          "README.md": "gpt-4o"
+        }
+      },
+      "ceo_directives_followed": [
+        "The next project must include a multi-pane workspace layout (e.g., left sidebar for configuration, main canvas for visualization, and right panel for detailed data or logs). Avoid single-pane layouts entirely.",
+        "Develop a project with a substantial backend component that simulates a real-world use case (e.g., a live data feed, a fake marketplace with transactions, or a supply chain simulation). The backend must meaningfully interact with the front end.",
+        "Explore a completely new domain that has not been touched in recent projects, such as healthcare, finance, e-commerce, or social networks. Avoid Mathematics and pure visualizers.",
+        "Incorporate keyboard shortcuts and advanced interaction mechanisms to improve user experience. For example, allow users to control the application without relying solely on mouse clicks.",
+        "Design a project that uses a unique and polished visual identity, including a new typography pairing and a cohesive color scheme. Track the visual_identity field and ensure it is distinct from prior projects.",
+        "Create a project with a clear, practical use case and ensure it is polished to a level that a senior engineer would ship. Avoid projects that feel like theoretical exercises or academic proofs of concept."
+      ]
     }
   ],
   "complexity_trajectory": [
@@ -271,7 +348,8 @@
     8,
     9,
     10,
-    11
+    11,
+    12
   ],
   "concepts_explored": [
     "neural networks",
@@ -309,13 +387,20 @@
     "Interactive parameter adjustment for real-time updates",
     "Dynamic visualization with phase planes and time series",
     "Integration of external plotting library (Plotly.js)",
-    "Handling complex initial conditions with user-defined inputs"
+    "Handling complex initial conditions with user-defined inputs",
+    "Resource allocation simulation",
+    "Dynamic patient flow visualization",
+    "Interactive logs and statistics",
+    "Real-time data updates",
+    "Keyboard shortcuts for navigation"
   ],
   "patterns_used": [
-    "visualizer"
+    "visualizer",
+    "dashboard"
   ],
   "domains_used": [
-    "Mathematics"
+    "Mathematics",
+    "Healthcare"
   ],
   "ceo_reviews": [
     {
