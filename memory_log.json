@@ -209,6 +209,59 @@
         "viewportMeta": true,
         "hasMain": true
       }
+    },
+    {
+      "date": "2026-05-01",
+      "name": "differential-equation-visualizer",
+      "repo_url": "https://github.com/dipeshrayg/2026-05-01-differential-equation-visualizer",
+      "pages_url": "https://dipeshrayg.github.io/2026-05-01-differential-equation-visualizer/",
+      "language": "JavaScript",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Canvas 2D",
+        "Math.js (cdn.jsdelivr.net/npm/mathjs@10.6.4)",
+        "Plotly.js (cdn.plot.ly/plotly-latest.min.js)"
+      ],
+      "complexity_score": 11,
+      "concepts_demonstrated": [
+        "Numerical solutions of differential equations using the Runge-Kutta method",
+        "Interactive parameter adjustment for real-time updates",
+        "Dynamic visualization with phase planes and time series",
+        "Integration of external plotting library (Plotly.js)",
+        "Handling complex initial conditions with user-defined inputs"
+      ],
+      "novel_concepts": [
+        "Numerical solutions of differential equations",
+        "Dynamic visualization of phase portraits",
+        "Integration of Plotly.js for 3D plotting"
+      ],
+      "advancement_axis": "This project advances the complexity by introducing mathematical modeling of differential equations, integration of a sophisticated external plotting library (Plotly.js), and implementing three distinct visualization modes (phase portrait, time evolution, and 3D plots). It also introduces more robust user interactivity with support for user-defined functions, multiple parameter sliders, and data export capabilities.",
+      "pattern": "visualizer",
+      "domain": "Mathematics",
+      "visual_identity": "The visual identity combines a clean, minimalistic sans-serif typeface with a soft color palette of blues and greens for the graphs and controls. The layout is split into two panes: a visualization area on the left and an interactive control panel on the right. The application supports both light and dark modes via prefers-color-scheme, with smooth transitions and hover/focus animations for controls.",
+      "safety_notes": "The project complies with GitHub TOS. It runs entirely in the browser without external data connections or a backend. The visualization operates solely on user-provided or predefined synthetic data.",
+      "file_count": 7,
+      "loc": 809,
+      "quality_cycles_used": 2,
+      "final_verify_metrics": {
+        "bodyText": 369,
+        "bodyHtml": 2739,
+        "canvasCount": 1,
+        "canvasBlank": false,
+        "canvasSize": {
+          "w": 800,
+          "h": 600,
+          "cssW": 800,
+          "cssH": 600
+        },
+        "interactiveCount": 10,
+        "scriptCount": 6,
+        "title": "Differential Equation Visualizer",
+        "viewportMeta": true,
+        "hasMain": true
+      }
     }
   ],
   "complexity_trajectory": [
@@ -217,7 +270,8 @@
     7,
     8,
     9,
-    10
+    10,
+    11
   ],
   "concepts_explored": [
     "neural networks",
@@ -250,6 +304,17 @@
     "Swarm intelligence and flocking behavior",
     "Dynamic obstacle avoidance",
     "Real-time charting with Chart.js",
-    "Interactive simulation control"
+    "Interactive simulation control",
+    "Numerical solutions of differential equations using the Runge-Kutta method",
+    "Interactive parameter adjustment for real-time updates",
+    "Dynamic visualization with phase planes and time series",
+    "Integration of external plotting library (Plotly.js)",
+    "Handling complex initial conditions with user-defined inputs"
+  ],
+  "patterns_used": [
+    "visualizer"
+  ],
+  "domains_used": [
+    "Mathematics"
   ]
 }
