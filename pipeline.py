@@ -126,12 +126,13 @@ IMPLEMENT_SYSTEM = """You are implementing ONE file of a multi-file project that
 RULES:
 - Production-quality code. NO TODOs, NO placeholders, NO "implement this later", NO stubs.
 - Honor sibling files: do not redefine variables/functions they already export, do not duplicate their work.
-- For HTML: <!DOCTYPE html>, charset, viewport, semantic structure, all referenced scripts/styles must exist in sibling files.
-- For JS: handle DOMContentLoaded properly, no top-level statements that touch the DOM before it's ready, handle resize, handle edge cases, no unhandled promise rejections.
+- For HTML: <!DOCTYPE html>, charset, viewport, semantic structure. All referenced scripts/styles must exist in sibling files. PREFER CLASSIC <script src="..."></script> over <script type="module">. Classic scripts compose reliably without import maps; modules require careful path handling that often breaks under GitHub Pages.
+- For JS: handle DOMContentLoaded properly, no top-level statements that touch the DOM before it's ready, handle resize, handle edge cases, no unhandled promise rejections. AVOID Web Workers unless absolutely essential — they require separate worker.js files and cross-file message protocol that frequently breaks. Inline computation is fine for nearly all interactive demos.
 - For CSS: responsive, accessible, polished — use modern selectors, custom properties, prefers-color-scheme.
 - Pin any CDN versions explicitly (e.g., d3@7.8.5).
 - ABSOLUTE RULE: every <script src="..."> and <link href="..."> with a relative URL MUST refer to a file that is actually present in this project's `files` list. If you need an external library, use a pinned CDN URL (https://cdn.jsdelivr.net/npm/<pkg>@<version>/<file>). Never write `src="some-lib.js"` and assume someone will provide it.
-- The result must be runnable as-is when served statically.
+- Define every function, class, and global your sibling files reference. If app.js calls `setupNodeControls()`, then somewhere that function must exist. Every cross-file reference must resolve.
+- The result must be runnable as-is when served statically by GitHub Pages.
 
 OUTPUT - single JSON, no prose, no fences:
 {"path": "<path you were asked to write>", "content": "<full file content>"}
@@ -320,11 +321,12 @@ def _validate_plan(plan: dict, memory: dict) -> None:
     complexity = int(plan["complexity_score"])
 
     files = plan.get("files") or []
-    # Scope minimum scales with complexity
+    # Scope minimum scales with complexity, but kept attainable for one-shot
+    # implementation. Quality > sprawl.
     if complexity >= 13:
-        min_files = 8
-    elif complexity >= 10:
         min_files = 6
+    elif complexity >= 10:
+        min_files = 5
     else:
         min_files = 4
     if len(files) < min_files:
