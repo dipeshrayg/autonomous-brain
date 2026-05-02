@@ -54,3 +54,10 @@ jobs:
             git commit -m "cso: security audit @ $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           fi
+
+      - name: Sync public dashboard
+        if: always()
+        continue-on-error: true
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: python publish_public.py

@@ -16,7 +16,10 @@ name: Watchdog
 
 on:
   schedule:
-    - cron: "*/15 * * * *"     # every 15 minutes, all day, every day
+    # Every 30 min — 48 ticks/day. Sized to keep total private-repo Actions
+    # usage under the 2000 min/month free-tier ceiling. With the 5h spacing
+    # rule the watchdog rarely needs more frequent attention.
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 permissions:

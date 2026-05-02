@@ -56,3 +56,13 @@ jobs:
             git commit -m "ceo: review @ $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           fi
+
+      - name: Sync public dashboard
+        if: always()
+        continue-on-error: true
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          # CEO workflow only installs minimal deps; install dashboard deps too
+          pip install requests
+          python publish_public.py
