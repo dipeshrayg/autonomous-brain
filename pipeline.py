@@ -727,6 +727,52 @@ def stage_fix(client: OpenAI, plan: dict,
     return updates
 
 
+def stage_security_review(client: OpenAI, plan: dict,
+                          files: dict[str, str],
+                          browser_result: dict | None) -> dict:
+    """
+    Per-project security gate. Returns a structured report:
+      { verdict, summary, findings: [...], directives_for_future: [...] }
+    Verdicts:
+      - 'secure'           → ship
+      - 'minor_concerns'   → ship, but log findings
+      - 'publish_blocked'  → DO NOT ship; feed critical/high to fixer
+    """
+    plan_brief = {k: plan[k] for k in
+                  ("name", "description", "tech_stack", "ui_features",
+                   "concepts_demonstrated", "complexity_score") if k in plan}
+    files_concat = _concat_files(files, budget=18000)
+    browser_summary = json.dumps(browser_result or {}, indent=2)[:2500]
+    user = (
+        f"PLAN:\n{json.dumps(plan_brief, indent=2)}\n\n"
+        f"FINAL FILES:\n{files_concat}\n\n"
+        f"BROWSER VERIFY METRICS:\n{browser_summary}\n\n"
+        "Conduct the security review now. Return a single JSON object per the schema."
+    )
+    out, meta = _call_role(client, "security_officer",
+                           SECURITY_REVIEW_SYSTEM, user, max_tokens=2500)
+    out["__model__"] = meta["model"]
+    findings = out.get("findings", []) or []
+    blocking = [
+        f for f in findings
+        if isinstance(f, dict) and f.get("severity") in ("critical", "high")
+    ]
+    log.info(
+        "Security review (%s): verdict=%s, findings=%d (blocking=%d). %s",
+        meta["model"], out.get("verdict"), len(findings), len(blocking),
+        out.get("summary", "")[:200],
+    )
+    for f in blocking:
+        log.warning(
+            "  [%s] [%s] %s -- suggestion: %s",
+            f.get("severity", "?").upper(),
+            f.get("category", "?"),
+            f.get("issue", "")[:160],
+            f.get("suggestion", "")[:160],
+        )
+    return out
+
+
 def stage_polish(client: OpenAI, plan: dict,
                  files: dict[str, str]) -> dict[str, str]:
     """Polisher role elevates UX. Returns {path: content} of changes.

@@ -71,6 +71,11 @@ _DASHBOARD_HTML = """<!DOCTYPE html>
   .badge.model{background:#2d1b4d;color:#d2a8ff;font-family:ui-monospace,Menlo,monospace;font-size:.7rem}
   .ceo-ribbon{background:linear-gradient(135deg,#1c2333 0%,#2d1b4d 100%);
               border:1px solid #58a6ff;border-radius:10px;padding:1.25rem;margin-bottom:1.5rem}
+  .ceo-ribbon.cso{background:linear-gradient(135deg,#1c2c2a 0%,#2a1c33 100%);border-color:#3fb950}
+  .ceo-ribbon.cso .ceo-tag{background:#3fb950}
+  .badge.security-secure{background:#1c3320;color:#3fb950}
+  .badge.security-minor{background:#33301c;color:#f1c40f}
+  .badge.security-blocked{background:#3a1c1c;color:#f85149}
   .ceo-head{display:flex;gap:.75rem;align-items:center;flex-wrap:wrap;margin-bottom:.5rem}
   .ceo-tag{display:inline-block;padding:.15rem .6rem;background:#58a6ff;color:#0d1117;
            font-weight:700;font-size:.75rem;border-radius:4px;letter-spacing:.5px}
@@ -114,6 +119,16 @@ I, Dipesh Ray, believe this is just the smallest concept of what AI is truly cap
   <ul class="ceo-directives" id="ceo-directives"></ul>
 </div>
 
+<div id="cso-ribbon" class="ceo-ribbon cso" style="display:none">
+  <div class="ceo-head">
+    <span class="ceo-tag cso">CSO</span>
+    <span class="ceo-verdict" id="cso-verdict"></span>
+    <span class="ceo-meta" id="cso-meta"></span>
+  </div>
+  <div class="ceo-body" id="cso-summary"></div>
+  <ul class="ceo-directives" id="cso-directives"></ul>
+</div>
+
 <div class="stats">
   <div><div class="stat-num" id="count">—</div><div class="stat-label">Projects</div></div>
   <div><div class="stat-num" id="avg">—</div><div class="stat-label">Avg complexity</div></div>
@@ -154,6 +169,25 @@ fetch('memory_log.json?_=' + Date.now()).then(r => r.json()).then(m => {
       ul.appendChild(li);
     }
   }
+  // CSO ribbon
+  const csoAudits = (m.security_audits || []);
+  if (csoAudits.length) {
+    const last = csoAudits[csoAudits.length - 1];
+    document.getElementById('cso-ribbon').style.display = 'block';
+    const v = document.getElementById('cso-verdict');
+    v.textContent = last.verdict || '—';
+    v.className = 'ceo-verdict ' + (last.verdict || 'acceptable');
+    document.getElementById('cso-meta').textContent =
+      `${last.issued_at || ''} · ${last.model || ''}`;
+    document.getElementById('cso-summary').textContent = last.summary || '';
+    const ul = document.getElementById('cso-directives');
+    ul.innerHTML = '';
+    for (const d of (last.directives || [])) {
+      const li = document.createElement('li');
+      li.textContent = d;
+      ul.appendChild(li);
+    }
+  }
   const grid = document.getElementById('grid');
   for (const p of projects) {
     const c = document.createElement('div');
@@ -165,10 +199,19 @@ fetch('memory_log.json?_=' + Date.now()).then(r => r.json()).then(m => {
     const domainBadge = p.domain ? `<span class="badge domain">${p.domain}</span>` : '';
     const planModel = p.model_attribution && p.model_attribution.plan_judge;
     const modelBadge = planModel ? `<span class="badge model">plan: ${planModel}</span>` : '';
+    const sec = p.security_review || {};
+    let secBadge = '';
+    if (sec.verdict === 'secure') {
+      secBadge = `<span class="badge security-secure" title="Security review: ${sec.findings_count||0} findings">🛡 secure</span>`;
+    } else if (sec.verdict === 'minor_concerns') {
+      secBadge = `<span class="badge security-minor" title="${sec.findings_count||0} minor findings">🛡 ${sec.findings_count||0} concerns</span>`;
+    } else if (sec.verdict === 'publish_blocked') {
+      secBadge = `<span class="badge security-blocked" title="Was blocked by CSO and fixed before ship">🛡 fixed at gate</span>`;
+    }
     c.innerHTML = `
       <h3><a href="${p.repo_url}" target="_blank" rel="noopener">${p.name}</a></h3>
       <div class="meta">${p.date} · <span class="badge">${p.language}</span> <span class="star">★ ${p.complexity_score}</span></div>
-      <div class="meta">${patternBadge}${domainBadge}${modelBadge}</div>
+      <div class="meta">${patternBadge}${domainBadge}${modelBadge}${secBadge}</div>
       <div class="concepts">${concepts}</div>
       <div class="actions">
         ${p.pages_url ? `<a class="btn primary" href="${p.pages_url}" target="_blank" rel="noopener">▶ Run it</a>` : ''}
@@ -265,12 +308,14 @@ def render_dashboard(memory: dict[str, Any], owner: str,
         f"{ceo_block}"
         f"\n## The boardroom\n\n"
         f"This system runs as a hierarchy of LLMs with distinct roles, not a single model:\n\n"
-        f"- **CEO** (`gpt-4o`) — runs every 6 hours, reviews recent trajectory, issues strict directives the architect must obey. See above.\n"
-        f"- **VP Engineering** (the watchdog) — fires every 15 minutes, dispatches builds when the system is below target.\n"
+        f"- **CEO** (`gpt-4o`) — every 6 hours, reviews recent trajectory, issues strict directives.\n"
+        f"- **CSO** (`gpt-4o`) — every 12 hours, audits security posture across recent projects, issues security directives.\n"
+        f"- **VP Engineering** (the watchdog) — every 15 minutes, dispatches builds when needed.\n"
         f"- **Chief Architect — Judge** (`gpt-4o`) — synthesizes the candidate plans into the final design.\n"
-        f"- **Architect Candidates** (`Mistral-Large` + `Llama-3.1-70B`) — propose plans in parallel.\n"
+        f"- **Architect Candidates** (`gpt-4o-mini` + `Phi-3.5-MoE`) — propose plans in parallel.\n"
         f"- **Engineers** (`gpt-4o`) — implement files, one LLM call per file.\n"
-        f"- **Code Reviewers** (`Mistral-Large` + `Llama-3.1-70B`) — critique in parallel; results merged.\n"
+        f"- **Code Reviewers** (`gpt-4o-mini` + `Phi-3.5-MoE`) — critique in parallel; results merged.\n"
+        f"- **Security Officer** (`gpt-4o`) — per-project pre-publish gate. Hard veto on critical/high findings.\n"
         f"- **Fixer / Polisher** (`gpt-4o-mini`) — applies fixes and the final polish pass.\n"
         f"- **QA** (Playwright + Chromium) — mechanical headless-browser verification before publish.\n\n"
         f"---\n\n"

@@ -40,6 +40,7 @@ import pipeline
 import verifier
 import dashboard
 import executive
+import security_officer
 
 # ─────────────────────── Configuration ──────────────────────────────────
 
@@ -97,7 +98,8 @@ def _last_project_unix(memory: dict[str, Any]) -> float | None:
 def append_record(memory: dict[str, Any], plan: dict, files: dict[str, str],
                   repo_url: str, pages_url: str, cycles: int,
                   verify_result: dict, model_per_file: dict[str, str],
-                  ceo_directives: list[str] | None) -> None:
+                  ceo_directives: list[str] | None,
+                  security_report: dict | None = None) -> None:
     now = datetime.now(timezone.utc)
     record = {
         "date": now.strftime("%Y-%m-%d"),
@@ -128,6 +130,17 @@ def append_record(memory: dict[str, Any], plan: dict, files: dict[str, str],
             "implement_per_file": model_per_file,
         },
         "ceo_directives_followed": list(ceo_directives or []),
+        "security_review": (
+            {
+                "verdict": security_report.get("verdict"),
+                "summary": security_report.get("summary"),
+                "model": security_report.get("__model__"),
+                "findings_count": len(security_report.get("findings") or []),
+                "findings": security_report.get("findings") or [],
+                "directives_for_future": security_report.get("directives_for_future") or [],
+            }
+            if security_report else None
+        ),
     }
     memory.setdefault("projects", []).append(record)
     memory.setdefault("complexity_trajectory", []).append(record["complexity_score"])
@@ -395,9 +408,21 @@ def main() -> int:
             for d in ceo_directives:
                 log.info("  CEO: %s", d)
 
+        # CSO directives — security mandates from the most recent audit.
+        cso_directives = security_officer.latest_directives(memory)
+        if cso_directives:
+            log.info("CSO has issued %d active security directive(s).", len(cso_directives))
+            for d in cso_directives:
+                log.info("  CSO: %s", d)
+
+        # Merge: CEO + CSO. Both must be obeyed. Architect sees both.
+        all_directives = list(ceo_directives) + [
+            f"[security] {d}" for d in cso_directives
+        ]
+
         # 1. PLAN — multi-model architect conference
         log.info("════════ STAGE 1: ARCHITECT CONFERENCE ════════")
-        plan = pipeline.stage_plan(client, memory, ceo_directives=ceo_directives)
+        plan = pipeline.stage_plan(client, memory, ceo_directives=all_directives)
 
         # 2. IMPLEMENT
         log.info("════════ STAGE 2: IMPLEMENT (Engineer role) ════════")
@@ -455,6 +480,47 @@ def main() -> int:
                 log.error("  - %s", i)
             return 1
 
+        # 6.5 SECURITY REVIEW (CSO role: per-project pre-publish gate).
+        # If critical/high findings, send to Fixer for one round, then re-review.
+        # If still blocking after that, refuse to publish.
+        log.info("════════ STAGE 6.5: SECURITY REVIEW (Security Officer) ════════")
+        sec_report = pipeline.stage_security_review(client, plan, files, final_verify)
+        sec_findings_to_record = sec_report
+        if sec_report.get("verdict") == "publish_blocked":
+            blocking_security = [
+                f for f in (sec_report.get("findings") or [])
+                if isinstance(f, dict) and f.get("severity") in ("critical", "high")
+            ]
+            log.warning("Security gate identified %d blocking finding(s); attempting fix.",
+                        len(blocking_security))
+            sec_issues = [
+                f"[security:{f.get('severity')}] [{f.get('category')}] {f.get('issue')} "
+                f"-- suggestion: {f.get('suggestion')}"
+                for f in blocking_security
+            ]
+            updates = pipeline.stage_fix(client, plan, files, sec_issues)
+            if updates:
+                files = merge_updates(files, updates)
+                materialize(files, WORKSPACE)
+                final_verify = verify_project(plan, WORKSPACE)
+                # Re-run security review once
+                sec_report = pipeline.stage_security_review(
+                    client, plan, files, final_verify
+                )
+                sec_findings_to_record = sec_report
+            if sec_report.get("verdict") == "publish_blocked":
+                log.error("Security gate STILL blocking after one fix pass — refusing to publish.")
+                still_blocking = [
+                    f for f in (sec_report.get("findings") or [])
+                    if isinstance(f, dict) and f.get("severity") in ("critical", "high")
+                ]
+                for f in still_blocking:
+                    log.error("  [%s] [%s] %s",
+                              f.get("severity", "?").upper(),
+                              f.get("category", "?"),
+                              f.get("issue", "")[:200])
+                return 1
+
         # 7. PUBLISH
         log.info("════════ STAGE 7: PUBLISH ════════")
         repo_url, pages_url, owner = publish(plan, WORKSPACE, gh_token)
@@ -466,7 +532,8 @@ def main() -> int:
         # 8. MEMORY + DASHBOARD
         log.info("════════ STAGE 8: MEMORY + DASHBOARD ════════")
         append_record(memory, plan, files, repo_url, pages_url, cycles_used,
-                      final_verify, impl_meta, ceo_directives)
+                      final_verify, impl_meta, ceo_directives,
+                      security_report=sec_findings_to_record)
         dashboard.render_dashboard(memory, owner=owner)
 
         log.info("All stages complete.")
