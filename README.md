@@ -1,54 +1,62 @@
-# Autonomous Brain — Engine
+# 🤖 Autonomous Brain
 
-This is the **private engine** that drives the [autonomous-brain public dashboard](https://github.com/dipeshrayg/autonomous-brain).
-Outsiders should never see this repo.
+A self-improving AI software-engineering pipeline. An autonomous boardroom of
+LLMs designs, writes, tests, security-reviews, and publishes a brand-new
+browser-runnable project several times a day. Each one more advanced than the
+last, in a different domain, polished and security-cleared before publish.
 
-## Public face
+📊 **Live dashboard:** https://dipeshrayg.github.io/autonomous-brain/
+🔁 **Cadence:** up to 5 projects/day · ≥5 hours between projects · **Cost:** $0
 
-- Dashboard: https://dipeshrayg.github.io/autonomous-brain/
-- Public repo: https://github.com/dipeshrayg/autonomous-brain (slim — only `index.html`, `README.md`, sanitized `memory_log.json`)
-- Daily project repos: `dipeshrayg/YYYY-MM-DD-<name>` (public, intentionally — they're the juice)
+Every project below is a separate public repository with a one-click playable
+demo. Click **▶ Run it** on any card.
 
-## Architecture
+## Stats
 
-A hierarchy of LLM roles, each with primary + fallback model chain. Models routed via [`roles.py`](roles.py):
+- **Total projects:** 8 (0 today, target up to 5/day)
+- **Peak complexity:** 12 (open-ended scale, no cap)
+- **Average complexity:** 8.1
+- **Latest run:** 2026-05-01
+- **Languages explored:** JavaScript, Python
+- **Patterns used recently:** visualizer, dashboard
+- **Domains explored:** Mathematics, Healthcare
 
-| Role | Primary | Job |
-|---|---|---|
-| **CEO** | gpt-4o | Periodic trajectory review (`executive.py`, `.github/workflows/ceo_review.yml`) |
-| **CSO** | gpt-4o | Periodic security audit (`security_officer.py`, `.github/workflows/security_review.yml`) |
-| **VP Engineering** | n/a (script) | Watchdog dispatcher (`.github/workflows/watchdog.yml`) |
-| **Architect Judge** | gpt-4o | Synthesizes candidate plans |
-| **Architect Candidates** | gpt-4o-mini, Phi-3.5-MoE | Propose plans in parallel |
-| **Engineer** | gpt-4o | Per-file implementation |
-| **Reviewers** | gpt-4o-mini, Phi-3.5-MoE | Critique conference, results merged |
-| **Security Officer** | gpt-4o | Per-project pre-publish security gate |
-| **Fixer / Polisher** | gpt-4o-mini | Iterative repair + final polish |
-| **QA** | Playwright + Chromium | Mechanical browser verify |
+## Latest creations
 
-## Files
+| Date | Project | Lang | ★ | Pattern | Domain | Plan model | Concepts | Run |
+|------|---------|------|---|---------|--------|------------|----------|-----|
+| 2026-05-01 | [healthcare-simulation-dashboard](https://github.com/dipeshrayg/2026-05-01-healthcare-simulation-dashboard) | JavaScript | 12 | dashboard | Healthcare | — | Resource allocation simulation, Dynamic patient flow visualization, Interactive logs and statistics | [▶ run](https://dipeshrayg.github.io/2026-05-01-healthcare-simulation-dashboard/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-01-healthcare-simulation-dashboard) |
+| 2026-05-01 | [differential-equation-visualizer](https://github.com/dipeshrayg/2026-05-01-differential-equation-visualizer) | JavaScript | 11 | visualizer | Mathematics | — | Numerical solutions of differential equations using the Runge-Kutta method, Interactive parameter adjustment for real-time updates, Dynamic visualization with phase planes and time series | [▶ run](https://dipeshrayg.github.io/2026-05-01-differential-equation-visualizer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-01-differential-equation-visualizer) |
+| 2026-05-01 | [multi-agent-systems-simulator](https://github.com/dipeshrayg/2026-05-01-multi-agent-systems-simulator) | JavaScript | 10 | — | — | — | Emergent behavior in multi-agent systems, Swarm intelligence and flocking behavior, Dynamic obstacle avoidance | [▶ run](https://dipeshrayg.github.io/2026-05-01-multi-agent-systems-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-01-multi-agent-systems-simulator) |
+| 2026-04-30 | [cellular-automata-pattern-generator](https://github.com/dipeshrayg/2026-04-30-cellular-automata-pattern-generator) | JavaScript | 9 | — | — | — | Cellular automata theory, Rule-based simulation, Dynamic visualization | [▶ run](https://dipeshrayg.github.io/2026-04-30-cellular-automata-pattern-generator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-04-30-cellular-automata-pattern-generator) |
+| 2026-04-29 | [genetic-algorithm-art-optimizer](https://github.com/dipeshrayg/2026-04-29-genetic-algorithm-art-optimizer) | JavaScript | 8 | — | — | — | Genetic algorithms, Crossover and mutation operations, Fitness function customization | [▶ run](https://dipeshrayg.github.io/2026-04-29-genetic-algorithm-art-optimizer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-04-29-genetic-algorithm-art-optimizer) |
+| 2026-04-28 | [dynamic-physics-simulator](https://github.com/dipeshrayg/2026-04-28-dynamic-physics-simulator) | JavaScript | 7 | — | — | — | Physics simulation, Collision detection, Elastic collisions | [▶ run](https://dipeshrayg.github.io/2026-04-28-dynamic-physics-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-04-28-dynamic-physics-simulator) |
+| 2026-04-28 | [maze-solver-using-a-star](https://github.com/dipeshrayg/2026-04-28-maze-solver-using-a-star) | Python | 5 | — | — | — | A* search algorithm, heuristic optimization, graph traversal | [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-04-28-maze-solver-using-a-star) |
+| 2026-04-28 | [basic-neural-net-trainer](https://github.com/dipeshrayg/2026-04-28-basic-neural-net-trainer) | Python | 3 | — | — | — | neural networks, gradient descent, classification | [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-04-28-basic-neural-net-trainer) |
 
-- `brain.py` — orchestrator (the slim entry point you read first)
-- `pipeline.py` — five LLM stages (plan / implement / critique / fix / polish) + security gate
-- `verifier.py` — Playwright headless browser verification
-- `dashboard.py` — README + index.html generators
-- `executive.py` — CEO periodic review
-- `security_officer.py` — CSO periodic audit
-- `roles.py` — model registry + role-to-model mapping with fallback chains
-- `publish_public.py` — sanitize memory + cross-repo push to public dashboard
-- `memory_log.json` — full history, including engine internals
-- `.github/workflows/` — all four scheduled workflows
+## Latest CEO review
 
-## Workflows
+**Verdict:** `drifting` — _issued 2026-05-02T04:25:45Z by gpt-4o_
 
-- `daily_build.yml` — runs on cron + manual; the full pipeline. 9 staggered crons/day, ≤5 projects/day, ≥5h spacing.
-- `watchdog.yml` — every 30 min; force-dispatches `daily_build` when needed.
-- `ceo_review.yml` — 4×/day; CEO trajectory review.
-- `security_review.yml` — 2×/day; CSO security audit.
+> The pipeline is drifting towards mediocrity by pursuing superficial complexity rather than genuinely novel or innovative projects. Recent work is stagnating in terms of patterns (visualizer, dashboard), domains (Mathematics, Healthcare), and user experience (basic controls, single-pane layouts). Directives for the next project focus on introducing a real-time backend simulation, multi-pane layouts, improved interactivity, a new domain, new technologies, and a higher standard of polish. Immediate course correction is required to prevent further stagnation.
 
-Every workflow that mutates `memory_log.json` ends with a `Sync public dashboard` step that runs `publish_public.py` to push a sanitized snapshot to the public repo.
 
-## Secrets required
+## The boardroom
 
-- `GH_PAT` — fine-grained PAT with: Contents:Write, Administration:Write, Pages:Write, Workflows:Write on **all repos under dipeshrayg** (used to create new daily project repos AND to push the dashboard to the public repo).
-- `GITHUB_TOKEN` — auto-injected; needs `models: read`, `contents: write`, `actions: write`.
+This system runs as a hierarchy of LLMs with distinct roles, not a single model:
+
+- **CEO** (`gpt-4o`) — every 6 hours, reviews recent trajectory, issues strict directives.
+- **CSO** (`gpt-4o`) — every 12 hours, audits security posture across recent projects, issues security directives.
+- **VP Engineering** (the watchdog) — every 15 minutes, dispatches builds when needed.
+- **Chief Architect — Judge** (`gpt-4o`) — synthesizes the candidate plans into the final design.
+- **Architect Candidates** (`gpt-4o-mini` + `Phi-3.5-MoE`) — propose plans in parallel.
+- **Engineers** (`gpt-4o`) — implement files, one LLM call per file.
+- **Code Reviewers** (`gpt-4o-mini` + `Phi-3.5-MoE`) — critique in parallel; results merged.
+- **Security Officer** (`gpt-4o`) — per-project pre-publish gate. Hard veto on critical/high findings.
+- **Fixer / Polisher** (`gpt-4o-mini`) — applies fixes and the final polish pass.
+- **QA** (Playwright + Chromium) — mechanical headless-browser verification before publish.
+
+---
+
+*Generated automatically by `brain.py`. All projects are educational/diagnostic
+and TOS-compliant. Last updated 2026-05-01.*

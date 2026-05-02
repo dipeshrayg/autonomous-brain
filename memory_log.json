@@ -97,21 +97,9 @@
       "loc": 608,
       "quality_cycles_used": 4,
       "final_verify_metrics": {
-        "bodyText": 204,
-        "bodyHtml": 1545,
-        "canvasCount": 1,
-        "canvasBlank": false,
-        "canvasSize": {
-          "w": 800,
-          "h": 500,
-          "cssW": 800,
-          "cssH": 500
-        },
         "interactiveCount": 5,
-        "scriptCount": 4,
-        "title": "Genetic Algorithm Art Optimizer",
-        "viewportMeta": true,
-        "hasMain": true
+        "canvasCount": 1,
+        "title": "Genetic Algorithm Art Optimizer"
       }
     },
     {
@@ -145,21 +133,9 @@
       "loc": 551,
       "quality_cycles_used": 3,
       "final_verify_metrics": {
-        "bodyText": 219,
-        "bodyHtml": 1608,
-        "canvasCount": 1,
-        "canvasBlank": false,
-        "canvasSize": {
-          "w": 500,
-          "h": 500,
-          "cssW": 798,
-          "cssH": 798
-        },
         "interactiveCount": 10,
-        "scriptCount": 4,
-        "title": "Cellular Automata Pattern Generator",
-        "viewportMeta": true,
-        "hasMain": true
+        "canvasCount": 1,
+        "title": "Cellular Automata Pattern Generator"
       }
     },
     {
@@ -193,21 +169,9 @@
       "loc": 847,
       "quality_cycles_used": 1,
       "final_verify_metrics": {
-        "bodyText": 119,
-        "bodyHtml": 1275,
-        "canvasCount": 2,
-        "canvasBlank": false,
-        "canvasSize": {
-          "w": 800,
-          "h": 600,
-          "cssW": 800,
-          "cssH": 600
-        },
         "interactiveCount": 3,
-        "scriptCount": 5,
-        "title": "Multi-Agent Systems Simulator",
-        "viewportMeta": true,
-        "hasMain": true
+        "canvasCount": 2,
+        "title": "Multi-Agent Systems Simulator"
       }
     },
     {
@@ -246,21 +210,9 @@
       "loc": 809,
       "quality_cycles_used": 2,
       "final_verify_metrics": {
-        "bodyText": 369,
-        "bodyHtml": 2739,
-        "canvasCount": 1,
-        "canvasBlank": false,
-        "canvasSize": {
-          "w": 800,
-          "h": 600,
-          "cssW": 800,
-          "cssH": 600
-        },
         "interactiveCount": 10,
-        "scriptCount": 6,
-        "title": "Differential Equation Visualizer",
-        "viewportMeta": true,
-        "hasMain": true
+        "canvasCount": 1,
+        "title": "Differential Equation Visualizer"
       }
     },
     {
@@ -296,49 +248,10 @@
       "loc": 692,
       "quality_cycles_used": 7,
       "final_verify_metrics": {
-        "bodyText": 499,
-        "bodyHtml": 3648,
-        "canvasCount": 1,
-        "canvasBlank": false,
-        "canvasSize": {
-          "w": 491,
-          "h": 13270,
-          "cssW": 491,
-          "cssH": 13270
-        },
         "interactiveCount": 9,
-        "scriptCount": 9,
-        "title": "Healthcare Simulation Dashboard",
-        "viewportMeta": true,
-        "hasMain": true
-      },
-      "model_attribution": {
-        "plan_judge": "gpt-4o",
-        "plan_candidates": [
-          "gpt-4o-mini",
-          "gpt-4o-mini"
-        ],
-        "candidates_considered": 2,
-        "implement_per_file": {
-          "index.html": "gpt-4o",
-          "style.css": "gpt-4o",
-          "app.js": "gpt-4o",
-          "backend.js": "gpt-4o",
-          "data.js": "gpt-4o",
-          "logs.js": "gpt-4o",
-          "keyboard.js": "gpt-4o",
-          "config.js": "gpt-4o",
-          "README.md": "gpt-4o"
-        }
-      },
-      "ceo_directives_followed": [
-        "The next project must include a multi-pane workspace layout (e.g., left sidebar for configuration, main canvas for visualization, and right panel for detailed data or logs). Avoid single-pane layouts entirely.",
-        "Develop a project with a substantial backend component that simulates a real-world use case (e.g., a live data feed, a fake marketplace with transactions, or a supply chain simulation). The backend must meaningfully interact with the front end.",
-        "Explore a completely new domain that has not been touched in recent projects, such as healthcare, finance, e-commerce, or social networks. Avoid Mathematics and pure visualizers.",
-        "Incorporate keyboard shortcuts and advanced interaction mechanisms to improve user experience. For example, allow users to control the application without relying solely on mouse clicks.",
-        "Design a project that uses a unique and polished visual identity, including a new typography pairing and a cohesive color scheme. Track the visual_identity field and ensure it is distinct from prior projects.",
-        "Create a project with a clear, practical use case and ensure it is polished to a level that a senior engineer would ship. Avoid projects that feel like theoretical exercises or academic proofs of concept."
-      ]
+        "canvasCount": 1,
+        "title": "Healthcare Simulation Dashboard"
+      }
     }
   ],
   "complexity_trajectory": [
@@ -405,82 +318,23 @@
   "ceo_reviews": [
     {
       "issued_at": "2026-05-01T22:59:01Z",
-      "issued_at_unix": 1777676341,
-      "model": "gpt-4o",
       "verdict": "drifting",
       "summary": "The pipeline is drifting toward superficial complexity and repetitive projects, with an overuse of visualizers and academic domains. While raw complexity has increased, user experience, domain diversity, and real-world relevance are lacking, and the projects do not appear polished or innovative. The next project must break this pattern by incorporating a multi-pane layout, a significant backend simulation, and exploration of a novel, practical domain with improved user experience and visual design.",
-      "concerns": [
-        "The recent projects show a consistent increase in complexity, but the added complexity appears superficial — the projects are not significantly advancing in terms of user experience or innovation.",
-        "The 'visualizer' pattern is over-represented, and the projects are beginning to feel repetitive, particularly in the Mathematics domain (e.g., 'differential-equation-visualizer', 'cellular-automata-pattern-generator').",
-        "Despite the increasing complexity, user experience remains weak. Projects are lacking multi-pane layouts, real-time interactivity, and features that go beyond basic controls like sliders and buttons.",
-        "There is minimal exploration of new domains or real-world applications. Recent projects are heavily focused on academic or abstract concepts (e.g., neural nets, cellular automata, differential equations) without practical utility or relevance."
-      ],
-      "directives": [
-        "The next project must include a multi-pane workspace layout (e.g., left sidebar for configuration, main canvas for visualization, and right panel for detailed data or logs). Avoid single-pane layouts entirely.",
-        "Develop a project with a substantial backend component that simulates a real-world use case (e.g., a live data feed, a fake marketplace with transactions, or a supply chain simulation). The backend must meaningfully interact with the front end.",
-        "Explore a completely new domain that has not been touched in recent projects, such as healthcare, finance, e-commerce, or social networks. Avoid Mathematics and pure visualizers.",
-        "Incorporate keyboard shortcuts and advanced interaction mechanisms to improve user experience. For example, allow users to control the application without relying solely on mouse clicks.",
-        "Design a project that uses a unique and polished visual identity, including a new typography pairing and a cohesive color scheme. Track the visual_identity field and ensure it is distinct from prior projects.",
-        "Create a project with a clear, practical use case and ensure it is polished to a level that a senior engineer would ship. Avoid projects that feel like theoretical exercises or academic proofs of concept."
-      ],
-      "praise": [
-        "The system has demonstrated steady improvements in raw complexity and scope with increasing file counts, lines of code, and control mechanisms.",
-        "The 'differential-equation-visualizer' project included a relatively high number of controls, suggesting some effort toward user interactivity."
-      ],
-      "reviewed_project_count": 7
+      "model": "gpt-4o"
     },
     {
       "issued_at": "2026-05-02T04:25:45Z",
-      "issued_at_unix": 1777695945,
-      "model": "gpt-4o",
       "verdict": "drifting",
       "summary": "The pipeline is drifting towards mediocrity by pursuing superficial complexity rather than genuinely novel or innovative projects. Recent work is stagnating in terms of patterns (visualizer, dashboard), domains (Mathematics, Healthcare), and user experience (basic controls, single-pane layouts). Directives for the next project focus on introducing a real-time backend simulation, multi-pane layouts, improved interactivity, a new domain, new technologies, and a higher standard of polish. Immediate course correction is required to prevent further stagnation.",
-      "concerns": [
-        "The projects are increasing in complexity score, but the sophistication feels superficial. For example, 'differential-equation-visualizer' and 'healthcare-simulation-dashboard' rely heavily on the visualizer and dashboard patterns, respectively, indicating a lack of true innovation.",
-        "The domains are becoming repetitive, with two recent projects ('differential-equation-visualizer' and 'healthcare-simulation-dashboard') falling into well-tread categories like Mathematics and Healthcare without significant novelty.",
-        "The user experience is not evolving significantly. For instance, the recent projects lack multi-pane layouts, keyboard shortcuts, or real-time interactivity, sticking mostly to basic control interfaces.",
-        "There’s insufficient diversity in technologies or execution models. While files and lines of code are increasing, the projects are still heavily JavaScript-centric with no evidence of backend simulations, real-time data flows, or alternative tech stacks."
-      ],
-      "directives": [
-        "The next project must implement a real-time backend simulation with a non-trivial data flow — e.g., a simulated stock market, multiplayer game server, or IoT device network.",
-        "Use a multi-pane workspace layout (e.g., left rail for navigation, main canvas, and right inspector panel) to improve user experience and move away from single-pane interfaces.",
-        "Integrate keyboard shortcuts and real-time feedback mechanisms to increase the richness of interaction.",
-        "Explore a domain that has not been tackled in the last 8 projects — avoid Mathematics, Healthcare, and simulation-heavy topics like physics or AI algorithms.",
-        "Incorporate a language or framework that has not been used in the last 8 projects — consider TypeScript, Rust (via WASM), or Python (with web assembly). Track the 'language' field explicitly.",
-        "Ensure the project output is polished to a level that would be considered shippable by a senior engineer, with attention to UI/UX consistency, error handling, and responsiveness."
-      ],
-      "praise": [
-        "The increasing complexity score indicates that the system is attempting more ambitious projects.",
-        "The healthcare-simulation-dashboard included a higher number of files and controls, showing some effort towards modularization and feature richness."
-      ],
-      "reviewed_project_count": 8
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
     {
       "issued_at": "2026-05-02T07:52:35Z",
-      "issued_at_unix": 1777708355,
-      "model": "gpt-4o",
       "verdict": "alarming",
       "summary": "The pipeline has systemic issues with security coverage, including a complete lack of security reviews, over-reliance on external CDNs, and growing use of client-side libraries without proper scrutiny.",
-      "concerns": [
-        "None of the last 8 projects underwent a security review, leaving critical vulnerabilities unchecked.",
-        "Multiple projects rely on external CDNs (e.g., jsdelivr, plot.ly) for libraries like Chart.js, Math.js, and Vue.js, which increases exposure to supply chain attacks.",
-        "There is a growing trend of using complex JavaScript libraries (e.g., Plotly.js, Chart.js, Vue.js) without any assessment of their security implications.",
-        "The use of FileSaver.js in the cellular-automata-pattern-generator project introduces potential risks related to file handling and browser-based downloads.",
-        "The healthcare-simulation-dashboard project introduces a privacy risk by potentially handling sensitive healthcare-related data without any explicit data handling or privacy review."
-      ],
-      "directives": [
-        "The next project must undergo a mandatory security review before release, with at least one finding documented, even if only to confirm no issues were found.",
-        "The next project must self-host all JavaScript libraries and dependencies rather than rely on external CDNs.",
-        "The next project must include a Content Security Policy via a <meta http-equiv=Content-Security-Policy> tag, with 'default-src' set to 'self' and explicit allowlists for any necessary external resources.",
-        "The next project must include a privacy impact statement if it processes or stores any user data, explaining what data is collected, how it is stored, and how it is used.",
-        "The next project may not use libraries (e.g., FileSaver.js, Plotly.js) without an explicit justification for their inclusion and documentation of their security implications."
-      ],
-      "praise": [
-        "Projects are consistently leveraging modern web technologies like Canvas 2D and JavaScript ES6, which are inherently more secure than older alternatives when used properly."
-      ],
-      "reviewed_project_count": 8
+      "model": "gpt-4o"
     }
   ]
 }
