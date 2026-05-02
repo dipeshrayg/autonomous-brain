@@ -123,6 +123,23 @@ jobs:
             --jq '[.[] | "\(.createdAt[0:16]) \(.conclusion)"] | join(", ")')
           echo "Recent runs: $recent"
 
+          # CONSECUTIVE-FAILURE DETECTION:
+          # If the last 3 daily_build conclusions are all 'failure', the pipeline
+          # is broken — emit a loud ::error:: annotation that shows up red in
+          # the Actions UI so the user actually notices.
+          recent3_fails=$(gh run list \
+            --repo "$GITHUB_REPOSITORY" \
+            --workflow daily_build.yml \
+            --limit 3 \
+            --json conclusion \
+            --jq '[.[] | select(.conclusion == "failure")] | length')
+          if [ "$recent3_fails" = "3" ]; then
+            echo "::error::Last 3 daily_build runs ALL failed. Pipeline appears broken; investigate before more dispatches."
+            # Still proceed to dispatch — the cap will eventually stop us if it's truly stuck.
+          elif [ "$recent3_fails" = "2" ]; then
+            echo "::warning::2 of last 3 daily_build runs failed. Pipeline may be drifting."
+          fi
+
           echo "::notice::No project for $today and no run pending. Force-dispatching daily_build.yml (auto-dispatch #$((dispatches_today + 1)) for today)."
           gh workflow run daily_build.yml --repo "$GITHUB_REPOSITORY" --ref main
           echo "✓ Dispatched."

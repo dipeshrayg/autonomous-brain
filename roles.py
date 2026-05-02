@@ -113,6 +113,7 @@ def call_with_fallback(
     temperature: float = 0.85,
     json_mode: bool = True,
     transient_attempts: int = 2,
+    validator: "callable | None" = None,
 ) -> tuple[str, dict[str, Any]]:
     """
     Try every model in the role's chain until one succeeds.
@@ -122,6 +123,11 @@ def call_with_fallback(
     failures (bad request, 4xx other than 429) are treated as transient
     too — sometimes a specific model rejects a prompt format another
     accepts, and the fallback handles that.
+
+    If `validator` is provided, it's called on the response text after each
+    successful API call. If it raises, the response is treated as a failure
+    and we fall through to the next model. This is how truncated/malformed
+    JSON ends up triggering a fallback rather than crashing the pipeline.
 
     Returns:
         (text, meta) where meta carries {model, attempt, prompt_tokens,
@@ -146,6 +152,32 @@ def call_with_fallback(
                     kwargs["response_format"] = {"type": "json_object"}
                 resp = client.chat.completions.create(**kwargs)
                 text = resp.choices[0].message.content or ""
+
+                # If a validator was passed, run it now. If it throws, the
+                # response is unusable and we should try a different model.
+                if validator is not None:
+                    try:
+                        validator(text)
+                    except Exception as ve:
+                        last_err = ve
+                        finish_reason = (
+                            resp.choices[0].finish_reason if resp.choices else "?"
+                        )
+                        log.warning(
+                            "[role=%s] model=%s attempt %d validator rejected "
+                            "(finish=%s, len=%d): %s",
+                            role, model, attempt, finish_reason, len(text), ve,
+                        )
+                        # If the response was likely truncated (`length`
+                        # finish_reason), no point retrying same model — go
+                        # straight to fallback.
+                        if finish_reason == "length":
+                            break
+                        if attempt < transient_attempts:
+                            time.sleep(1)
+                            continue
+                        break
+
                 meta: dict[str, Any] = {
                     "role": role,
                     "model": model,
@@ -162,12 +194,11 @@ def call_with_fallback(
             except Exception as e:  # noqa: BLE001
                 last_err = e
                 msg = str(e)[:240]
-                # Decide whether to retry the same model or fall back.
                 rate_limited = "429" in msg or "rate" in msg.lower() or "quota" in msg.lower()
                 if rate_limited:
                     log.warning("[role=%s] model=%s rate-limited; falling back. %s",
                                 role, model, msg)
-                    break  # don't retry this model, move to next
+                    break
                 if attempt < transient_attempts:
                     backoff = 2 ** attempt
                     log.warning("[role=%s] model=%s attempt %d failed (%s); retrying in %ds",

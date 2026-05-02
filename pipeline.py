@@ -243,12 +243,18 @@ def _call_role(client: OpenAI, role: str, system: str, user: str, *,
                max_tokens: int, temperature: float = 0.85,
                json_mode: bool = True) -> tuple[dict, dict[str, Any]]:
     """Call the LLM bound to a role. Returns (parsed_json, meta).
-    Meta carries which model was actually used (post-fallback)."""
+    Meta carries which model was actually used (post-fallback).
+
+    JSON parse failures (often caused by truncated output when a smaller
+    model hits max_tokens) are treated as model failures — the fallback
+    chain is walked until a model produces valid JSON.
+    """
     text, meta = roles.call_with_fallback(
         client, role,
         system=system, user=user,
         max_tokens=max_tokens, temperature=temperature,
         json_mode=json_mode,
+        validator=_parse_json,   # truncated/malformed JSON → fall back
     )
     return _parse_json(text), meta
 
@@ -619,17 +625,26 @@ def stage_critique(client: OpenAI, plan: dict,
 
 def stage_fix(client: OpenAI, plan: dict,
               files: dict[str, str], issues: list[str]) -> dict[str, str]:
-    """Fixer role applies a list of issues. Returns {path: content} of changes."""
+    """Fixer role applies a list of issues. Returns {path: content} of changes.
+
+    Output budget is the bottleneck — when too many files need updating in one
+    response, gpt-4o-mini truncates JSON. To prevent that, we cap the fix
+    prompt files at 14k chars and request 6000 max output tokens, which gives
+    the fixer real headroom for full file rewrites.
+    """
     plan_brief = {k: plan[k] for k in
                   ("name", "verification_criteria", "ui_features") if k in plan}
-    files_concat = _concat_files(files, budget=22000)
+    files_concat = _concat_files(files, budget=14000)  # was 22000 — output truncation
     user = (
         f"PLAN:\n{json.dumps(plan_brief, indent=2)}\n\n"
         f"CURRENT FILES:\n{files_concat}\n\n"
         f"ISSUES TO FIX (every one of these must be addressed):\n"
         + "\n".join(f"- {issue}" for issue in issues)
+        + "\n\nIMPORTANT: only include files in your response that ACTUALLY need to change. "
+          "If a file doesn't need fixes, omit it. Do not echo unchanged files. Keep your "
+          "response under 6000 tokens."
     )
-    out, meta = _call_role(client, "fixer", FIX_SYSTEM, user, max_tokens=4000)
+    out, meta = _call_role(client, "fixer", FIX_SYSTEM, user, max_tokens=6000)
     updates = {f["path"]: f["content"] for f in (out.get("files") or [])
                if isinstance(f, dict) and "path" in f and "content" in f}
     log.info("Fixer (%s) produced %d update(s): %s",
@@ -639,15 +654,21 @@ def stage_fix(client: OpenAI, plan: dict,
 
 def stage_polish(client: OpenAI, plan: dict,
                  files: dict[str, str]) -> dict[str, str]:
-    """Polisher role elevates UX. Returns {path: content} of changes."""
+    """Polisher role elevates UX. Returns {path: content} of changes.
+
+    Same output-budget concerns as the fixer — capped at 14k input chars and
+    6000 output tokens so we don't truncate.
+    """
     plan_brief = {k: plan[k] for k in
                   ("name", "description", "ui_features") if k in plan}
-    files_concat = _concat_files(files, budget=22000)
+    files_concat = _concat_files(files, budget=14000)
     user = (
         f"PLAN:\n{json.dumps(plan_brief, indent=2)}\n\n"
-        f"WORKING FILES:\n{files_concat}"
+        f"WORKING FILES:\n{files_concat}\n\n"
+        "IMPORTANT: only include files in your response that you actually polished. "
+        "If a file doesn't need polish, omit it. Keep your response under 6000 tokens."
     )
-    out, meta = _call_role(client, "polisher", POLISH_SYSTEM, user, max_tokens=4000)
+    out, meta = _call_role(client, "polisher", POLISH_SYSTEM, user, max_tokens=6000)
     updates = {f["path"]: f["content"] for f in (out.get("files") or [])
                if isinstance(f, dict) and "path" in f and "content" in f}
     log.info("Polisher (%s) produced %d update(s): %s",
