@@ -327,6 +327,30 @@
       "verdict": "drifting",
       "summary": "The pipeline is drifting towards mediocrity by pursuing superficial complexity rather than genuinely novel or innovative projects. Recent work is stagnating in terms of patterns (visualizer, dashboard), domains (Mathematics, Healthcare), and user experience (basic controls, single-pane layouts). Directives for the next project focus on introducing a real-time backend simulation, multi-pane layouts, improved interactivity, a new domain, new technologies, and a higher standard of polish. Immediate course correction is required to prevent further stagnation.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-02T08:03:39Z",
+      "verdict": "drifting",
+      "summary": "The trajectory is drifting toward superficial complexity and over-reliance on well-trodden patterns ('visualizer', 'dashboard') and domains ('Mathematics', 'Healthcare'). While technical sophistication is increasing, the user experience and domain diversity are lagging, and the projects lack the polish and innovation expected of higher-complexity work. The next project must break out of this rut by incorporating a multi-pane layout, real-time feedback, keyboard interaction, a non-trivial backend simulation, and exploration of a novel domain with a focus on building a creation or manipulation tool.",
+      "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-02T08:05:21Z",
+      "verdict": "drifting",
+      "summary": "The system is drifting toward mediocrity by prioritizing incremental increases in complexity over genuine innovation in domain exploration, interaction paradigms, and technical diversity. Repeated use of 'visualizer' and 'dashboard' patterns, along with a narrow focus on Mathematics/Simulation domains, indicates stagnation. The next project must break away from these patterns, adopt new technologies, and explore fresh domains while improving user experience through richer interactivity and layouts.",
+      "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-02T08:06:12Z",
+      "verdict": "drifting",
+      "summary": "The pipeline is drifting into a pattern of adding superficial complexity to projects without improving sophistication, user experience, or domain exploration. The reliance on the 'visualizer' and 'dashboard' patterns is becoming repetitive, and the user interfaces lack richness and interactivity. For the next project, the system must break from this pattern by exploring a novel domain, adopting a multi-pane workspace layout, incorporating real-time feedback, and leveraging a new language or framework.",
+      "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-02T12:26:17Z",
+      "verdict": "drifting",
+      "summary": "The pipeline appears to be drifting, favoring superficial complexity increases over genuine innovation and domain diversity. Recent projects lack polish and reuse familiar patterns without significant advancement in user experience or technical novelty. To course-correct, the next project must incorporate a multi-pane layout, a non-trivial backend simulation, a novel domain, a new form of user interaction, and a previously unused tech stack, while achieving a senior-engineer level of polish.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
