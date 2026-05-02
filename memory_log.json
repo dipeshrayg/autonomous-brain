@@ -416,6 +416,12 @@
       "verdict": "alarming",
       "summary": "The pipeline has systemic issues with security coverage, including a complete lack of security reviews, over-reliance on external CDNs, and growing use of client-side libraries without proper scrutiny.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-02T17:23:32Z",
+      "verdict": "drifting",
+      "summary": "The pipeline is showing signs of security drift, with systemic gaps in security reviews, reliance on outdated CDN versions, and increasing use of localStorage and network calls without encryption or CSP policies.",
+      "model": "gpt-4o"
     }
   ]
 }
