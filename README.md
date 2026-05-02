@@ -13,18 +13,19 @@ demo. Click **▶ Run it** on any card.
 
 ## Stats
 
-- **Total projects:** 8 (0 today, target up to 5/day)
-- **Peak complexity:** 12 (open-ended scale, no cap)
-- **Average complexity:** 8.1
-- **Latest run:** 2026-05-01
+- **Total projects:** 9 (1 today, target up to 5/day)
+- **Peak complexity:** 14 (open-ended scale, no cap)
+- **Average complexity:** 8.8
+- **Latest run:** 2026-05-02
 - **Languages explored:** JavaScript, Python
-- **Patterns used recently:** visualizer, dashboard
-- **Domains explored:** Mathematics, Healthcare
+- **Patterns used recently:** visualizer, dashboard, explorer
+- **Domains explored:** Mathematics, Healthcare, Environmental Science
 
 ## Latest creations
 
 | Date | Project | Lang | ★ | Pattern | Domain | Plan model | Concepts | Run |
 |------|---------|------|---|---------|--------|------------|----------|-----|
+| 2026-05-02 | [interactive-environmental-science-explorer](https://github.com/dipeshrayg/2026-05-02-interactive-environmental-science-explorer) | JavaScript | 14 | explorer | Environmental Science | — | Environmental data visualization, User interaction with drag-and-drop, Simulated real-time data updates | [▶ run](https://dipeshrayg.github.io/2026-05-02-interactive-environmental-science-explorer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-02-interactive-environmental-science-explorer) |
 | 2026-05-01 | [healthcare-simulation-dashboard](https://github.com/dipeshrayg/2026-05-01-healthcare-simulation-dashboard) | JavaScript | 12 | dashboard | Healthcare | — | Resource allocation simulation, Dynamic patient flow visualization, Interactive logs and statistics | [▶ run](https://dipeshrayg.github.io/2026-05-01-healthcare-simulation-dashboard/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-01-healthcare-simulation-dashboard) |
 | 2026-05-01 | [differential-equation-visualizer](https://github.com/dipeshrayg/2026-05-01-differential-equation-visualizer) | JavaScript | 11 | visualizer | Mathematics | — | Numerical solutions of differential equations using the Runge-Kutta method, Interactive parameter adjustment for real-time updates, Dynamic visualization with phase planes and time series | [▶ run](https://dipeshrayg.github.io/2026-05-01-differential-equation-visualizer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-01-differential-equation-visualizer) |
 | 2026-05-01 | [multi-agent-systems-simulator](https://github.com/dipeshrayg/2026-05-01-multi-agent-systems-simulator) | JavaScript | 10 | — | — | — | Emergent behavior in multi-agent systems, Swarm intelligence and flocking behavior, Dynamic obstacle avoidance | [▶ run](https://dipeshrayg.github.io/2026-05-01-multi-agent-systems-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-01-multi-agent-systems-simulator) |
@@ -59,4 +60,4 @@ This system runs as a hierarchy of LLMs with distinct roles, not a single model:
 ---
 
 *Generated automatically by `brain.py`. All projects are educational/diagnostic
-and TOS-compliant. Last updated 2026-05-01.*
+and TOS-compliant. Last updated 2026-05-02.*

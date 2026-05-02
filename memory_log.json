@@ -252,6 +252,49 @@
         "canvasCount": 1,
         "title": "Healthcare Simulation Dashboard"
       }
+    },
+    {
+      "date": "2026-05-02",
+      "completed_at": "2026-05-02T13:03:57Z",
+      "completed_at_unix": 1777727037,
+      "name": "interactive-environmental-science-explorer",
+      "repo_url": "https://github.com/dipeshrayg/2026-05-02-interactive-environmental-science-explorer",
+      "pages_url": "https://dipeshrayg.github.io/2026-05-02-interactive-environmental-science-explorer/",
+      "language": "JavaScript",
+      "tech_stack": [
+        "canvas",
+        "localStorage",
+        "fetch"
+      ],
+      "complexity_score": 14,
+      "concepts_demonstrated": [
+        "Environmental data visualization",
+        "User interaction with drag-and-drop",
+        "Simulated real-time data updates",
+        "Fake authentication system",
+        "Multi-pane workspace layout"
+      ],
+      "novel_concepts": [
+        "Fake authentication system for simulating user data management",
+        "Drag-and-drop interaction for dynamic simulation control"
+      ],
+      "advancement_axis": "This project exceeds previous ones by introducing a multi-pane workspace layout and implementing a non-trivial backend simulation through a fake authentication system, thereby enhancing interactivity and user engagement.",
+      "pattern": "explorer",
+      "domain": "Environmental Science",
+      "visual_identity": "A vibrant color palette focusing on greens and blues, with a clean sans-serif typography. The layout is organized into a multi-pane structure, ensuring clarity and easy navigation.",
+      "safety_notes": "This project complies with GitHub TOS. All user data is simulated with no real user information processed or stored.",
+      "file_count": 7,
+      "loc": 434,
+      "quality_cycles_used": 2,
+      "final_verify_metrics": {
+        "interactiveCount": 5,
+        "canvasCount": 1,
+        "title": "Environmental Science Explorer"
+      },
+      "security_review": {
+        "verdict": "secure",
+        "findings_count": 4
+      }
     }
   ],
   "complexity_trajectory": [
@@ -262,7 +305,8 @@
     9,
     10,
     11,
-    12
+    12,
+    14
   ],
   "concepts_explored": [
     "neural networks",
@@ -305,15 +349,22 @@
     "Dynamic patient flow visualization",
     "Interactive logs and statistics",
     "Real-time data updates",
-    "Keyboard shortcuts for navigation"
+    "Keyboard shortcuts for navigation",
+    "Environmental data visualization",
+    "User interaction with drag-and-drop",
+    "Simulated real-time data updates",
+    "Fake authentication system",
+    "Multi-pane workspace layout"
   ],
   "patterns_used": [
     "visualizer",
-    "dashboard"
+    "dashboard",
+    "explorer"
   ],
   "domains_used": [
     "Mathematics",
-    "Healthcare"
+    "Healthcare",
+    "Environmental Science"
   ],
   "ceo_reviews": [
     {
