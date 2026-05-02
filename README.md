@@ -13,9 +13,9 @@ demo. Click **▶ Run it** on any card.
 
 ## Stats
 
-- **Total projects:** 9 (1 today, target up to 5/day)
-- **Peak complexity:** 14 (open-ended scale, no cap)
-- **Average complexity:** 8.8
+- **Total projects:** 10 (2 today, target up to 5/day)
+- **Peak complexity:** 15 (open-ended scale, no cap)
+- **Average complexity:** 9.4
 - **Latest run:** 2026-05-02
 - **Languages explored:** JavaScript, Python
 - **Patterns used recently:** visualizer, dashboard, explorer
@@ -25,6 +25,7 @@ demo. Click **▶ Run it** on any card.
 
 | Date | Project | Lang | ★ | Pattern | Domain | Plan model | Concepts | Run |
 |------|---------|------|---|---------|--------|------------|----------|-----|
+| 2026-05-02 | [data-visualization-toolkit](https://github.com/dipeshrayg/2026-05-02-data-visualization-toolkit) | JavaScript | 15 | visualizer | Mathematics | — | Real-time data visualization, Interactive parameter control, Mathematical function plotting | [▶ run](https://dipeshrayg.github.io/2026-05-02-data-visualization-toolkit/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-02-data-visualization-toolkit) |
 | 2026-05-02 | [interactive-environmental-science-explorer](https://github.com/dipeshrayg/2026-05-02-interactive-environmental-science-explorer) | JavaScript | 14 | explorer | Environmental Science | — | Environmental data visualization, User interaction with drag-and-drop, Simulated real-time data updates | [▶ run](https://dipeshrayg.github.io/2026-05-02-interactive-environmental-science-explorer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-02-interactive-environmental-science-explorer) |
 | 2026-05-01 | [healthcare-simulation-dashboard](https://github.com/dipeshrayg/2026-05-01-healthcare-simulation-dashboard) | JavaScript | 12 | dashboard | Healthcare | — | Resource allocation simulation, Dynamic patient flow visualization, Interactive logs and statistics | [▶ run](https://dipeshrayg.github.io/2026-05-01-healthcare-simulation-dashboard/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-01-healthcare-simulation-dashboard) |
 | 2026-05-01 | [differential-equation-visualizer](https://github.com/dipeshrayg/2026-05-01-differential-equation-visualizer) | JavaScript | 11 | visualizer | Mathematics | — | Numerical solutions of differential equations using the Runge-Kutta method, Interactive parameter adjustment for real-time updates, Dynamic visualization with phase planes and time series | [▶ run](https://dipeshrayg.github.io/2026-05-01-differential-equation-visualizer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-01-differential-equation-visualizer) |
