@@ -498,6 +498,12 @@
       "verdict": "drifting",
       "summary": "The pipeline is showing signs of security drift, with systemic gaps in security reviews, reliance on outdated CDN versions, and increasing use of localStorage and network calls without encryption or CSP policies.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-03T06:44:40Z",
+      "verdict": "drifting",
+      "summary": "The pipeline shows a lack of consistent security reviews, with systemic issues involving missing Content Security Policies, unverified CDN dependencies, and potential privacy risks due to localStorage use and global state exposure.",
+      "model": "gpt-4o"
     }
   ]
 }
