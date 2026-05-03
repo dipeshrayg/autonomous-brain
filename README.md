@@ -13,18 +13,19 @@ demo. Click **▶ Run it** on any card.
 
 ## Stats
 
-- **Total projects:** 11 (1 today, target up to 5/day)
-- **Peak complexity:** 16 (open-ended scale, no cap)
-- **Average complexity:** 10.0
+- **Total projects:** 12 (2 today, target up to 5/day)
+- **Peak complexity:** 17 (open-ended scale, no cap)
+- **Average complexity:** 10.6
 - **Latest run:** 2026-05-03
 - **Languages explored:** JavaScript, Python
-- **Patterns used recently:** visualizer, dashboard, explorer, tool
-- **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics
+- **Patterns used recently:** visualizer, dashboard, explorer, tool, generator
+- **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts
 
 ## Latest creations
 
 | Date | Project | Lang | ★ | Pattern | Domain | Plan model | Concepts | Run |
 |------|---------|------|---|---------|--------|------------|----------|-----|
+| 2026-05-03 | [interactive-poetry-generator](https://github.com/dipeshrayg/2026-05-03-interactive-poetry-generator) | JavaScript | 17 | generator | Arts | — | Dynamic content generation, User input handling, Simulated backend interaction | [▶ run](https://dipeshrayg.github.io/2026-05-03-interactive-poetry-generator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-03-interactive-poetry-generator) |
 | 2026-05-03 | [logistics-route-optimizer](https://github.com/dipeshrayg/2026-05-03-logistics-route-optimizer) | JavaScript | 16 | tool | Logistics | — | Graph data structure, Dijkstra's algorithm for shortest path finding, Network graph visualization with D3.js | [▶ run](https://dipeshrayg.github.io/2026-05-03-logistics-route-optimizer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-03-logistics-route-optimizer) |
 | 2026-05-02 | [data-visualization-toolkit](https://github.com/dipeshrayg/2026-05-02-data-visualization-toolkit) | JavaScript | 15 | visualizer | Mathematics | — | Real-time data visualization, Interactive parameter control, Mathematical function plotting | [▶ run](https://dipeshrayg.github.io/2026-05-02-data-visualization-toolkit/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-02-data-visualization-toolkit) |
 | 2026-05-02 | [interactive-environmental-science-explorer](https://github.com/dipeshrayg/2026-05-02-interactive-environmental-science-explorer) | JavaScript | 14 | explorer | Environmental Science | — | Environmental data visualization, User interaction with drag-and-drop, Simulated real-time data updates | [▶ run](https://dipeshrayg.github.io/2026-05-02-interactive-environmental-science-explorer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-02-interactive-environmental-science-explorer) |
