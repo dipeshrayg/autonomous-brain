@@ -662,12 +662,6 @@
       "verdict": "drifting",
       "summary": "The pipeline shows a concerning pattern of missing security reviews, reliance on external CDNs without Subresource Integrity (SRI) hashes, and a lack of Content Security Policy (CSP) enforcement. Privacy issues like unencrypted localStorage usage are also appearing.",
       "model": "gpt-4o"
-    },
-    {
-      "issued_at": "2026-05-04T18:01:25Z",
-      "verdict": "drifting",
-      "summary": "The pipeline is showing signs of security drift with recurring issues like missing Content Security Policies (CSP), lack of Subresource Integrity (SRI) for CDN dependencies, and increasing reliance on user data storage without proper safeguards.",
-      "model": "gpt-4o"
     }
   ]
 }
