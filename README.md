@@ -40,9 +40,9 @@ demo. Click **▶ Run it** on any card.
 
 ## Latest CEO review
 
-**Verdict:** `drifting` — _issued 2026-05-04T04:49:54Z by gpt-4o_
+**Verdict:** `drifting` — _issued 2026-05-04T09:30:35Z by gpt-4o_
 
-> The system is drifting, as evidenced by a high rate of QA refusals at complexity levels 15 and 16, particularly in the Storytelling and Social Science domains. While shipped projects have demonstrated some domain diversity, interaction patterns are clustering, and recent attempts at diversification have failed. Directives focus on scaling back complexity, avoiding problematic domains, ensuring functional controls, and pushing for both interaction and visual design innovation in the next project.
+> The system is showing signs of drifting, with shipped projects becoming more complex but lacking meaningful diversity in patterns and interaction paradigms. Recent refusals highlight that the system struggles to deliver functional projects in higher complexity levels (c=15-16) and with certain patterns like 'analyzer' and 'simulator.' Directives focus on reducing complexity, avoiding problematic patterns, and exploring novel interaction styles and underutilized domains to ensure functional, innovative, and diverse output.
 
 
 ## The boardroom
