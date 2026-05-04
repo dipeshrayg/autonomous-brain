@@ -612,6 +612,12 @@
       "verdict": "drifting",
       "summary": "Although the system continues to ship increasingly complex projects without security issues, the recent wave of refused builds at similar complexity levels highlights a critical issue: the model is overreaching and producing non-functional or partially usable projects in certain patterns and domains. To course-correct, the next project should target a lower complexity level (c≤12) and focus on a new pattern and domain while introducing a dynamic interaction component and a simulated backend. This will diversify the system's output and reinforce reliable build capabilities at a more achievable level.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-04T04:49:54Z",
+      "verdict": "drifting",
+      "summary": "The system is drifting, as evidenced by a high rate of QA refusals at complexity levels 15 and 16, particularly in the Storytelling and Social Science domains. While shipped projects have demonstrated some domain diversity, interaction patterns are clustering, and recent attempts at diversification have failed. Directives focus on scaling back complexity, avoiding problematic domains, ensuring functional controls, and pushing for both interaction and visual design innovation in the next project.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [

@@ -13,7 +13,7 @@ demo. Click **▶ Run it** on any card.
 
 ## Stats
 
-- **Total projects:** 12 (2 today, target up to 5/day)
+- **Total projects:** 12 (0 today, target up to 5/day)
 - **Peak complexity:** 17 (open-ended scale, no cap)
 - **Average complexity:** 10.6
 - **Latest run:** 2026-05-03
@@ -40,9 +40,9 @@ demo. Click **▶ Run it** on any card.
 
 ## Latest CEO review
 
-**Verdict:** `drifting` — _issued 2026-05-03T19:58:47Z by gpt-4o_
+**Verdict:** `drifting` — _issued 2026-05-04T04:49:54Z by gpt-4o_
 
-> Although the system continues to ship increasingly complex projects without security issues, the recent wave of refused builds at similar complexity levels highlights a critical issue: the model is overreaching and producing non-functional or partially usable projects in certain patterns and domains. To course-correct, the next project should target a lower complexity level (c≤12) and focus on a new pattern and domain while introducing a dynamic interaction component and a simulated backend. This will diversify the system's output and reinforce reliable build capabilities at a more achievable level.
+> The system is drifting, as evidenced by a high rate of QA refusals at complexity levels 15 and 16, particularly in the Storytelling and Social Science domains. While shipped projects have demonstrated some domain diversity, interaction patterns are clustering, and recent attempts at diversification have failed. Directives focus on scaling back complexity, avoiding problematic domains, ensuring functional controls, and pushing for both interaction and visual design innovation in the next project.
 
 
 ## The boardroom
