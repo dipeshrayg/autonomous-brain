@@ -480,6 +480,52 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-05-05",
+      "completed_at": "2026-05-05T06:44:29Z",
+      "completed_at_unix": 1777963469,
+      "name": "historical-events-simulator",
+      "repo_url": "https://github.com/dipeshrayg/2026-05-05-historical-events-simulator",
+      "pages_url": "https://dipeshrayg.github.io/2026-05-05-historical-events-simulator/",
+      "language": "JavaScript",
+      "tech_stack": [
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/d3/7.0.0/d3.min.js"
+      ],
+      "complexity_score": 19,
+      "concepts_demonstrated": [
+        "Interactive data visualization",
+        "Event-driven programming",
+        "Dynamic timeline manipulation",
+        "Contextual information display"
+      ],
+      "novel_concepts": [
+        "Timeline data structure for historical events",
+        "Simulated backend using static JSON data"
+      ],
+      "advancement_axis": "This project exceeds the previous complexity by introducing a simulated backend component with static JSON data, enhancing data interactivity and educational value through historical context.",
+      "pattern": "simulator",
+      "domain": "History",
+      "visual_identity": "Utilizes a vintage color palette with sepia tones, serif typography for historical text, and a multi-pane layout for enhanced usability.",
+      "safety_notes": "Strict adherence to security protocols, including CSP and SRI for external libraries.",
+      "file_count": 7,
+      "loc": 555,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 5,
+        "canvasCount": 0,
+        "title": "Historical Events Simulator"
+      },
+      "security_review": {
+        "verdict": "secure",
+        "findings_count": 4
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 3,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -495,7 +541,8 @@
     15,
     16,
     17,
-    18
+    18,
+    19
   ],
   "concepts_explored": [
     "neural networks",
@@ -561,7 +608,11 @@
     "Synthetic data generation",
     "Interactive canvas-based visualization",
     "User-driven data exploration",
-    "Statistical metrics display"
+    "Statistical metrics display",
+    "Interactive data visualization",
+    "Event-driven programming",
+    "Dynamic timeline manipulation",
+    "Contextual information display"
   ],
   "patterns_used": [
     "visualizer",
@@ -570,7 +621,8 @@
     "visualizer",
     "tool",
     "generator",
-    "visualizer"
+    "visualizer",
+    "simulator"
   ],
   "domains_used": [
     "Mathematics",
@@ -579,7 +631,8 @@
     "Mathematics",
     "Logistics",
     "Arts",
-    "Sports"
+    "Sports",
+    "History"
   ],
   "ceo_reviews": [
     {
