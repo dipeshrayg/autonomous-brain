@@ -42,9 +42,9 @@ demo. Click **▶ Run it** on any card.
 
 ## Latest CEO review
 
-**Verdict:** `drifting` — _issued 2026-05-05T04:27:02Z by gpt-4o_
+**Verdict:** `drifting` — _issued 2026-05-05T09:17:57Z by gpt-4o_
 
-> The system is drifting as it pushes for higher complexity without reliably delivering functional builds, leading to a high failure rate and partially usable projects. Shipped projects also show repetitive patterns (e.g., 'visualizer') and lack deeper UI or functional innovation. To restore balance, the next project must focus on reliability and simplicity, incorporate a novel UI layout, explore an underutilized domain, and avoid the overused 'visualizer' pattern.
+> The system is drifting, with a high volume of recent refusals at the QA gate for higher-complexity projects and new patterns like 'studio,' along with stagnation in shipped project variety. The next project must refocus on simplicity, reliability, and achievable interaction design. Avoid overly complex layouts, experimental patterns, and new domains. Limit complexity to c=14 or lower and introduce a novel but manageable control type to push incremental improvement.
 
 
 ## The boardroom
