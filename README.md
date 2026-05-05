@@ -42,9 +42,9 @@ demo. Click **▶ Run it** on any card.
 
 ## Latest CEO review
 
-**Verdict:** `drifting` — _issued 2026-05-05T09:17:57Z by gpt-4o_
+**Verdict:** `drifting` — _issued 2026-05-05T20:17:35Z by gpt-4o_
 
-> The system is drifting, with a high volume of recent refusals at the QA gate for higher-complexity projects and new patterns like 'studio,' along with stagnation in shipped project variety. The next project must refocus on simplicity, reliability, and achievable interaction design. Avoid overly complex layouts, experimental patterns, and new domains. Limit complexity to c=14 or lower and introduce a novel but manageable control type to push incremental improvement.
+> The system is drifting due to a lack of diversity in project patterns (overusing 'visualizers') and consistent QA failures at higher complexity levels. Recent refusals show a clear inability to handle more ambitious builds, particularly in 'studio' and 'simulator' patterns, due to dead or missing controls. For the next project, the system must scale back complexity to c=14 and prioritize robust execution of all planned features. It must explore a new interaction pattern (e.g., 'editor' or 'workspace') and target an underrepresented domain like Audio/DSP or Education to expand its portfolio. The focus should be on delivering a complete, functional, and innovative product within a controlled complexity scope.
 
 
 ## The boardroom
