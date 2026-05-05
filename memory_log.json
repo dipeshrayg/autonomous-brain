@@ -798,6 +798,12 @@
       "verdict": "drifting",
       "summary": "The pipeline is showing recurring gaps in security practices, including missing or insufficient Content Security Policies (CSP), lack of Subresource Integrity (SRI) for CDN dependencies, and increasing reliance on localStorage for user data storage without encryption or safeguards.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-05T17:59:19Z",
+      "verdict": "drifting",
+      "summary": "The pipeline exhibits recurring issues with missing SRI hashes, insufficient or missing CSP policies, and increased reliance on external CDN dependencies, which collectively increase the threat surface. Privacy concerns related to localStorage usage and user data handling are also emerging trends.",
+      "model": "gpt-4o"
     }
   ]
 }
