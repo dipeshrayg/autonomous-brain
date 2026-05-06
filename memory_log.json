@@ -881,6 +881,12 @@
       "verdict": "drifting",
       "summary": "The pipeline exhibits recurring issues with missing SRI hashes, insufficient or missing CSP policies, and increased reliance on external CDN dependencies, which collectively increase the threat surface. Privacy concerns related to localStorage usage and user data handling are also emerging trends.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-06T17:59:50Z",
+      "verdict": "drifting",
+      "summary": "The pipeline demonstrates recurring patterns of weak dependency management and insufficient content security policies, exposing projects to potential attacks. Privacy risks are also accumulating due to frequent use of localStorage and insufficient safeguards for user data.",
+      "model": "gpt-4o"
     }
   ]
 }
