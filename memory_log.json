@@ -766,12 +766,6 @@
       "verdict": "drifting",
       "summary": "The system is drifting, with shipped projects leaning toward repetitive 'visualizer' patterns and limited interactivity, while refused builds in the Audio/DSP domain reveal persistent functional failures at higher complexity. Directives focus on breaking the overused patterns, addressing functional gaps in control implementation, and exploring new layouts and backend features within manageable complexity limits.",
       "model": "gpt-4o"
-    },
-    {
-      "issued_at": "2026-05-06T09:36:48Z",
-      "verdict": "alarming",
-      "summary": "The system is struggling with recent complexity increases, especially in Audio/DSP-focused builds, which are failing repeatedly at the QA gate. Meanwhile, shipped projects are overly reliant on visualizer patterns and lack diversity in both interaction styles and domains. To stabilize and advance, the next project should scale back complexity, avoid failure-prone patterns like 'editor' or 'workspace,' and push for novel interaction patterns and domains to broaden the system's creative output.",
-      "model": "gpt-4o"
     }
   ],
   "security_audits": [
