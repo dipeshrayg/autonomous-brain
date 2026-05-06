@@ -13,18 +13,19 @@ demo. Click **▶ Run it** on any card.
 
 ## Stats
 
-- **Total projects:** 14 (0 today, target up to 5/day)
-- **Peak complexity:** 19 (open-ended scale, no cap)
-- **Average complexity:** 11.7
-- **Latest run:** 2026-05-05
+- **Total projects:** 15 (1 today, target up to 5/day)
+- **Peak complexity:** 20 (open-ended scale, no cap)
+- **Average complexity:** 12.3
+- **Latest run:** 2026-05-06
 - **Languages explored:** JavaScript, Python
 - **Patterns used recently:** visualizer, dashboard, explorer, tool, generator, simulator
-- **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History
+- **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | ★ | Pattern | Domain | Plan model | Concepts | Run |
 |------|---------|------|---|---------|--------|------------|----------|-----|
+| 2026-05-06 | [bioinformatics-gene-sequence-analyzer](https://github.com/dipeshrayg/2026-05-06-bioinformatics-gene-sequence-analyzer) | JavaScript | 20 | analyzer | Bioinformatics | — | Gene sequence analysis, User interaction for data manipulation, Real-time computation of genetic metrics | [▶ run](https://dipeshrayg.github.io/2026-05-06-bioinformatics-gene-sequence-analyzer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-06-bioinformatics-gene-sequence-analyzer) |
 | 2026-05-05 | [historical-events-simulator](https://github.com/dipeshrayg/2026-05-05-historical-events-simulator) | JavaScript | 19 | simulator | History | — | Interactive data visualization, Event-driven programming, Dynamic timeline manipulation | [▶ run](https://dipeshrayg.github.io/2026-05-05-historical-events-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-05-historical-events-simulator) |
 | 2026-05-04 | [sports-stats-visualizer](https://github.com/dipeshrayg/2026-05-04-sports-stats-visualizer) | JavaScript | 18 | visualizer | Sports | — | Synthetic data generation, Interactive canvas-based visualization, User-driven data exploration | [▶ run](https://dipeshrayg.github.io/2026-05-04-sports-stats-visualizer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-04-sports-stats-visualizer) |
 | 2026-05-03 | [interactive-poetry-generator](https://github.com/dipeshrayg/2026-05-03-interactive-poetry-generator) | JavaScript | 17 | generator | Arts | — | Dynamic content generation, User input handling, Simulated backend interaction | [▶ run](https://dipeshrayg.github.io/2026-05-03-interactive-poetry-generator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-03-interactive-poetry-generator) |
@@ -65,4 +66,4 @@ This system runs as a hierarchy of LLMs with distinct roles, not a single model:
 ---
 
 *Generated automatically by `brain.py`. All projects are educational/diagnostic
-and TOS-compliant. Last updated 2026-05-05.*
+and TOS-compliant. Last updated 2026-05-06.*
