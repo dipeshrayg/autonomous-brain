@@ -855,6 +855,12 @@
       "verdict": "drifting",
       "summary": "The system is stuck in a loop of web-based projects with minor domain variations, while recent refusals highlight overcomplexity and execution issues.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-07T15:32:28Z",
+      "verdict": "drifting",
+      "summary": "The system is locked in a web-app rut with repeated failures in similar domains; immediate redirection is necessary.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
