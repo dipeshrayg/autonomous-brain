@@ -17,7 +17,7 @@ demo. Click **▶ Run it** on any card.
 - **Peak complexity:** 22 (open-ended scale, no cap)
 - **Average complexity:** 13.4
 - **Latest run:** 2026-05-07
-- **Languages explored:** JavaScript, Python, markdown
+- **Languages explored:** JavaScript, Markdown, Python
 - **Patterns used recently:** visualizer, dashboard, explorer, tool, generator, simulator
 - **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
@@ -25,7 +25,7 @@ demo. Click **▶ Run it** on any card.
 
 | Date | Project | Lang | ★ | Pattern | Domain | Plan model | Concepts | Run |
 |------|---------|------|---|---------|--------|------------|----------|-----|
-| 2026-05-07 | [novel-entropy-encoding-techniques](https://github.com/dipeshrayg/2026-05-07-novel-entropy-encoding-techniques) | markdown | 22 | research-paper | Information Theory | — | Entropy in information theory, Data compression algorithms, Theoretical analysis of encoding techniques | [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-07-novel-entropy-encoding-techniques) |
+| 2026-05-07 | [novel-entropy-encoding-technique](https://github.com/dipeshrayg/2026-05-07-novel-entropy-encoding-technique) | Markdown | 22 | research-paper | Information Theory | — | Entropy encoding, Data compression algorithms, Theoretical analysis | [▶ run](https://dipeshrayg.github.io/2026-05-07-novel-entropy-encoding-technique/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-07-novel-entropy-encoding-technique) |
 | 2026-05-07 | [parametric-design-generator](https://github.com/dipeshrayg/2026-05-07-parametric-design-generator) | Python | 21 | generative-art | Generative Art | — | Parametric design, 2D pattern generation, Export to SVG | [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-07-parametric-design-generator) |
 | 2026-05-06 | [bioinformatics-gene-sequence-analyzer](https://github.com/dipeshrayg/2026-05-06-bioinformatics-gene-sequence-analyzer) | JavaScript | 20 | analyzer | Bioinformatics | — | Gene sequence analysis, User interaction for data manipulation, Real-time computation of genetic metrics | [▶ run](https://dipeshrayg.github.io/2026-05-06-bioinformatics-gene-sequence-analyzer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-06-bioinformatics-gene-sequence-analyzer) |
 | 2026-05-05 | [historical-events-simulator](https://github.com/dipeshrayg/2026-05-05-historical-events-simulator) | JavaScript | 19 | simulator | History | — | Interactive data visualization, Event-driven programming, Dynamic timeline manipulation | [▶ run](https://dipeshrayg.github.io/2026-05-05-historical-events-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-05-historical-events-simulator) |
