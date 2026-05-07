@@ -899,6 +899,12 @@
       "verdict": "drifting",
       "summary": "The pipeline demonstrates recurring patterns of weak dependency management and insufficient content security policies, exposing projects to potential attacks. Privacy risks are also accumulating due to frequent use of localStorage and insufficient safeguards for user data.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-07T07:22:34Z",
+      "verdict": "drifting",
+      "summary": "The pipeline shows recurring issues with missing Subresource Integrity (SRI) hashes, weak or missing Content Security Policies (CSP), and increasing reliance on localStorage for user data, which may lead to privacy risks.",
+      "model": "gpt-4o"
     }
   ]
 }
