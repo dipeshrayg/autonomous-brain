@@ -1151,6 +1151,12 @@
       "verdict": "drifting",
       "summary": "Recent projects have leaned heavily on web_interactive and safe domains, with a concerning pattern of failures in 3D simulations. The system is avoiding underexplored domains and failing to push boundaries effectively.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-10T09:00:52Z",
+      "verdict": "drifting",
+      "summary": "The system is stuck in a local minimum of web-based projects, with recent failures indicating overreach into 3D simulations without sufficient technical grounding.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
