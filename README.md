@@ -13,11 +13,11 @@ demo. Click **▶ Run it** on any card.
 
 ## Stats
 
-- **Total projects:** 19 (0 today, target up to 5/day)
-- **Peak complexity:** 27 (open-ended scale, no cap)
-- **Average complexity:** 14.6
-- **Latest run:** 2026-05-09
-- **Languages explored:** JavaScript, Markdown, Python, html, javascript
+- **Total projects:** 20 (1 today, target up to 5/day)
+- **Peak complexity:** 28 (open-ended scale, no cap)
+- **Average complexity:** 15.3
+- **Latest run:** 2026-05-11
+- **Languages explored:** JavaScript, Markdown, Python, html, javascript, markdown
 - **Patterns used recently:** visualizer, dashboard, explorer, tool, generator, simulator
 - **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
@@ -25,6 +25,7 @@ demo. Click **▶ Run it** on any card.
 
 | Date | Project | Lang | ★ | Pattern | Domain | Plan model | Concepts | Run |
 |------|---------|------|---|---------|--------|------------|----------|-----|
+| 2026-05-11 | [decentralized-multi-agent-path-planning](https://github.com/dipeshrayg/2026-05-11-decentralized-multi-agent-path-planning) | markdown | 28 | research-paper | Robotics | — | Decentralized algorithms, Multi-agent systems, Path planning | [▶ run](https://dipeshrayg.github.io/2026-05-11-decentralized-multi-agent-path-planning/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-11-decentralized-multi-agent-path-planning) |
 | 2026-05-09 | [procedural-fractal-generator](https://github.com/dipeshrayg/2026-05-09-procedural-fractal-generator) | javascript | 27 | generative-fractal | Visual Arts | — | Fractal generation, Real-time parameter manipulation, Escaping-time fractals | [▶ run](https://dipeshrayg.github.io/2026-05-09-procedural-fractal-generator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-09-procedural-fractal-generator) |
 | 2026-05-08 | [abstract-strategy-puzzle](https://github.com/dipeshrayg/2026-05-08-abstract-strategy-puzzle) | html | 24 | abstract-strategy-puzzle | Games | — | Procedural content generation, Spatial reasoning challenges, Dynamic level design | [▶ run](https://dipeshrayg.github.io/2026-05-08-abstract-strategy-puzzle/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-08-abstract-strategy-puzzle) |
 | 2026-05-07 | [novel-entropy-encoding-technique](https://github.com/dipeshrayg/2026-05-07-novel-entropy-encoding-technique) | Markdown | 22 | research-paper | Information Theory | — | Entropy encoding, Data compression algorithms, Theoretical analysis | [▶ run](https://dipeshrayg.github.io/2026-05-07-novel-entropy-encoding-technique/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-07-novel-entropy-encoding-technique) |
@@ -70,4 +71,4 @@ This system runs as a hierarchy of LLMs with distinct roles, not a single model:
 ---
 
 *Generated automatically by `brain.py`. All projects are educational/diagnostic
-and TOS-compliant. Last updated 2026-05-09.*
+and TOS-compliant. Last updated 2026-05-11.*

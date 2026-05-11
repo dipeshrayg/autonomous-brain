@@ -754,6 +754,48 @@
         "dead_controls_count": 1,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-05-11",
+      "completed_at": "2026-05-11T06:51:26Z",
+      "completed_at_unix": 1778482286,
+      "name": "decentralized-multi-agent-path-planning",
+      "repo_url": "https://github.com/dipeshrayg/2026-05-11-decentralized-multi-agent-path-planning",
+      "pages_url": "https://dipeshrayg.github.io/2026-05-11-decentralized-multi-agent-path-planning/",
+      "language": "markdown",
+      "project_type": "document",
+      "tech_stack": [],
+      "complexity_score": 28,
+      "concepts_demonstrated": [
+        "Decentralized algorithms",
+        "Multi-agent systems",
+        "Path planning",
+        "Swarm robotics"
+      ],
+      "novel_concepts": [
+        "Decentralized decision-making",
+        "Cooperative pathfinding",
+        "Dynamic environment responsiveness",
+        "Agent collaboration strategies"
+      ],
+      "advancement_axis": "Focus on decentralized methodologies contrasts with traditional centralized approaches, providing innovative frameworks.",
+      "pattern": "research-paper",
+      "domain": "Robotics",
+      "visual_identity": "Clean layout with a modern sans-serif font, blue and green color scheme to represent technology and nature, diagrams with clear labeling.",
+      "safety_notes": "Content is purely educational; no sensitive data is handled.",
+      "file_count": 7,
+      "loc": 738,
+      "quality_cycles_used": 0,
+      "final_verify_metrics": {
+        "interactiveCount": null,
+        "canvasCount": null,
+        "title": null
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -775,7 +817,8 @@
     21,
     22,
     24,
-    27
+    27,
+    28
   ],
   "concepts_explored": [
     "neural networks",
@@ -867,7 +910,11 @@
     "Real-time parameter manipulation",
     "Escaping-time fractals",
     "Iterated function systems",
-    "Zooming in fractal visualizations"
+    "Zooming in fractal visualizations",
+    "Decentralized algorithms",
+    "Multi-agent systems",
+    "Path planning",
+    "Swarm robotics"
   ],
   "patterns_used": [
     "visualizer",
@@ -882,7 +929,8 @@
     "generative-art",
     "research-paper",
     "abstract-strategy-puzzle",
-    "generative-fractal"
+    "generative-fractal",
+    "research-paper"
   ],
   "domains_used": [
     "Mathematics",
@@ -897,7 +945,8 @@
     "Generative Art",
     "Information Theory",
     "Games",
-    "Visual Arts"
+    "Visual Arts",
+    "Robotics"
   ],
   "ceo_reviews": [
     {
