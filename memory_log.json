@@ -796,6 +796,52 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-05-11",
+      "completed_at": "2026-05-11T23:48:04Z",
+      "completed_at_unix": 1778543284,
+      "name": "ascii-spiral-strategy-game",
+      "repo_url": "https://github.com/dipeshrayg/2026-05-11-ascii-spiral-strategy-game",
+      "pages_url": "https://dipeshrayg.github.io/2026-05-11-ascii-spiral-strategy-game/",
+      "language": "javascript",
+      "project_type": "game_web",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "complexity_score": 30,
+      "concepts_demonstrated": [
+        "turn-based gameplay",
+        "procedural generation",
+        "ASCII art representation",
+        "resource management",
+        "basic AI"
+      ],
+      "novel_concepts": [
+        "strategic decision making with limited visual cues",
+        "turn-based resource allocation",
+        "dynamic ASCII visual representation of game state"
+      ],
+      "advancement_axis": "Combines strategy gaming with ASCII visuals, diverging from typical graphical interfaces and promoting abstract thinking.",
+      "pattern": "turn-based-strategy",
+      "domain": "Game Design",
+      "visual_identity": "Monochrome ASCII palette, Typewriter font for text, Simple layout emphasizing readability.",
+      "safety_notes": "Complies with GitHub TOS. No active malware or exploits.",
+      "file_count": 6,
+      "loc": 783,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 4,
+        "canvasCount": 0,
+        "title": "ASCII Spiral Strategy Game"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 1,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -818,7 +864,8 @@
     22,
     24,
     27,
-    28
+    28,
+    30
   ],
   "concepts_explored": [
     "neural networks",
@@ -914,7 +961,12 @@
     "Decentralized algorithms",
     "Multi-agent systems",
     "Path planning",
-    "Swarm robotics"
+    "Swarm robotics",
+    "turn-based gameplay",
+    "procedural generation",
+    "ASCII art representation",
+    "resource management",
+    "basic AI"
   ],
   "patterns_used": [
     "visualizer",
@@ -930,7 +982,8 @@
     "research-paper",
     "abstract-strategy-puzzle",
     "generative-fractal",
-    "research-paper"
+    "research-paper",
+    "turn-based-strategy"
   ],
   "domains_used": [
     "Mathematics",
@@ -946,7 +999,8 @@
     "Information Theory",
     "Games",
     "Visual Arts",
-    "Robotics"
+    "Robotics",
+    "Game Design"
   ],
   "ceo_reviews": [
     {
