@@ -1242,6 +1242,12 @@
       "verdict": "drifting",
       "summary": "The system has fallen into a pattern of safer projects and experienced repeated failures in the 3D domain, indicating a lack of progress in critical unexplored areas.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-11T20:53:14Z",
+      "verdict": "drifting",
+      "summary": "The system's recent projects show promise but are veering toward repeated failures with web_3d and too much reliance on web-interactive outputs.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
