@@ -13,7 +13,7 @@ demo. Click **▶ Run it** on any card.
 
 ## Stats
 
-- **Total projects:** 21 (2 today, target up to 5/day)
+- **Total projects:** 21 (0 today, target up to 5/day)
 - **Peak complexity:** 30 (open-ended scale, no cap)
 - **Average complexity:** 16.0
 - **Latest run:** 2026-05-11
@@ -49,9 +49,9 @@ demo. Click **▶ Run it** on any card.
 
 ## Latest CEO review
 
-**Verdict:** `drifting` — _issued 2026-05-11T20:53:14Z by gpt-4o_
+**Verdict:** `alarming` — _issued 2026-05-12T04:48:15Z by gpt-4o_
 
-> The system's recent projects show promise but are veering toward repeated failures with web_3d and too much reliance on web-interactive outputs.
+> Repeated failures in web_3d projects indicate a systemic issue with this type, while recent shipped projects show a lack of bold innovation.
 
 
 ## The boardroom

@@ -1302,6 +1302,12 @@
       "verdict": "drifting",
       "summary": "The system's recent projects show promise but are veering toward repeated failures with web_3d and too much reliance on web-interactive outputs.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-12T04:48:15Z",
+      "verdict": "alarming",
+      "summary": "Repeated failures in web_3d projects indicate a systemic issue with this type, while recent shipped projects show a lack of bold innovation.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
