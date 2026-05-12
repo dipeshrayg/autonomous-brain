@@ -1308,12 +1308,6 @@
       "verdict": "alarming",
       "summary": "Repeated failures in web_3d projects indicate a systemic issue with this type, while recent shipped projects show a lack of bold innovation.",
       "model": "gpt-4o"
-    },
-    {
-      "issued_at": "2026-05-12T09:48:20Z",
-      "verdict": "drifting",
-      "summary": "Recent projects show some diversity, but repeated failures in 3D generative art and physics indicate misaligned complexity and execution issues. The system needs to pivot to untried domains while simplifying scope.",
-      "model": "gpt-4o"
     }
   ],
   "security_audits": [
