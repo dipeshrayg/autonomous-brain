@@ -842,6 +842,51 @@
         "dead_controls_count": 1,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-05-12",
+      "completed_at": "2026-05-12T21:49:51Z",
+      "completed_at_unix": 1778622591,
+      "name": "textural-simulations-in-noise",
+      "repo_url": "https://github.com/dipeshrayg/2026-05-12-textural-simulations-in-noise",
+      "pages_url": "https://dipeshrayg.github.io/2026-05-12-textural-simulations-in-noise/",
+      "language": "javascript",
+      "project_type": "generative_art",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "complexity_score": 33,
+      "concepts_demonstrated": [
+        "Perlin noise",
+        "Simplex noise",
+        "Dynamic texture generation",
+        "Real-time rendering"
+      ],
+      "novel_concepts": [
+        "Interactive parameter adjustments",
+        "Non-fractal texture generation",
+        "Noise-based art output"
+      ],
+      "advancement_axis": "Focus on dynamic textural outputs using advanced noise algorithms in generative art.",
+      "pattern": "textural-noise-art",
+      "domain": "Generative Art",
+      "visual_identity": "A palette of soft pastels contrasted with deep greys; typography will be playful and modern, with floating elements that create a sense of depth.",
+      "safety_notes": "No user data collection or problematic interactions; strictly educational content in line with GitHub TOS.",
+      "file_count": 6,
+      "loc": 446,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 4,
+        "canvasCount": 1,
+        "title": "Textural Simulations in Noise"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 1,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -865,7 +910,8 @@
     24,
     27,
     28,
-    30
+    30,
+    33
   ],
   "concepts_explored": [
     "neural networks",
@@ -966,7 +1012,11 @@
     "procedural generation",
     "ASCII art representation",
     "resource management",
-    "basic AI"
+    "basic AI",
+    "Perlin noise",
+    "Simplex noise",
+    "Dynamic texture generation",
+    "Real-time rendering"
   ],
   "patterns_used": [
     "visualizer",
@@ -983,7 +1033,8 @@
     "abstract-strategy-puzzle",
     "generative-fractal",
     "research-paper",
-    "turn-based-strategy"
+    "turn-based-strategy",
+    "textural-noise-art"
   ],
   "domains_used": [
     "Mathematics",
@@ -1000,7 +1051,8 @@
     "Games",
     "Visual Arts",
     "Robotics",
-    "Game Design"
+    "Game Design",
+    "Generative Art"
   ],
   "ceo_reviews": [
     {

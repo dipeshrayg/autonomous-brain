@@ -13,10 +13,10 @@ demo. Click **▶ Run it** on any card.
 
 ## Stats
 
-- **Total projects:** 21 (0 today, target up to 5/day)
-- **Peak complexity:** 30 (open-ended scale, no cap)
-- **Average complexity:** 16.0
-- **Latest run:** 2026-05-11
+- **Total projects:** 22 (1 today, target up to 5/day)
+- **Peak complexity:** 33 (open-ended scale, no cap)
+- **Average complexity:** 16.8
+- **Latest run:** 2026-05-12
 - **Languages explored:** JavaScript, Markdown, Python, html, javascript, markdown
 - **Patterns used recently:** visualizer, dashboard, explorer, tool, generator, simulator
 - **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
@@ -25,6 +25,7 @@ demo. Click **▶ Run it** on any card.
 
 | Date | Project | Lang | ★ | Pattern | Domain | Plan model | Concepts | Run |
 |------|---------|------|---|---------|--------|------------|----------|-----|
+| 2026-05-12 | [textural-simulations-in-noise](https://github.com/dipeshrayg/2026-05-12-textural-simulations-in-noise) | javascript | 33 | textural-noise-art | Generative Art | — | Perlin noise, Simplex noise, Dynamic texture generation | [▶ run](https://dipeshrayg.github.io/2026-05-12-textural-simulations-in-noise/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-12-textural-simulations-in-noise) |
 | 2026-05-11 | [ascii-spiral-strategy-game](https://github.com/dipeshrayg/2026-05-11-ascii-spiral-strategy-game) | javascript | 30 | turn-based-strategy | Game Design | — | turn-based gameplay, procedural generation, ASCII art representation | [▶ run](https://dipeshrayg.github.io/2026-05-11-ascii-spiral-strategy-game/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-11-ascii-spiral-strategy-game) |
 | 2026-05-11 | [decentralized-multi-agent-path-planning](https://github.com/dipeshrayg/2026-05-11-decentralized-multi-agent-path-planning) | markdown | 28 | research-paper | Robotics | — | Decentralized algorithms, Multi-agent systems, Path planning | [▶ run](https://dipeshrayg.github.io/2026-05-11-decentralized-multi-agent-path-planning/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-11-decentralized-multi-agent-path-planning) |
 | 2026-05-09 | [procedural-fractal-generator](https://github.com/dipeshrayg/2026-05-09-procedural-fractal-generator) | javascript | 27 | generative-fractal | Visual Arts | — | Fractal generation, Real-time parameter manipulation, Escaping-time fractals | [▶ run](https://dipeshrayg.github.io/2026-05-09-procedural-fractal-generator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-09-procedural-fractal-generator) |
@@ -72,4 +73,4 @@ This system runs as a hierarchy of LLMs with distinct roles, not a single model:
 ---
 
 *Generated automatically by `brain.py`. All projects are educational/diagnostic
-and TOS-compliant. Last updated 2026-05-11.*
+and TOS-compliant. Last updated 2026-05-12.*
