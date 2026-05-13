@@ -13,9 +13,9 @@ demo. Click **▶ Run it** on any card.
 
 ## Stats
 
-- **Total projects:** 23 (1 today, target up to 5/day)
-- **Peak complexity:** 35 (open-ended scale, no cap)
-- **Average complexity:** 17.6
+- **Total projects:** 24 (2 today, target up to 5/day)
+- **Peak complexity:** 36 (open-ended scale, no cap)
+- **Average complexity:** 18.3
 - **Latest run:** 2026-05-13
 - **Languages explored:** JavaScript, Markdown, Python, html, javascript, markdown, python
 - **Patterns used recently:** visualizer, dashboard, explorer, tool, generator, simulator
@@ -25,6 +25,7 @@ demo. Click **▶ Run it** on any card.
 
 | Date | Project | Lang | ★ | Pattern | Domain | Plan model | Concepts | Run |
 |------|---------|------|---|---------|--------|------------|----------|-----|
+| 2026-05-13 | [comparative-swarm-intelligence-algorithms](https://github.com/dipeshrayg/2026-05-13-comparative-swarm-intelligence-algorithms) | markdown | 36 | interdisciplinary-analysis | Computer Science | — | Swarm intelligence algorithms, Ant colony optimization, Particle swarm optimization | [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-13-comparative-swarm-intelligence-algorithms) |
 | 2026-05-13 | [visual-cryptography-tool](https://github.com/dipeshrayg/2026-05-13-visual-cryptography-tool) | python | 35 | visualization-tool | Cryptography | — | visual cryptography, image processing, interactive simulation | [▶ run](https://dipeshrayg.github.io/2026-05-13-visual-cryptography-tool/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-13-visual-cryptography-tool) |
 | 2026-05-12 | [textural-simulations-in-noise](https://github.com/dipeshrayg/2026-05-12-textural-simulations-in-noise) | javascript | 33 | textural-noise-art | Generative Art | — | Perlin noise, Simplex noise, Dynamic texture generation | [▶ run](https://dipeshrayg.github.io/2026-05-12-textural-simulations-in-noise/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-12-textural-simulations-in-noise) |
 | 2026-05-11 | [ascii-spiral-strategy-game](https://github.com/dipeshrayg/2026-05-11-ascii-spiral-strategy-game) | javascript | 30 | turn-based-strategy | Game Design | — | turn-based gameplay, procedural generation, ASCII art representation | [▶ run](https://dipeshrayg.github.io/2026-05-11-ascii-spiral-strategy-game/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-11-ascii-spiral-strategy-game) |

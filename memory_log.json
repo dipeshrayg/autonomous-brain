@@ -933,6 +933,53 @@
         "dead_controls_count": 2,
         "missing_features_count": 2
       }
+    },
+    {
+      "date": "2026-05-13",
+      "completed_at": "2026-05-13T21:47:19Z",
+      "completed_at_unix": 1778708839,
+      "name": "comparative-swarm-intelligence-algorithms",
+      "repo_url": "https://github.com/dipeshrayg/2026-05-13-comparative-swarm-intelligence-algorithms",
+      "pages_url": "",
+      "language": "markdown",
+      "project_type": "document",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "complexity_score": 36,
+      "concepts_demonstrated": [
+        "Swarm intelligence algorithms",
+        "Ant colony optimization",
+        "Particle swarm optimization",
+        "Bee algorithm",
+        "Comparative analysis",
+        "Real-world applications"
+      ],
+      "novel_concepts": [
+        "Algorithm performance metrics",
+        "Visual representation of algorithms",
+        "Empirical data analysis of algorithm efficiency"
+      ],
+      "advancement_axis": "Integrates interdisciplinary applications of swarm intelligence with real-world use cases, providing a fresh perspective on their comparative effectiveness.",
+      "pattern": "interdisciplinary-analysis",
+      "domain": "Computer Science",
+      "visual_identity": "Color palette: Blue, Green, and White; Typography: Modern sans-serif; Layout: Clean and structured, utilizing graphs and diagrams.",
+      "safety_notes": "Contains no executable code, ensuring compliance with GitHub TOS.",
+      "file_count": 7,
+      "loc": 1039,
+      "quality_cycles_used": 1,
+      "final_verify_metrics": {
+        "interactiveCount": null,
+        "canvasCount": null,
+        "title": null
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -958,7 +1005,8 @@
     28,
     30,
     33,
-    35
+    35,
+    36
   ],
   "concepts_explored": [
     "neural networks",
@@ -1067,7 +1115,13 @@
     "visual cryptography",
     "image processing",
     "interactive simulation",
-    "parameter manipulation"
+    "parameter manipulation",
+    "Swarm intelligence algorithms",
+    "Ant colony optimization",
+    "Particle swarm optimization",
+    "Bee algorithm",
+    "Comparative analysis",
+    "Real-world applications"
   ],
   "patterns_used": [
     "visualizer",
@@ -1086,7 +1140,8 @@
     "research-paper",
     "turn-based-strategy",
     "textural-noise-art",
-    "visualization-tool"
+    "visualization-tool",
+    "interdisciplinary-analysis"
   ],
   "domains_used": [
     "Mathematics",
@@ -1105,7 +1160,8 @@
     "Robotics",
     "Game Design",
     "Generative Art",
-    "Cryptography"
+    "Cryptography",
+    "Computer Science"
   ],
   "ceo_reviews": [
     {
