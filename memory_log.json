@@ -887,6 +887,52 @@
         "dead_controls_count": 1,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-05-13",
+      "completed_at": "2026-05-13T11:47:04Z",
+      "completed_at_unix": 1778672824,
+      "name": "visual-cryptography-tool",
+      "repo_url": "https://github.com/dipeshrayg/2026-05-13-visual-cryptography-tool",
+      "pages_url": "https://dipeshrayg.github.io/2026-05-13-visual-cryptography-tool/",
+      "language": "python",
+      "project_type": "python_tool",
+      "tech_stack": [
+        "Python",
+        "Pillow",
+        "Matplotlib",
+        "NumPy"
+      ],
+      "complexity_score": 35,
+      "concepts_demonstrated": [
+        "visual cryptography",
+        "image processing",
+        "interactive simulation",
+        "parameter manipulation"
+      ],
+      "novel_concepts": [
+        "share reconstruction visualization",
+        "dynamic share generation",
+        "educational interaction design"
+      ],
+      "advancement_axis": "Combines cryptographic principles with image processing in an interactive educational format.",
+      "pattern": "visualization-tool",
+      "domain": "Cryptography",
+      "visual_identity": "Monochrome with accent colors (blue and green), modern sans-serif typography, clean layouts emphasizing simplicity and clarity.",
+      "safety_notes": "The project does not include any sensitive data storage or transfer. Only local image processing is utilized.",
+      "file_count": 6,
+      "loc": 839,
+      "quality_cycles_used": 2,
+      "final_verify_metrics": {
+        "interactiveCount": null,
+        "canvasCount": null,
+        "title": null
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 2,
+        "missing_features_count": 2
+      }
     }
   ],
   "complexity_trajectory": [
@@ -911,7 +957,8 @@
     27,
     28,
     30,
-    33
+    33,
+    35
   ],
   "concepts_explored": [
     "neural networks",
@@ -1016,7 +1063,11 @@
     "Perlin noise",
     "Simplex noise",
     "Dynamic texture generation",
-    "Real-time rendering"
+    "Real-time rendering",
+    "visual cryptography",
+    "image processing",
+    "interactive simulation",
+    "parameter manipulation"
   ],
   "patterns_used": [
     "visualizer",
@@ -1034,7 +1085,8 @@
     "generative-fractal",
     "research-paper",
     "turn-based-strategy",
-    "textural-noise-art"
+    "textural-noise-art",
+    "visualization-tool"
   ],
   "domains_used": [
     "Mathematics",
@@ -1052,7 +1104,8 @@
     "Visual Arts",
     "Robotics",
     "Game Design",
-    "Generative Art"
+    "Generative Art",
+    "Cryptography"
   ],
   "ceo_reviews": [
     {
@@ -1383,6 +1436,12 @@
       "issued_at": "2026-05-13T04:58:49Z",
       "verdict": "alarming",
       "summary": "The system is fixated on generative art and failing to ship increasingly complex projects; type diversity is severely lacking.",
+      "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-13T09:50:27Z",
+      "verdict": "drifting",
+      "summary": "The system is stuck in generative art with repeated failures in web_3d. A pivot is required to regain momentum.",
       "model": "gpt-4o"
     }
   ],
