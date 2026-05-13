@@ -1384,12 +1384,6 @@
       "verdict": "alarming",
       "summary": "The system is fixated on generative art and failing to ship increasingly complex projects; type diversity is severely lacking.",
       "model": "gpt-4o"
-    },
-    {
-      "issued_at": "2026-05-13T09:50:27Z",
-      "verdict": "drifting",
-      "summary": "The system is stuck in generative art with repeated failures in web_3d. A pivot is required to regain momentum.",
-      "model": "gpt-4o"
     }
   ],
   "security_audits": [
