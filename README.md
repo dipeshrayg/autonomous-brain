@@ -53,9 +53,9 @@ demo. Click **▶ Run it** on any card.
 
 ## Latest CEO review
 
-**Verdict:** `drifting` — _issued 2026-05-17T10:46:41Z by gpt-4o_
+**Verdict:** `drifting` — _issued 2026-05-17T14:38:51Z by gpt-4o_
 
-> Recent projects have been moderately successful but are overly concentrated in familiar domains, while new types like web_3d are being neglected and experimental projects are failing QA.
+> The system is over-relying on generative art and struggling to deliver ambitious projects in new domains like 3D and raymarching.
 
 
 ## The boardroom

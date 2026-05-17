@@ -1613,6 +1613,12 @@
       "verdict": "drifting",
       "summary": "Recent projects have been moderately successful but are overly concentrated in familiar domains, while new types like web_3d are being neglected and experimental projects are failing QA.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-17T14:38:51Z",
+      "verdict": "drifting",
+      "summary": "The system is over-relying on generative art and struggling to deliver ambitious projects in new domains like 3D and raymarching.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
