@@ -1607,6 +1607,12 @@
       "verdict": "drifting",
       "summary": "The system is struggling with repeated failures, particularly in 3D-related domains, and recent success has leaned heavily on safer document and generative art projects. A hard pivot is necessary to break out of stagnation.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-17T10:46:41Z",
+      "verdict": "drifting",
+      "summary": "Recent projects have been moderately successful but are overly concentrated in familiar domains, while new types like web_3d are being neglected and experimental projects are failing QA.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
