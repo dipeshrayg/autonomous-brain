@@ -1026,6 +1026,52 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-05-17",
+      "completed_at": "2026-05-17T15:53:57Z",
+      "completed_at_unix": 1779033237,
+      "name": "adaptive-ai-challenge",
+      "repo_url": "https://github.com/dipeshrayg/2026-05-17-adaptive-ai-challenge",
+      "pages_url": "https://dipeshrayg.github.io/2026-05-17-adaptive-ai-challenge/",
+      "language": "javascript",
+      "project_type": "game_web",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Canvas API"
+      ],
+      "complexity_score": 40,
+      "concepts_demonstrated": [
+        "Real-time strategy mechanics",
+        "Adaptive AI development",
+        "Resource management",
+        "Emergent gameplay dynamics"
+      ],
+      "novel_concepts": [
+        "Evolving enemy AI that adapts",
+        "Non-linear gameplay progression",
+        "Player-driven dynamics"
+      ],
+      "advancement_axis": "Emergent gameplay that evolves in response to player strategies.",
+      "pattern": "real-time-strategy",
+      "domain": "Game Design",
+      "visual_identity": "Dark palette with bright accents. Modern sans-serif typography for menus. Simple grid layout for game elements.",
+      "safety_notes": "No active malware, compliance with GitHub TOS. Game uses synthetic AI models without exploiting any systems.",
+      "file_count": 7,
+      "loc": 818,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 4,
+        "canvasCount": 1,
+        "title": "Adaptive AI Challenge"
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -1053,7 +1099,8 @@
     33,
     35,
     36,
-    38
+    38,
+    40
   ],
   "concepts_explored": [
     "neural networks",
@@ -1173,7 +1220,11 @@
     "emergent behavior",
     "user-defined parameters",
     "interactive exploration",
-    "visual outputs"
+    "visual outputs",
+    "Real-time strategy mechanics",
+    "Adaptive AI development",
+    "Resource management",
+    "Emergent gameplay dynamics"
   ],
   "patterns_used": [
     "visualizer",
@@ -1194,7 +1245,8 @@
     "textural-noise-art",
     "visualization-tool",
     "interdisciplinary-analysis",
-    "emergent-patterns"
+    "emergent-patterns",
+    "real-time-strategy"
   ],
   "domains_used": [
     "Mathematics",
@@ -1215,7 +1267,8 @@
     "Generative Art",
     "Cryptography",
     "Computer Science",
-    "Emergent Systems"
+    "Emergent Systems",
+    "Game Design"
   ],
   "ceo_reviews": [
     {
