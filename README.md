@@ -13,7 +13,7 @@ demo. Click **▶ Run it** on any card.
 
 ## Stats
 
-- **Total projects:** 26 (1 today, target up to 5/day)
+- **Total projects:** 26 (0 today, target up to 5/day)
 - **Peak complexity:** 40 (open-ended scale, no cap)
 - **Average complexity:** 19.9
 - **Latest run:** 2026-05-17
@@ -54,9 +54,9 @@ demo. Click **▶ Run it** on any card.
 
 ## Latest CEO review
 
-**Verdict:** `drifting` — _issued 2026-05-17T20:09:33Z by gpt-4o_
+**Verdict:** `drifting` — _issued 2026-05-18T05:17:18Z by gpt-4o_
 
-> The system has shown some success but is stagnating in familiar domains, with recent failures heavily concentrated in games and raymarching. There is an urgent need to pivot to a new, underexplored project type.
+> The system is showing signs of stagnation with repeated failures in games and raymarching. There is also an over-reliance on generative art and document types, which are nearing their complexity ceilings.
 
 
 ## The boardroom
