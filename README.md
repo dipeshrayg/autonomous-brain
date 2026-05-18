@@ -13,11 +13,11 @@ demo. Click **▶ Run it** on any card.
 
 ## Stats
 
-- **Total projects:** 27 (1 today, target up to 5/day)
-- **Peak complexity:** 42 (open-ended scale, no cap)
-- **Average complexity:** 20.7
+- **Total projects:** 28 (2 today, target up to 5/day)
+- **Peak complexity:** 43 (open-ended scale, no cap)
+- **Average complexity:** 21.5
 - **Latest run:** 2026-05-18
-- **Languages explored:** JavaScript, Markdown, Python, html, javascript, markdown, python
+- **Languages explored:** HTML+JS, JavaScript, Markdown, Python, html, javascript, markdown, python
 - **Patterns used recently:** visualizer, dashboard, explorer, tool, generator, simulator
 - **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
@@ -25,6 +25,7 @@ demo. Click **▶ Run it** on any card.
 
 | Date | Project | Lang | ★ | Pattern | Domain | Plan model | Concepts | Run |
 |------|---------|------|---|---------|--------|------------|----------|-----|
+| 2026-05-18 | [abstract-symmetry-puzzle](https://github.com/dipeshrayg/2026-05-18-abstract-symmetry-puzzle) | HTML+JS | 43 | abstract-puzzle | Mathematics | — | abstract representation, symmetry manipulation, complex interaction principles | [▶ run](https://dipeshrayg.github.io/2026-05-18-abstract-symmetry-puzzle/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-18-abstract-symmetry-puzzle) |
 | 2026-05-18 | [interactive-cryptographic-simulator](https://github.com/dipeshrayg/2026-05-18-interactive-cryptographic-simulator) | python | 42 | interactive-educational | Cryptography | — | zero-knowledge proofs, homomorphic encryption, interactive visualization | [▶ run](https://dipeshrayg.github.io/2026-05-18-interactive-cryptographic-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-18-interactive-cryptographic-simulator) |
 | 2026-05-17 | [adaptive-ai-challenge](https://github.com/dipeshrayg/2026-05-17-adaptive-ai-challenge) | javascript | 40 | real-time-strategy | Game Design | — | Real-time strategy mechanics, Adaptive AI development, Resource management | [▶ run](https://dipeshrayg.github.io/2026-05-17-adaptive-ai-challenge/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-17-adaptive-ai-challenge) |
 | 2026-05-15 | [emergent-patterns-generator](https://github.com/dipeshrayg/2026-05-15-emergent-patterns-generator) | javascript | 38 | emergent-patterns | Emergent Systems | — | cellular automata, emergent behavior, user-defined parameters | [▶ run](https://dipeshrayg.github.io/2026-05-15-emergent-patterns-generator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-15-emergent-patterns-generator) |
