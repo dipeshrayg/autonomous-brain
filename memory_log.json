@@ -1072,6 +1072,52 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-05-18",
+      "completed_at": "2026-05-18T12:59:12Z",
+      "completed_at_unix": 1779109152,
+      "name": "interactive-cryptographic-simulator",
+      "repo_url": "https://github.com/dipeshrayg/2026-05-18-interactive-cryptographic-simulator",
+      "pages_url": "https://dipeshrayg.github.io/2026-05-18-interactive-cryptographic-simulator/",
+      "language": "python",
+      "project_type": "python_tool",
+      "tech_stack": [
+        "python",
+        "matplotlib",
+        "numpy",
+        "pytest"
+      ],
+      "complexity_score": 42,
+      "concepts_demonstrated": [
+        "zero-knowledge proofs",
+        "homomorphic encryption",
+        "interactive visualization",
+        "data input/output",
+        "educational interface"
+      ],
+      "novel_concepts": [
+        "adaptive sampling for cryptographic visualization",
+        "real-world scenario simulation in cryptography"
+      ],
+      "advancement_axis": "emphasizes educational value while integrating advanced cryptographic techniques.",
+      "pattern": "interactive-educational",
+      "domain": "Cryptography",
+      "visual_identity": "blue, green, and white palette; clean sans-serif typography; structured layout with diagrams and console output.",
+      "safety_notes": "All data processed is synthetic and educational, with no real cryptographic risks involved.",
+      "file_count": 8,
+      "loc": 635,
+      "quality_cycles_used": 2,
+      "final_verify_metrics": {
+        "interactiveCount": null,
+        "canvasCount": null,
+        "title": null
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -1100,7 +1146,8 @@
     35,
     36,
     38,
-    40
+    40,
+    42
   ],
   "concepts_explored": [
     "neural networks",
@@ -1224,7 +1271,12 @@
     "Real-time strategy mechanics",
     "Adaptive AI development",
     "Resource management",
-    "Emergent gameplay dynamics"
+    "Emergent gameplay dynamics",
+    "zero-knowledge proofs",
+    "homomorphic encryption",
+    "interactive visualization",
+    "data input/output",
+    "educational interface"
   ],
   "patterns_used": [
     "visualizer",
@@ -1246,7 +1298,8 @@
     "visualization-tool",
     "interdisciplinary-analysis",
     "emergent-patterns",
-    "real-time-strategy"
+    "real-time-strategy",
+    "interactive-educational"
   ],
   "domains_used": [
     "Mathematics",
@@ -1268,7 +1321,8 @@
     "Cryptography",
     "Computer Science",
     "Emergent Systems",
-    "Game Design"
+    "Game Design",
+    "Cryptography"
   ],
   "ceo_reviews": [
     {
@@ -1683,6 +1737,12 @@
       "issued_at": "2026-05-18T05:17:18Z",
       "verdict": "drifting",
       "summary": "The system is showing signs of stagnation with repeated failures in games and raymarching. There is also an over-reliance on generative art and document types, which are nearing their complexity ceilings.",
+      "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-18T11:11:52Z",
+      "verdict": "alarming",
+      "summary": "The system is struggling with consistent failures in web_3d and physics simulation projects, while recent projects have predominantly focused on safe, iterative domains like generative art, leaving other areas underexplored.",
       "model": "gpt-4o"
     }
   ],
