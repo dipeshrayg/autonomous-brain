@@ -56,9 +56,9 @@ demo. Click **▶ Run it** on any card.
 
 ## Latest CEO review
 
-**Verdict:** `drifting` — _issued 2026-05-19T05:13:12Z by gpt-4o_
+**Verdict:** `drifting` — _issued 2026-05-19T10:43:04Z by gpt-4o_
 
-> The system is stagnating in familiar domains (game_web, generative_art, python_tool) while failing to deliver on riskier projects. A pivot to unexplored territory is critical.
+> Recent projects are clustering around safe domains, with repeated failures in physics and raymarching. We need to break into underexplored areas like web_3d to unlock new opportunities.
 
 
 ## The boardroom
