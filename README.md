@@ -13,7 +13,7 @@ demo. Click **▶ Run it** on any card.
 
 ## Stats
 
-- **Total projects:** 28 (2 today, target up to 5/day)
+- **Total projects:** 28 (0 today, target up to 5/day)
 - **Peak complexity:** 43 (open-ended scale, no cap)
 - **Average complexity:** 21.5
 - **Latest run:** 2026-05-18
