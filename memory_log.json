@@ -1164,6 +1164,50 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-05-19",
+      "completed_at": "2026-05-19T16:56:54Z",
+      "completed_at_unix": 1779209814,
+      "name": "dynamic-audio-visual-sculpture",
+      "repo_url": "https://github.com/dipeshrayg/2026-05-19-dynamic-audio-visual-sculpture",
+      "pages_url": "https://dipeshrayg.github.io/2026-05-19-dynamic-audio-visual-sculpture/",
+      "language": "JavaScript",
+      "project_type": "generative_art",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "complexity_score": 45,
+      "concepts_demonstrated": [
+        "real-time audio manipulation",
+        "dynamic visual responses",
+        "user interaction with audio-visual feedback",
+        "parameter-driven generation"
+      ],
+      "novel_concepts": [
+        "dynamic audio-visual feedback systems",
+        "interactive pattern evolution based on audio inputs"
+      ],
+      "advancement_axis": "Combining audio generation with visual output creates an unpredictable interaction that evolves uniquely with each input.",
+      "pattern": "audio-visual-sculpture",
+      "domain": "Generative Art",
+      "visual_identity": "A vibrant color palette featuring neon hues on a dark background, with a mix of modern sans-serif typography for a clean and technological aesthetic.",
+      "safety_notes": "All components comply with GitHub TOS. No malware or exploits; purely educational and synthetic in nature.",
+      "file_count": 6,
+      "loc": 436,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 4,
+        "canvasCount": 1,
+        "title": "Dynamic Audio-Visual Sculpture"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 1,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -1194,7 +1238,8 @@
     38,
     40,
     42,
-    43
+    43,
+    45
   ],
   "concepts_explored": [
     "neural networks",
@@ -1327,7 +1372,11 @@
     "abstract representation",
     "symmetry manipulation",
     "complex interaction principles",
-    "emergent puzzle-solving"
+    "emergent puzzle-solving",
+    "real-time audio manipulation",
+    "dynamic visual responses",
+    "user interaction with audio-visual feedback",
+    "parameter-driven generation"
   ],
   "patterns_used": [
     "visualizer",
@@ -1351,7 +1400,8 @@
     "emergent-patterns",
     "real-time-strategy",
     "interactive-educational",
-    "abstract-puzzle"
+    "abstract-puzzle",
+    "audio-visual-sculpture"
   ],
   "domains_used": [
     "Mathematics",
@@ -1375,7 +1425,8 @@
     "Emergent Systems",
     "Game Design",
     "Cryptography",
-    "Mathematics"
+    "Mathematics",
+    "Generative Art"
   ],
   "ceo_reviews": [
     {
