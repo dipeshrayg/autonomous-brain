@@ -1208,6 +1208,52 @@
         "dead_controls_count": 1,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-05-20",
+      "completed_at": "2026-05-20T08:09:49Z",
+      "completed_at_unix": 1779264589,
+      "name": "cellular-automata-simulation-tool",
+      "repo_url": "https://github.com/dipeshrayg/2026-05-20-cellular-automata-simulation-tool",
+      "pages_url": "https://dipeshrayg.github.io/2026-05-20-cellular-automata-simulation-tool/",
+      "language": "python",
+      "project_type": "python_tool",
+      "tech_stack": [
+        "python",
+        "numpy",
+        "matplotlib",
+        "tkinter"
+      ],
+      "complexity_score": 47,
+      "concepts_demonstrated": [
+        "cellular automata",
+        "simulation",
+        "interactive visualization",
+        "parameter manipulation"
+      ],
+      "novel_concepts": [
+        "advanced constraint solving",
+        "Bayesian inference optimization",
+        "formal verification techniques"
+      ],
+      "advancement_axis": "Integrating advanced algorithms into a user-friendly simulation tool.",
+      "pattern": "cellular-automata-simulation",
+      "domain": "Computer Science",
+      "visual_identity": "Earthy color palette with organic shapes, minimalist typography, and a clear layout focused on usability.",
+      "safety_notes": "The application handles user inputs carefully to avoid unexpected crashes. Thorough testing is conducted to ensure edge cases are managed.",
+      "file_count": 7,
+      "loc": 817,
+      "quality_cycles_used": 4,
+      "final_verify_metrics": {
+        "interactiveCount": null,
+        "canvasCount": null,
+        "title": null
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 1,
+        "missing_features_count": 1
+      }
     }
   ],
   "complexity_trajectory": [
@@ -1239,7 +1285,8 @@
     40,
     42,
     43,
-    45
+    45,
+    47
   ],
   "concepts_explored": [
     "neural networks",
@@ -1376,7 +1423,8 @@
     "real-time audio manipulation",
     "dynamic visual responses",
     "user interaction with audio-visual feedback",
-    "parameter-driven generation"
+    "parameter-driven generation",
+    "simulation"
   ],
   "patterns_used": [
     "visualizer",
@@ -1401,7 +1449,8 @@
     "real-time-strategy",
     "interactive-educational",
     "abstract-puzzle",
-    "audio-visual-sculpture"
+    "audio-visual-sculpture",
+    "cellular-automata-simulation"
   ],
   "domains_used": [
     "Mathematics",
@@ -1426,7 +1475,8 @@
     "Game Design",
     "Cryptography",
     "Mathematics",
-    "Generative Art"
+    "Generative Art",
+    "Computer Science"
   ],
   "ceo_reviews": [
     {
