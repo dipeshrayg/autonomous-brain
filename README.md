@@ -13,9 +13,9 @@ demo. Click **▶ Run it** on any card.
 
 ## Stats
 
-- **Total projects:** 31 (1 today, target up to 5/day)
-- **Peak complexity:** 48 (open-ended scale, no cap)
-- **Average complexity:** 24.0
+- **Total projects:** 32 (2 today, target up to 5/day)
+- **Peak complexity:** 50 (open-ended scale, no cap)
+- **Average complexity:** 24.8
 - **Latest run:** 2026-05-21
 - **Languages explored:** HTML+JS, JavaScript, Markdown, Python, html, javascript, markdown, python
 - **Patterns used recently:** visualizer, dashboard, explorer, tool, generator, simulator
@@ -25,6 +25,7 @@ demo. Click **▶ Run it** on any card.
 
 | Date | Project | Lang | ★ | Pattern | Domain | Plan model | Concepts | Run |
 |------|---------|------|---|---------|--------|------------|----------|-----|
+| 2026-05-21 | [simple-3d-cellular-automata](https://github.com/dipeshrayg/2026-05-21-simple-3d-cellular-automata) | JavaScript | 50 | cellular-automata-visualization | Computer Graphics | — | Cellular automata, 3D spatial visualization, Neighbor interaction dynamics | [▶ run](https://dipeshrayg.github.io/2026-05-21-simple-3d-cellular-automata/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-21-simple-3d-cellular-automata) |
 | 2026-05-21 | [swarm-coordination-simulator](https://github.com/dipeshrayg/2026-05-21-swarm-coordination-simulator) | python | 48 | swarm-coordination-simulator | Robotics | — | Robot coordination, Swarm algorithms, Dynamic feedback systems | [▶ run](https://dipeshrayg.github.io/2026-05-21-swarm-coordination-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-21-swarm-coordination-simulator) |
 | 2026-05-20 | [cellular-automata-simulation-tool](https://github.com/dipeshrayg/2026-05-20-cellular-automata-simulation-tool) | python | 47 | cellular-automata-simulation | Computer Science | — | cellular automata, simulation, interactive visualization | [▶ run](https://dipeshrayg.github.io/2026-05-20-cellular-automata-simulation-tool/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-20-cellular-automata-simulation-tool) |
 | 2026-05-19 | [dynamic-audio-visual-sculpture](https://github.com/dipeshrayg/2026-05-19-dynamic-audio-visual-sculpture) | JavaScript | 45 | audio-visual-sculpture | Generative Art | — | real-time audio manipulation, dynamic visual responses, user interaction with audio-visual feedback | [▶ run](https://dipeshrayg.github.io/2026-05-19-dynamic-audio-visual-sculpture/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-19-dynamic-audio-visual-sculpture) |
@@ -54,7 +55,6 @@ demo. Click **▶ Run it** on any card.
 | 2026-04-30 | [cellular-automata-pattern-generator](https://github.com/dipeshrayg/2026-04-30-cellular-automata-pattern-generator) | JavaScript | 9 | — | — | — | Cellular automata theory, Rule-based simulation, Dynamic visualization | [▶ run](https://dipeshrayg.github.io/2026-04-30-cellular-automata-pattern-generator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-04-30-cellular-automata-pattern-generator) |
 | 2026-04-29 | [genetic-algorithm-art-optimizer](https://github.com/dipeshrayg/2026-04-29-genetic-algorithm-art-optimizer) | JavaScript | 8 | — | — | — | Genetic algorithms, Crossover and mutation operations, Fitness function customization | [▶ run](https://dipeshrayg.github.io/2026-04-29-genetic-algorithm-art-optimizer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-04-29-genetic-algorithm-art-optimizer) |
 | 2026-04-28 | [dynamic-physics-simulator](https://github.com/dipeshrayg/2026-04-28-dynamic-physics-simulator) | JavaScript | 7 | — | — | — | Physics simulation, Collision detection, Elastic collisions | [▶ run](https://dipeshrayg.github.io/2026-04-28-dynamic-physics-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-04-28-dynamic-physics-simulator) |
-| 2026-04-28 | [maze-solver-using-a-star](https://github.com/dipeshrayg/2026-04-28-maze-solver-using-a-star) | Python | 5 | — | — | — | A* search algorithm, heuristic optimization, graph traversal | [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-04-28-maze-solver-using-a-star) |
 
 ## Latest CEO review
 
