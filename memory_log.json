@@ -1964,6 +1964,12 @@
       "verdict": "drifting",
       "summary": "Recent projects show progress but are clustering around a few types, while web_3d remains unshipped and banned after repeated failures.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-21T10:48:37Z",
+      "verdict": "alarming",
+      "summary": "The system has entered a failure spiral with web_3d and game_web types, while recent successes have been safe and iterative rather than innovative.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
