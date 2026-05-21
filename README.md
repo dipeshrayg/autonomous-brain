@@ -13,10 +13,10 @@ demo. Click **▶ Run it** on any card.
 
 ## Stats
 
-- **Total projects:** 30 (0 today, target up to 5/day)
-- **Peak complexity:** 47 (open-ended scale, no cap)
-- **Average complexity:** 23.2
-- **Latest run:** 2026-05-20
+- **Total projects:** 31 (1 today, target up to 5/day)
+- **Peak complexity:** 48 (open-ended scale, no cap)
+- **Average complexity:** 24.0
+- **Latest run:** 2026-05-21
 - **Languages explored:** HTML+JS, JavaScript, Markdown, Python, html, javascript, markdown, python
 - **Patterns used recently:** visualizer, dashboard, explorer, tool, generator, simulator
 - **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
@@ -25,6 +25,7 @@ demo. Click **▶ Run it** on any card.
 
 | Date | Project | Lang | ★ | Pattern | Domain | Plan model | Concepts | Run |
 |------|---------|------|---|---------|--------|------------|----------|-----|
+| 2026-05-21 | [swarm-coordination-simulator](https://github.com/dipeshrayg/2026-05-21-swarm-coordination-simulator) | python | 48 | swarm-coordination-simulator | Robotics | — | Robot coordination, Swarm algorithms, Dynamic feedback systems | [▶ run](https://dipeshrayg.github.io/2026-05-21-swarm-coordination-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-21-swarm-coordination-simulator) |
 | 2026-05-20 | [cellular-automata-simulation-tool](https://github.com/dipeshrayg/2026-05-20-cellular-automata-simulation-tool) | python | 47 | cellular-automata-simulation | Computer Science | — | cellular automata, simulation, interactive visualization | [▶ run](https://dipeshrayg.github.io/2026-05-20-cellular-automata-simulation-tool/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-20-cellular-automata-simulation-tool) |
 | 2026-05-19 | [dynamic-audio-visual-sculpture](https://github.com/dipeshrayg/2026-05-19-dynamic-audio-visual-sculpture) | JavaScript | 45 | audio-visual-sculpture | Generative Art | — | real-time audio manipulation, dynamic visual responses, user interaction with audio-visual feedback | [▶ run](https://dipeshrayg.github.io/2026-05-19-dynamic-audio-visual-sculpture/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-19-dynamic-audio-visual-sculpture) |
 | 2026-05-18 | [abstract-symmetry-puzzle](https://github.com/dipeshrayg/2026-05-18-abstract-symmetry-puzzle) | HTML+JS | 43 | abstract-puzzle | Mathematics | — | abstract representation, symmetry manipulation, complex interaction principles | [▶ run](https://dipeshrayg.github.io/2026-05-18-abstract-symmetry-puzzle/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-18-abstract-symmetry-puzzle) |
@@ -54,7 +55,6 @@ demo. Click **▶ Run it** on any card.
 | 2026-04-29 | [genetic-algorithm-art-optimizer](https://github.com/dipeshrayg/2026-04-29-genetic-algorithm-art-optimizer) | JavaScript | 8 | — | — | — | Genetic algorithms, Crossover and mutation operations, Fitness function customization | [▶ run](https://dipeshrayg.github.io/2026-04-29-genetic-algorithm-art-optimizer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-04-29-genetic-algorithm-art-optimizer) |
 | 2026-04-28 | [dynamic-physics-simulator](https://github.com/dipeshrayg/2026-04-28-dynamic-physics-simulator) | JavaScript | 7 | — | — | — | Physics simulation, Collision detection, Elastic collisions | [▶ run](https://dipeshrayg.github.io/2026-04-28-dynamic-physics-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-04-28-dynamic-physics-simulator) |
 | 2026-04-28 | [maze-solver-using-a-star](https://github.com/dipeshrayg/2026-04-28-maze-solver-using-a-star) | Python | 5 | — | — | — | A* search algorithm, heuristic optimization, graph traversal | [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-04-28-maze-solver-using-a-star) |
-| 2026-04-28 | [basic-neural-net-trainer](https://github.com/dipeshrayg/2026-04-28-basic-neural-net-trainer) | Python | 3 | — | — | — | neural networks, gradient descent, classification | [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-04-28-basic-neural-net-trainer) |
 
 ## Latest CEO review
 
@@ -81,4 +81,4 @@ This system runs as a hierarchy of LLMs with distinct roles, not a single model:
 ---
 
 *Generated automatically by `brain.py`. All projects are educational/diagnostic
-and TOS-compliant. Last updated 2026-05-20.*
+and TOS-compliant. Last updated 2026-05-21.*

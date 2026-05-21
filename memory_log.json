@@ -1254,6 +1254,50 @@
         "dead_controls_count": 1,
         "missing_features_count": 1
       }
+    },
+    {
+      "date": "2026-05-21",
+      "completed_at": "2026-05-21T12:40:33Z",
+      "completed_at_unix": 1779367233,
+      "name": "swarm-coordination-simulator",
+      "repo_url": "https://github.com/dipeshrayg/2026-05-21-swarm-coordination-simulator",
+      "pages_url": "https://dipeshrayg.github.io/2026-05-21-swarm-coordination-simulator/",
+      "language": "python",
+      "project_type": "python_tool",
+      "tech_stack": [
+        "numpy",
+        "matplotlib"
+      ],
+      "complexity_score": 48,
+      "concepts_demonstrated": [
+        "Robot coordination",
+        "Swarm algorithms",
+        "Dynamic feedback systems",
+        "Agent-based modeling"
+      ],
+      "novel_concepts": [
+        "Decentralized decision-making",
+        "Real-time coordination strategies",
+        "Emergent behavior in collective systems"
+      ],
+      "advancement_axis": "Focus on robust algorithmic functions rather than superficial interactive elements.",
+      "pattern": "swarm-coordination-simulator",
+      "domain": "Robotics",
+      "visual_identity": "Palette of soft blues and greens, clean typography focused on readability, and a structured output layout.",
+      "safety_notes": "No usage of malicious soft-ware. Simulator operates in compliance with educational and ethical guidelines.",
+      "file_count": 6,
+      "loc": 670,
+      "quality_cycles_used": 1,
+      "final_verify_metrics": {
+        "interactiveCount": null,
+        "canvasCount": null,
+        "title": null
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 2,
+        "missing_features_count": 1
+      }
     }
   ],
   "complexity_trajectory": [
@@ -1286,7 +1330,8 @@
     42,
     43,
     45,
-    47
+    47,
+    48
   ],
   "concepts_explored": [
     "neural networks",
@@ -1424,7 +1469,11 @@
     "dynamic visual responses",
     "user interaction with audio-visual feedback",
     "parameter-driven generation",
-    "simulation"
+    "simulation",
+    "Robot coordination",
+    "Swarm algorithms",
+    "Dynamic feedback systems",
+    "Agent-based modeling"
   ],
   "patterns_used": [
     "visualizer",
@@ -1450,7 +1499,8 @@
     "interactive-educational",
     "abstract-puzzle",
     "audio-visual-sculpture",
-    "cellular-automata-simulation"
+    "cellular-automata-simulation",
+    "swarm-coordination-simulator"
   ],
   "domains_used": [
     "Mathematics",
@@ -1476,7 +1526,8 @@
     "Cryptography",
     "Mathematics",
     "Generative Art",
-    "Computer Science"
+    "Computer Science",
+    "Robotics"
   ],
   "ceo_reviews": [
     {
