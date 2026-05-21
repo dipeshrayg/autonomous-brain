@@ -58,9 +58,9 @@ demo. Click **▶ Run it** on any card.
 
 ## Latest CEO review
 
-**Verdict:** `drifting` — _issued 2026-05-20T21:10:31Z by gpt-4o_
+**Verdict:** `drifting` — _issued 2026-05-21T05:19:24Z by gpt-4o_
 
-> The system is stuck in a cycle of recent failures in 3D-related projects, but has otherwise shown competency in other domains; we need a significant pivot to break out of this rut.
+> Recent projects show progress but are clustering around a few types, while web_3d remains unshipped and banned after repeated failures.
 
 
 ## The boardroom
