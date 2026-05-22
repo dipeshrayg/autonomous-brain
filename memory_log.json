@@ -2197,6 +2197,12 @@
       "verdict": "drifting",
       "summary": "The system shows promise with recent successes but is stagnating in maxed-out types and failing to deliver on novel, ambitious projects.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-22T15:52:20Z",
+      "verdict": "drifting",
+      "summary": "The system has shown a tendency to push complexity limits and attempt high-risk projects, but recent failures indicate a need for recalibration and a pivot away from maxed-out types.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [

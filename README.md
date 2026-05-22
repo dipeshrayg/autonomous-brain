@@ -58,9 +58,9 @@ demo. Click **▶ Run it** on any card.
 
 ## Latest CEO review
 
-**Verdict:** `drifting` — _issued 2026-05-22T10:28:23Z by gpt-4o_
+**Verdict:** `drifting` — _issued 2026-05-22T15:52:20Z by gpt-4o_
 
-> The system shows promise with recent successes but is stagnating in maxed-out types and failing to deliver on novel, ambitious projects.
+> The system has shown a tendency to push complexity limits and attempt high-risk projects, but recent failures indicate a need for recalibration and a pivot away from maxed-out types.
 
 
 ## The boardroom
