@@ -13,7 +13,7 @@ demo. Click **▶ Run it** on any card.
 
 ## Stats
 
-- **Total projects:** 32 (2 today, target up to 5/day)
+- **Total projects:** 32 (0 today, target up to 5/day)
 - **Peak complexity:** 50 (open-ended scale, no cap)
 - **Average complexity:** 24.8
 - **Latest run:** 2026-05-21
@@ -58,9 +58,9 @@ demo. Click **▶ Run it** on any card.
 
 ## Latest CEO review
 
-**Verdict:** `drifting` — _issued 2026-05-21T20:57:05Z by gpt-4o_
+**Verdict:** `drifting` — _issued 2026-05-22T05:12:58Z by gpt-4o_
 
-> Recent focus on Python tools has led to functional but uninspired outputs, and multiple failures in 3D and game design indicate execution issues in these domains. The system is stagnating in safe territory.
+> The system is overly ambitious, leading to frequent QA failures, and is repeating maxed-out and failing types.
 
 
 ## The boardroom
