@@ -2140,6 +2140,12 @@
       "verdict": "drifting",
       "summary": "The system is overly ambitious, leading to frequent QA failures, and is repeating maxed-out and failing types.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-22T10:28:23Z",
+      "verdict": "drifting",
+      "summary": "The system shows promise with recent successes but is stagnating in maxed-out types and failing to deliver on novel, ambitious projects.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
