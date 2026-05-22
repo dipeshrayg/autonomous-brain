@@ -13,10 +13,10 @@ demo. Click **▶ Run it** on any card.
 
 ## Stats
 
-- **Total projects:** 32 (0 today, target up to 5/day)
-- **Peak complexity:** 50 (open-ended scale, no cap)
-- **Average complexity:** 24.8
-- **Latest run:** 2026-05-21
+- **Total projects:** 33 (1 today, target up to 5/day)
+- **Peak complexity:** 51 (open-ended scale, no cap)
+- **Average complexity:** 25.6
+- **Latest run:** 2026-05-22
 - **Languages explored:** HTML+JS, JavaScript, Markdown, Python, html, javascript, markdown, python
 - **Patterns used recently:** visualizer, dashboard, explorer, tool, generator, simulator
 - **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
@@ -25,6 +25,7 @@ demo. Click **▶ Run it** on any card.
 
 | Date | Project | Lang | ★ | Pattern | Domain | Plan model | Concepts | Run |
 |------|---------|------|---|---------|--------|------------|----------|-----|
+| 2026-05-22 | [ai-educational-battlefield](https://github.com/dipeshrayg/2026-05-22-ai-educational-battlefield) | html | 51 | dynamic-strategy-battle | Game Design | — | dynamic rule evolution, AI-driven units, real-time strategy mechanics | [▶ run](https://dipeshrayg.github.io/2026-05-22-ai-educational-battlefield/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-22-ai-educational-battlefield) |
 | 2026-05-21 | [simple-3d-cellular-automata](https://github.com/dipeshrayg/2026-05-21-simple-3d-cellular-automata) | JavaScript | 50 | cellular-automata-visualization | Computer Graphics | — | Cellular automata, 3D spatial visualization, Neighbor interaction dynamics | [▶ run](https://dipeshrayg.github.io/2026-05-21-simple-3d-cellular-automata/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-21-simple-3d-cellular-automata) |
 | 2026-05-21 | [swarm-coordination-simulator](https://github.com/dipeshrayg/2026-05-21-swarm-coordination-simulator) | python | 48 | swarm-coordination-simulator | Robotics | — | Robot coordination, Swarm algorithms, Dynamic feedback systems | [▶ run](https://dipeshrayg.github.io/2026-05-21-swarm-coordination-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-21-swarm-coordination-simulator) |
 | 2026-05-20 | [cellular-automata-simulation-tool](https://github.com/dipeshrayg/2026-05-20-cellular-automata-simulation-tool) | python | 47 | cellular-automata-simulation | Computer Science | — | cellular automata, simulation, interactive visualization | [▶ run](https://dipeshrayg.github.io/2026-05-20-cellular-automata-simulation-tool/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-20-cellular-automata-simulation-tool) |
@@ -54,7 +55,6 @@ demo. Click **▶ Run it** on any card.
 | 2026-05-01 | [multi-agent-systems-simulator](https://github.com/dipeshrayg/2026-05-01-multi-agent-systems-simulator) | JavaScript | 10 | — | — | — | Emergent behavior in multi-agent systems, Swarm intelligence and flocking behavior, Dynamic obstacle avoidance | [▶ run](https://dipeshrayg.github.io/2026-05-01-multi-agent-systems-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-01-multi-agent-systems-simulator) |
 | 2026-04-30 | [cellular-automata-pattern-generator](https://github.com/dipeshrayg/2026-04-30-cellular-automata-pattern-generator) | JavaScript | 9 | — | — | — | Cellular automata theory, Rule-based simulation, Dynamic visualization | [▶ run](https://dipeshrayg.github.io/2026-04-30-cellular-automata-pattern-generator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-04-30-cellular-automata-pattern-generator) |
 | 2026-04-29 | [genetic-algorithm-art-optimizer](https://github.com/dipeshrayg/2026-04-29-genetic-algorithm-art-optimizer) | JavaScript | 8 | — | — | — | Genetic algorithms, Crossover and mutation operations, Fitness function customization | [▶ run](https://dipeshrayg.github.io/2026-04-29-genetic-algorithm-art-optimizer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-04-29-genetic-algorithm-art-optimizer) |
-| 2026-04-28 | [dynamic-physics-simulator](https://github.com/dipeshrayg/2026-04-28-dynamic-physics-simulator) | JavaScript | 7 | — | — | — | Physics simulation, Collision detection, Elastic collisions | [▶ run](https://dipeshrayg.github.io/2026-04-28-dynamic-physics-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-04-28-dynamic-physics-simulator) |
 
 ## Latest CEO review
 
@@ -81,4 +81,4 @@ This system runs as a hierarchy of LLMs with distinct roles, not a single model:
 ---
 
 *Generated automatically by `brain.py`. All projects are educational/diagnostic
-and TOS-compliant. Last updated 2026-05-21.*
+and TOS-compliant. Last updated 2026-05-22.*
