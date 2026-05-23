@@ -58,9 +58,9 @@ demo. Click **▶ Run it** on any card.
 
 ## Latest CEO review
 
-**Verdict:** `drifting` — _issued 2026-05-23T04:52:03Z by gpt-4o_
+**Verdict:** `drifting` — _issued 2026-05-23T09:09:21Z by gpt-4o_
 
-> Recent projects show growing ambition, but failures in complex domains like 3D physics and time-manipulation games indicate overreach. A pivot to a successful, underrepresented type is needed.
+> The system shows bias toward high-complexity, maxed-out types and repeated failures in advanced domains. A recalibration toward deliverable, underrepresented types is critical.
 
 
 ## The boardroom
