@@ -13,7 +13,7 @@ demo. Click **▶ Run it** on any card.
 
 ## Stats
 
-- **Total projects:** 34 (2 today, target up to 5/day)
+- **Total projects:** 34 (0 today, target up to 5/day)
 - **Peak complexity:** 52 (open-ended scale, no cap)
 - **Average complexity:** 26.4
 - **Latest run:** 2026-05-22
@@ -58,9 +58,9 @@ demo. Click **▶ Run it** on any card.
 
 ## Latest CEO review
 
-**Verdict:** `drifting` — _issued 2026-05-22T20:47:08Z by gpt-4o_
+**Verdict:** `drifting` — _issued 2026-05-23T04:52:03Z by gpt-4o_
 
-> Recent projects have shown incremental innovation but lack bold leaps, and repeated failures in Physics Simulation and Game Design signal overreach.
+> Recent projects show growing ambition, but failures in complex domains like 3D physics and time-manipulation games indicate overreach. A pivot to a successful, underrepresented type is needed.
 
 
 ## The boardroom
