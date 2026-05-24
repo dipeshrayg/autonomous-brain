@@ -58,9 +58,9 @@ demo. Click **▶ Run it** on any card.
 
 ## Latest CEO review
 
-**Verdict:** `drifting` — _issued 2026-05-23T20:11:49Z by gpt-4o_
+**Verdict:** `drifting` — _issued 2026-05-24T05:12:16Z by gpt-4o_
 
-> Recent projects show some ambition, but the refusal rate is high, and complexity ceilings are being hit in multiple domains.
+> The system has achieved some successes but is demonstrating a worrying pattern of repeated failures in high-risk, high-complexity domains, especially in 3D and game design. Recent projects have been either safe or partially usable, indicating a loss of momentum in pushing boundaries.
 
 
 ## The boardroom

@@ -2233,6 +2233,12 @@
       "verdict": "drifting",
       "summary": "Recent projects show some ambition, but the refusal rate is high, and complexity ceilings are being hit in multiple domains.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-24T05:12:16Z",
+      "verdict": "drifting",
+      "summary": "The system has achieved some successes but is demonstrating a worrying pattern of repeated failures in high-risk, high-complexity domains, especially in 3D and game design. Recent projects have been either safe or partially usable, indicating a loss of momentum in pushing boundaries.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
