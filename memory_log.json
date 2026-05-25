@@ -2269,6 +2269,12 @@
       "verdict": "drifting",
       "summary": "Recent projects show some progress, but repeated failures in complex types like 3D physics and emergent gameplay indicate overreach. Focus is needed to stabilize outputs while avoiding maxed-out types.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-25T16:01:28Z",
+      "verdict": "drifting",
+      "summary": "Recent projects show acceptable creativity, but several domains are being reused excessively, and failures are clustering around overly complex game and 3D concepts.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
