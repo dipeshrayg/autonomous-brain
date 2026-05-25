@@ -2263,12 +2263,6 @@
       "verdict": "alarming",
       "summary": "The system is overproducing failed and maxed-out types, with repetitive patterns and poor quality control in recent attempts.",
       "model": "gpt-4o"
-    },
-    {
-      "issued_at": "2026-05-25T11:16:18Z",
-      "verdict": "drifting",
-      "summary": "Recent projects show some progress, but repeated failures in complex types like 3D physics and emergent gameplay indicate overreach. Focus is needed to stabilize outputs while avoiding maxed-out types.",
-      "model": "gpt-4o"
     }
   ],
   "security_audits": [
