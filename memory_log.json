@@ -2287,6 +2287,12 @@
       "verdict": "drifting",
       "summary": "The system is showing a pattern of repeated failures in ambitious projects, particularly in Physics Simulation and Game Design domains, while relying heavily on already maxed-out project types. A shift towards underexplored domains and less complex project scopes is urgently needed.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-26T16:51:06Z",
+      "verdict": "drifting",
+      "summary": "The system is over-relying on maxed-out project types while showing instability in high-complexity domains like physics simulations and emergent gameplay.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
