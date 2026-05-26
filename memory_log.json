@@ -2281,6 +2281,12 @@
       "verdict": "acceptable",
       "summary": "The system has delivered a few strong projects, but too many recent attempts have failed due to overambition, and maxed-out types are being overused.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-26T05:13:13Z",
+      "verdict": "drifting",
+      "summary": "The system is showing a pattern of repeated failures in ambitious projects, particularly in Physics Simulation and Game Design domains, while relying heavily on already maxed-out project types. A shift towards underexplored domains and less complex project scopes is urgently needed.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
