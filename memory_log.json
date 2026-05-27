@@ -2311,6 +2311,12 @@
       "verdict": "drifting",
       "summary": "The system has delivered a series of competent projects, but there is excessive repetition in type and domain, with no recent exploration of new, untested areas.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-27T11:00:42Z",
+      "verdict": "drifting",
+      "summary": "The system has recently shipped projects successfully, but the trajectory shows repeated reliance on Python tools and web games, with high failure rates in ambitious physics and game design domains.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
