@@ -13,11 +13,11 @@ demo. Click **▶ Run it** on any card.
 
 ## Stats
 
-- **Total projects:** 34 (0 today, target up to 5/day)
-- **Peak complexity:** 52 (open-ended scale, no cap)
-- **Average complexity:** 26.4
-- **Latest run:** 2026-05-22
-- **Languages explored:** HTML+JS, JavaScript, Markdown, Python, html, javascript, markdown, python
+- **Total projects:** 35 (1 today, target up to 5/day)
+- **Peak complexity:** 55 (open-ended scale, no cap)
+- **Average complexity:** 27.2
+- **Latest run:** 2026-05-27
+- **Languages explored:** HTML+JS, JavaScript, Markdown, Python, Rust, html, javascript, markdown, python
 - **Patterns used recently:** visualizer, dashboard, explorer, tool, generator, simulator
 - **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
@@ -25,6 +25,7 @@ demo. Click **▶ Run it** on any card.
 
 | Date | Project | Lang | ★ | Pattern | Domain | Plan model | Concepts | Run |
 |------|---------|------|---|---------|--------|------------|----------|-----|
+| 2026-05-27 | [cryptography-hash-analyzer](https://github.com/dipeshrayg/2026-05-27-cryptography-hash-analyzer) | Rust | 55 | cryptography-hash-analysis | Cryptography | — | cryptographic hash functions, performance analysis, command-line interface | [▶ run](https://dipeshrayg.github.io/2026-05-27-cryptography-hash-analyzer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-27-cryptography-hash-analyzer) |
 | 2026-05-22 | [playful-compression-visualizer](https://github.com/dipeshrayg/2026-05-22-playful-compression-visualizer) | Python | 52 | interactive-educational-tool | Information Theory | — | Data compression, Huffman coding, Run-Length Encoding | [▶ run](https://dipeshrayg.github.io/2026-05-22-playful-compression-visualizer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-22-playful-compression-visualizer) |
 | 2026-05-22 | [ai-educational-battlefield](https://github.com/dipeshrayg/2026-05-22-ai-educational-battlefield) | html | 51 | dynamic-strategy-battle | Game Design | — | dynamic rule evolution, AI-driven units, real-time strategy mechanics | [▶ run](https://dipeshrayg.github.io/2026-05-22-ai-educational-battlefield/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-22-ai-educational-battlefield) |
 | 2026-05-21 | [simple-3d-cellular-automata](https://github.com/dipeshrayg/2026-05-21-simple-3d-cellular-automata) | JavaScript | 50 | cellular-automata-visualization | Computer Graphics | — | Cellular automata, 3D spatial visualization, Neighbor interaction dynamics | [▶ run](https://dipeshrayg.github.io/2026-05-21-simple-3d-cellular-automata/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-21-simple-3d-cellular-automata) |
@@ -54,7 +55,6 @@ demo. Click **▶ Run it** on any card.
 | 2026-05-01 | [healthcare-simulation-dashboard](https://github.com/dipeshrayg/2026-05-01-healthcare-simulation-dashboard) | JavaScript | 12 | dashboard | Healthcare | — | Resource allocation simulation, Dynamic patient flow visualization, Interactive logs and statistics | [▶ run](https://dipeshrayg.github.io/2026-05-01-healthcare-simulation-dashboard/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-01-healthcare-simulation-dashboard) |
 | 2026-05-01 | [differential-equation-visualizer](https://github.com/dipeshrayg/2026-05-01-differential-equation-visualizer) | JavaScript | 11 | visualizer | Mathematics | — | Numerical solutions of differential equations using the Runge-Kutta method, Interactive parameter adjustment for real-time updates, Dynamic visualization with phase planes and time series | [▶ run](https://dipeshrayg.github.io/2026-05-01-differential-equation-visualizer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-01-differential-equation-visualizer) |
 | 2026-05-01 | [multi-agent-systems-simulator](https://github.com/dipeshrayg/2026-05-01-multi-agent-systems-simulator) | JavaScript | 10 | — | — | — | Emergent behavior in multi-agent systems, Swarm intelligence and flocking behavior, Dynamic obstacle avoidance | [▶ run](https://dipeshrayg.github.io/2026-05-01-multi-agent-systems-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-01-multi-agent-systems-simulator) |
-| 2026-04-30 | [cellular-automata-pattern-generator](https://github.com/dipeshrayg/2026-04-30-cellular-automata-pattern-generator) | JavaScript | 9 | — | — | — | Cellular automata theory, Rule-based simulation, Dynamic visualization | [▶ run](https://dipeshrayg.github.io/2026-04-30-cellular-automata-pattern-generator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-04-30-cellular-automata-pattern-generator) |
 
 ## Latest CEO review
 
@@ -81,4 +81,4 @@ This system runs as a hierarchy of LLMs with distinct roles, not a single model:
 ---
 
 *Generated automatically by `brain.py`. All projects are educational/diagnostic
-and TOS-compliant. Last updated 2026-05-22.*
+and TOS-compliant. Last updated 2026-05-27.*
