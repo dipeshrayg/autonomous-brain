@@ -2329,6 +2329,12 @@
       "verdict": "drifting",
       "summary": "The system is shipping projects, but it is showing a bias toward safer, familiar types like `python_tool` and `game_web`, while failing at more ambitious projects.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-27T18:14:54Z",
+      "verdict": "drifting",
+      "summary": "The system is stuck in a holding pattern with incremental improvements and repeated reliance on Python tools and web games, while more experimental types remain untried.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
@@ -3230,5 +3236,6 @@
       ],
       "reviewed_project_count": 8
     }
-  ]
+  ],
+  "failed_builds_count": 108
 }
