@@ -1429,54 +1429,6 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
-    },
-    {
-      "date": "2026-05-27",
-      "completed_at": "2026-05-27T15:23:46Z",
-      "completed_at_unix": 1779895426,
-      "name": "dynamic-crypto-encoding-cli",
-      "repo_url": "https://github.com/dipeshrayg/2026-05-27-dynamic-crypto-encoding-cli",
-      "pages_url": "https://dipeshrayg.github.io/2026-05-27-dynamic-crypto-encoding-cli/",
-      "language": "Python",
-      "project_type": "cli_tool",
-      "tech_stack": [
-        "Python",
-        "argparse",
-        "cryptography",
-        "numpy",
-        "matplotlib"
-      ],
-      "complexity_score": 54,
-      "concepts_demonstrated": [
-        "Dynamic encoding algorithms",
-        "Cryptography",
-        "Information theory",
-        "Optimization techniques",
-        "Robustness in edge cases"
-      ],
-      "novel_concepts": [
-        "Dynamic transformation in encryption",
-        "Entropy-based optimization in encoding",
-        "Conflict-driven clause learning in encoding scenarios"
-      ],
-      "advancement_axis": "Introduces unique data transformations and approaches in cryptography not currently explored in existing tools.",
-      "pattern": "dynamic-crypto-transformation",
-      "domain": "Cryptography",
-      "visual_identity": "Monochrome color palette with blue highlights, modern sans-serif typography, clean and minimal layout.",
-      "safety_notes": "Ensures compliance with GitHub TOS for educational and diagnostic purposes only, with no malware or exploits.",
-      "file_count": 8,
-      "loc": 565,
-      "quality_cycles_used": 7,
-      "final_verify_metrics": {
-        "interactiveCount": 4,
-        "canvasCount": 0,
-        "title": "Dynamic Crypto Encoding CLI"
-      },
-      "qa_review": {
-        "verdict": "shippable",
-        "dead_controls_count": 0,
-        "missing_features_count": 0
-      }
     }
   ],
   "complexity_trajectory": [
@@ -1513,8 +1465,7 @@
     48,
     50,
     51,
-    52,
-    54
+    52
   ],
   "concepts_explored": [
     "neural networks",
@@ -1668,12 +1619,7 @@
     "Huffman coding",
     "Run-Length Encoding",
     "Interactive visualization",
-    "Information Theory",
-    "Dynamic encoding algorithms",
-    "Cryptography",
-    "Information theory",
-    "Optimization techniques",
-    "Robustness in edge cases"
+    "Information Theory"
   ],
   "patterns_used": [
     "visualizer",
@@ -1703,8 +1649,7 @@
     "swarm-coordination-simulator",
     "cellular-automata-visualization",
     "dynamic-strategy-battle",
-    "interactive-educational-tool",
-    "dynamic-crypto-transformation"
+    "interactive-educational-tool"
   ],
   "domains_used": [
     "Mathematics",
@@ -1734,8 +1679,7 @@
     "Robotics",
     "Computer Graphics",
     "Game Design",
-    "Information Theory",
-    "Cryptography"
+    "Information Theory"
   ],
   "ceo_reviews": [
     {
