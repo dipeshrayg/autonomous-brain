@@ -1,30 +1,36 @@
-# 🤖 Autonomous Brain
+# Autonomous Brain
 
-A self-improving AI software-engineering pipeline. An autonomous boardroom of
-LLMs designs, writes, tests, security-reviews, and publishes a brand-new
-browser-runnable project several times a day. Each one more advanced than the
-last, in a different domain, polished and security-cleared before publish.
+A zero-cost, fully autonomous multi-agent AI pipeline that continuously conceives,
+architects, implements, quality-assures, and publishes novel software projects
+without any human intervention.
 
-📊 **Live dashboard:** https://dipeshrayg.github.io/autonomous-brain/
-🔁 **Cadence:** up to 5 projects/day · ≥5 hours between projects · **Cost:** $0
+**13 AI agents. 3 providers. 0 infrastructure cost. 0 human interventions.**
 
-Every project below is a separate public repository with a one-click playable
-demo. Click **▶ Run it** on any card.
+**Live dashboard:** https://dipeshrayg.github.io/autonomous-brain/
+
+Every project below is a separate public repository with a live deployed URL.
 
 ## Stats
 
-- **Total projects:** 34 (0 today, target up to 5/day)
-- **Peak complexity:** 52 (open-ended scale, no cap)
-- **Average complexity:** 26.4
-- **Latest run:** 2026-05-22
-- **Languages explored:** HTML+JS, JavaScript, Markdown, Python, html, javascript, markdown, python
-- **Patterns used recently:** visualizer, dashboard, explorer, tool, generator, simulator
-- **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
+| Metric | Value |
+|--------|-------|
+| Projects shipped | 34 |
+| Builds auto-refused (quality gate) | 0+ |
+| Peak complexity | 52 (open-ended scale) |
+| Average complexity | 26.4 |
+| Daily cadence | Up to 5/day, fully autonomous |
+| Infrastructure cost | $0 |
+| Human interventions | 0 |
+| Latest run | 2026-05-22 |
+
+**Languages explored:** HTML+JS, JavaScript, Markdown, Python, html, javascript, markdown, python  
+**Project types shipped:** web_interactive (15), python_tool (6), game_web (5), generative_art (4), document (3), web_3d (1)  
+**Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
-| Date | Project | Lang | ★ | Pattern | Domain | Plan model | Concepts | Run |
-|------|---------|------|---|---------|--------|------------|----------|-----|
+| Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
+|------|---------|------|------------|---------|--------|----------|-----|
 | 2026-05-22 | [playful-compression-visualizer](https://github.com/dipeshrayg/2026-05-22-playful-compression-visualizer) | Python | 52 | interactive-educational-tool | Information Theory | — | Data compression, Huffman coding, Run-Length Encoding | [▶ run](https://dipeshrayg.github.io/2026-05-22-playful-compression-visualizer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-22-playful-compression-visualizer) |
 | 2026-05-22 | [ai-educational-battlefield](https://github.com/dipeshrayg/2026-05-22-ai-educational-battlefield) | html | 51 | dynamic-strategy-battle | Game Design | — | dynamic rule evolution, AI-driven units, real-time strategy mechanics | [▶ run](https://dipeshrayg.github.io/2026-05-22-ai-educational-battlefield/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-22-ai-educational-battlefield) |
 | 2026-05-21 | [simple-3d-cellular-automata](https://github.com/dipeshrayg/2026-05-21-simple-3d-cellular-automata) | JavaScript | 50 | cellular-automata-visualization | Computer Graphics | — | Cellular automata, 3D spatial visualization, Neighbor interaction dynamics | [▶ run](https://dipeshrayg.github.io/2026-05-21-simple-3d-cellular-automata/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-21-simple-3d-cellular-automata) |
@@ -58,27 +64,74 @@ demo. Click **▶ Run it** on any card.
 
 ## Latest CEO review
 
-**Verdict:** `drifting` — _issued 2026-05-27T16:44:10Z by gpt-4o_
+**Verdict:** `drifting` — _issued 2026-05-27T18:03:56Z by gpt-4o_
 
-> Recent projects show some ambition but are clustering around familiar domains, with multiple failures in game development and physics-related complexity.
+> The system is shipping projects, but it is showing a bias toward safer, familiar types like `python_tool` and `game_web`, while failing at more ambitious projects.
 
 
-## The boardroom
+## The boardroom - 13 roles, 3 providers
 
-This system runs as a hierarchy of LLMs with distinct roles, not a single model:
+Each role uses a different model family for genuinely adversarial perspectives.
+All providers are free-tier. Missing API keys are silently skipped.
 
-- **CEO** (`gpt-4o`) — every 6 hours, reviews recent trajectory, issues strict directives.
-- **CSO** (`gpt-4o`) — every 12 hours, audits security posture across recent projects, issues security directives.
-- **VP Engineering** (the watchdog) — every 15 minutes, dispatches builds when needed.
-- **Chief Architect — Judge** (`gpt-4o`) — synthesizes the candidate plans into the final design.
-- **Architect Candidates** (`gpt-4o-mini` + `Phi-3.5-MoE`) — propose plans in parallel.
-- **Engineers** (`gpt-4o`) — implement files, one LLM call per file.
-- **Code Reviewers** (`gpt-4o-mini` + `Phi-3.5-MoE`) — critique in parallel; results merged.
-- **Security Officer** (`gpt-4o`) — per-project pre-publish gate. Hard veto on critical/high findings.
-- **Fixer / Polisher** (`gpt-4o-mini`) — applies fixes and the final polish pass.
-- **QA** (Playwright + Chromium) — mechanical headless-browser verification before publish.
+| Role | Model | Provider | Purpose |
+|------|-------|----------|---------|
+| CEO | `gpt-4o` | GitHub Models | Visionary strategy, domain pivots - runs 4x/day |
+| CSO | `llama-3.3-70b-versatile` | Groq | Scientific novelty, algorithmic depth - runs 2x/day |
+| CTO | `gemini-2.0-flash` | Google AI Studio | Reads failure logs, patches its own source code |
+| Architect A | `mixtral-8x7b-32768` | Groq | Creative planning (Mistral lens) |
+| Architect B | `llama-3.3-70b-versatile` | Groq | Creative planning (Meta lens) |
+| Judge | `gpt-4o` | GitHub Models | Predictability filter - rejects derivative ideas |
+| Engineer | `gpt-4o` | GitHub Models | Per-file implementation with full sibling context |
+| Reviewer A | `mixtral-8x7b-32768` | Groq | Code review (Mistral lens) |
+| Reviewer B | `gemini-2.0-flash` | Google AI Studio | Code review (Gemini lens) |
+| QA Tester | `gpt-4o` | GitHub Models | User-pathway simulation |
+| QA Fixer | `gemini-2.0-flash` | Google AI Studio | Repairs dead controls |
+| Polisher | `Phi-4` | GitHub Models | UX refinement |
+| Fixer | `gpt-4o-mini` | GitHub Models | Iterative repair loop |
+
+## How it works
+
+```
+STAGE 1  ARCHITECT CONFERENCE
+         Architect A (Mixtral/Groq) + Architect B (Llama/Groq) propose plans in parallel
+         Judge (GPT-4o) synthesises or proposes a more unpredictable plan
+
+STAGE 2  IMPLEMENT
+         Engineer (GPT-4o) writes each file with full sibling context
+
+STAGE 3  QUALITY LOOP (up to 8 rounds)
+         Reviewer A (Mixtral/Groq) + Reviewer B (Gemini) in parallel
+         Fixer applies merged feedback + Playwright interaction test
+
+STAGE 4  QA REVIEW
+         Playwright clicks every button, tests every slider
+         QA Tester (GPT-4o) issues verdict: shippable / partially_usable / non_functional
+
+STAGE 5  PUBLISH
+         New public GitHub repo created via API
+         GitHub Pages enabled -> live URL in under 60 minutes from cold start
+
+STAGE 6  SELF-IMPROVE
+         CTO (Gemini) reads last 30 failure logs, proposes a surgical source patch
+         Validates Python syntax, commits - next build runs improved code
+```
+
+## Project types (10 available)
+
+| Type | Description |
+|------|-------------|
+| `web_interactive` | HTML+JS+Canvas browser demos |
+| `game_web` | Browser games with rules, state, win condition |
+| `python_tool` | Standalone Python programs |
+| `generative_art` | Visual output - canvas or SVG |
+| `document` | Markdown research articles, styled as web pages |
+| `web_3d` | Three.js / WebGL 3D scenes |
+| `shader_art` | GLSL fragment shaders, pure WebGL |
+| `data_viz` | Python matplotlib/plotly with interactive SVG embed |
+| `typescript_app` | TypeScript via esm.sh CDN, no build step |
+| `cli_tool` | Rust or Go CLI + Codespaces devcontainer |
 
 ---
 
-*Generated automatically by `brain.py`. All projects are educational/diagnostic
-and TOS-compliant. Last updated 2026-05-22.*
+*Engine: [autonomous-brain-engine](https://github.com/dipeshrayg/autonomous-brain-engine) - ORCID: [0009-0001-9970-0220](https://orcid.org/0009-0001-9970-0220) - Built by Dipesh Ray - Infrastructure cost: $0 - Last updated 2026-05-22.*

@@ -2323,6 +2323,12 @@
       "verdict": "drifting",
       "summary": "Recent projects show some ambition but are clustering around familiar domains, with multiple failures in game development and physics-related complexity.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-27T18:03:56Z",
+      "verdict": "drifting",
+      "summary": "The system is shipping projects, but it is showing a bias toward safer, familiar types like `python_tool` and `game_web`, while failing at more ambitious projects.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
