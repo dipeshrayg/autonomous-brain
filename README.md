@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 34 |
+| Projects shipped | 35 |
 | Builds auto-refused (quality gate) | 108+ |
-| Peak complexity | 52 (open-ended scale) |
-| Average complexity | 26.4 |
+| Peak complexity | 55 (open-ended scale) |
+| Average complexity | 27.2 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
-| Latest run | 2026-05-22 |
+| Latest run | 2026-05-27 |
 
-**Languages explored:** HTML+JS, JavaScript, Markdown, Python, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (15), python_tool (6), game_web (5), generative_art (4), document (3), web_3d (1)  
+**Languages explored:** HTML+JS, JavaScript, Markdown, Python, Rust, html, javascript, markdown, python  
+**Project types shipped:** web_interactive (15), python_tool (6), game_web (5), generative_art (4), document (3), cli_tool (1), web_3d (1)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-05-27 | [entropy-scanner](https://github.com/dipeshrayg/2026-05-27-entropy-scanner) | Rust | 55 | entropy-analysis-tool | Information Security | constraint satisfaction problems, information-theoretic principles, entropy analysis | [▶ run](https://dipeshrayg.github.io/2026-05-27-entropy-scanner/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-27-entropy-scanner) |
 | 2026-05-22 | [playful-compression-visualizer](https://github.com/dipeshrayg/2026-05-22-playful-compression-visualizer) | Python | 52 | interactive-educational-tool | Information Theory | Data compression, Huffman coding, Run-Length Encoding | [▶ run](https://dipeshrayg.github.io/2026-05-22-playful-compression-visualizer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-22-playful-compression-visualizer) |
 | 2026-05-22 | [ai-educational-battlefield](https://github.com/dipeshrayg/2026-05-22-ai-educational-battlefield) | html | 51 | dynamic-strategy-battle | Game Design | dynamic rule evolution, AI-driven units, real-time strategy mechanics | [▶ run](https://dipeshrayg.github.io/2026-05-22-ai-educational-battlefield/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-22-ai-educational-battlefield) |
 | 2026-05-21 | [simple-3d-cellular-automata](https://github.com/dipeshrayg/2026-05-21-simple-3d-cellular-automata) | JavaScript | 50 | cellular-automata-visualization | Computer Graphics | Cellular automata, 3D spatial visualization, Neighbor interaction dynamics | [▶ run](https://dipeshrayg.github.io/2026-05-21-simple-3d-cellular-automata/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-21-simple-3d-cellular-automata) |
@@ -138,4 +139,4 @@ STAGE 6  SELF-IMPROVE
 
 ---
 
-*Engine: [autonomous-brain-engine](https://github.com/dipeshrayg/autonomous-brain-engine) - ORCID: [0009-0001-9970-0220](https://orcid.org/0009-0001-9970-0220) - Built by Dipesh Ray - Infrastructure cost: $0 - Last updated 2026-05-22.*
+*Engine: [autonomous-brain-engine](https://github.com/dipeshrayg/autonomous-brain-engine) - ORCID: [0009-0001-9970-0220](https://orcid.org/0009-0001-9970-0220) - Built by Dipesh Ray - Infrastructure cost: $0 - Last updated 2026-05-27.*
