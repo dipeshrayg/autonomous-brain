@@ -2305,12 +2305,6 @@
       "verdict": "drifting",
       "summary": "The system is struggling with ambitious projects in high-complexity domains, leading to repeated failures, while recent ships have been overly safe or incremental.",
       "model": "gpt-4o"
-    },
-    {
-      "issued_at": "2026-05-27T08:58:57Z",
-      "verdict": "drifting",
-      "summary": "The system has delivered a series of competent projects, but there is excessive repetition in type and domain, with no recent exploration of new, untested areas.",
-      "model": "gpt-4o"
     }
   ],
   "security_audits": [

@@ -58,9 +58,9 @@ demo. Click **▶ Run it** on any card.
 
 ## Latest CEO review
 
-**Verdict:** `drifting` — _issued 2026-05-27T08:58:57Z by gpt-4o_
+**Verdict:** `drifting` — _issued 2026-05-27T05:41:38Z by gpt-4o_
 
-> The system has delivered a series of competent projects, but there is excessive repetition in type and domain, with no recent exploration of new, untested areas.
+> The system is struggling with ambitious projects in high-complexity domains, leading to repeated failures, while recent ships have been overly safe or incremental.
 
 
 ## The boardroom
