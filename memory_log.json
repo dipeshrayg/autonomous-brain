@@ -2299,6 +2299,12 @@
       "verdict": "acceptable",
       "summary": "Recent projects show moderate complexity, but an over-reliance on safer domains has led to stagnation, and multiple failures in ambitious areas highlight the need for recalibration.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-27T05:41:38Z",
+      "verdict": "drifting",
+      "summary": "The system is struggling with ambitious projects in high-complexity domains, leading to repeated failures, while recent ships have been overly safe or incremental.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [

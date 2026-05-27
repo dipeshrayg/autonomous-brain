@@ -58,9 +58,9 @@ demo. Click **▶ Run it** on any card.
 
 ## Latest CEO review
 
-**Verdict:** `acceptable` — _issued 2026-05-26T21:00:10Z by gpt-4o_
+**Verdict:** `drifting` — _issued 2026-05-27T05:41:38Z by gpt-4o_
 
-> Recent projects show moderate complexity, but an over-reliance on safer domains has led to stagnation, and multiple failures in ambitious areas highlight the need for recalibration.
+> The system is struggling with ambitious projects in high-complexity domains, leading to repeated failures, while recent ships have been overly safe or incremental.
 
 
 ## The boardroom
