@@ -1472,6 +1472,52 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-05-28",
+      "completed_at": "2026-05-28T06:26:19Z",
+      "completed_at_unix": 1779949579,
+      "name": "eco-system-dynamics-visualizer",
+      "repo_url": "https://github.com/dipeshrayg/2026-05-28-eco-system-dynamics-visualizer",
+      "pages_url": "https://dipeshrayg.github.io/2026-05-28-eco-system-dynamics-visualizer/",
+      "language": "Python",
+      "project_type": "data_viz",
+      "tech_stack": [
+        "Python",
+        "matplotlib",
+        "plotly",
+        "pandas",
+        "numpy"
+      ],
+      "complexity_score": 60,
+      "concepts_demonstrated": [
+        "ecological systems",
+        "information-theoretic principles",
+        "advanced algorithms",
+        "data visualization"
+      ],
+      "novel_concepts": [
+        "application of information-theoretic principles in ecological systems",
+        "utilization of advanced algorithms for data preprocessing"
+      ],
+      "advancement_axis": "exploration of underrepresented project types and application of information-theoretic principles",
+      "pattern": "eco-system-dynamics-visualization",
+      "domain": "Biology",
+      "visual_identity": "color palette: green, blue, and earth tones; typography: Open Sans; layout personality: clean and minimalist",
+      "safety_notes": "no safety concerns",
+      "file_count": 6,
+      "loc": 664,
+      "quality_cycles_used": 1,
+      "final_verify_metrics": {
+        "interactiveCount": null,
+        "canvasCount": null,
+        "title": null
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -1509,7 +1555,8 @@
     50,
     51,
     52,
-    55
+    55,
+    60
   ],
   "concepts_explored": [
     "neural networks",
@@ -1666,7 +1713,10 @@
     "Information Theory",
     "constraint satisfaction problems",
     "information-theoretic principles",
-    "entropy analysis"
+    "entropy analysis",
+    "ecological systems",
+    "advanced algorithms",
+    "data visualization"
   ],
   "patterns_used": [
     "visualizer",
@@ -1697,7 +1747,8 @@
     "cellular-automata-visualization",
     "dynamic-strategy-battle",
     "interactive-educational-tool",
-    "entropy-analysis-tool"
+    "entropy-analysis-tool",
+    "eco-system-dynamics-visualization"
   ],
   "domains_used": [
     "Mathematics",
@@ -1728,7 +1779,8 @@
     "Computer Graphics",
     "Game Design",
     "Information Theory",
-    "Information Security"
+    "Information Security",
+    "Biology"
   ],
   "ceo_reviews": [
     {
