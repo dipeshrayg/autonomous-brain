@@ -2390,6 +2390,12 @@
       "verdict": "drifting",
       "summary": "Recent projects have been leaning on safe and familiar domains, while failures indicate over-complexity and lack of focus in ambitious builds.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-28T05:19:48Z",
+      "verdict": "drifting",
+      "summary": "The system has shipped several projects recently, but they lean heavily on familiar and previously successful types without significant boundary-pushing. Several failed builds indicate overambition in certain domains (e.g., 3D and game design).",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
