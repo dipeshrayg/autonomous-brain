@@ -2472,6 +2472,12 @@
       "verdict": "acceptable",
       "summary": "The system is shipping reliably, but the projects are leaning toward safe domains and repetition. A pivot to underexplored types is overdue.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-29T10:53:05Z",
+      "verdict": "acceptable",
+      "summary": "The system is shipping projects with a reasonable success rate, but recent refusals indicate a need to pivot away from overly complex or broken builds.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
