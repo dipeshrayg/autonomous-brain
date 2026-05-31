@@ -1518,6 +1518,56 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-05-31",
+      "completed_at": "2026-05-31T07:04:22Z",
+      "completed_at_unix": 1780211062,
+      "name": "probabilistic-visualization-tool",
+      "repo_url": "https://github.com/dipeshrayg/2026-05-31-probabilistic-visualization-tool",
+      "pages_url": "https://dipeshrayg.github.io/2026-05-31-probabilistic-visualization-tool/",
+      "language": "JavaScript",
+      "project_type": "web_interactive",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Canvas API",
+        "D3.js"
+      ],
+      "complexity_score": 10,
+      "concepts_demonstrated": [
+        "Markov chains",
+        "Bayesian networks",
+        "Random walks",
+        "Stochastic processes",
+        "Interactive visualization",
+        "Real-time parameter manipulation"
+      ],
+      "novel_concepts": [
+        "Dynamic probabilistic graph visualization",
+        "Interactive stochastic model exploration",
+        "Real-time transition probability adjustment",
+        "Multi-state Markov chain simulation"
+      ],
+      "advancement_axis": "Combines algorithmic depth of probabilistic models with real-time interactivity for educational and research use.",
+      "pattern": "interactive-stochastic-visualization",
+      "domain": "Probability and Statistics",
+      "visual_identity": "Cool blues and purples with fluid animation, clean sans-serif typography, and a modern card-based layout for controls.",
+      "safety_notes": "No backend or external data fetching; all computation is client-side. Does not store or transmit user data.",
+      "file_count": 6,
+      "loc": 718,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 5,
+        "canvasCount": 1,
+        "title": "Probabilistic Visualization Tool"
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -1556,7 +1606,8 @@
     51,
     52,
     55,
-    60
+    60,
+    10
   ],
   "concepts_explored": [
     "neural networks",
@@ -1716,7 +1767,11 @@
     "entropy analysis",
     "ecological systems",
     "advanced algorithms",
-    "data visualization"
+    "data visualization",
+    "Markov chains",
+    "Bayesian networks",
+    "Random walks",
+    "Stochastic processes"
   ],
   "patterns_used": [
     "visualizer",
@@ -1748,7 +1803,8 @@
     "dynamic-strategy-battle",
     "interactive-educational-tool",
     "entropy-analysis-tool",
-    "eco-system-dynamics-visualization"
+    "eco-system-dynamics-visualization",
+    "interactive-stochastic-visualization"
   ],
   "domains_used": [
     "Mathematics",
@@ -1780,7 +1836,8 @@
     "Game Design",
     "Information Theory",
     "Information Security",
-    "Biology"
+    "Biology",
+    "Probability and Statistics"
   ],
   "ceo_reviews": [
     {
