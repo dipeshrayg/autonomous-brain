@@ -2583,6 +2583,12 @@
       "verdict": "acceptable",
       "summary": "The system is shipping projects steadily, but the recent trajectory skews toward safer domains with low ambition and lacks exploration of underrepresented types.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-05-31T14:53:51Z",
+      "verdict": "drifting",
+      "summary": "The system is veering toward repeated failures in ambitious shader_art projects, and recent successes are skewing toward safer patterns.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
