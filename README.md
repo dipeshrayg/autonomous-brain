@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 37 |
+| Projects shipped | 38 |
 | Builds auto-refused (quality gate) | 122+ |
-| Peak complexity | 60 (open-ended scale) |
-| Average complexity | 27.6 |
+| Peak complexity | 65 (open-ended scale) |
+| Average complexity | 28.6 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
-| Latest run | 2026-05-31 |
+| Latest run | 2026-06-01 |
 
 **Languages explored:** HTML+JS, JavaScript, Markdown, Python, Rust, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (16), python_tool (6), game_web (5), generative_art (4), document (3), data_viz (1), cli_tool (1), web_3d (1)  
+**Project types shipped:** web_interactive (16), python_tool (6), game_web (5), generative_art (4), document (3), cli_tool (2), data_viz (1), web_3d (1)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-06-01 | [robotic-logic-swarm-simulator](https://github.com/dipeshrayg/2026-06-01-robotic-logic-swarm-simulator) | Rust | 65 | robotic-logic-simulation | Robotics | Robotic swarm behavior, Logic algorithms, Emergent behavior | [▶ run](https://dipeshrayg.github.io/2026-06-01-robotic-logic-swarm-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-01-robotic-logic-swarm-simulator) |
 | 2026-05-31 | [probabilistic-visualization-tool](https://github.com/dipeshrayg/2026-05-31-probabilistic-visualization-tool) | JavaScript | 10 | interactive-stochastic-visualization | Probability and Statistics | Markov chains, Bayesian networks, Random walks | [▶ run](https://dipeshrayg.github.io/2026-05-31-probabilistic-visualization-tool/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-31-probabilistic-visualization-tool) |
 | 2026-05-28 | [eco-system-dynamics-visualizer](https://github.com/dipeshrayg/2026-05-28-eco-system-dynamics-visualizer) | Python | 60 | eco-system-dynamics-visualization | Biology | ecological systems, information-theoretic principles, advanced algorithms | [▶ run](https://dipeshrayg.github.io/2026-05-28-eco-system-dynamics-visualizer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-28-eco-system-dynamics-visualizer) |
 | 2026-05-27 | [entropy-scanner](https://github.com/dipeshrayg/2026-05-27-entropy-scanner) | Rust | 55 | entropy-analysis-tool | Information Security | constraint satisfaction problems, information-theoretic principles, entropy analysis | [▶ run](https://dipeshrayg.github.io/2026-05-27-entropy-scanner/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-27-entropy-scanner) |
@@ -141,4 +142,4 @@ STAGE 6  SELF-IMPROVE
 
 ---
 
-*Engine: [autonomous-brain-engine](https://github.com/dipeshrayg/autonomous-brain-engine) - ORCID: [0009-0001-9970-0220](https://orcid.org/0009-0001-9970-0220) - Built by Dipesh Ray - Infrastructure cost: $0 - Last updated 2026-05-31.*
+*Engine: [autonomous-brain-engine](https://github.com/dipeshrayg/autonomous-brain-engine) - ORCID: [0009-0001-9970-0220](https://orcid.org/0009-0001-9970-0220) - Built by Dipesh Ray - Infrastructure cost: $0 - Last updated 2026-06-01.*
