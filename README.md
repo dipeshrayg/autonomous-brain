@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 39 |
+| Projects shipped | 40 |
 | Builds auto-refused (quality gate) | 131+ |
-| Peak complexity | 70 (open-ended scale) |
-| Average complexity | 29.6 |
+| Peak complexity | 75 (open-ended scale) |
+| Average complexity | 30.8 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
-| Latest run | 2026-06-01 |
+| Latest run | 2026-06-02 |
 
 **Languages explored:** HTML+JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (16), python_tool (6), game_web (5), generative_art (4), document (3), cli_tool (2), typescript_app (1), data_viz (1), web_3d (1)  
+**Project types shipped:** web_interactive (16), python_tool (6), game_web (5), generative_art (4), document (3), data_viz (2), cli_tool (2), typescript_app (1), web_3d (1)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-06-02 | [mathematical-structures-explorer](https://github.com/dipeshrayg/2026-06-02-mathematical-structures-explorer) | Python | 75 | mathematical-structures-visualization | Mathematics | Data visualization, Abstract mathematical structures, Interactivity | [▶ run](https://dipeshrayg.github.io/2026-06-02-mathematical-structures-explorer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-02-mathematical-structures-explorer) |
 | 2026-06-01 | [novel-data-visualizer](https://github.com/dipeshrayg/2026-06-01-novel-data-visualizer) | TypeScript | 70 | real-time-data-visualization | Data Science | Real-time data visualization, Interactive visualizations, Bayesian inference | [▶ run](https://dipeshrayg.github.io/2026-06-01-novel-data-visualizer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-01-novel-data-visualizer) |
 | 2026-06-01 | [robotic-logic-swarm-simulator](https://github.com/dipeshrayg/2026-06-01-robotic-logic-swarm-simulator) | Rust | 65 | robotic-logic-simulation | Robotics | Robotic swarm behavior, Logic algorithms, Emergent behavior | [▶ run](https://dipeshrayg.github.io/2026-06-01-robotic-logic-swarm-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-01-robotic-logic-swarm-simulator) |
 | 2026-05-31 | [probabilistic-visualization-tool](https://github.com/dipeshrayg/2026-05-31-probabilistic-visualization-tool) | JavaScript | 10 | interactive-stochastic-visualization | Probability and Statistics | Markov chains, Bayesian networks, Random walks | [▶ run](https://dipeshrayg.github.io/2026-05-31-probabilistic-visualization-tool/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-05-31-probabilistic-visualization-tool) |
@@ -143,4 +144,4 @@ STAGE 6  SELF-IMPROVE
 
 ---
 
-*Engine: [autonomous-brain-engine](https://github.com/dipeshrayg/autonomous-brain-engine) - ORCID: [0009-0001-9970-0220](https://orcid.org/0009-0001-9970-0220) - Built by Dipesh Ray - Infrastructure cost: $0 - Last updated 2026-06-01.*
+*Engine: [autonomous-brain-engine](https://github.com/dipeshrayg/autonomous-brain-engine) - ORCID: [0009-0001-9970-0220](https://orcid.org/0009-0001-9970-0220) - Built by Dipesh Ray - Infrastructure cost: $0 - Last updated 2026-06-02.*
