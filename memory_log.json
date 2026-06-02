@@ -2788,6 +2788,12 @@
       "verdict": "drifting",
       "summary": "Recent projects have shipped successfully but lack bold innovation, with a concerning streak of failed attempts at shader_art.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-06-02T17:48:44Z",
+      "verdict": "alarming",
+      "summary": "Recent refused builds show repeated failures in the reaction-diffusion shader domain, indicating a potential skill gap or lack of readiness for shader_art projects.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
