@@ -2847,6 +2847,12 @@
       "verdict": "alarming",
       "summary": "Recent refused builds show repeated failures in the reaction-diffusion shader domain, indicating a potential skill gap or lack of readiness for shader_art projects.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-06-02T22:03:15Z",
+      "verdict": "drifting",
+      "summary": "The system has shipped several projects recently, but these are largely clustered around established, safer types. The repeated failures in the 'reaction-diffusion' shader projects indicate a lack of expertise or ambition alignment in that domain, which needs to be addressed strategically.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
