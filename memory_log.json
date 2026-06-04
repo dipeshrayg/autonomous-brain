@@ -2994,6 +2994,12 @@
       "verdict": "drifting",
       "summary": "The system is showing a tendency to repeat high-complexity projects in a narrow band of domains, with multiple failures in the shader_art type, and a mix of high-quality and partially-usable outputs.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-06-04T21:02:51Z",
+      "verdict": "drifting",
+      "summary": "Recent projects show strong technical execution but are veering into overly safe territory, with multiple failed attempts at high-risk domains and overuse of maxed-out types.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
