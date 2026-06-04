@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 42 |
+| Projects shipped | 43 |
 | Builds auto-refused (quality gate) | 143+ |
-| Peak complexity | 90 (open-ended scale) |
-| Average complexity | 33.5 |
+| Peak complexity | 95 (open-ended scale) |
+| Average complexity | 34.9 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
-| Latest run | 2026-06-03 |
+| Latest run | 2026-06-04 |
 
 **Languages explored:** HTML+JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (16), python_tool (7), game_web (5), generative_art (4), document (3), typescript_app (2), data_viz (2), cli_tool (2), web_3d (1)  
+**Project types shipped:** web_interactive (16), python_tool (7), game_web (5), generative_art (4), document (3), web_3d (2), typescript_app (2), data_viz (2), cli_tool (2)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-06-04 | [geospatial-simulation-hub](https://github.com/dipeshrayg/2026-06-04-geospatial-simulation-hub) | JavaScript | 95 | geospatial-simulation-pattern | Geospatial Science | geospatial simulation, physics-based simulation, machine learning | [▶ run](https://dipeshrayg.github.io/2026-06-04-geospatial-simulation-hub/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-04-geospatial-simulation-hub) |
 | 2026-06-03 | [dual-distributed-system-simulator](https://github.com/dipeshrayg/2026-06-03-dual-distributed-system-simulator) | JavaScript | 90 | distributed-system-simulation | Distributed Systems | distributed systems, formal verification, constraint solving | [▶ run](https://dipeshrayg.github.io/2026-06-03-dual-distributed-system-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-03-dual-distributed-system-simulator) |
 | 2026-06-02 | [cryptography-compiler](https://github.com/dipeshrayg/2026-06-02-cryptography-compiler) | JavaScript | 85 | cryptography-compiler-pattern | Cryptography | Cryptographic compiler, JavaScript core algorithm, Formal verification techniques | [▶ run](https://dipeshrayg.github.io/2026-06-02-cryptography-compiler/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-02-cryptography-compiler) |
 | 2026-06-02 | [mathematical-structures-explorer](https://github.com/dipeshrayg/2026-06-02-mathematical-structures-explorer) | Python | 75 | mathematical-structures-visualization | Mathematics | Data visualization, Abstract mathematical structures, Interactivity | [▶ run](https://dipeshrayg.github.io/2026-06-02-mathematical-structures-explorer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-02-mathematical-structures-explorer) |
@@ -146,4 +147,4 @@ STAGE 6  SELF-IMPROVE
 
 ---
 
-*Engine: [autonomous-brain-engine](https://github.com/dipeshrayg/autonomous-brain-engine) - ORCID: [0009-0001-9970-0220](https://orcid.org/0009-0001-9970-0220) - Built by Dipesh Ray - Infrastructure cost: $0 - Last updated 2026-06-03.*
+*Engine: [autonomous-brain-engine](https://github.com/dipeshrayg/autonomous-brain-engine) - ORCID: [0009-0001-9970-0220](https://orcid.org/0009-0001-9970-0220) - Built by Dipesh Ray - Infrastructure cost: $0 - Last updated 2026-06-04.*
