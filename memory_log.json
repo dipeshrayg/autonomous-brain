@@ -1839,6 +1839,51 @@
         "dead_controls_count": 1,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-06-04",
+      "completed_at": "2026-06-04T21:57:33Z",
+      "completed_at_unix": 1780610253,
+      "name": "information-theory-visualizer",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-04-information-theory-visualizer",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-04-information-theory-visualizer/",
+      "language": "Python",
+      "project_type": "data_viz",
+      "tech_stack": [
+        "Python",
+        "Matplotlib",
+        "Plotly",
+        "Pandas"
+      ],
+      "complexity_score": 96,
+      "concepts_demonstrated": [
+        "Entropy",
+        "Mutual Information",
+        "Conditional Entropy"
+      ],
+      "novel_concepts": [
+        "Novel visualization techniques",
+        "Interactive Sankey diagrams",
+        "Heatmap visualizations"
+      ],
+      "advancement_axis": "Novel visualization techniques for Information Theory concepts",
+      "pattern": "information-theory-visualization",
+      "domain": "Information Theory",
+      "visual_identity": "Color palette: blue and orange, Typography: Open Sans, Layout personality: modern and interactive",
+      "safety_notes": "No safety concerns",
+      "file_count": 9,
+      "loc": 923,
+      "quality_cycles_used": 5,
+      "final_verify_metrics": {
+        "interactiveCount": null,
+        "canvasCount": null,
+        "title": null
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 1,
+        "missing_features_count": 1
+      }
     }
   ],
   "complexity_trajectory": [
@@ -1884,7 +1929,8 @@
     75,
     85,
     90,
-    95
+    95,
+    96
   ],
   "concepts_explored": [
     "neural networks",
@@ -2068,7 +2114,10 @@
     "constraint solving",
     "geospatial simulation",
     "physics-based simulation",
-    "machine learning"
+    "machine learning",
+    "Entropy",
+    "Mutual Information",
+    "Conditional Entropy"
   ],
   "patterns_used": [
     "visualizer",
@@ -2107,7 +2156,8 @@
     "mathematical-structures-visualization",
     "cryptography-compiler-pattern",
     "distributed-system-simulation",
-    "geospatial-simulation-pattern"
+    "geospatial-simulation-pattern",
+    "information-theory-visualization"
   ],
   "domains_used": [
     "Mathematics",
@@ -2146,7 +2196,8 @@
     "Mathematics",
     "Cryptography",
     "Distributed Systems",
-    "Geospatial Science"
+    "Geospatial Science",
+    "Information Theory"
   ],
   "ceo_reviews": [
     {

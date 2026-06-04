@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 43 |
+| Projects shipped | 44 |
 | Builds auto-refused (quality gate) | 150+ |
-| Peak complexity | 95 (open-ended scale) |
-| Average complexity | 34.9 |
+| Peak complexity | 96 (open-ended scale) |
+| Average complexity | 36.3 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
 | Latest run | 2026-06-04 |
 
 **Languages explored:** HTML+JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (16), python_tool (7), game_web (5), generative_art (4), document (3), web_3d (2), typescript_app (2), data_viz (2), cli_tool (2)  
+**Project types shipped:** web_interactive (16), python_tool (7), game_web (5), generative_art (4), data_viz (3), document (3), web_3d (2), typescript_app (2), cli_tool (2)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-06-04 | [information-theory-visualizer](https://github.com/dipeshrayg/2026-06-04-information-theory-visualizer) | Python | 96 | information-theory-visualization | Information Theory | Entropy, Mutual Information, Conditional Entropy | [▶ run](https://dipeshrayg.github.io/2026-06-04-information-theory-visualizer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-04-information-theory-visualizer) |
 | 2026-06-04 | [geospatial-simulation-hub](https://github.com/dipeshrayg/2026-06-04-geospatial-simulation-hub) | JavaScript | 95 | geospatial-simulation-pattern | Geospatial Science | geospatial simulation, physics-based simulation, machine learning | [▶ run](https://dipeshrayg.github.io/2026-06-04-geospatial-simulation-hub/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-04-geospatial-simulation-hub) |
 | 2026-06-03 | [dual-distributed-system-simulator](https://github.com/dipeshrayg/2026-06-03-dual-distributed-system-simulator) | JavaScript | 90 | distributed-system-simulation | Distributed Systems | distributed systems, formal verification, constraint solving | [▶ run](https://dipeshrayg.github.io/2026-06-03-dual-distributed-system-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-03-dual-distributed-system-simulator) |
 | 2026-06-02 | [cryptography-compiler](https://github.com/dipeshrayg/2026-06-02-cryptography-compiler) | JavaScript | 85 | cryptography-compiler-pattern | Cryptography | Cryptographic compiler, JavaScript core algorithm, Formal verification techniques | [▶ run](https://dipeshrayg.github.io/2026-06-02-cryptography-compiler/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-02-cryptography-compiler) |
