@@ -3057,12 +3057,6 @@
       "verdict": "drifting",
       "summary": "Recent projects show a tendency toward high complexity but are hitting the ceiling for multiple types, leading to partial usability or outright failure. The system needs to pivot to less explored domains to avoid stagnation.",
       "model": "gpt-4o"
-    },
-    {
-      "issued_at": "2026-06-05T10:53:43Z",
-      "verdict": "drifting",
-      "summary": "Recent projects show stagnation with multiple failures and repeated maxed-out types, signaling a lack of bold exploration.",
-      "model": "gpt-4o"
     }
   ],
   "security_audits": [
@@ -4368,5 +4362,5 @@
       "reviewed_project_count": 8
     }
   ],
-  "failed_builds_count": 154
+  "failed_builds_count": 156
 }
