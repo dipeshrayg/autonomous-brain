@@ -3057,6 +3057,12 @@
       "verdict": "drifting",
       "summary": "Recent projects show a tendency toward high complexity but are hitting the ceiling for multiple types, leading to partial usability or outright failure. The system needs to pivot to less explored domains to avoid stagnation.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-06-05T16:08:03Z",
+      "verdict": "alarming",
+      "summary": "Recent refusals and partially usable projects indicate a troubling trend of over-ambition without delivery.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
