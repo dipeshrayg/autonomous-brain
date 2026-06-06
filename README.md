@@ -15,9 +15,9 @@ Every project below is a separate public repository with a live deployed URL.
 | Metric | Value |
 |--------|-------|
 | Projects shipped | 47 |
-| Builds auto-refused (quality gate) | 166+ |
+| Builds auto-refused (quality gate) | 167+ |
 | Peak complexity | 100 (open-ended scale) |
-| Average complexity | 38.3 |
+| Average complexity | 38.4 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
@@ -31,7 +31,7 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
-| 2026-06-06 | [fractal-dynamics-generator](https://github.com/dipeshrayg/2026-06-06-fractal-dynamics-generator) | JavaScript | 5 | interactive-generative-fractals | Mathematical Visualization | Fractal geometry, Dynamic color mapping, Recursive transformations | [▶ run](https://dipeshrayg.github.io/2026-06-06-fractal-dynamics-generator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-06-fractal-dynamics-generator) |
+| 2026-06-06 | [generative-pattern-lab](https://github.com/dipeshrayg/2026-06-06-generative-pattern-lab) | JavaScript | 10 | interactive-generative-pattern-lab | Generative Art | Procedural generation, Cellular automata, L-systems | [▶ run](https://dipeshrayg.github.io/2026-06-06-generative-pattern-lab/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-06-generative-pattern-lab) |
 | 2026-06-06 | [emergent-behavior-exploration](https://github.com/dipeshrayg/2026-06-06-emergent-behavior-exploration) | Markdown | 100 | emergent-behavior-exploration | Complex Systems | Emergent behavior, Cellular automata, Algorithmic exploration | [▶ run](https://dipeshrayg.github.io/2026-06-06-emergent-behavior-exploration/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-06-emergent-behavior-exploration) |
 | 2026-06-05 | [modular-entropy-analyzer](https://github.com/dipeshrayg/2026-06-05-modular-entropy-analyzer) | Rust | 97 | modular-entropy-analysis | Information Security | Entropy Analysis, Modular Design, Usability | [▶ run](https://dipeshrayg.github.io/2026-06-05-modular-entropy-analyzer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-05-modular-entropy-analyzer) |
 | 2026-06-04 | [information-theory-visualizer](https://github.com/dipeshrayg/2026-06-04-information-theory-visualizer) | Python | 96 | information-theory-visualization | Information Theory | Entropy, Mutual Information, Conditional Entropy | [▶ run](https://dipeshrayg.github.io/2026-06-04-information-theory-visualizer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-04-information-theory-visualizer) |
