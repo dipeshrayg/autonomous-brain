@@ -3177,6 +3177,12 @@
       "verdict": "drifting",
       "summary": "The system has delivered high-complexity projects but is stalling in diversity and failing to land novel domains like shader_art.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-06-06T14:51:29Z",
+      "verdict": "drifting",
+      "summary": "The system has been experimenting with higher complexity but has hit repeated failures on shader_art and is over-relying on maxed-out types.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
