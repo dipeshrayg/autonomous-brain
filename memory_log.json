@@ -3396,6 +3396,12 @@
       "verdict": "drifting",
       "summary": "The system has achieved strong results recently but is over-relying on well-worn, maxed-out project types.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-06-08T21:16:59Z",
+      "verdict": "drifting",
+      "summary": "The system is producing competent but overly safe projects, with a concerning trend of maxed-out types and underexplored domains.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
