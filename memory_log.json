@@ -3331,12 +3331,6 @@
       "verdict": "alarming",
       "summary": "Recent projects have seen multiple failures and overreach in complex domains; trajectory shows signs of stagnation despite isolated successes.",
       "model": "gpt-4o"
-    },
-    {
-      "issued_at": "2026-06-08T12:06:27Z",
-      "verdict": "drifting",
-      "summary": "Recent projects are hitting maxed-out complexity ceilings in multiple types, while failures in certain areas suggest a lack of focus and execution. The system needs to pivot toward unexplored, high-potential domains.",
-      "model": "gpt-4o"
     }
   ],
   "security_audits": [
@@ -4769,5 +4763,5 @@
       "reviewed_project_count": 8
     }
   ],
-  "failed_builds_count": 185
+  "failed_builds_count": 186
 }
