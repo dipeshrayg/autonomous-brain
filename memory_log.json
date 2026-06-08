@@ -3390,6 +3390,12 @@
       "verdict": "drifting",
       "summary": "Recent projects are hitting maxed-out complexity ceilings in multiple types, while failures in certain areas suggest a lack of focus and execution. The system needs to pivot toward unexplored, high-potential domains.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-06-08T16:52:35Z",
+      "verdict": "drifting",
+      "summary": "The system has achieved strong results recently but is over-relying on well-worn, maxed-out project types.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
