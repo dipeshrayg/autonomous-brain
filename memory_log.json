@@ -2161,6 +2161,53 @@
         "dead_controls_count": 1,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-06-09",
+      "completed_at": "2026-06-09T22:12:25Z",
+      "completed_at_unix": 1781043145,
+      "name": "dynamic-cellular-automata-lab",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-09-dynamic-cellular-automata-lab",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-09-dynamic-cellular-automata-lab/",
+      "language": "JavaScript",
+      "project_type": "web_interactive",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Canvas API"
+      ],
+      "complexity_score": 115,
+      "concepts_demonstrated": [
+        "cellular automata",
+        "emergent behavior",
+        "interactive visualization",
+        "dynamic rule evolution",
+        "experimental UI/UX patterns"
+      ],
+      "novel_concepts": [
+        "dynamic rule evolution for cellular automata",
+        "real-time rule visualization",
+        "adaptive emergent behavior mechanisms"
+      ],
+      "advancement_axis": "Introduces dynamic rule evolution in cellular automata, a novel and unpredictable interaction paradigm.",
+      "pattern": "dynamic-cellular-automata",
+      "domain": "Complex Systems",
+      "visual_identity": "High-contrast neon palette (black background, neon green, blue, and pink for automata cells); clean, futuristic typography; grid-based layout with smooth animations.",
+      "safety_notes": "All computations are client-side and do not involve network connections or sensitive data.",
+      "file_count": 5,
+      "loc": 678,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 5,
+        "canvasCount": 1,
+        "title": "Dynamic Cellular Automata Lab"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 2,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -2213,7 +2260,8 @@
     10,
     105,
     110,
-    5
+    5,
+    115
   ],
   "concepts_explored": [
     "neural networks",
@@ -2420,7 +2468,8 @@
     "Recursive algorithms",
     "Procedural tessellation",
     "Color theory for generative art",
-    "User-driven parameter customization"
+    "User-driven parameter customization",
+    "experimental UI/UX patterns"
   ],
   "patterns_used": [
     "visualizer",
@@ -2466,7 +2515,8 @@
     "interactive-generative-pattern-lab",
     "dynamic-puzzle-evolution",
     "cryptography-utility-pattern",
-    "interactive-procedural-tessellation"
+    "interactive-procedural-tessellation",
+    "dynamic-cellular-automata"
   ],
   "domains_used": [
     "Mathematics",
@@ -2512,7 +2562,8 @@
     "Generative Art",
     "Artificial Intelligence",
     "Cryptography",
-    "Generative Art"
+    "Generative Art",
+    "Complex Systems"
   ],
   "ceo_reviews": [
     {
@@ -4973,5 +5024,5 @@
       "reviewed_project_count": 8
     }
   ],
-  "failed_builds_count": 197
+  "failed_builds_count": 196
 }
