@@ -2161,6 +2161,56 @@
         "dead_controls_count": 1,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-06-10",
+      "completed_at": "2026-06-10T06:53:17Z",
+      "completed_at_unix": 1781074397,
+      "name": "info-pattern-architect",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-10-info-pattern-architect",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-10-info-pattern-architect/",
+      "language": "JavaScript",
+      "project_type": "generative_art",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "WebGL"
+      ],
+      "complexity_score": 110,
+      "concepts_demonstrated": [
+        "Entropy",
+        "Mutual Information",
+        "Conditional Probability",
+        "Procedural Generation",
+        "Dynamic User Input",
+        "Interactive Visualization",
+        "Color Theory for Generative Art"
+      ],
+      "novel_concepts": [
+        "Bayesian-driven pattern generation",
+        "Entropy-guided procedural color gradients",
+        "Interactive entropy-based pattern exploration",
+        "Information-theoretic parameter tuning"
+      ],
+      "advancement_axis": "Combines information theory with generative art to create a novel, dynamic, and interactive design interface.",
+      "pattern": "info-driven-generative-pattern",
+      "domain": "Generative Art",
+      "visual_identity": "A sleek and modern UI with a dark theme, vivid gradient-based color palettes, and a focus on clean typography (sans-serif fonts). The layout emphasizes a large central canvas, with controls arranged on a collapsible side panel.",
+      "safety_notes": "Code adheres to GitHub TOS. All operations are client-side, with no backend or external connections. No user data is collected.",
+      "file_count": 6,
+      "loc": 612,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 5,
+        "canvasCount": 1,
+        "title": "Info-Pattern Architect"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 1,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -2213,7 +2263,8 @@
     10,
     105,
     110,
-    5
+    5,
+    110
   ],
   "concepts_explored": [
     "neural networks",
@@ -2420,7 +2471,12 @@
     "Recursive algorithms",
     "Procedural tessellation",
     "Color theory for generative art",
-    "User-driven parameter customization"
+    "User-driven parameter customization",
+    "Conditional Probability",
+    "Procedural Generation",
+    "Dynamic User Input",
+    "Interactive Visualization",
+    "Color Theory for Generative Art"
   ],
   "patterns_used": [
     "visualizer",
@@ -2466,7 +2522,8 @@
     "interactive-generative-pattern-lab",
     "dynamic-puzzle-evolution",
     "cryptography-utility-pattern",
-    "interactive-procedural-tessellation"
+    "interactive-procedural-tessellation",
+    "info-driven-generative-pattern"
   ],
   "domains_used": [
     "Mathematics",
@@ -2512,6 +2569,7 @@
     "Generative Art",
     "Artificial Intelligence",
     "Cryptography",
+    "Generative Art",
     "Generative Art"
   ],
   "ceo_reviews": [
