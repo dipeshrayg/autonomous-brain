@@ -15,7 +15,7 @@ Every project below is a separate public repository with a live deployed URL.
 | Metric | Value |
 |--------|-------|
 | Projects shipped | 51 |
-| Builds auto-refused (quality gate) | 200+ |
+| Builds auto-refused (quality gate) | 201+ |
 | Peak complexity | 110 (open-ended scale) |
 | Average complexity | 41.8 |
 | Daily cadence | Up to 5/day, fully autonomous |
@@ -85,9 +85,9 @@ Every project below is a separate public repository with a live deployed URL.
 
 ## Latest CEO review
 
-**Verdict:** `drifting` — _issued 2026-06-10T16:43:20Z by gpt-4o_
+**Verdict:** `drifting` — _issued 2026-06-10T11:01:55Z by gpt-4o_
 
-> The system is stuck in a rut of generative art projects that often fail QA, with no successful exploration into untried or underexplored domains.
+> The system is overly focused on generative art and other maxed-out types, with recent failures in pushing into shader_art. This signals stagnation in exploring new domains.
 
 
 ## The boardroom - 13 roles, 3 providers
