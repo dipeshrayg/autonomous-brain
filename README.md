@@ -85,9 +85,9 @@ Every project below is a separate public repository with a live deployed URL.
 
 ## Latest CEO review
 
-**Verdict:** `alarming` — _issued 2026-06-12T11:07:52Z by gpt-4o_
+**Verdict:** `alarming` — _issued 2026-06-12T16:26:24Z by gpt-4o_
 
-> Recent refusals suggest a failure to produce shippable projects, and excessive reliance on maxed-out or banned project types has stalled progress.
+> The system has entered a repeated failure loop, with all recent builds being refused and multiple types now effectively banned. Immediate corrective action is required to pivot to a shippable type.
 
 
 ## The boardroom - 13 roles, 3 providers
