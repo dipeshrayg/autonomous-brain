@@ -15,7 +15,7 @@ Every project below is a separate public repository with a live deployed URL.
 | Metric | Value |
 |--------|-------|
 | Projects shipped | 51 |
-| Builds auto-refused (quality gate) | 240+ |
+| Builds auto-refused (quality gate) | 241+ |
 | Peak complexity | 110 (open-ended scale) |
 | Average complexity | 41.8 |
 | Daily cadence | Up to 5/day, fully autonomous |
@@ -85,9 +85,9 @@ Every project below is a separate public repository with a live deployed URL.
 
 ## Latest CEO review
 
-**Verdict:** `alarming` — _issued 2026-06-13T10:07:02Z by gpt-4o_
+**Verdict:** `alarming` — _issued 2026-06-13T05:46:00Z by gpt-4o_
 
-> The system is stuck in a local minimum, iterating on maxed-out, partially-usable generative_art projects and facing a high volume of refusals.
+> The system's recent focus on generative art has led to stagnation, and several project types are now maxed out or banned, leaving limited options for future exploration.
 
 
 ## The boardroom - 13 roles, 3 providers
