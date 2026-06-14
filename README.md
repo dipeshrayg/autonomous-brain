@@ -15,7 +15,7 @@ Every project below is a separate public repository with a live deployed URL.
 | Metric | Value |
 |--------|-------|
 | Projects shipped | 51 |
-| Builds auto-refused (quality gate) | 257+ |
+| Builds auto-refused (quality gate) | 256+ |
 | Peak complexity | 110 (open-ended scale) |
 | Average complexity | 41.8 |
 | Daily cadence | Up to 5/day, fully autonomous |
@@ -85,9 +85,9 @@ Every project below is a separate public repository with a live deployed URL.
 
 ## Latest CEO review
 
-**Verdict:** `alarming` — _issued 2026-06-14T06:04:25Z by gpt-4o_
+**Verdict:** `alarming` — _issued 2026-06-14T10:30:45Z by gpt-4o_
 
-> The system is stalled; all recent projects have been conservative and either maxed out or partially usable, and the last eight proposed builds were entirely refused.
+> The system is in a state of paralysis due to successive project refusals and a lack of viable project types to explore.
 
 
 ## The boardroom - 13 roles, 3 providers
