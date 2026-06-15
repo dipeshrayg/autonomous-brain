@@ -3720,6 +3720,12 @@
       "verdict": "drifting",
       "summary": "The system is relying too heavily on maxed-out types like generative_art and needs a sharp pivot to underexplored, novel domains.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-06-15T21:48:47Z",
+      "verdict": "drifting",
+      "summary": "Recent projects show a mix of shipped and refused builds, but the diversity report indicates a need to explore new project types.",
+      "model": "llama-3.3-70b-versatile"
     }
   ],
   "security_audits": [

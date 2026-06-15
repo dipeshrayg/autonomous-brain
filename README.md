@@ -86,9 +86,9 @@ Every project below is a separate public repository with a live deployed URL.
 
 ## Latest CEO review
 
-**Verdict:** `drifting` — _issued 2026-06-15T13:25:29Z by gpt-4o_
+**Verdict:** `drifting` — _issued 2026-06-15T21:48:47Z by llama-3.3-70b-versatile_
 
-> The system is relying too heavily on maxed-out types like generative_art and needs a sharp pivot to underexplored, novel domains.
+> Recent projects show a mix of shipped and refused builds, but the diversity report indicates a need to explore new project types.
 
 
 ## The boardroom - 13 roles, 3 providers
