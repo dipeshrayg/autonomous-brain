@@ -2211,6 +2211,54 @@
         "dead_controls_count": 1,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-06-15",
+      "completed_at": "2026-06-15T14:36:39Z",
+      "completed_at_unix": 1781534199,
+      "name": "ai-dream-generator",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-15-ai-dream-generator",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-15-ai-dream-generator/",
+      "language": "JavaScript",
+      "project_type": "ai_concept",
+      "tech_stack": [
+        "HTML",
+        "JavaScript",
+        "Canvas API",
+        "Pretrained AI model (mocked)",
+        "esm.sh imports"
+      ],
+      "complexity_score": 120,
+      "concepts_demonstrated": [
+        "AI-driven generative art",
+        "Transfer learning concepts",
+        "Dynamic user interaction",
+        "Speculative AI design",
+        "Interactive parameter tuning"
+      ],
+      "novel_concepts": [
+        "Speculative AI-driven surrealism",
+        "Real-time generative reinterpretation of textual input",
+        "AI as a tool for dream visualization"
+      ],
+      "advancement_axis": "The project pushes the domain of AI-driven creativity and speculative design by merging text-based user input with surreal generative visuals.",
+      "pattern": "ai-driven-surreal-art",
+      "domain": "AI-driven creative tools",
+      "visual_identity": "A dreamy, ethereal aesthetic with gradient-based color palettes, soft transitions, and playful UI typography.",
+      "safety_notes": "All AI functionality is speculative and uses deterministic algorithms to simulate AI behavior. No real data is collected or shared. The project is fully compliant with GitHub TOS.",
+      "file_count": 5,
+      "loc": 502,
+      "quality_cycles_used": 1,
+      "final_verify_metrics": {
+        "interactiveCount": 4,
+        "canvasCount": 1,
+        "title": "AI Dream Generator"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 1,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -2264,7 +2312,8 @@
     105,
     110,
     110,
-    110
+    110,
+    120
   ],
   "concepts_explored": [
     "neural networks",
@@ -2476,7 +2525,12 @@
     "Procedural Generation",
     "Dynamic User Input",
     "Interactive Visualization",
-    "Color Theory for Generative Art"
+    "Color Theory for Generative Art",
+    "AI-driven generative art",
+    "Transfer learning concepts",
+    "Dynamic user interaction",
+    "Speculative AI design",
+    "Interactive parameter tuning"
   ],
   "patterns_used": [
     "visualizer",
@@ -2523,7 +2577,8 @@
     "dynamic-puzzle-evolution",
     "cryptography-utility-pattern",
     "interactive-procedural-tessellation",
-    "info-driven-generative-pattern"
+    "info-driven-generative-pattern",
+    "ai-driven-surreal-art"
   ],
   "domains_used": [
     "Mathematics",
@@ -2570,7 +2625,8 @@
     "Artificial Intelligence",
     "Cryptography",
     "Generative Art",
-    "Generative Art"
+    "Generative Art",
+    "AI-driven creative tools"
   ],
   "ceo_reviews": [
     {
