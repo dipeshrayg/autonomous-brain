@@ -2250,7 +2250,7 @@
     52,
     55,
     60,
-    10,
+    60,
     65,
     70,
     75,
@@ -2260,10 +2260,10 @@
     96,
     97,
     100,
-    10,
+    100,
     105,
     110,
-    5,
+    110,
     110
   ],
   "concepts_explored": [
@@ -5349,5 +5349,7 @@
       "reviewed_project_count": 8
     }
   ],
-  "failed_builds_count": 269
+  "expansion_mode": true,
+  "expansion_mode_since": "2026-06-15T05:12:16.083189+00:00",
+  "failed_builds_count": 270
 }
