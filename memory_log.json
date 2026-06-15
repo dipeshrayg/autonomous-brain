@@ -3658,6 +3658,12 @@
       "verdict": "drifting",
       "summary": "Recent projects show stagnation in maxed-out types, with no successful attempts in underexplored domains.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-06-15T13:25:29Z",
+      "verdict": "drifting",
+      "summary": "The system is relying too heavily on maxed-out types like generative_art and needs a sharp pivot to underexplored, novel domains.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
