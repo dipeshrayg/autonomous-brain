@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 54 |
+| Projects shipped | 55 |
 | Builds auto-refused (quality gate) | 279+ |
-| Peak complexity | 140 (open-ended scale) |
-| Average complexity | 46.7 |
+| Peak complexity | 150 (open-ended scale) |
+| Average complexity | 48.6 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
 | Latest run | 2026-06-16 |
 
 **Languages explored:** HTML+JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (16), python_tool (8), generative_art (7), game_web (6), document (4), cli_tool (3), data_viz (3), web_3d (2), typescript_app (2), saas_app (1), creative_tool (1), ai_concept (1)  
+**Project types shipped:** web_interactive (16), python_tool (8), generative_art (7), game_web (6), document (4), cli_tool (3), data_viz (3), web_3d (2), typescript_app (2), api_platform (1), saas_app (1), creative_tool (1), ai_concept (1)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-06-16 | [databridge](https://github.com/dipeshrayg/2026-06-16-databridge) | JavaScript | 150 | data-integration-platform | Fintech | API design, Data integration, Real-time data processing | [▶ run](https://dipeshrayg.github.io/2026-06-16-databridge/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-16-databridge) |
 | 2026-06-16 | [datasphere](https://github.com/dipeshrayg/2026-06-16-datasphere) | JavaScript | 140 | data-observability-platform | Data Infrastructure | data visualization, machine learning, information theory | [▶ run](https://dipeshrayg.github.io/2026-06-16-datasphere/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-16-datasphere) |
 | 2026-06-16 | [neuro-urban-planner](https://github.com/dipeshrayg/2026-06-16-neuro-urban-planner) | JavaScript | 130 | neuro-urban-planning | Environmental Science | Neural networks, Urban planning, Environmental science | [▶ run](https://dipeshrayg.github.io/2026-06-16-neuro-urban-planner/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-16-neuro-urban-planner) |
 | 2026-06-15 | [ai-dream-generator](https://github.com/dipeshrayg/2026-06-15-ai-dream-generator) | JavaScript | 120 | ai-driven-surreal-art | AI-driven creative tools | AI-driven generative art, Transfer learning concepts, Dynamic user interaction | [▶ run](https://dipeshrayg.github.io/2026-06-15-ai-dream-generator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-15-ai-dream-generator) |
