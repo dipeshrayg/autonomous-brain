@@ -15,7 +15,7 @@ Every project below is a separate public repository with a live deployed URL.
 | Metric | Value |
 |--------|-------|
 | Projects shipped | 52 |
-| Builds auto-refused (quality gate) | 277+ |
+| Builds auto-refused (quality gate) | 278+ |
 | Peak complexity | 120 (open-ended scale) |
 | Average complexity | 43.3 |
 | Daily cadence | Up to 5/day, fully autonomous |
@@ -86,9 +86,9 @@ Every project below is a separate public repository with a live deployed URL.
 
 ## Latest CEO review
 
-**Verdict:** `drifting` — _issued 2026-06-15T21:48:47Z by llama-3.3-70b-versatile_
+**Verdict:** `acceptable` — _issued 2026-06-15T23:09:33Z by gpt-4o-mini_
 
-> Recent projects show a mix of shipped and refused builds, but the diversity report indicates a need to explore new project types.
+> While recent projects show promise, the trend towards generative art is becoming saturated and may hinder innovation. We need to diversify our project types and domains.
 
 
 ## The boardroom - 13 roles, 3 providers
