@@ -2348,48 +2348,6 @@
         "dead_controls_count": 1,
         "missing_features_count": 1
       }
-    },
-    {
-      "date": "2026-06-16",
-      "completed_at": "2026-06-16T12:37:33Z",
-      "completed_at_unix": 1781613453,
-      "name": "datascope",
-      "repo_url": "https://github.com/dipeshrayg/2026-06-16-datascope",
-      "pages_url": "https://dipeshrayg.github.io/2026-06-16-datascope/",
-      "language": "JavaScript",
-      "project_type": "b2b_dashboard",
-      "tech_stack": [
-        "Chart.js",
-        "JavaScript"
-      ],
-      "complexity_score": 145,
-      "concepts_demonstrated": [
-        "data visualization",
-        "machine learning",
-        "information theory"
-      ],
-      "novel_concepts": [
-        "real-time data observability",
-        "anomaly detection"
-      ],
-      "advancement_axis": "Datascope pushes the boundaries of data observability by integrating real-time analytics and machine learning-driven insights, making it a cutting-edge tool for DevOps teams.",
-      "pattern": "data-observability-dashboard",
-      "domain": "DevOps",
-      "visual_identity": "Datascope features a modern design with a dark theme, utilizing a color palette of blues and whites. The typography is clean and professional, with a focus on readability.",
-      "safety_notes": "Datascope is designed with security in mind, ensuring that all data is encrypted and access is role-based.",
-      "file_count": 4,
-      "loc": 675,
-      "quality_cycles_used": 8,
-      "final_verify_metrics": {
-        "interactiveCount": 4,
-        "canvasCount": 1,
-        "title": "Datascope - Real-time Data Observability"
-      },
-      "qa_review": {
-        "verdict": "partially_usable",
-        "dead_controls_count": 0,
-        "missing_features_count": 1
-      }
     }
   ],
   "complexity_trajectory": [
@@ -2446,8 +2404,7 @@
     110,
     120,
     130,
-    140,
-    145
+    140
   ],
   "concepts_explored": [
     "neural networks",
@@ -2718,8 +2675,7 @@
     "info-driven-generative-pattern",
     "ai-driven-surreal-art",
     "neuro-urban-planning",
-    "data-observability-platform",
-    "data-observability-dashboard"
+    "data-observability-platform"
   ],
   "domains_used": [
     "Mathematics",
@@ -2769,8 +2725,7 @@
     "Generative Art",
     "AI-driven creative tools",
     "Environmental Science",
-    "Data Infrastructure",
-    "DevOps"
+    "Data Infrastructure"
   ],
   "ceo_reviews": [
     {
