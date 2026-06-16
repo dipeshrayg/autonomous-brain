@@ -2259,6 +2259,51 @@
         "dead_controls_count": 1,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-06-16",
+      "completed_at": "2026-06-16T05:47:22Z",
+      "completed_at_unix": 1781588842,
+      "name": "neuro-urban-planner",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-16-neuro-urban-planner",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-16-neuro-urban-planner/",
+      "language": "JavaScript",
+      "project_type": "creative_tool",
+      "tech_stack": [
+        "ES6",
+        "HTML5",
+        "CSS3",
+        "Canvas"
+      ],
+      "complexity_score": 130,
+      "concepts_demonstrated": [
+        "Neural networks",
+        "Urban planning",
+        "Environmental science",
+        "Interactive simulation"
+      ],
+      "novel_concepts": [
+        "Neuroscience-inspired urban planning",
+        "AI-driven creative tools for urban design"
+      ],
+      "advancement_axis": "Incorporating neuroscience concepts into urban planning",
+      "pattern": "neuro-urban-planning",
+      "domain": "Environmental Science",
+      "visual_identity": "Minimalist, futuristic, with a focus on data visualization",
+      "safety_notes": "None",
+      "file_count": 6,
+      "loc": 304,
+      "quality_cycles_used": 1,
+      "final_verify_metrics": {
+        "interactiveCount": 3,
+        "canvasCount": 1,
+        "title": "Neuro Urban Planner"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -2313,7 +2358,8 @@
     110,
     110,
     110,
-    120
+    120,
+    130
   ],
   "concepts_explored": [
     "neural networks",
@@ -2530,7 +2576,10 @@
     "Transfer learning concepts",
     "Dynamic user interaction",
     "Speculative AI design",
-    "Interactive parameter tuning"
+    "Interactive parameter tuning",
+    "Neural networks",
+    "Urban planning",
+    "Environmental science"
   ],
   "patterns_used": [
     "visualizer",
@@ -2578,7 +2627,8 @@
     "cryptography-utility-pattern",
     "interactive-procedural-tessellation",
     "info-driven-generative-pattern",
-    "ai-driven-surreal-art"
+    "ai-driven-surreal-art",
+    "neuro-urban-planning"
   ],
   "domains_used": [
     "Mathematics",
@@ -2626,7 +2676,8 @@
     "Cryptography",
     "Generative Art",
     "Generative Art",
-    "AI-driven creative tools"
+    "AI-driven creative tools",
+    "Environmental Science"
   ],
   "ceo_reviews": [
     {
