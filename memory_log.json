@@ -2524,6 +2524,49 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-06-17",
+      "completed_at": "2026-06-17T19:52:47Z",
+      "completed_at_unix": 1781725967,
+      "name": "insight-hub",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-17-insight-hub",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-17-insight-hub/",
+      "language": "JavaScript",
+      "project_type": "database_showcase",
+      "tech_stack": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "complexity_score": 170,
+      "concepts_demonstrated": [
+        "data visualization",
+        "filtering",
+        "analysis"
+      ],
+      "novel_concepts": [
+        "environmental data analysis",
+        "scientific data visualization"
+      ],
+      "advancement_axis": "scientific data visualization",
+      "pattern": "environmental-data-analytics",
+      "domain": "Environmental Science",
+      "visual_identity": "green color palette, clean typography, interactive visualizations",
+      "safety_notes": "no backend servers, no sensitive data",
+      "file_count": 3,
+      "loc": 413,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 3,
+        "canvasCount": 1,
+        "title": "Insight Hub"
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -2584,7 +2627,8 @@
     150,
     160,
     162,
-    165
+    165,
+    170
   ],
   "concepts_explored": [
     "neural networks",
@@ -2812,7 +2856,9 @@
     "HR analytics",
     "workforce forecasting",
     "supply chain management",
-    "real-time analytics"
+    "real-time analytics",
+    "filtering",
+    "analysis"
   ],
   "patterns_used": [
     "visualizer",
@@ -2866,7 +2912,8 @@
     "data-integration-platform",
     "hr-analytics-dashboard",
     "fleet-risk-intelligence-platform",
-    "supply-chain-analytics"
+    "supply-chain-analytics",
+    "environmental-data-analytics"
   ],
   "domains_used": [
     "Mathematics",
@@ -2920,7 +2967,8 @@
     "Fintech",
     "HR and People Analytics",
     "Insurance and Risk Management",
-    "Supply Chain Management"
+    "Supply Chain Management",
+    "Environmental Science"
   ],
   "ceo_reviews": [
     {
