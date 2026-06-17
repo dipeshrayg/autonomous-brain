@@ -2391,6 +2391,51 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-06-17",
+      "completed_at": "2026-06-17T00:20:22Z",
+      "completed_at_unix": 1781655622,
+      "name": "talent-insights-platform",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-17-talent-insights-platform",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-17-talent-insights-platform/",
+      "language": "JavaScript",
+      "project_type": "b2b_dashboard",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Chart.js"
+      ],
+      "complexity_score": 160,
+      "concepts_demonstrated": [
+        "HR analytics",
+        "workforce forecasting",
+        "constraint solving"
+      ],
+      "novel_concepts": [
+        "constraint solver for workforce forecasting",
+        "information-theoretic workforce modeling",
+        "probabilistic talent pipeline analysis"
+      ],
+      "advancement_axis": "applying constraint solving and information theory to HR analytics",
+      "pattern": "hr-analytics-dashboard",
+      "domain": "HR and People Analytics",
+      "visual_identity": "bold color scheme, modern typography, and interactive charts",
+      "safety_notes": "no personal or sensitive data is used in the synthetic data generation",
+      "file_count": 4,
+      "loc": 585,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 5,
+        "canvasCount": 2,
+        "title": "Talent Insights Platform"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 2,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -2448,7 +2493,8 @@
     120,
     130,
     140,
-    150
+    150,
+    160
   ],
   "concepts_explored": [
     "neural networks",
@@ -2672,7 +2718,9 @@
     "information theory",
     "API design",
     "Data integration",
-    "Real-time data processing"
+    "Real-time data processing",
+    "HR analytics",
+    "workforce forecasting"
   ],
   "patterns_used": [
     "visualizer",
@@ -2723,7 +2771,8 @@
     "ai-driven-surreal-art",
     "neuro-urban-planning",
     "data-observability-platform",
-    "data-integration-platform"
+    "data-integration-platform",
+    "hr-analytics-dashboard"
   ],
   "domains_used": [
     "Mathematics",
@@ -2774,7 +2823,8 @@
     "AI-driven creative tools",
     "Environmental Science",
     "Data Infrastructure",
-    "Fintech"
+    "Fintech",
+    "HR and People Analytics"
   ],
   "ceo_reviews": [
     {
