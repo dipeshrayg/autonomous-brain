@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 57 |
+| Projects shipped | 58 |
 | Builds auto-refused (quality gate) | 279+ |
-| Peak complexity | 162 (open-ended scale) |
-| Average complexity | 52.6 |
+| Peak complexity | 165 (open-ended scale) |
+| Average complexity | 54.5 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
 | Latest run | 2026-06-17 |
 
 **Languages explored:** HTML+JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (16), python_tool (8), generative_art (7), game_web (6), document (4), cli_tool (3), data_viz (3), saas_app (2), web_3d (2), typescript_app (2), b2b_dashboard (1), api_platform (1), creative_tool (1), ai_concept (1)  
+**Project types shipped:** web_interactive (16), python_tool (8), generative_art (7), game_web (6), document (4), cli_tool (3), data_viz (3), b2b_dashboard (2), saas_app (2), web_3d (2), typescript_app (2), api_platform (1), creative_tool (1), ai_concept (1)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-06-17 | [supply-chain-intelligence-dashboard](https://github.com/dipeshrayg/2026-06-17-supply-chain-intelligence-dashboard) | JavaScript | 165 | supply-chain-analytics | Supply Chain Management | supply chain management, real-time analytics, data visualization | [▶ run](https://dipeshrayg.github.io/2026-06-17-supply-chain-intelligence-dashboard/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-17-supply-chain-intelligence-dashboard) |
 | 2026-06-17 | [atlas-fleet-risk-intelligence](https://github.com/dipeshrayg/2026-06-17-atlas-fleet-risk-intelligence) | JavaScript | 162 | fleet-risk-intelligence-platform | Insurance and Risk Management | data visualization, machine learning, information theory | [▶ run](https://dipeshrayg.github.io/2026-06-17-atlas-fleet-risk-intelligence/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-17-atlas-fleet-risk-intelligence) |
 | 2026-06-17 | [talent-insights-platform](https://github.com/dipeshrayg/2026-06-17-talent-insights-platform) | JavaScript | 160 | hr-analytics-dashboard | HR and People Analytics | HR analytics, workforce forecasting, constraint solving | [▶ run](https://dipeshrayg.github.io/2026-06-17-talent-insights-platform/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-17-talent-insights-platform) |
 | 2026-06-16 | [databridge](https://github.com/dipeshrayg/2026-06-16-databridge) | JavaScript | 150 | data-integration-platform | Fintech | API design, Data integration, Real-time data processing | [▶ run](https://dipeshrayg.github.io/2026-06-16-databridge/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-16-databridge) |
