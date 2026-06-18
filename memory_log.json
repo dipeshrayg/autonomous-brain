@@ -2653,6 +2653,51 @@
         "dead_controls_count": 2,
         "missing_features_count": 1
       }
+    },
+    {
+      "date": "2026-06-18",
+      "completed_at": "2026-06-18T17:54:42Z",
+      "completed_at_unix": 1781805282,
+      "name": "logic-insight",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-18-logic-insight",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-18-logic-insight/",
+      "language": "JavaScript",
+      "project_type": "database_showcase",
+      "tech_stack": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "complexity_score": 182,
+      "concepts_demonstrated": [
+        "Constraint solving",
+        "DPLL with conflict-driven clause learning",
+        "Information-theoretic concepts",
+        "Compression",
+        "Entropy analysis"
+      ],
+      "novel_concepts": [
+        "Interactive constraint solver",
+        "Information-theoretic metrics for constraint solving"
+      ],
+      "advancement_axis": "Interactive constraint solving with information-theoretic insights",
+      "pattern": "constraint-solver-with-insights",
+      "domain": "Computer Science",
+      "visual_identity": "Clean and minimalistic design with a focus on interactive visualizations",
+      "safety_notes": "No active malware, no exploits against systems without consent",
+      "file_count": 2,
+      "loc": 287,
+      "quality_cycles_used": 1,
+      "final_verify_metrics": {
+        "interactiveCount": 3,
+        "canvasCount": 0,
+        "title": "Logic Insight - Interactive Constraint Solver"
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -2716,7 +2761,8 @@
     165,
     170,
     171,
-    180
+    180,
+    182
   ],
   "concepts_explored": [
     "neural networks",
@@ -3007,7 +3053,8 @@
     "supply-chain-analytics",
     "environmental-data-analytics",
     "code-analysis-tool",
-    "financial-dashboard"
+    "financial-dashboard",
+    "constraint-solver-with-insights"
   ],
   "domains_used": [
     "Mathematics",
@@ -3064,7 +3111,8 @@
     "Supply Chain Management",
     "Environmental Science",
     "DevOps",
-    "Fintech"
+    "Fintech",
+    "Computer Science"
   ],
   "ceo_reviews": [
     {
