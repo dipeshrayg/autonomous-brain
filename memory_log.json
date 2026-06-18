@@ -2567,6 +2567,49 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-06-18",
+      "completed_at": "2026-06-18T05:52:20Z",
+      "completed_at_unix": 1781761940,
+      "name": "code-insight",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-18-code-insight",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-18-code-insight/",
+      "language": "JavaScript",
+      "project_type": "devtool",
+      "tech_stack": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "complexity_score": 171,
+      "concepts_demonstrated": [
+        "Interactive Visualization",
+        "Code Analysis",
+        "Debugging"
+      ],
+      "novel_concepts": [
+        "Constraint Solving",
+        "Information-Theoretic Concepts"
+      ],
+      "advancement_axis": "Developer Productivity",
+      "pattern": "code-analysis-tool",
+      "domain": "DevOps",
+      "visual_identity": "Monochromatic color scheme with a focus on code syntax highlighting",
+      "safety_notes": "No active malware, no exploits against systems without consent",
+      "file_count": 4,
+      "loc": 413,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 4,
+        "canvasCount": 0,
+        "title": "Code Insight - Developer Productivity Tool"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 1,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -2628,7 +2671,8 @@
     160,
     162,
     165,
-    170
+    170,
+    171
   ],
   "concepts_explored": [
     "neural networks",
@@ -2858,7 +2902,9 @@
     "supply chain management",
     "real-time analytics",
     "filtering",
-    "analysis"
+    "analysis",
+    "Code Analysis",
+    "Debugging"
   ],
   "patterns_used": [
     "visualizer",
@@ -2913,7 +2959,8 @@
     "hr-analytics-dashboard",
     "fleet-risk-intelligence-platform",
     "supply-chain-analytics",
-    "environmental-data-analytics"
+    "environmental-data-analytics",
+    "code-analysis-tool"
   ],
   "domains_used": [
     "Mathematics",
@@ -2968,7 +3015,8 @@
     "HR and People Analytics",
     "Insurance and Risk Management",
     "Supply Chain Management",
-    "Environmental Science"
+    "Environmental Science",
+    "DevOps"
   ],
   "ceo_reviews": [
     {

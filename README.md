@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 59 |
+| Projects shipped | 60 |
 | Builds auto-refused (quality gate) | 282+ |
-| Peak complexity | 170 (open-ended scale) |
-| Average complexity | 56.5 |
+| Peak complexity | 171 (open-ended scale) |
+| Average complexity | 58.4 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
-| Latest run | 2026-06-17 |
+| Latest run | 2026-06-18 |
 
 **Languages explored:** HTML+JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (16), python_tool (8), generative_art (7), game_web (6), document (4), cli_tool (3), data_viz (3), b2b_dashboard (2), saas_app (2), web_3d (2), typescript_app (2), database_showcase (1), api_platform (1), creative_tool (1), ai_concept (1)  
+**Project types shipped:** web_interactive (16), python_tool (8), generative_art (7), game_web (6), document (4), cli_tool (3), data_viz (3), b2b_dashboard (2), saas_app (2), web_3d (2), typescript_app (2), devtool (1), database_showcase (1), api_platform (1), creative_tool (1), ai_concept (1)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-06-18 | [code-insight](https://github.com/dipeshrayg/2026-06-18-code-insight) | JavaScript | 171 | code-analysis-tool | DevOps | Interactive Visualization, Code Analysis, Debugging | [▶ run](https://dipeshrayg.github.io/2026-06-18-code-insight/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-18-code-insight) |
 | 2026-06-17 | [insight-hub](https://github.com/dipeshrayg/2026-06-17-insight-hub) | JavaScript | 170 | environmental-data-analytics | Environmental Science | data visualization, filtering, analysis | [▶ run](https://dipeshrayg.github.io/2026-06-17-insight-hub/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-17-insight-hub) |
 | 2026-06-17 | [supply-chain-intelligence-dashboard](https://github.com/dipeshrayg/2026-06-17-supply-chain-intelligence-dashboard) | JavaScript | 165 | supply-chain-analytics | Supply Chain Management | supply chain management, real-time analytics, data visualization | [▶ run](https://dipeshrayg.github.io/2026-06-17-supply-chain-intelligence-dashboard/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-17-supply-chain-intelligence-dashboard) |
 | 2026-06-17 | [atlas-fleet-risk-intelligence](https://github.com/dipeshrayg/2026-06-17-atlas-fleet-risk-intelligence) | JavaScript | 162 | fleet-risk-intelligence-platform | Insurance and Risk Management | data visualization, machine learning, information theory | [▶ run](https://dipeshrayg.github.io/2026-06-17-atlas-fleet-risk-intelligence/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-17-atlas-fleet-risk-intelligence) |
@@ -163,4 +164,4 @@ STAGE 6  SELF-IMPROVE
 
 ---
 
-*Engine: [autonomous-brain-engine](https://github.com/dipeshrayg/autonomous-brain-engine) - ORCID: [0009-0001-9970-0220](https://orcid.org/0009-0001-9970-0220) - Built by Dipesh Ray - Infrastructure cost: $0 - Last updated 2026-06-17.*
+*Engine: [autonomous-brain-engine](https://github.com/dipeshrayg/autonomous-brain-engine) - ORCID: [0009-0001-9970-0220](https://orcid.org/0009-0001-9970-0220) - Built by Dipesh Ray - Infrastructure cost: $0 - Last updated 2026-06-18.*
