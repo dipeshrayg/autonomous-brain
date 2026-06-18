@@ -2610,6 +2610,49 @@
         "dead_controls_count": 1,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-06-18",
+      "completed_at": "2026-06-18T11:23:02Z",
+      "completed_at_unix": 1781781782,
+      "name": "finverge",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-18-finverge",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-18-finverge/",
+      "language": "JavaScript",
+      "project_type": "b2b_dashboard",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "complexity_score": 180,
+      "concepts_demonstrated": [
+        "data integration",
+        "financial analysis",
+        "data visualization"
+      ],
+      "novel_concepts": [
+        "financial data convergence",
+        "real-time KPI tracking"
+      ],
+      "advancement_axis": "unified financial data view",
+      "pattern": "financial-dashboard",
+      "domain": "Fintech",
+      "visual_identity": "modern, minimalist design with a palette of blues and whites, Open Sans typography",
+      "safety_notes": "no user input is stored or transmitted",
+      "file_count": 4,
+      "loc": 364,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 3,
+        "canvasCount": 0,
+        "title": "Finverge - Financial Data Convergence Platform"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 2,
+        "missing_features_count": 1
+      }
     }
   ],
   "complexity_trajectory": [
@@ -2672,7 +2715,8 @@
     162,
     165,
     170,
-    171
+    171,
+    180
   ],
   "concepts_explored": [
     "neural networks",
@@ -2904,7 +2948,9 @@
     "filtering",
     "analysis",
     "Code Analysis",
-    "Debugging"
+    "Debugging",
+    "data integration",
+    "financial analysis"
   ],
   "patterns_used": [
     "visualizer",
@@ -2960,7 +3006,8 @@
     "fleet-risk-intelligence-platform",
     "supply-chain-analytics",
     "environmental-data-analytics",
-    "code-analysis-tool"
+    "code-analysis-tool",
+    "financial-dashboard"
   ],
   "domains_used": [
     "Mathematics",
@@ -3016,7 +3063,8 @@
     "Insurance and Risk Management",
     "Supply Chain Management",
     "Environmental Science",
-    "DevOps"
+    "DevOps",
+    "Fintech"
   ],
   "ceo_reviews": [
     {

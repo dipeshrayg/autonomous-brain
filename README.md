@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 60 |
+| Projects shipped | 61 |
 | Builds auto-refused (quality gate) | 282+ |
-| Peak complexity | 171 (open-ended scale) |
-| Average complexity | 58.4 |
+| Peak complexity | 180 (open-ended scale) |
+| Average complexity | 60.4 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
 | Latest run | 2026-06-18 |
 
 **Languages explored:** HTML+JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (16), python_tool (8), generative_art (7), game_web (6), document (4), cli_tool (3), data_viz (3), b2b_dashboard (2), saas_app (2), web_3d (2), typescript_app (2), devtool (1), database_showcase (1), api_platform (1), creative_tool (1), ai_concept (1)  
+**Project types shipped:** web_interactive (16), python_tool (8), generative_art (7), game_web (6), document (4), b2b_dashboard (3), cli_tool (3), data_viz (3), saas_app (2), web_3d (2), typescript_app (2), devtool (1), database_showcase (1), api_platform (1), creative_tool (1), ai_concept (1)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-06-18 | [finverge](https://github.com/dipeshrayg/2026-06-18-finverge) | JavaScript | 180 | financial-dashboard | Fintech | data integration, financial analysis, data visualization | [▶ run](https://dipeshrayg.github.io/2026-06-18-finverge/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-18-finverge) |
 | 2026-06-18 | [code-insight](https://github.com/dipeshrayg/2026-06-18-code-insight) | JavaScript | 171 | code-analysis-tool | DevOps | Interactive Visualization, Code Analysis, Debugging | [▶ run](https://dipeshrayg.github.io/2026-06-18-code-insight/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-18-code-insight) |
 | 2026-06-17 | [insight-hub](https://github.com/dipeshrayg/2026-06-17-insight-hub) | JavaScript | 170 | environmental-data-analytics | Environmental Science | data visualization, filtering, analysis | [▶ run](https://dipeshrayg.github.io/2026-06-17-insight-hub/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-17-insight-hub) |
 | 2026-06-17 | [supply-chain-intelligence-dashboard](https://github.com/dipeshrayg/2026-06-17-supply-chain-intelligence-dashboard) | JavaScript | 165 | supply-chain-analytics | Supply Chain Management | supply chain management, real-time analytics, data visualization | [▶ run](https://dipeshrayg.github.io/2026-06-17-supply-chain-intelligence-dashboard/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-17-supply-chain-intelligence-dashboard) |
