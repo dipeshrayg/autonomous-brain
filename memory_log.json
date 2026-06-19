@@ -2743,6 +2743,52 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-06-19",
+      "completed_at": "2026-06-19T07:28:05Z",
+      "completed_at_unix": 1781854085,
+      "name": "regulatory-compliance-hub",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-19-regulatory-compliance-hub",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-19-regulatory-compliance-hub/",
+      "language": "JavaScript",
+      "project_type": "saas_app",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "ESM"
+      ],
+      "complexity_score": 190,
+      "concepts_demonstrated": [
+        "Constraint Solving",
+        "Probabilistic Graphical Models",
+        "Bayesian Inference",
+        "Real-time Collaboration",
+        "Synthetic User Personas"
+      ],
+      "novel_concepts": [
+        "Hybrid Constraint Solving with Machine Learning",
+        "Explainable AI for Compliance"
+      ],
+      "advancement_axis": "Real-time Collaboration and Explainable AI for Compliance",
+      "pattern": "cybersecurity-compliance-platform",
+      "domain": "Cybersecurity",
+      "visual_identity": "Dark blue and white color scheme, sans-serif typography, and a minimalist layout",
+      "safety_notes": "No active malware, no exploits against systems without consent. Educational/diagnostic/synthetic demos only.",
+      "file_count": 4,
+      "loc": 377,
+      "quality_cycles_used": 1,
+      "final_verify_metrics": {
+        "interactiveCount": 3,
+        "canvasCount": 0,
+        "title": "Regulatory Compliance Hub"
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -2808,7 +2854,8 @@
     171,
     180,
     182,
-    185
+    185,
+    190
   ],
   "concepts_explored": [
     "neural networks",
@@ -3046,7 +3093,9 @@
     "Constraint Solving",
     "DPLL with Conflict-Driven Clause Learning",
     "Probabilistic Graphical Models",
-    "Bayesian Inference"
+    "Bayesian Inference",
+    "Real-time Collaboration",
+    "Synthetic User Personas"
   ],
   "patterns_used": [
     "visualizer",
@@ -3105,7 +3154,8 @@
     "code-analysis-tool",
     "financial-dashboard",
     "constraint-solver-with-insights",
-    "healthcare-compliance-webapp"
+    "healthcare-compliance-webapp",
+    "cybersecurity-compliance-platform"
   ],
   "domains_used": [
     "Mathematics",
@@ -3164,7 +3214,8 @@
     "DevOps",
     "Fintech",
     "Computer Science",
-    "Healthcare"
+    "Healthcare",
+    "Cybersecurity"
   ],
   "ceo_reviews": [
     {
