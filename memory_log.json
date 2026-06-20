@@ -2919,6 +2919,49 @@
         "dead_controls_count": 3,
         "missing_features_count": 1
       }
+    },
+    {
+      "date": "2026-06-20",
+      "completed_at": "2026-06-20T12:35:34Z",
+      "completed_at_unix": 1781958934,
+      "name": "supply-chain-pulse",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-20-supply-chain-pulse-v2",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-20-supply-chain-pulse-v2/",
+      "language": "JavaScript",
+      "project_type": "system_design",
+      "tech_stack": [
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "complexity_score": 213,
+      "concepts_demonstrated": [
+        "Interactive Visualization",
+        "System Design",
+        "Real-time Data Processing"
+      ],
+      "novel_concepts": [
+        "Constraint Solving",
+        "Distributed Systems"
+      ],
+      "advancement_axis": "novel application of constraint solving in supply-chain management",
+      "pattern": "system-design-visualization",
+      "domain": "Supply Chain Management",
+      "visual_identity": "clean, modern, professional",
+      "safety_notes": "no active malware, no exploits",
+      "file_count": 4,
+      "loc": 395,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 5,
+        "canvasCount": 1,
+        "title": "Supply Chain Pulse"
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -2988,7 +3031,8 @@
     190,
     200,
     210,
-    212
+    212,
+    213
   ],
   "concepts_explored": [
     "neural networks",
@@ -3298,6 +3342,7 @@
     "cybersecurity-compliance-platform",
     "ai-driven-educational-platform",
     "contract-review-platform",
+    "system-design-visualization",
     "system-design-visualization"
   ],
   "domains_used": [
@@ -3361,6 +3406,7 @@
     "Cybersecurity",
     "Education Technology",
     "Legal Tech",
+    "Supply Chain Management",
     "Supply Chain Management"
   ],
   "ceo_reviews": [
