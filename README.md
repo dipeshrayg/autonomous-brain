@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 70 |
+| Projects shipped | 71 |
 | Builds auto-refused (quality gate) | 294+ |
-| Peak complexity | 230 (open-ended scale) |
-| Average complexity | 78.9 |
+| Peak complexity | 240 (open-ended scale) |
+| Average complexity | 81.2 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
 | Latest run | 2026-06-21 |
 
 **Languages explored:** HTML+JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (16), python_tool (8), generative_art (7), game_web (6), saas_app (5), document (4), b2b_dashboard (3), cli_tool (3), data_viz (3), system_design (2), enterprise_webapp (2), database_showcase (2), web_3d (2), typescript_app (2), saas_landing (1), devtool (1), api_platform (1), creative_tool (1), ai_concept (1)  
+**Project types shipped:** web_interactive (16), python_tool (8), generative_art (7), game_web (6), saas_app (5), document (4), enterprise_webapp (3), b2b_dashboard (3), cli_tool (3), data_viz (3), system_design (2), database_showcase (2), web_3d (2), typescript_app (2), saas_landing (1), devtool (1), api_platform (1), creative_tool (1), ai_concept (1)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-06-21 | [edu-pro](https://github.com/dipeshrayg/2026-06-21-edu-pro) | JavaScript | 240 | education-analytics-platform | Education Technology | AI-powered education analytics, Personalized learning path generation, Bayesian inference | [▶ run](https://dipeshrayg.github.io/2026-06-21-edu-pro/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-21-edu-pro) |
 | 2026-06-21 | [learnsphere](https://github.com/dipeshrayg/2026-06-21-learnsphere) | JavaScript | 230 | education-planning-platform | Education Technology | AI-powered education planning, Personalized learning paths, Modular design system | [▶ run](https://dipeshrayg.github.io/2026-06-21-learnsphere/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-21-learnsphere) |
 | 2026-06-20 | [learn-path](https://github.com/dipeshrayg/2026-06-20-learn-path) | JavaScript | 220 | education-planning-platform | Education Technology | AI-powered education planning, Personalized learning paths, Constraint solving | [▶ run](https://dipeshrayg.github.io/2026-06-20-learn-path/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-20-learn-path) |
 | 2026-06-20 | [supply-chain-pulse](https://github.com/dipeshrayg/2026-06-20-supply-chain-pulse-v2) | JavaScript | 213 | system-design-visualization | Supply Chain Management | Interactive Visualization, System Design, Real-time Data Processing | [▶ run](https://dipeshrayg.github.io/2026-06-20-supply-chain-pulse-v2/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-20-supply-chain-pulse-v2) |
