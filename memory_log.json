@@ -3007,6 +3007,49 @@
         "dead_controls_count": 3,
         "missing_features_count": 1
       }
+    },
+    {
+      "date": "2026-06-21",
+      "completed_at": "2026-06-21T10:35:38Z",
+      "completed_at_unix": 1782038138,
+      "name": "learnsphere",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-21-learnsphere",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-21-learnsphere/",
+      "language": "JavaScript",
+      "project_type": "saas_app",
+      "tech_stack": [
+        "Vue.js",
+        "D3.js",
+        "ESM"
+      ],
+      "complexity_score": 230,
+      "concepts_demonstrated": [
+        "AI-powered education planning",
+        "Personalized learning paths",
+        "Modular design system"
+      ],
+      "novel_concepts": [
+        "Constraint solving using DPLL with conflict-driven clause learning",
+        "Information-theoretic concepts for educational insights"
+      ],
+      "advancement_axis": "leveraging AI and information theory for education planning",
+      "pattern": "education-planning-platform",
+      "domain": "Education Technology",
+      "visual_identity": "modern, minimalistic design with a focus on typography and whitespace",
+      "safety_notes": "No active malware, no exploits against systems without consent",
+      "file_count": 4,
+      "loc": 491,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 5,
+        "canvasCount": 0,
+        "title": "LearnSphere - AI-powered Education Planning"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 5,
+        "missing_features_count": 2
+      }
     }
   ],
   "complexity_trajectory": [
@@ -3078,7 +3121,8 @@
     210,
     212,
     213,
-    220
+    220,
+    230
   ],
   "concepts_explored": [
     "neural networks",
@@ -3327,7 +3371,8 @@
     "System Design",
     "Real-time Data Processing",
     "AI-powered education planning",
-    "Personalized learning paths"
+    "Personalized learning paths",
+    "Modular design system"
   ],
   "patterns_used": [
     "visualizer",
@@ -3392,6 +3437,7 @@
     "contract-review-platform",
     "system-design-visualization",
     "system-design-visualization",
+    "education-planning-platform",
     "education-planning-platform"
   ],
   "domains_used": [
@@ -3457,6 +3503,7 @@
     "Legal Tech",
     "Supply Chain Management",
     "Supply Chain Management",
+    "Education Technology",
     "Education Technology"
   ],
   "ceo_reviews": [
