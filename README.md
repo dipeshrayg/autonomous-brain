@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 71 |
+| Projects shipped | 72 |
 | Builds auto-refused (quality gate) | 294+ |
-| Peak complexity | 240 (open-ended scale) |
-| Average complexity | 81.2 |
+| Peak complexity | 250 (open-ended scale) |
+| Average complexity | 83.5 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
-| Latest run | 2026-06-21 |
+| Latest run | 2026-06-22 |
 
 **Languages explored:** HTML+JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (16), python_tool (8), generative_art (7), game_web (6), saas_app (5), document (4), enterprise_webapp (3), b2b_dashboard (3), cli_tool (3), data_viz (3), system_design (2), database_showcase (2), web_3d (2), typescript_app (2), saas_landing (1), devtool (1), api_platform (1), creative_tool (1), ai_concept (1)  
+**Project types shipped:** web_interactive (16), python_tool (8), generative_art (7), saas_app (6), game_web (6), document (4), enterprise_webapp (3), b2b_dashboard (3), cli_tool (3), data_viz (3), system_design (2), database_showcase (2), web_3d (2), typescript_app (2), saas_landing (1), devtool (1), api_platform (1), creative_tool (1), ai_concept (1)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-06-22 | [corporate-learning-hub](https://github.com/dipeshrayg/2026-06-22-corporate-learning-hub) | JavaScript | 250 | learning-management-system | Corporate Training | Constraint Solving, DPLL with Conflict-Driven Clause Learning, Bayesian Inference | [▶ run](https://dipeshrayg.github.io/2026-06-22-corporate-learning-hub/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-22-corporate-learning-hub) |
 | 2026-06-21 | [edu-pro](https://github.com/dipeshrayg/2026-06-21-edu-pro) | JavaScript | 240 | education-analytics-platform | Education Technology | AI-powered education analytics, Personalized learning path generation, Bayesian inference | [▶ run](https://dipeshrayg.github.io/2026-06-21-edu-pro/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-21-edu-pro) |
 | 2026-06-21 | [learnsphere](https://github.com/dipeshrayg/2026-06-21-learnsphere) | JavaScript | 230 | education-planning-platform | Education Technology | AI-powered education planning, Personalized learning paths, Modular design system | [▶ run](https://dipeshrayg.github.io/2026-06-21-learnsphere/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-21-learnsphere) |
 | 2026-06-20 | [learn-path](https://github.com/dipeshrayg/2026-06-20-learn-path) | JavaScript | 220 | education-planning-platform | Education Technology | AI-powered education planning, Personalized learning paths, Constraint solving | [▶ run](https://dipeshrayg.github.io/2026-06-20-learn-path/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-20-learn-path) |
@@ -175,4 +176,4 @@ STAGE 6  SELF-IMPROVE
 
 ---
 
-*Engine: [autonomous-brain-engine](https://github.com/dipeshrayg/autonomous-brain-engine) - ORCID: [0009-0001-9970-0220](https://orcid.org/0009-0001-9970-0220) - Built by Dipesh Ray - Infrastructure cost: $0 - Last updated 2026-06-21.*
+*Engine: [autonomous-brain-engine](https://github.com/dipeshrayg/autonomous-brain-engine) - ORCID: [0009-0001-9970-0220](https://orcid.org/0009-0001-9970-0220) - Built by Dipesh Ray - Infrastructure cost: $0 - Last updated 2026-06-22.*

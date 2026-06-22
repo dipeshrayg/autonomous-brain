@@ -3098,6 +3098,50 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-06-22",
+      "completed_at": "2026-06-22T07:21:06Z",
+      "completed_at_unix": 1782112866,
+      "name": "corporate-learning-hub",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-22-corporate-learning-hub",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-22-corporate-learning-hub/",
+      "language": "JavaScript",
+      "project_type": "saas_app",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "ESM"
+      ],
+      "complexity_score": 250,
+      "concepts_demonstrated": [
+        "Constraint Solving",
+        "DPLL with Conflict-Driven Clause Learning",
+        "Bayesian Inference"
+      ],
+      "novel_concepts": [
+        "Micro-certifications",
+        "AR/VR-enhanced training"
+      ],
+      "advancement_axis": "Personalized learning recommendations using Bayesian inference",
+      "pattern": "learning-management-system",
+      "domain": "Corporate Training",
+      "visual_identity": "Modern, responsive design with a blue and white color scheme, Open Sans typography, and a card-based layout",
+      "safety_notes": "No user data is stored or transmitted, and all functionality is implemented using client-side JavaScript",
+      "file_count": 4,
+      "loc": 427,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 5,
+        "canvasCount": 0,
+        "title": "Corporate Learning Hub"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 1,
+        "missing_features_count": 1
+      }
     }
   ],
   "complexity_trajectory": [
@@ -3171,7 +3215,8 @@
     213,
     220,
     230,
-    240
+    240,
+    250
   ],
   "concepts_explored": [
     "neural networks",
@@ -3491,7 +3536,8 @@
     "system-design-visualization",
     "education-planning-platform",
     "education-planning-platform",
-    "education-analytics-platform"
+    "education-analytics-platform",
+    "learning-management-system"
   ],
   "domains_used": [
     "Mathematics",
@@ -3558,7 +3604,8 @@
     "Supply Chain Management",
     "Education Technology",
     "Education Technology",
-    "Education Technology"
+    "Education Technology",
+    "Corporate Training"
   ],
   "ceo_reviews": [
     {
