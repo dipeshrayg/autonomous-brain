@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 73 |
+| Projects shipped | 74 |
 | Builds auto-refused (quality gate) | 297+ |
-| Peak complexity | 260 (open-ended scale) |
-| Average complexity | 85.9 |
+| Peak complexity | 270 (open-ended scale) |
+| Average complexity | 88.4 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
 | Latest run | 2026-06-22 |
 
 **Languages explored:** HTML+JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (16), python_tool (8), generative_art (7), saas_app (6), game_web (6), enterprise_webapp (4), document (4), b2b_dashboard (3), cli_tool (3), data_viz (3), system_design (2), database_showcase (2), web_3d (2), typescript_app (2), saas_landing (1), devtool (1), api_platform (1), creative_tool (1), ai_concept (1)  
+**Project types shipped:** web_interactive (16), python_tool (8), saas_app (7), generative_art (7), game_web (6), enterprise_webapp (4), document (4), b2b_dashboard (3), cli_tool (3), data_viz (3), system_design (2), database_showcase (2), web_3d (2), typescript_app (2), saas_landing (1), devtool (1), api_platform (1), creative_tool (1), ai_concept (1)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-06-22 | [workforce-evolve](https://github.com/dipeshrayg/2026-06-22-workforce-evolve) | JavaScript | 270 | workforce-upskilling-platform | HR/Workforce Development | Constraint Solving, DPLL with Conflict-Driven Clause Learning, Distributed Systems | [▶ run](https://dipeshrayg.github.io/2026-06-22-workforce-evolve/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-22-workforce-evolve) |
 | 2026-06-22 | [core-learning](https://github.com/dipeshrayg/2026-06-22-core-learning) | JavaScript | 260 | micro-certification-platform | Corporate Training | User Management, Progress Tracking, Reporting | [▶ run](https://dipeshrayg.github.io/2026-06-22-core-learning/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-22-core-learning) |
 | 2026-06-22 | [corporate-learning-hub](https://github.com/dipeshrayg/2026-06-22-corporate-learning-hub) | JavaScript | 250 | learning-management-system | Corporate Training | Constraint Solving, DPLL with Conflict-Driven Clause Learning, Bayesian Inference | [▶ run](https://dipeshrayg.github.io/2026-06-22-corporate-learning-hub/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-22-corporate-learning-hub) |
 | 2026-06-21 | [edu-pro](https://github.com/dipeshrayg/2026-06-21-edu-pro) | JavaScript | 240 | education-analytics-platform | Education Technology | AI-powered education analytics, Personalized learning path generation, Bayesian inference | [▶ run](https://dipeshrayg.github.io/2026-06-21-edu-pro/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-21-edu-pro) |

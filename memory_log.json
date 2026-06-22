@@ -3186,6 +3186,53 @@
         "dead_controls_count": 1,
         "missing_features_count": 1
       }
+    },
+    {
+      "date": "2026-06-22",
+      "completed_at": "2026-06-22T22:52:18Z",
+      "completed_at_unix": 1782168738,
+      "name": "workforce-evolve",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-22-workforce-evolve",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-22-workforce-evolve/",
+      "language": "JavaScript",
+      "project_type": "saas_app",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "ESM"
+      ],
+      "complexity_score": 270,
+      "concepts_demonstrated": [
+        "Constraint Solving",
+        "DPLL with Conflict-Driven Clause Learning",
+        "Distributed Systems",
+        "Realistic Synthetic Data",
+        "Modern Design System"
+      ],
+      "novel_concepts": [
+        "Automation Disruption Mitigation",
+        "Upskilling and Reskilling Workforce Analytics",
+        "Personalized Learning Path Generation using Constraint Solving"
+      ],
+      "advancement_axis": "Applying constraint solving and distributed systems to upskilling and reskilling in automation-disrupted industries",
+      "pattern": "workforce-upskilling-platform",
+      "domain": "HR/Workforce Development",
+      "visual_identity": "Clean typography, ample whitespace, and a palette of blues and whites evoking trust and innovation",
+      "safety_notes": "No sensitive or personal data is used; all data is synthetic and generated for demonstration purposes",
+      "file_count": 4,
+      "loc": 416,
+      "quality_cycles_used": 1,
+      "final_verify_metrics": {
+        "interactiveCount": 5,
+        "canvasCount": 0,
+        "title": "Workforce Evolve"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -3261,7 +3308,8 @@
     230,
     240,
     250,
-    260
+    260,
+    270
   ],
   "concepts_explored": [
     "neural networks",
@@ -3518,7 +3566,10 @@
     "User Management",
     "Progress Tracking",
     "Reporting",
-    "Micro-Certifications"
+    "Micro-Certifications",
+    "Distributed Systems",
+    "Realistic Synthetic Data",
+    "Modern Design System"
   ],
   "patterns_used": [
     "visualizer",
@@ -3587,7 +3638,8 @@
     "education-planning-platform",
     "education-analytics-platform",
     "learning-management-system",
-    "micro-certification-platform"
+    "micro-certification-platform",
+    "workforce-upskilling-platform"
   ],
   "domains_used": [
     "Mathematics",
@@ -3656,7 +3708,8 @@
     "Education Technology",
     "Education Technology",
     "Corporate Training",
-    "Corporate Training"
+    "Corporate Training",
+    "HR/Workforce Development"
   ],
   "ceo_reviews": [
     {
