@@ -3331,6 +3331,51 @@
         "dead_controls_count": 2,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-06-23",
+      "completed_at": "2026-06-23T22:02:23Z",
+      "completed_at_unix": 1782252143,
+      "name": "knowledgium",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-23-knowledgium",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-23-knowledgium/",
+      "language": "JavaScript",
+      "project_type": "saas_app",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "ESM"
+      ],
+      "complexity_score": 290,
+      "concepts_demonstrated": [
+        "Constraint Satisfaction Problems",
+        "Bayesian Inference",
+        "Information-Theoretic Concepts"
+      ],
+      "novel_concepts": [
+        "Peer-to-Peer Learning",
+        "Dynamic Content Generation",
+        "AI-Assisted Knowledge Curation"
+      ],
+      "advancement_axis": "Real-time Collaboration and AI-Assisted Knowledge Sharing",
+      "pattern": "collaborative-knowledge-sharing-platform",
+      "domain": "Enterprise Knowledge Management",
+      "visual_identity": "Modern, Professional, and Minimalist Design",
+      "safety_notes": "No personally identifiable information is collected or stored. All data is synthetic and generated for demonstration purposes only.",
+      "file_count": 4,
+      "loc": 466,
+      "quality_cycles_used": 1,
+      "final_verify_metrics": {
+        "interactiveCount": 3,
+        "canvasCount": 0,
+        "title": "Knowledgium - Collaborative Knowledge Sharing"
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -3409,7 +3454,8 @@
     260,
     270,
     280,
-    285
+    285,
+    290
   ],
   "concepts_explored": [
     "neural networks",
@@ -3679,7 +3725,9 @@
     "Timeline-based data visualization",
     "Synthetic workforce skill data generation",
     "Time-series analysis for trend identification",
-    "Responsive enterprise-grade UI/UX design"
+    "Responsive enterprise-grade UI/UX design",
+    "Constraint Satisfaction Problems",
+    "Information-Theoretic Concepts"
   ],
   "patterns_used": [
     "visualizer",
@@ -3751,7 +3799,8 @@
     "micro-certification-platform",
     "workforce-upskilling-platform",
     "permission-matrix-edu",
-    "timeline-centric-skill-tracker"
+    "timeline-centric-skill-tracker",
+    "collaborative-knowledge-sharing-platform"
   ],
   "domains_used": [
     "Mathematics",
@@ -3823,7 +3872,8 @@
     "Corporate Training",
     "HR/Workforce Development",
     "Human Resource Development",
-    "HR Analytics and Workforce Development"
+    "HR Analytics and Workforce Development",
+    "Enterprise Knowledge Management"
   ],
   "ceo_reviews": [
     {
