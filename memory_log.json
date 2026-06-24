@@ -5094,7 +5094,7 @@
   "cso_reviews": [
     {
       "issued_at": "2026-05-08T06:13:12Z",
-      "issued_at_unix": 1778220792,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "Recent projects show some algorithmic depth but also a concerning lack of edge-case rigor and novelty in several areas.",
@@ -5117,7 +5117,7 @@
     },
     {
       "issued_at": "2026-05-08T17:49:51Z",
-      "issued_at_unix": 1778262591,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "The recent projects show a mix of domains and types, but lack algorithmic depth in many cases. The logistics-route-optimizer and bioinformatics-gene-sequence-analyzer demonstrate some substantive effort, but the majority of other projects appear to be shallow implementations or lack scientific richness.",
@@ -5144,7 +5144,7 @@
     },
     {
       "issued_at": "2026-05-09T06:30:47Z",
-      "issued_at_unix": 1778308247,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "The recent shipped projects show moderate algorithmic depth, with highlights in bioinformatics and information theory, but several domains appear to favor surface-level implementation without substantial novelty.",
@@ -5166,7 +5166,7 @@
     },
     {
       "issued_at": "2026-05-09T17:27:05Z",
-      "issued_at_unix": 1778347625,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "Recent projects show moderate algorithmic depth, with promising work in entropy encoding and bioinformatics analysis, but a concerning lack of focus on edge-case rigor and deeper mathematical or scientific exploration.",
@@ -5190,7 +5190,7 @@
     },
     {
       "issued_at": "2026-05-10T07:10:28Z",
-      "issued_at_unix": 1778397028,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "drifting",
       "summary": "Recent projects show a lack of algorithmic depth, with most efforts focused on generative or visual tools without substantive computational novelty. Refused builds indicate potential for high-value projects in physics simulations and cellular automata but are plagued by QA issues.",
@@ -5214,7 +5214,7 @@
     },
     {
       "issued_at": "2026-05-10T17:27:21Z",
-      "issued_at_unix": 1778434041,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "Recent projects show moderate algorithmic depth, but the focus on web-based tools and partially usable outputs suggests an over-reliance on domain breadth rather than algorithmic rigor.",
@@ -5238,7 +5238,7 @@
     },
     {
       "issued_at": "2026-05-11T07:58:19Z",
-      "issued_at_unix": 1778486299,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "Recent projects show some algorithmic depth in domains like information theory and robotics, but several outputs lack edge-case rigor and mathematical correctness, particularly in physics simulations and QA failures.",
@@ -5263,7 +5263,7 @@
     },
     {
       "issued_at": "2026-05-11T18:14:23Z",
-      "issued_at_unix": 1778523263,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "The recent projects show moderate algorithmic depth and domain diversity, but there is room for more innovation, especially in underexplored types like web_3d and game_web. The refusal of several potentially promising 3D simulation projects suggests technical challenges, but also missed opportunities.",
@@ -5287,7 +5287,7 @@
     },
     {
       "issued_at": "2026-05-12T07:21:20Z",
-      "issued_at_unix": 1778570480,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "Recent projects show moderate algorithmic depth, with stronger performance in research papers but shallower implementations in interactive tools and games.",
@@ -5310,7 +5310,7 @@
     },
     {
       "issued_at": "2026-05-12T18:20:38Z",
-      "issued_at_unix": 1778610038,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "Recent shipped projects show moderate algorithmic depth and domain diversity, but there are signs of stagnation with a preference for low-complexity web-based tools and games. Refused builds indicate unresolved ambition in 3D generative art and cellular automata, highlighting an area of potential growth.",
@@ -5333,7 +5333,7 @@
     },
     {
       "issued_at": "2026-05-13T07:33:55Z",
-      "issued_at_unix": 1778657635,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "Recent projects show moderate algorithmic depth with occasional highlights, but several efforts are stylistically shallow or repetitive, particularly in generative art and games. Refused builds suggest challenges in handling complexity for edge-case explorations.",
@@ -5356,7 +5356,7 @@
     },
     {
       "issued_at": "2026-05-13T18:21:39Z",
-      "issued_at_unix": 1778696499,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "Recent projects show some algorithmic depth, particularly in decentralized path-planning and entropy encoding, but there is a concerning lack of edge-case rigor in generative art and games.",
@@ -5379,7 +5379,7 @@
     },
     {
       "issued_at": "2026-05-14T07:26:54Z",
-      "issued_at_unix": 1778743614,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "The recent projects display some algorithmic depth and scientific merit, particularly in information theory and swarm intelligence studies. However, there is a noticeable trend of shallow implementations in creative and interactive domains, with several refusals indicating systemic weaknesses in edge-case handling and quality assurance.",
@@ -5403,7 +5403,7 @@
     },
     {
       "issued_at": "2026-05-14T18:13:45Z",
-      "issued_at_unix": 1778782425,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "Recent projects show a mix of algorithmic depth and creative endeavors but lean toward safe territory, avoiding breakthroughs in underexplored domains like web_3d and generative complexity.",
@@ -5426,7 +5426,7 @@
     },
     {
       "issued_at": "2026-05-15T07:39:38Z",
-      "issued_at_unix": 1778830778,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "Recent projects show a moderate level of algorithmic depth, with some promising entries in entropy encoding and decentralized path planning, but other efforts—particularly in the game domain—are drifting toward shallow implementations.",
@@ -5449,7 +5449,7 @@
     },
     {
       "issued_at": "2026-05-17T17:30:51Z",
-      "issued_at_unix": 1779039051,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "Recent shipped projects show a mix of generative art, robotics, cryptography, and game design, with some algorithmic depth but limited edge-case exploration. Refused builds highlight an underexplored domain: web_3d, which should be prioritized for the next project.",
@@ -5473,7 +5473,7 @@
     },
     {
       "issued_at": "2026-05-18T08:29:27Z",
-      "issued_at_unix": 1779092967,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "drifting",
       "summary": "The recent projects show a mix of generative art, game design, and research-oriented documents, but lack deep algorithmic innovation and edge-case rigor in several areas. Refused builds suggest a troubling trend of abandoning promising deep-tech domains like raymarching and physics simulation due to insufficient quality control.",
@@ -5497,7 +5497,7 @@
     },
     {
       "issued_at": "2026-05-18T18:16:42Z",
-      "issued_at_unix": 1779128202,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "Recent projects demonstrate moderate algorithmic depth and domain diversity, but several refused builds suggest weaknesses in edge-case handling and rigor. The shipped projects show some exploratory ambition but lack consistency in mathematical correctness and information-theoretic interest.",
@@ -5520,7 +5520,7 @@
     },
     {
       "issued_at": "2026-05-19T08:00:28Z",
-      "issued_at_unix": 1779177628,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "drifting",
       "summary": "Recent projects lack algorithmic depth and edge-case rigor, with a pattern of superficial implementations hiding under ambitious labels. Repeated failures in physics-based simulation and raymarching suggest foundational gaps in numerical methods and computational geometry expertise.",
@@ -5544,7 +5544,7 @@
     },
     {
       "issued_at": "2026-05-19T18:19:46Z",
-      "issued_at_unix": 1779214786,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "drifting",
       "summary": "Recent projects show algorithmic shallowness, with generative art and cryptography tools leaning towards surface-level implementations. Refused builds highlight promising but underdeveloped deep-tech directions.",
@@ -5569,7 +5569,7 @@
     },
     {
       "issued_at": "2026-05-20T07:59:34Z",
-      "issued_at_unix": 1779263974,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "Recent projects demonstrate moderate algorithmic depth but lack significant innovation in mathematical rigor or edge-case handling. The system is recycling ideas within generative art and cryptography without pushing boundaries.",
@@ -5593,7 +5593,7 @@
     },
     {
       "issued_at": "2026-05-20T18:38:01Z",
-      "issued_at_unix": 1779302281,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "drifting",
       "summary": "Recent projects show limited algorithmic depth, with a tendency toward visually engaging but shallow implementations. Refused builds suggest a lack of rigor in addressing computational challenges such as physics simulations and raymarching methods.",
@@ -5619,7 +5619,7 @@
     },
     {
       "issued_at": "2026-05-21T08:07:04Z",
-      "issued_at_unix": 1779350824,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "Recent projects show moderate algorithmic depth but lack consistent novelty or edge-case rigor, with multiple areas (e.g., Cellular Automata) underserved by meaningful scientific exploration.",
@@ -5643,7 +5643,7 @@
     },
     {
       "issued_at": "2026-05-21T18:17:11Z",
-      "issued_at_unix": 1779387431,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "Recent projects show moderate algorithmic depth, with a focus on interdisciplinary ideas and generative systems, but lack exploration of edge-case rigor and untapped domains such as web_3d simulations.",
@@ -5668,7 +5668,7 @@
     },
     {
       "issued_at": "2026-05-22T07:57:06Z",
-      "issued_at_unix": 1779436626,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "Recent projects show moderate algorithmic depth and scientific merit, but there are signs of stagnation due to repeated shallow implementations and failure to ship critical edge-case builds in physics and emergent systems.",
@@ -5692,7 +5692,7 @@
     },
     {
       "issued_at": "2026-05-22T18:12:21Z",
-      "issued_at_unix": 1779473541,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "Recent projects show moderate algorithmic depth with some promising ideas, but there is a concerning trend of surface-level implementations in certain domains, especially in projects with partial usability or overlapping patterns.",
@@ -5716,7 +5716,7 @@
     },
     {
       "issued_at": "2026-05-23T07:11:20Z",
-      "issued_at_unix": 1779520280,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "Recent projects show surface-level novelty but lack deep algorithmic exploration, with patterns leaning heavily toward interactivity and visualization. The refusal of physics simulation projects highlights potential weaknesses in edge-case handling and mathematical rigor.",
@@ -5739,7 +5739,7 @@
     },
     {
       "issued_at": "2026-05-23T17:31:50Z",
-      "issued_at_unix": 1779557510,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "The recent projects demonstrate moderate algorithmic depth but lean heavily on established patterns without significant innovation. Refused builds suggest struggles with edge-case rigor in physics simulations and emergent behavior modeling.",
@@ -5762,7 +5762,7 @@
     },
     {
       "issued_at": "2026-05-24T07:34:13Z",
-      "issued_at_unix": 1779608053,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "Recent shipped projects demonstrate some algorithmic and educational value, but lack consistent deep-tech ambition and rigorous edge-case handling. Refused builds suggest insufficient robustness in physics-based and emergent systems projects.",
@@ -5789,7 +5789,7 @@
     },
     {
       "issued_at": "2026-05-24T17:29:56Z",
-      "issued_at_unix": 1779643796,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "Recent projects show moderate algorithmic depth but lack consistent edge-case rigor and exhibit over-reliance on saturated project types like web_3d and game_web. Refused builds highlight struggles with complex physics simulations and emergent behavior models.",
@@ -5812,7 +5812,7 @@
     },
     {
       "issued_at": "2026-05-25T08:43:22Z",
-      "issued_at_unix": 1779698602,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "Recent projects demonstrate surface-level diversity in domains and types but lack algorithmic depth and scientific novelty, with notable missed opportunities in refused builds.",
@@ -5836,7 +5836,7 @@
     },
     {
       "issued_at": "2026-05-25T18:05:50Z",
-      "issued_at_unix": 1779732350,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "drifting",
       "summary": "Recent projects demonstrate some algorithmic depth but are increasingly relying on surface-level implementations and educational interactivity. The refusal of numerous edge-case-heavy builds signals a troubling lack of follow-through on ambitious but complex ideas.",
@@ -5859,7 +5859,7 @@
     },
     {
       "issued_at": "2026-05-26T08:04:52Z",
-      "issued_at_unix": 1779782692,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "Recent projects show moderate algorithmic depth but lean toward creative or educational tools rather than pushing into rigorous scientific frontiers. Some refused builds indicate ambition but lack execution readiness.",
@@ -5882,7 +5882,7 @@
     },
     {
       "issued_at": "2026-05-26T18:40:16Z",
-      "issued_at_unix": 1779820816,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "Recent projects demonstrate moderate algorithmic depth and scientific engagement, with promising areas like cryptographic simulation and cellular automata, but there is room to push for sharper novelty and rigor in edge cases.",
@@ -5906,7 +5906,7 @@
     },
     {
       "issued_at": "2026-05-27T08:14:53Z",
-      "issued_at_unix": 1779869693,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "drifting",
       "summary": "Recent projects show some algorithmic depth, but there is excessive focus on shallow implementations across domains, leaving edge cases and scientific rigor underexplored.",
@@ -5930,7 +5930,7 @@
     },
     {
       "issued_at": "2026-05-27T18:37:15Z",
-      "issued_at_unix": 1779907035,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "Recent projects lack algorithmic novelty and deep-tech ambition, with an over-reliance on python_tool and game_web types.",
@@ -5952,7 +5952,7 @@
     },
     {
       "issued_at": "2026-05-28T08:15:16Z",
-      "issued_at_unix": 1779956116,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "Recent projects demonstrate a lack of algorithmic novelty and deep-tech ambition, with an overreliance on python_tool and game_web types. The system is not exploring new domains or implementing cutting-edge algorithms.",
@@ -5973,7 +5973,7 @@
     },
     {
       "issued_at": "2026-05-28T19:07:36Z",
-      "issued_at_unix": 1779995256,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "acceptable",
       "summary": "The recent projects demonstrate a good mix of domains and types, but there is room for improvement in terms of algorithmic novelty and mathematical correctness. The diversity report highlights the need to explore new types, such as typescript_app and cli_tool.",
@@ -5996,7 +5996,7 @@
     },
     {
       "issued_at": "2026-05-29T08:12:35Z",
-      "issued_at_unix": 1780042355,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "acceptable",
       "summary": "Recent projects exhibit some depth in algorithmic novelty, but the diversity report highlights opportunities for growth in underutilized types, particularly typescript_app and cli_tool.",
@@ -6019,7 +6019,7 @@
     },
     {
       "issued_at": "2026-05-29T19:05:44Z",
-      "issued_at_unix": 1780081544,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "Recent projects show some algorithmic novelty, but shallow ideas and lack of diversity in types are concerning. The system should focus on exploring new types and deepening algorithmic complexity.",
@@ -6041,7 +6041,7 @@
     },
     {
       "issued_at": "2026-05-30T07:24:29Z",
-      "issued_at_unix": 1780125869,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "acceptable",
       "summary": "Recent projects demonstrate a good balance of domains and types, but there is room for improvement in terms of algorithmic novelty and deep-tech ambition.",
@@ -6064,7 +6064,7 @@
     },
     {
       "issued_at": "2026-05-30T17:34:41Z",
-      "issued_at_unix": 1780162481,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "acceptable",
       "summary": "Recent projects display some algorithmic depth, particularly in information theory and biology, but there is a concerning lack of focus on edge-case rigor and deep-tech ambition in several domains.",
@@ -6090,7 +6090,7 @@
     },
     {
       "issued_at": "2026-05-31T07:55:12Z",
-      "issued_at_unix": 1780214112,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "Recent projects show some algorithmic novelty, but lack depth in certain areas, and type diversity is not being fully explored. The next project should focus on a less used type with room to grow.",
@@ -6112,7 +6112,7 @@
     },
     {
       "issued_at": "2026-05-31T17:34:54Z",
-      "issued_at_unix": 1780248894,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "Recent projects lack depth in algorithmic novelty and mathematical correctness, with an over-reliance on simplistic tools and visualizers. The system needs to explore more complex domains and techniques.",
@@ -6134,7 +6134,7 @@
     },
     {
       "issued_at": "2026-06-01T09:38:42Z",
-      "issued_at_unix": 1780306722,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "Recent projects lack depth in algorithmic novelty and mathematical correctness, with an overemphasis on visualization tools. The next project should focus on a high-priority, never-tried type to increase diversity.",
@@ -6154,7 +6154,7 @@
     },
     {
       "issued_at": "2026-06-01T20:40:51Z",
-      "issued_at_unix": 1780346451,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "acceptable",
       "summary": "Recent projects demonstrate a satisfactory level of algorithmic novelty and mathematical correctness, but there is room for improvement in deep-tech ambition and edge-case rigor.",
@@ -6177,7 +6177,7 @@
     },
     {
       "issued_at": "2026-06-02T08:50:29Z",
-      "issued_at_unix": 1780390229,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "acceptable",
       "summary": "Recent projects demonstrate a good balance of algorithmic novelty and mathematical correctness, but there is room for improvement in terms of deep-tech ambition and edge-case rigor.",
@@ -6200,7 +6200,7 @@
     },
     {
       "issued_at": "2026-06-02T19:55:11Z",
-      "issued_at_unix": 1780430111,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "While recent projects demonstrate some depth in various domains, the lack of diversity in project types and the refusal of reaction-diffusion related projects suggest a need for more exploration and algorithmic novelty. The next project should utilize the shader_art type to address this gap.",
@@ -6222,7 +6222,7 @@
     },
     {
       "issued_at": "2026-06-03T09:11:51Z",
-      "issued_at_unix": 1780477911,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "Recent projects lack algorithmic novelty and mathematical correctness, with a focus on visualization tools rather than deep-tech research depth. The next project should utilize the typescript_app type to improve diversity and focus on a specific scientific domain.",
@@ -6244,7 +6244,7 @@
     },
     {
       "issued_at": "2026-06-03T19:59:51Z",
-      "issued_at_unix": 1780516791,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "thriving",
       "summary": "Recent projects showcase a good balance of algorithmic novelty and domain exploration, but there is room for improvement in type diversity and deep-tech ambition.",
@@ -6267,7 +6267,7 @@
     },
     {
       "issued_at": "2026-06-04T08:37:05Z",
-      "issued_at_unix": 1780562225,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "Recent projects lack algorithmic novelty and mathematical correctness, with some projects relying on shallow ideas behind ambitious-sounding labels. The diversity report shows opportunities for growth in underutilized project types.",
@@ -6286,7 +6286,7 @@
     },
     {
       "issued_at": "2026-06-04T18:33:04Z",
-      "issued_at_unix": 1780597984,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "acceptable",
       "summary": "Recent projects demonstrate a good range of domains and types, but there is room for improvement in terms of algorithmic novelty and mathematical correctness.",
@@ -6310,7 +6310,7 @@
     },
     {
       "issued_at": "2026-06-05T08:28:41Z",
-      "issued_at_unix": 1780648121,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "Recent projects show some algorithmic depth, but type diversity is lacking, and several projects are maxed out, indicating a need for exploration of new areas.",
@@ -6333,7 +6333,7 @@
     },
     {
       "issued_at": "2026-06-05T18:19:40Z",
-      "issued_at_unix": 1780683580,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "alarming",
       "summary": "Recent projects show a concerning trend of shallow algorithmic depth and lack of novelty, with an over-reliance on familiar domains and data visualization tools. The refusal of several projects with ambiguous or missing details raises further concerns about the quality and ambition of the work.",
@@ -6352,7 +6352,7 @@
     },
     {
       "issued_at": "2026-06-06T07:28:43Z",
-      "issued_at_unix": 1780730923,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "thriving",
       "summary": "Recent projects showcase a good balance of algorithmic novelty and deep-tech ambition, but there's a need to explore new project types to maintain diversity.",
@@ -6373,7 +6373,7 @@
     },
     {
       "issued_at": "2026-06-06T17:39:14Z",
-      "issued_at_unix": 1780767554,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "alarming",
       "summary": "Recent projects lack depth in algorithmic novelty and deep-tech ambition, with too many projects reaching maximum complexity in their respective types, and several refused builds indicating potential issues with quality and substance.",
@@ -6393,7 +6393,7 @@
     },
     {
       "issued_at": "2026-06-07T08:04:38Z",
-      "issued_at_unix": 1780819478,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "thriving",
       "summary": "Recent projects show depth in various domains, but type diversity is a concern, with several types maxed out and others underutilized.",
@@ -6414,7 +6414,7 @@
     },
     {
       "issued_at": "2026-06-07T17:44:30Z",
-      "issued_at_unix": 1780854270,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "acceptable",
       "summary": "Recent projects demonstrate algorithmic novelty and deep-tech ambition, but some areas require more attention, such as exploring new project types and improving refused builds",
@@ -6438,7 +6438,7 @@
     },
     {
       "issued_at": "2026-06-08T09:09:50Z",
-      "issued_at_unix": 1780909790,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "thriving",
       "summary": "Recent projects show a good balance of algorithmic novelty and deep-tech ambition, but there is room for improvement in exploring new project types and avoiding maxed out types.",
@@ -6460,7 +6460,7 @@
     },
     {
       "issued_at": "2026-06-08T18:40:09Z",
-      "issued_at_unix": 1780944009,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "thriving",
       "summary": "Recent projects demonstrate a good balance of algorithmic novelty and deep-tech ambition, but there's a need to explore new project types to maintain diversity",
@@ -6481,7 +6481,7 @@
     },
     {
       "issued_at": "2026-06-09T08:05:28Z",
-      "issued_at_unix": 1780992328,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "alarming",
       "summary": "Recent projects lack algorithmic novelty and mathematical correctness, with too many maxed out types and not enough exploration of new areas like shader_art.",
@@ -6501,7 +6501,7 @@
     },
     {
       "issued_at": "2026-06-09T18:27:21Z",
-      "issued_at_unix": 1781029641,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "Recent projects show a lack of algorithmic novelty and over-reliance on familiar domains, with a concerning number of maxed-out types and a neglected shader_art type.",
@@ -6521,7 +6521,7 @@
     },
     {
       "issued_at": "2026-06-10T08:29:53Z",
-      "issued_at_unix": 1781080193,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "Recent projects demonstrate some intellectual substance, but the overall trend shows a lack of depth and diversity in project types, with many types already maxed out. The refusal of several projects, including 'reaction-diffusion-shader' and 'emergent-pattern-synthesizer', suggests a need for more rigorous scientific and algorithmic approaches.",
@@ -6543,7 +6543,7 @@
     },
     {
       "issued_at": "2026-06-10T18:45:50Z",
-      "issued_at_unix": 1781117150,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "drifting",
       "summary": "Recent projects show a tendency toward superficial implementations, particularly in generative art and crypto-related tools, with insufficient algorithmic depth or mathematical rigor.",
@@ -6565,7 +6565,7 @@
     },
     {
       "issued_at": "2026-06-11T08:57:35Z",
-      "issued_at_unix": 1781168255,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "Recent projects show a lack of diversity in types and a tendency to max out complexity in familiar areas, indicating a need for exploration of new domains and types.",
@@ -6585,7 +6585,7 @@
     },
     {
       "issued_at": "2026-06-11T19:17:41Z",
-      "issued_at_unix": 1781205461,
+      "issued_at_unix": 1782107021,
       "model": "gpt-4o",
       "verdict": "drifting",
       "summary": "Recent projects show diminishing algorithmic depth, with a heavy skew toward maxed-out project types and generative art that lacks substantive innovation.",
@@ -6608,7 +6608,7 @@
     },
     {
       "issued_at": "2026-06-12T08:44:42Z",
-      "issued_at_unix": 1781253882,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "Recent projects lack algorithmic novelty and mathematical correctness, with some projects being too shallow. The diversity report shows that several project types have been maxed out, and some are banned due to repeated failures.",
@@ -6629,7 +6629,7 @@
     },
     {
       "issued_at": "2026-06-12T18:22:00Z",
-      "issued_at_unix": 1781288520,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "Recent projects lack depth and novelty, with too much repetition in types and domains. It's time to push the boundaries with new and complex projects.",
@@ -6648,7 +6648,7 @@
     },
     {
       "issued_at": "2026-06-13T07:59:55Z",
-      "issued_at_unix": 1781337595,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "Recent projects lack depth in algorithmic novelty and mathematical correctness, with over-reliance on maxed-out types. The next project should focus on a new type with room to grow.",
@@ -6667,7 +6667,7 @@
     },
     {
       "issued_at": "2026-06-13T17:49:49Z",
-      "issued_at_unix": 1781372989,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "Recent projects demonstrate some intellectual substance, but the system is over-relying on familiar types and domains, with a lack of algorithmic novelty and deep-tech ambition.",
@@ -6687,7 +6687,7 @@
     },
     {
       "issued_at": "2026-06-14T08:29:07Z",
-      "issued_at_unix": 1781425747,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "Recent projects lack diversity in types and exhibit maxed-out complexity, indicating a need for exploration of new areas like shader_art.",
@@ -6706,7 +6706,7 @@
     },
     {
       "issued_at": "2026-06-14T17:54:30Z",
-      "issued_at_unix": 1781459670,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "Recent projects show a lack of diversity in types and a reliance on maxed out domains, indicating a need for exploration of new areas.",
@@ -6725,7 +6725,7 @@
     },
     {
       "issued_at": "2026-06-15T10:41:02Z",
-      "issued_at_unix": 1781520062,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "Recent projects show a lack of algorithmic novelty and deep-tech ambition, with most projects maxed out in their respective domains. Expansion into new types is necessary to regain momentum.",
@@ -6744,7 +6744,7 @@
     },
     {
       "issued_at": "2026-06-15T19:59:27Z",
-      "issued_at_unix": 1781553567,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "acceptable",
       "summary": "Recent projects have been diverse, but some areas are maxed out, and there's a need to explore new project types. The next project should focus on a least used type with room to grow.",
@@ -6766,7 +6766,7 @@
     },
     {
       "issued_at": "2026-06-16T19:54:06Z",
-      "issued_at_unix": 1781639646,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "Recent projects lack depth in algorithmic novelty and mathematical correctness, with an overemphasis on generative art and AI-driven creative tools. The next project should prioritize a never-tried type with high complexity potential.",
@@ -6787,7 +6787,7 @@
     },
     {
       "issued_at": "2026-06-17T18:38:08Z",
-      "issued_at_unix": 1781721488,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "Recent projects lack depth in algorithmic novelty and mathematical correctness, with an overemphasis on partially usable generative art and AI-concept tools. The next project should focus on a database_showcase type to introduce diversity and rigor.",
@@ -6807,7 +6807,7 @@
     },
     {
       "issued_at": "2026-06-18T18:38:45Z",
-      "issued_at_unix": 1781807925,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "Recent projects lack depth in algorithmic novelty and mathematical correctness, with most projects being dashboards or platforms without substantial scientific or technological innovation.",
@@ -6829,7 +6829,7 @@
     },
     {
       "issued_at": "2026-06-19T18:12:40Z",
-      "issued_at_unix": 1781892760,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "Recent projects lack algorithmic novelty and deep-tech ambition, with an overemphasis on dashboards and showcases. The next project should focus on a system_design type to introduce more complexity and depth.",
@@ -6849,7 +6849,7 @@
     },
     {
       "issued_at": "2026-06-20T17:51:25Z",
-      "issued_at_unix": 1781977885,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "acceptable",
       "summary": "Recent projects demonstrate a good balance of domain diversity, but algorithmic novelty and mathematical correctness can be improved. The next project should focus on the edu_platform type to address the gap in type diversity.",
@@ -6872,7 +6872,7 @@
     },
     {
       "issued_at": "2026-06-21T18:00:20Z",
-      "issued_at_unix": 1782064820,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "Recent projects lack algorithmic novelty and deep-tech ambition, with a focus on web applications and platforms. The next project should aim to address this gap.",
@@ -6892,7 +6892,7 @@
     },
     {
       "issued_at": "2026-06-22T19:52:25Z",
-      "issued_at_unix": 1782157945,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "Recent projects lack algorithmic novelty and deep-tech ambition, with a focus on shallow web applications.",
@@ -6912,7 +6912,7 @@
     },
     {
       "issued_at": "2026-06-23T18:17:53Z",
-      "issued_at_unix": 1782238673,
+      "issued_at_unix": 1782107021,
       "model": "llama-3.3-70b-versatile",
       "verdict": "drifting",
       "summary": "Recent projects lack algorithmic novelty and mathematical correctness, with a focus on education technology and corporate training. The next project should utilize a less used type with room to grow.",
@@ -6933,7 +6933,32 @@
   ],
   "expansion_mode": false,
   "expansion_mode_since": "2026-06-15T05:12:16.083189+00:00",
-  "enterprise_mode": true,
+  "enterprise_mode": false,
   "enterprise_mode_since": "2026-06-16T08:03:24.286031+00:00",
-  "failed_builds_count": 301
+  "banned_domains": [
+    "Education Technology",
+    "Corporate Training",
+    "Human Resource Development",
+    "Workforce Development",
+    "E-Learning",
+    "Learning Management"
+  ],
+  "creative_reset": {
+    "active": true,
+    "reason": "User requested 3D/animation/aesthetic diversity — visual types unlocked",
+    "push_types": [
+      "web_3d",
+      "shader_art",
+      "generative_art",
+      "game_web"
+    ],
+    "push_themes": [
+      "luxury",
+      "futuristic",
+      "cinematic",
+      "neon-cyber",
+      "warm-amber"
+    ]
+  },
+  "failed_builds_count": 302
 }
