@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 78 |
+| Projects shipped | 79 |
 | Builds auto-refused (quality gate) | 303+ |
-| Peak complexity | 290 (open-ended scale) |
-| Average complexity | 97.2 |
+| Peak complexity | 320 (open-ended scale) |
+| Average complexity | 100.0 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
 | Latest run | 2026-06-24 |
 
-**Languages explored:** HTML+JS, HTML, CSS, JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (16), saas_app (8), python_tool (8), generative_art (7), game_web (6), enterprise_webapp (5), b2b_dashboard (4), document (4), web_3d (3), cli_tool (3), data_viz (3), system_design (2), database_showcase (2), typescript_app (2), saas_landing (1), devtool (1), api_platform (1), creative_tool (1), ai_concept (1)  
+**Languages explored:** GLSL, HTML+JS, HTML, CSS, JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
+**Project types shipped:** web_interactive (16), saas_app (8), python_tool (8), generative_art (7), game_web (6), enterprise_webapp (5), b2b_dashboard (4), document (4), web_3d (3), cli_tool (3), data_viz (3), system_design (2), database_showcase (2), typescript_app (2), shader_art (1), saas_landing (1), devtool (1), api_platform (1), creative_tool (1), ai_concept (1)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-06-24 | [luminous-dreamscapes](https://github.com/dipeshrayg/2026-06-24-luminous-dreamscapes) | GLSL | 320 | generative-art-with-physics | Computer Graphics | Real-time physics-based animation, Generative art, Shader programming | [▶ run](https://dipeshrayg.github.io/2026-06-24-luminous-dreamscapes/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-24-luminous-dreamscapes) |
 | 2026-06-24 | [aurora-render](https://github.com/dipeshrayg/2026-06-24-aurora-render) | JavaScript | 180 | real-time-3d-scene | Visual Arts | Real-time 3D rendering, Custom shaders, Performance optimization | [▶ run](https://dipeshrayg.github.io/2026-06-24-aurora-render/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-24-aurora-render) |
 | 2026-06-23 | [knowledgium](https://github.com/dipeshrayg/2026-06-23-knowledgium) | JavaScript | 290 | collaborative-knowledge-sharing-platform | Enterprise Knowledge Management | Constraint Satisfaction Problems, Bayesian Inference, Information-Theoretic Concepts | [▶ run](https://dipeshrayg.github.io/2026-06-23-knowledgium/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-23-knowledgium) |
 | 2026-06-23 | [skill-elevation-dashboard](https://github.com/dipeshrayg/2026-06-23-skill-elevation-dashboard) | JavaScript | 285 | timeline-centric-skill-tracker | HR Analytics and Workforce Development | Timeline-based data visualization, Real-time data updates, Synthetic workforce skill data generation | [▶ run](https://dipeshrayg.github.io/2026-06-23-skill-elevation-dashboard/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-23-skill-elevation-dashboard) |
