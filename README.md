@@ -16,8 +16,8 @@ Every project below is a separate public repository with a live deployed URL.
 |--------|-------|
 | Projects shipped | 79 |
 | Builds auto-refused (quality gate) | 303+ |
-| Peak complexity | 290 (open-ended scale) |
-| Average complexity | 98.2 |
+| Peak complexity | 320 (open-ended scale) |
+| Average complexity | 100.0 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
@@ -31,7 +31,7 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
-| 2026-06-24 | [spectrum-sculptor](https://github.com/dipeshrayg/2026-06-24-spectrum-sculptor) | GLSL | 180 | dynamic-fluid-shader | Generative Visual Art | Raymarching and Signed Distance Fields (SDFs)., Dynamic domain-warped noise for intricate patterns., Real-time fluid simulation using physics-inspired methods. | [▶ run](https://dipeshrayg.github.io/2026-06-24-spectrum-sculptor/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-24-spectrum-sculptor) |
+| 2026-06-24 | [luminous-dreamscapes](https://github.com/dipeshrayg/2026-06-24-luminous-dreamscapes) | GLSL | 320 | generative-art-with-physics | Computer Graphics | Real-time physics-based animation, Generative art, Shader programming | [▶ run](https://dipeshrayg.github.io/2026-06-24-luminous-dreamscapes/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-24-luminous-dreamscapes) |
 | 2026-06-24 | [aurora-render](https://github.com/dipeshrayg/2026-06-24-aurora-render) | JavaScript | 180 | real-time-3d-scene | Visual Arts | Real-time 3D rendering, Custom shaders, Performance optimization | [▶ run](https://dipeshrayg.github.io/2026-06-24-aurora-render/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-24-aurora-render) |
 | 2026-06-23 | [knowledgium](https://github.com/dipeshrayg/2026-06-23-knowledgium) | JavaScript | 290 | collaborative-knowledge-sharing-platform | Enterprise Knowledge Management | Constraint Satisfaction Problems, Bayesian Inference, Information-Theoretic Concepts | [▶ run](https://dipeshrayg.github.io/2026-06-23-knowledgium/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-23-knowledgium) |
 | 2026-06-23 | [skill-elevation-dashboard](https://github.com/dipeshrayg/2026-06-23-skill-elevation-dashboard) | JavaScript | 285 | timeline-centric-skill-tracker | HR Analytics and Workforce Development | Timeline-based data visualization, Real-time data updates, Synthetic workforce skill data generation | [▶ run](https://dipeshrayg.github.io/2026-06-23-skill-elevation-dashboard/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-23-skill-elevation-dashboard) |
