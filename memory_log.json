@@ -3559,6 +3559,53 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-06-25",
+      "completed_at": "2026-06-25T08:17:57Z",
+      "completed_at_unix": 1782375477,
+      "name": "fractured-dreams",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-25-fractured-dreams",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-25-fractured-dreams/",
+      "language": "GLSL",
+      "project_type": "shader_art",
+      "tech_stack": [
+        "WebGL",
+        "GLSL",
+        "HTML",
+        "JavaScript"
+      ],
+      "complexity_score": 400,
+      "concepts_demonstrated": [
+        "GLSL shaders",
+        "Voronoi textures",
+        "Dynamic lighting",
+        "Domain warping",
+        "User interactivity in shaders"
+      ],
+      "novel_concepts": [
+        "Real-time fractured geometry morphing",
+        "Dynamic light-based shadowing in shader art",
+        "Cinematic presentation of generative visuals"
+      ],
+      "advancement_axis": "Explores fractured geometries and dynamic lighting with real-time shader interactivity for cinematic generative art.",
+      "pattern": "generative-fractured-geometry",
+      "domain": "Generative Art",
+      "visual_identity": "Desaturated base hues with vibrant saturated accents, dynamic lighting, dramatic contrasts, and smooth cinematic transitions.",
+      "safety_notes": "All rendering and interactivity are client-side and do not rely on external data or user inputs beyond simple parameter adjustments.",
+      "file_count": 5,
+      "loc": 534,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 4,
+        "canvasCount": 1,
+        "title": "Fractured Dreams"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 1,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -3642,7 +3689,8 @@
     180,
     320,
     380,
-    220
+    220,
+    400
   ],
   "concepts_explored": [
     "neural networks",
@@ -3926,7 +3974,12 @@
     "Cinematic visuals",
     "Sound propagation",
     "Cryptography",
-    "Algorithm design"
+    "Algorithm design",
+    "GLSL shaders",
+    "Voronoi textures",
+    "Dynamic lighting",
+    "Domain warping",
+    "User interactivity in shaders"
   ],
   "patterns_used": [
     "visualizer",
@@ -4003,7 +4056,8 @@
     "real-time-3d-scene",
     "generative-art-with-physics",
     "immersive-3d-sound-garden",
-    "cryptography-tool"
+    "cryptography-tool",
+    "generative-fractured-geometry"
   ],
   "domains_used": [
     "Mathematics",
@@ -4080,7 +4134,8 @@
     "Visual Arts",
     "Computer Graphics",
     "Computer Science",
-    "Cryptography and Compression"
+    "Cryptography and Compression",
+    "Generative Art"
   ],
   "ceo_reviews": [
     {
