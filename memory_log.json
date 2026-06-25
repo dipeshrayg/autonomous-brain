@@ -3606,6 +3606,56 @@
         "dead_controls_count": 1,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-06-25",
+      "completed_at": "2026-06-25T17:19:31Z",
+      "completed_at_unix": 1782407971,
+      "name": "cipherforge",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-25-cipherforge",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-25-cipherforge/",
+      "language": "Python",
+      "project_type": "python_tool",
+      "tech_stack": [
+        "Python",
+        "JavaScript",
+        "HTML/CSS"
+      ],
+      "complexity_score": 210,
+      "concepts_demonstrated": [
+        "Cryptography",
+        "Compression",
+        "Algorithm design"
+      ],
+      "novel_concepts": [
+        "Novel cryptographic algorithm",
+        "Interactive cipher analysis"
+      ],
+      "advancement_axis": "Technical depth in cryptography",
+      "pattern": "cryptography-tool",
+      "domain": "Cryptography and Computer Science",
+      "visual_theme": "retro-terminal",
+      "complexity_justification": [
+        "Implementation of a novel cryptographic algorithm in Python",
+        "Fully functional JavaScript version on index.html",
+        "Interactive visualizations for cipher analysis",
+        "Support for multiple cipher types"
+      ],
+      "visual_identity": "color palette: green/amber phosphor on black, typography: monospace, layout: terminal-like",
+      "safety_notes": "No active malware, no exploits against systems without consent",
+      "file_count": 3,
+      "loc": 445,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": null,
+        "canvasCount": null,
+        "title": null
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 1,
+        "missing_features_count": 1
+      }
     }
   ],
   "complexity_trajectory": [
@@ -3690,7 +3740,8 @@
     320,
     380,
     220,
-    400
+    400,
+    210
   ],
   "concepts_explored": [
     "neural networks",
@@ -4057,7 +4108,8 @@
     "generative-art-with-physics",
     "immersive-3d-sound-garden",
     "cryptography-tool",
-    "generative-fractured-geometry"
+    "generative-fractured-geometry",
+    "cryptography-tool"
   ],
   "domains_used": [
     "Mathematics",
@@ -4135,7 +4187,8 @@
     "Computer Graphics",
     "Computer Science",
     "Cryptography and Compression",
-    "Generative Art"
+    "Generative Art",
+    "Cryptography and Computer Science"
   ],
   "ceo_reviews": [
     {
