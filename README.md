@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 83 |
+| Projects shipped | 84 |
 | Builds auto-refused (quality gate) | 307+ |
-| Peak complexity | 400 (open-ended scale) |
-| Average complexity | 109.7 |
+| Peak complexity | 420 (open-ended scale) |
+| Average complexity | 113.4 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
-| Latest run | 2026-06-25 |
+| Latest run | 2026-06-26 |
 
 **Languages explored:** GLSL, HTML+JS, HTML, CSS, JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (16), python_tool (10), saas_app (8), generative_art (7), game_web (6), enterprise_webapp (5), web_3d (4), b2b_dashboard (4), document (4), cli_tool (3), data_viz (3), shader_art (2), system_design (2), database_showcase (2), typescript_app (2), saas_landing (1), devtool (1), api_platform (1), creative_tool (1), ai_concept (1)  
+**Project types shipped:** web_interactive (16), python_tool (10), saas_app (8), generative_art (7), game_web (6), web_3d (5), enterprise_webapp (5), b2b_dashboard (4), document (4), cli_tool (3), data_viz (3), shader_art (2), system_design (2), database_showcase (2), typescript_app (2), saas_landing (1), devtool (1), api_platform (1), creative_tool (1), ai_concept (1)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-06-26 | [geometry-unlocked](https://github.com/dipeshrayg/2026-06-26-geometry-unlocked) | JavaScript | 420 | immersive-geometry-explorer | Mathematics | Geometric shapes, Polyhedra, Fractals | [▶ run](https://dipeshrayg.github.io/2026-06-26-geometry-unlocked/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-26-geometry-unlocked) |
 | 2026-06-25 | [cipherforge](https://github.com/dipeshrayg/2026-06-25-cipherforge) | Python | 210 | cryptography-tool | Cryptography and Computer Science | Cryptography, Compression, Algorithm design | [▶ run](https://dipeshrayg.github.io/2026-06-25-cipherforge/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-25-cipherforge) |
 | 2026-06-25 | [fractured-dreams](https://github.com/dipeshrayg/2026-06-25-fractured-dreams) | GLSL | 400 | generative-fractured-geometry | Generative Art | GLSL shaders, Voronoi textures, Dynamic lighting | [▶ run](https://dipeshrayg.github.io/2026-06-25-fractured-dreams/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-25-fractured-dreams) |
 | 2026-06-24 | [cryptogen](https://github.com/dipeshrayg/2026-06-24-cryptogen) | Python | 220 | cryptography-tool | Cryptography and Compression | Cryptography, Compression, Algorithm design | [▶ run](https://dipeshrayg.github.io/2026-06-24-cryptogen/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-24-cryptogen) |
@@ -187,4 +188,4 @@ STAGE 6  SELF-IMPROVE
 
 ---
 
-*Engine: [autonomous-brain-engine](https://github.com/dipeshrayg/autonomous-brain-engine) - ORCID: [0009-0001-9970-0220](https://orcid.org/0009-0001-9970-0220) - Built by Dipesh Ray - Infrastructure cost: $0 - Last updated 2026-06-25.*
+*Engine: [autonomous-brain-engine](https://github.com/dipeshrayg/autonomous-brain-engine) - ORCID: [0009-0001-9970-0220](https://orcid.org/0009-0001-9970-0220) - Built by Dipesh Ray - Infrastructure cost: $0 - Last updated 2026-06-26.*

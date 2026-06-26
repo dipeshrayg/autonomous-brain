@@ -3656,6 +3656,57 @@
         "dead_controls_count": 1,
         "missing_features_count": 1
       }
+    },
+    {
+      "date": "2026-06-26",
+      "completed_at": "2026-06-26T00:07:43Z",
+      "completed_at_unix": 1782432463,
+      "name": "geometry-unlocked",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-26-geometry-unlocked",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-26-geometry-unlocked/",
+      "language": "JavaScript",
+      "project_type": "web_3d",
+      "tech_stack": [
+        "Three.js",
+        "GLSL",
+        "JavaScript",
+        "HTML5"
+      ],
+      "complexity_score": 420,
+      "concepts_demonstrated": [
+        "Geometric shapes",
+        "Polyhedra",
+        "Fractals",
+        "3D visualization"
+      ],
+      "novel_concepts": [
+        "Interactive 3D geometry exploration",
+        "Real-time GLSL shader-based animation"
+      ],
+      "advancement_axis": "Technically ambitious and aesthetically diverse 3D visualization",
+      "pattern": "immersive-geometry-explorer",
+      "domain": "Mathematics",
+      "visual_theme": "futuristic",
+      "complexity_justification": [
+        "Real-time 3D rendering of complex geometric shapes",
+        "Dynamic visualization of polyhedra and fractals using GLSL shaders",
+        "Implementation of interactive rotation, scaling, and exploration features"
+      ],
+      "visual_identity": "Dark background with neon accents, futuristic font, interactive 3D models",
+      "safety_notes": "No safety concerns",
+      "file_count": 4,
+      "loc": 332,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 3,
+        "canvasCount": 1,
+        "title": "Geometry Unlocked"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 1,
+        "missing_features_count": 1
+      }
     }
   ],
   "complexity_trajectory": [
@@ -3741,7 +3792,8 @@
     380,
     220,
     400,
-    210
+    210,
+    420
   ],
   "concepts_explored": [
     "neural networks",
@@ -4030,7 +4082,11 @@
     "Voronoi textures",
     "Dynamic lighting",
     "Domain warping",
-    "User interactivity in shaders"
+    "User interactivity in shaders",
+    "Geometric shapes",
+    "Polyhedra",
+    "Fractals",
+    "3D visualization"
   ],
   "patterns_used": [
     "visualizer",
@@ -4109,7 +4165,8 @@
     "immersive-3d-sound-garden",
     "cryptography-tool",
     "generative-fractured-geometry",
-    "cryptography-tool"
+    "cryptography-tool",
+    "immersive-geometry-explorer"
   ],
   "domains_used": [
     "Mathematics",
@@ -4188,7 +4245,8 @@
     "Computer Science",
     "Cryptography and Compression",
     "Generative Art",
-    "Cryptography and Computer Science"
+    "Cryptography and Computer Science",
+    "Mathematics"
   ],
   "ceo_reviews": [
     {
