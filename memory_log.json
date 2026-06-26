@@ -3707,6 +3707,57 @@
         "dead_controls_count": 1,
         "missing_features_count": 1
       }
+    },
+    {
+      "date": "2026-06-26",
+      "completed_at": "2026-06-26T10:24:50Z",
+      "completed_at_unix": 1782469490,
+      "name": "sentient-fluid-simulator",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-26-sentient-fluid-simulator",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-26-sentient-fluid-simulator/",
+      "language": "JavaScript",
+      "project_type": "web_3d",
+      "tech_stack": [
+        "WebGL",
+        "Three.js",
+        "GLSL",
+        "Swarm Intelligence Algorithms"
+      ],
+      "complexity_score": 430,
+      "concepts_demonstrated": [
+        "Fluid dynamics simulation",
+        "Swarm intelligence for emergent behavior",
+        "Real-time 3D rendering",
+        "Interactive control of complex systems"
+      ],
+      "novel_concepts": [
+        "Swarm-controlled fluid dynamics",
+        "Multi-agent systems in visual simulation"
+      ],
+      "advancement_axis": "Connecting fluid dynamics with principles of multi-agent systems and emergent behavior",
+      "pattern": "interactive-fluid-swarm",
+      "domain": "Complex Systems Simulation",
+      "visual_theme": "organic-neon",
+      "complexity_justification": [
+        "Integration of fluid dynamics with swarm intelligence for emergent behavior modeling",
+        "Real-time rendering of fluid simulations with interactive controls",
+        "Dynamic shader-based visualization to highlight agent behaviors and fluid properties"
+      ],
+      "visual_identity": "Flowing organic patterns illuminated by neon colors, agents represented as glowing nodes within the fluid",
+      "safety_notes": "Ensure color palette is accessible to users with visual impairments. No user-generated harmful content is allowed.",
+      "file_count": 5,
+      "loc": 619,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 3,
+        "canvasCount": 1,
+        "title": "Sentient Fluid Simulator"
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -3793,7 +3844,8 @@
     220,
     400,
     210,
-    420
+    420,
+    430
   ],
   "concepts_explored": [
     "neural networks",
@@ -4086,7 +4138,10 @@
     "Geometric shapes",
     "Polyhedra",
     "Fractals",
-    "3D visualization"
+    "3D visualization",
+    "Fluid dynamics simulation",
+    "Swarm intelligence for emergent behavior",
+    "Interactive control of complex systems"
   ],
   "patterns_used": [
     "visualizer",
@@ -4166,7 +4221,8 @@
     "cryptography-tool",
     "generative-fractured-geometry",
     "cryptography-tool",
-    "immersive-geometry-explorer"
+    "immersive-geometry-explorer",
+    "interactive-fluid-swarm"
   ],
   "domains_used": [
     "Mathematics",
@@ -4246,7 +4302,8 @@
     "Cryptography and Compression",
     "Generative Art",
     "Cryptography and Computer Science",
-    "Mathematics"
+    "Mathematics",
+    "Complex Systems Simulation"
   ],
   "ceo_reviews": [
     {
