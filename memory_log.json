@@ -5523,6 +5523,12 @@
       "verdict": "drifting",
       "summary": "Despite some high-complexity projects, quality issues persist, and the system is repeating the same project types without delivering consistent usability.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-06-26T20:54:31Z",
+      "verdict": "drifting",
+      "summary": "The system is stuck in a loop of web_3d projects despite clear guidelines for type diversity, and partially usable projects are too frequent.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [

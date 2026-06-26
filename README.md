@@ -120,9 +120,9 @@ Every project below is a separate public repository with a live deployed URL.
 
 ## Latest CEO review
 
-**Verdict:** `drifting` — _issued 2026-06-25T21:01:55Z by gpt-4o_
+**Verdict:** `drifting` — _issued 2026-06-26T20:54:31Z by gpt-4o_
 
-> Despite some high-complexity projects, quality issues persist, and the system is repeating the same project types without delivering consistent usability.
+> The system is stuck in a loop of web_3d projects despite clear guidelines for type diversity, and partially usable projects are too frequent.
 
 
 ## The boardroom - 13 roles, 3 providers
