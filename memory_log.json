@@ -3907,6 +3907,58 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-06-27",
+      "completed_at": "2026-06-27T13:07:58Z",
+      "completed_at_unix": 1782565678,
+      "name": "terra-verde",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-27-terra-verde",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-27-terra-verde/",
+      "language": "GLSL",
+      "project_type": "shader_art",
+      "tech_stack": [
+        "GLSL",
+        "WebGL",
+        "HTML/CSS"
+      ],
+      "complexity_score": 520,
+      "concepts_demonstrated": [
+        "Real-time 3D rendering",
+        "Shader programming",
+        "Procedural generation",
+        "Physically-based rendering"
+      ],
+      "novel_concepts": [
+        "Dynamic lighting with raymarching",
+        "Procedural terrain generation with Perlin noise",
+        "Cinematic camera animation system"
+      ],
+      "advancement_axis": "novel application of raymarching and physically-based rendering",
+      "pattern": "generative-art-with-raymarching",
+      "domain": "Computer Science",
+      "visual_theme": "cinematic",
+      "complexity_justification": [
+        "Real-time raymarching with dynamic lighting and shadows",
+        "Procedural terrain generation using Perlin noise and diamond-square algorithms",
+        "Physically-based rendering model for realistic lighting",
+        "Cinematic camera animation system with interactive controls"
+      ],
+      "visual_identity": "dark blues and greens with cinematic lighting",
+      "safety_notes": "No active malware or exploits",
+      "file_count": 3,
+      "loc": 448,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 4,
+        "canvasCount": 1,
+        "title": "Terra Verde - 3D Terrain"
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -3997,7 +4049,8 @@
     430,
     440,
     460,
-    480
+    480,
+    520
   ],
   "concepts_explored": [
     "neural networks",
@@ -4297,7 +4350,8 @@
     "Mathematical concepts",
     "Real-time shader programming",
     "Cinematic visual direction",
-    "3D rendering"
+    "3D rendering",
+    "Physically-based rendering"
   ],
   "patterns_used": [
     "visualizer",
@@ -4381,7 +4435,8 @@
     "interactive-fluid-swarm",
     "interactive-3d-explorer",
     "generative-art-with-physics",
-    "galaxy-simulator"
+    "galaxy-simulator",
+    "generative-art-with-raymarching"
   ],
   "domains_used": [
     "Mathematics",
@@ -4465,7 +4520,8 @@
     "Complex Systems Simulation",
     "Mathematics",
     "Computer Graphics",
-    "Astronomy"
+    "Astronomy",
+    "Computer Science"
   ],
   "ceo_reviews": [
     {
