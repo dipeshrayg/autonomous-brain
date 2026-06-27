@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 89 |
+| Projects shipped | 90 |
 | Builds auto-refused (quality gate) | 314+ |
-| Peak complexity | 520 (open-ended scale) |
-| Average complexity | 133.2 |
+| Peak complexity | 560 (open-ended scale) |
+| Average complexity | 138.0 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
 | Latest run | 2026-06-27 |
 
 **Languages explored:** GLSL, HTML+JS, HTML, CSS, JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (16), python_tool (10), web_3d (8), saas_app (8), generative_art (7), game_web (6), enterprise_webapp (5), shader_art (4), b2b_dashboard (4), document (4), cli_tool (3), data_viz (3), system_design (2), database_showcase (2), typescript_app (2), saas_landing (1), devtool (1), api_platform (1), creative_tool (1), ai_concept (1)  
+**Project types shipped:** web_interactive (17), python_tool (10), web_3d (8), saas_app (8), generative_art (7), game_web (6), enterprise_webapp (5), shader_art (4), b2b_dashboard (4), document (4), cli_tool (3), data_viz (3), system_design (2), database_showcase (2), typescript_app (2), saas_landing (1), devtool (1), api_platform (1), creative_tool (1), ai_concept (1)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-06-27 | [echo-pix](https://github.com/dipeshrayg/2026-06-27-echo-pix) | JavaScript | 560 | audio-driven-visuals | Generative Art | Real-time audio processing, Dynamic visual generation, Interactive art | [▶ run](https://dipeshrayg.github.io/2026-06-27-echo-pix/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-27-echo-pix) |
 | 2026-06-27 | [terra-verde](https://github.com/dipeshrayg/2026-06-27-terra-verde) | GLSL | 520 | generative-art-with-raymarching | Computer Science | Real-time 3D rendering, Shader programming, Procedural generation | [▶ run](https://dipeshrayg.github.io/2026-06-27-terra-verde/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-27-terra-verde) |
 | 2026-06-27 | [stellar-nexus](https://github.com/dipeshrayg/2026-06-27-stellar-nexus) | JavaScript | 480 | galaxy-simulator | Astronomy | 3D rendering, Shader programming, Interactive simulation | [▶ run](https://dipeshrayg.github.io/2026-06-27-stellar-nexus/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-27-stellar-nexus) |
 | 2026-06-27 | [echoflux](https://github.com/dipeshrayg/2026-06-27-echoflux) | GLSL | 460 | generative-art-with-physics | Computer Graphics | Real-time shader programming, Procedural generation, Dynamic lighting | [▶ run](https://dipeshrayg.github.io/2026-06-27-echoflux/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-27-echoflux) |
