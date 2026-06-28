@@ -4157,6 +4157,56 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-06-28",
+      "completed_at": "2026-06-28T21:29:41Z",
+      "completed_at_unix": 1782682181,
+      "name": "social-mosaic",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-28-social-mosaic",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-28-social-mosaic/",
+      "language": "JavaScript",
+      "project_type": "social_toolkit",
+      "tech_stack": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "D3.js"
+      ],
+      "complexity_score": 250,
+      "concepts_demonstrated": [
+        "Social Network Analysis",
+        "AI-driven Behavior",
+        "Graph Algorithms"
+      ],
+      "novel_concepts": [
+        "Procedural Generation of Network Structures",
+        "Real-time Visualization of Network Dynamics"
+      ],
+      "advancement_axis": "Authentic algorithmic depth and real-time visualization",
+      "pattern": "social-network-simulator",
+      "domain": "Sociology",
+      "visual_theme": "neon-cyber",
+      "complexity_justification": [
+        "Procedural generation of network structures using graph algorithms",
+        "AI-driven behavior of individuals using machine learning models",
+        "Real-time visualization of network dynamics using D3.js"
+      ],
+      "visual_identity": "Neon-colored graph visualizations, futuristic typography, and a dark background",
+      "safety_notes": "No personal data will be collected or used in this project",
+      "file_count": 4,
+      "loc": 510,
+      "quality_cycles_used": 2,
+      "final_verify_metrics": {
+        "interactiveCount": 3,
+        "canvasCount": 0,
+        "title": "Social Mosaic"
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -4252,7 +4302,8 @@
     560,
     210,
     580,
-    620
+    620,
+    250
   ],
   "concepts_explored": [
     "neural networks",
@@ -4561,7 +4612,10 @@
     "Circular economy principles",
     "Ecosystem dynamics",
     "Physics-based simulation",
-    "Generative algorithms"
+    "Generative algorithms",
+    "Social Network Analysis",
+    "AI-driven Behavior",
+    "Graph Algorithms"
   ],
   "patterns_used": [
     "visualizer",
@@ -4650,7 +4704,8 @@
     "audio-driven-visuals",
     "interactive-data-visualization",
     "immersive-3d-simulation",
-    "immersive-3d-simulation"
+    "immersive-3d-simulation",
+    "social-network-simulator"
   ],
   "domains_used": [
     "Mathematics",
@@ -4739,7 +4794,8 @@
     "Generative Art",
     "Environmental Science",
     "Ecology",
-    "Ecology"
+    "Ecology",
+    "Sociology"
   ],
   "ceo_reviews": [
     {
@@ -7935,8 +7991,8 @@
       "reviewed_project_count": 8
     }
   ],
-  "expansion_mode": false,
-  "expansion_mode_since": "2026-06-15T05:12:16.083189+00:00",
+  "expansion_mode": true,
+  "expansion_mode_since": "2026-06-28T21:15:48.480864+00:00",
   "enterprise_mode": false,
   "enterprise_mode_since": "2026-06-16T08:03:24.286031+00:00",
   "banned_domains": [
