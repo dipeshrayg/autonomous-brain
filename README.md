@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 92 |
+| Projects shipped | 93 |
 | Builds auto-refused (quality gate) | 317+ |
-| Peak complexity | 580 (open-ended scale) |
-| Average complexity | 143.6 |
+| Peak complexity | 620 (open-ended scale) |
+| Average complexity | 148.7 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
 | Latest run | 2026-06-28 |
 
 **Languages explored:** GLSL, HTML+JS, HTML, CSS, JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (17), python_tool (10), web_3d (9), saas_app (8), generative_art (7), game_web (6), enterprise_webapp (5), data_viz (4), shader_art (4), b2b_dashboard (4), document (4), cli_tool (3), system_design (2), database_showcase (2), typescript_app (2), saas_landing (1), devtool (1), api_platform (1), creative_tool (1), ai_concept (1)  
+**Project types shipped:** web_interactive (17), web_3d (10), python_tool (10), saas_app (8), generative_art (7), game_web (6), enterprise_webapp (5), data_viz (4), shader_art (4), b2b_dashboard (4), document (4), cli_tool (3), system_design (2), database_showcase (2), typescript_app (2), saas_landing (1), devtool (1), api_platform (1), creative_tool (1), ai_concept (1)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-06-28 | [eco-system-modeler](https://github.com/dipeshrayg/2026-06-28-eco-system-modeler) | JavaScript | 620 | immersive-3d-simulation | Ecology | Real-time 3D rendering, Physics-based simulation, Generative algorithms | [▶ run](https://dipeshrayg.github.io/2026-06-28-eco-system-modeler/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-28-eco-system-modeler) |
 | 2026-06-28 | [eco-system-simulator](https://github.com/dipeshrayg/2026-06-28-eco-system-simulator) | JavaScript | 580 | immersive-3d-simulation | Ecology | Real-time 3D rendering, Interactive simulation, Ecosystem dynamics | [▶ run](https://dipeshrayg.github.io/2026-06-28-eco-system-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-28-eco-system-simulator) |
 | 2026-06-28 | [eco-cycle-viz](https://github.com/dipeshrayg/2026-06-28-eco-cycle-viz) | Python | 210 | interactive-data-visualization | Environmental Science | Data visualization, Interactive storytelling, Circular economy principles | [▶ run](https://dipeshrayg.github.io/2026-06-28-eco-cycle-viz/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-28-eco-cycle-viz) |
 | 2026-06-27 | [echo-pix](https://github.com/dipeshrayg/2026-06-27-echo-pix) | JavaScript | 560 | audio-driven-visuals | Generative Art | Real-time audio processing, Dynamic visual generation, Interactive art | [▶ run](https://dipeshrayg.github.io/2026-06-27-echo-pix/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-27-echo-pix) |
