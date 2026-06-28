@@ -4058,6 +4058,55 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-06-28",
+      "completed_at": "2026-06-28T08:12:17Z",
+      "completed_at_unix": 1782634337,
+      "name": "eco-system-simulator",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-28-eco-system-simulator",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-28-eco-system-simulator/",
+      "language": "JavaScript",
+      "project_type": "web_3d",
+      "tech_stack": [
+        "Three.js",
+        "GLSL shaders"
+      ],
+      "complexity_score": 580,
+      "concepts_demonstrated": [
+        "Real-time 3D rendering",
+        "Interactive simulation",
+        "Ecosystem dynamics"
+      ],
+      "novel_concepts": [
+        "Integration of machine learning for adaptive ecosystem behavior",
+        "Real-time data visualization of ecosystem metrics"
+      ],
+      "advancement_axis": "technical",
+      "pattern": "immersive-3d-simulation",
+      "domain": "Ecology",
+      "visual_theme": "luxury",
+      "complexity_justification": [
+        "Real-time 3D rendering with dynamic lighting and shadows",
+        "Interactive simulation of complex ecosystem dynamics",
+        "Custom shaders for realistic environmental effects",
+        "User input handling for real-time scenario manipulation"
+      ],
+      "visual_identity": "high-contrast, vibrant colors, 3D animations",
+      "safety_notes": "No active malware, no exploits",
+      "file_count": 3,
+      "loc": 435,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 3,
+        "canvasCount": 1,
+        "title": "Eco-System Simulator"
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -4151,7 +4200,8 @@
     480,
     520,
     560,
-    210
+    210,
+    580
   ],
   "concepts_explored": [
     "neural networks",
@@ -4457,7 +4507,8 @@
     "Dynamic visual generation",
     "Interactive art",
     "Interactive storytelling",
-    "Circular economy principles"
+    "Circular economy principles",
+    "Ecosystem dynamics"
   ],
   "patterns_used": [
     "visualizer",
@@ -4544,7 +4595,8 @@
     "galaxy-simulator",
     "generative-art-with-raymarching",
     "audio-driven-visuals",
-    "interactive-data-visualization"
+    "interactive-data-visualization",
+    "immersive-3d-simulation"
   ],
   "domains_used": [
     "Mathematics",
@@ -4631,7 +4683,8 @@
     "Astronomy",
     "Computer Science",
     "Generative Art",
-    "Environmental Science"
+    "Environmental Science",
+    "Ecology"
   ],
   "ceo_reviews": [
     {
