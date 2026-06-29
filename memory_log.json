@@ -4207,6 +4207,55 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-06-29",
+      "completed_at": "2026-06-29T05:36:48Z",
+      "completed_at_unix": 1782711408,
+      "name": "prank-os-terminal",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-29-prank-os-terminal",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-29-prank-os-terminal/",
+      "language": "JavaScript",
+      "project_type": "prank_entertainment",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "complexity_score": 120,
+      "concepts_demonstrated": [
+        "Command-line interface",
+        "Text-based user interaction",
+        "Retro aesthetics"
+      ],
+      "novel_concepts": [
+        "Humor-driven interaction",
+        "Interactive terminal fiction"
+      ],
+      "advancement_axis": "Novel application of retro aesthetics for entertainment purposes",
+      "pattern": "retro-terminal-prank",
+      "domain": "Computer Science",
+      "visual_theme": "retro-terminal",
+      "complexity_justification": [
+        "Implementing a basic command-line interface with a parser to handle user inputs",
+        "Creating a fictional operating system's command set with corresponding outputs",
+        "Designing a visually convincing retro terminal aesthetic"
+      ],
+      "visual_identity": "Green phosphor on black, monospace, old-computer feel",
+      "safety_notes": "No actual system access or harm; purely a fictional, client-side interaction.",
+      "file_count": 3,
+      "loc": 276,
+      "quality_cycles_used": 2,
+      "final_verify_metrics": {
+        "interactiveCount": 3,
+        "canvasCount": 0,
+        "title": "Prank OS Terminal"
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -4303,7 +4352,8 @@
     210,
     580,
     620,
-    250
+    250,
+    120
   ],
   "concepts_explored": [
     "neural networks",
@@ -4615,7 +4665,10 @@
     "Generative algorithms",
     "Social Network Analysis",
     "AI-driven Behavior",
-    "Graph Algorithms"
+    "Graph Algorithms",
+    "Command-line interface",
+    "Text-based user interaction",
+    "Retro aesthetics"
   ],
   "patterns_used": [
     "visualizer",
@@ -4705,7 +4758,8 @@
     "interactive-data-visualization",
     "immersive-3d-simulation",
     "immersive-3d-simulation",
-    "social-network-simulator"
+    "social-network-simulator",
+    "retro-terminal-prank"
   ],
   "domains_used": [
     "Mathematics",
@@ -4795,7 +4849,8 @@
     "Environmental Science",
     "Ecology",
     "Ecology",
-    "Sociology"
+    "Sociology",
+    "Computer Science"
   ],
   "ceo_reviews": [
     {
