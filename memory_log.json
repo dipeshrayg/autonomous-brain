@@ -4256,6 +4256,56 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-06-29",
+      "completed_at": "2026-06-29T12:32:15Z",
+      "completed_at_unix": 1782736335,
+      "name": "echo-mosaic",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-29-echo-mosaic",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-29-echo-mosaic/",
+      "language": "JavaScript",
+      "project_type": "game_web",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "ESM"
+      ],
+      "complexity_score": 150,
+      "concepts_demonstrated": [
+        "Artificial Intelligence",
+        "Puzzle Design",
+        "Emergent Complexity"
+      ],
+      "novel_concepts": [
+        "AI-driven puzzle generation",
+        "Adaptive difficulty adjustment"
+      ],
+      "advancement_axis": "The use of AI to generate puzzle pieces creates a unique and dynamic gameplay experience",
+      "pattern": "ai-driven-puzzle-game",
+      "domain": "Artificial Intelligence",
+      "visual_theme": "brutalist",
+      "complexity_justification": [
+        "Implementing a custom, AI-driven tile generation algorithm",
+        "Creating an interactive, drag-and-drop puzzle interface",
+        "Designing an adaptive difficulty system based on player progress"
+      ],
+      "visual_identity": "High-contrast colors, bold typography, and geometric shapes",
+      "safety_notes": "No user data is collected or stored; the game runs entirely in the browser",
+      "file_count": 4,
+      "loc": 488,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 4,
+        "canvasCount": 1,
+        "title": "Echo Mosaic"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 1,
+        "missing_features_count": 3
+      }
     }
   ],
   "complexity_trajectory": [
@@ -4353,7 +4403,8 @@
     580,
     620,
     250,
-    120
+    120,
+    150
   ],
   "concepts_explored": [
     "neural networks",
@@ -4668,7 +4719,10 @@
     "Graph Algorithms",
     "Command-line interface",
     "Text-based user interaction",
-    "Retro aesthetics"
+    "Retro aesthetics",
+    "Artificial Intelligence",
+    "Puzzle Design",
+    "Emergent Complexity"
   ],
   "patterns_used": [
     "visualizer",
@@ -4759,7 +4813,8 @@
     "immersive-3d-simulation",
     "immersive-3d-simulation",
     "social-network-simulator",
-    "retro-terminal-prank"
+    "retro-terminal-prank",
+    "ai-driven-puzzle-game"
   ],
   "domains_used": [
     "Mathematics",
@@ -4850,7 +4905,8 @@
     "Ecology",
     "Ecology",
     "Sociology",
-    "Computer Science"
+    "Computer Science",
+    "Artificial Intelligence"
   ],
   "ceo_reviews": [
     {
