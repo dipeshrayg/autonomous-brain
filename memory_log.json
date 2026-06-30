@@ -6326,6 +6326,12 @@
       "verdict": "drifting",
       "summary": "Recent projects have been visually impressive but show signs of stagnation, with repeated themes, patterns, and types. Ambition is being constrained by overused approaches.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-06-30T21:03:55Z",
+      "verdict": "alarming",
+      "summary": "Recent projects show a troubling trend of partially usable outputs, indicating a lack of focus on delivering complete, functional projects while overly prioritizing visual ambition.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
