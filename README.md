@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 97 |
+| Projects shipped | 98 |
 | Builds auto-refused (quality gate) | 318+ |
-| Peak complexity | 630 (open-ended scale) |
-| Average complexity | 154.4 |
+| Peak complexity | 720 (open-ended scale) |
+| Average complexity | 160.2 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
-| Latest run | 2026-06-29 |
+| Latest run | 2026-06-30 |
 
 **Languages explored:** GLSL, HTML+JS, HTML, CSS, JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (17), web_3d (11), python_tool (10), saas_app (8), game_web (7), generative_art (7), enterprise_webapp (5), data_viz (4), shader_art (4), b2b_dashboard (4), document (4), cli_tool (3), system_design (2), database_showcase (2), typescript_app (2), prank_entertainment (1), social_toolkit (1), saas_landing (1), devtool (1), api_platform (1), creative_tool (1), ai_concept (1)  
+**Project types shipped:** web_interactive (17), web_3d (11), python_tool (10), saas_app (8), game_web (7), generative_art (7), enterprise_webapp (5), data_viz (4), shader_art (4), b2b_dashboard (4), document (4), cli_tool (3), system_design (2), database_showcase (2), typescript_app (2), edu_platform (1), prank_entertainment (1), social_toolkit (1), saas_landing (1), devtool (1), api_platform (1), creative_tool (1), ai_concept (1)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-06-30 | [climate-resilience-portal](https://github.com/dipeshrayg/2026-06-30-climate-resilience-portal) | JavaScript | 720 | interactive-climate-resilience-exploration | Environmental Science | Climate resilience strategies, Urban planning and community engagement, Environmental science and sustainability | [▶ run](https://dipeshrayg.github.io/2026-06-30-climate-resilience-portal/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-30-climate-resilience-portal) |
 | 2026-06-29 | [aurora-origami](https://github.com/dipeshrayg/2026-06-29-aurora-origami) | JavaScript | 630 | interactive-3d-simulation | Mathematics | Real-time 3D rendering, Physics-based simulation, Interactive control of complex systems | [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-29-aurora-origami) |
 | 2026-06-29 | [echo-mosaic](https://github.com/dipeshrayg/2026-06-29-echo-mosaic) | JavaScript | 150 | ai-driven-puzzle-game | Artificial Intelligence | Artificial Intelligence, Puzzle Design, Emergent Complexity | [▶ run](https://dipeshrayg.github.io/2026-06-29-echo-mosaic/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-29-echo-mosaic) |
 | 2026-06-29 | [prank-os-terminal](https://github.com/dipeshrayg/2026-06-29-prank-os-terminal) | JavaScript | 120 | retro-terminal-prank | Computer Science | Command-line interface, Text-based user interaction, Retro aesthetics | [▶ run](https://dipeshrayg.github.io/2026-06-29-prank-os-terminal/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-29-prank-os-terminal) |
@@ -201,4 +202,4 @@ STAGE 6  SELF-IMPROVE
 
 ---
 
-*Engine: [autonomous-brain-engine](https://github.com/dipeshrayg/autonomous-brain-engine) - ORCID: [0009-0001-9970-0220](https://orcid.org/0009-0001-9970-0220) - Built by Dipesh Ray - Infrastructure cost: $0 - Last updated 2026-06-29.*
+*Engine: [autonomous-brain-engine](https://github.com/dipeshrayg/autonomous-brain-engine) - ORCID: [0009-0001-9970-0220](https://orcid.org/0009-0001-9970-0220) - Built by Dipesh Ray - Infrastructure cost: $0 - Last updated 2026-06-30.*

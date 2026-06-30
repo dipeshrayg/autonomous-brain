@@ -4354,6 +4354,57 @@
         "dead_controls_count": 4,
         "missing_features_count": 1
       }
+    },
+    {
+      "date": "2026-06-30",
+      "completed_at": "2026-06-30T02:56:44Z",
+      "completed_at_unix": 1782788204,
+      "name": "climate-resilience-portal",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-30-climate-resilience-portal",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-30-climate-resilience-portal/",
+      "language": "JavaScript",
+      "project_type": "edu_platform",
+      "tech_stack": [
+        "Three.js",
+        "GLSL",
+        "HTML/CSS",
+        "JavaScript"
+      ],
+      "complexity_score": 720,
+      "concepts_demonstrated": [
+        "Climate resilience strategies",
+        "Urban planning and community engagement",
+        "Environmental science and sustainability"
+      ],
+      "novel_concepts": [
+        "Novel climate change simulation algorithm",
+        "Interactive 3D visualizations for climate resilience",
+        "Integration of GLSL shaders for real-time effects"
+      ],
+      "advancement_axis": "Technical depth and interactive visualizations in climate resilience education",
+      "pattern": "interactive-climate-resilience-exploration",
+      "domain": "Environmental Science",
+      "visual_theme": "soft-organic",
+      "complexity_justification": [
+        "Implementation of a novel climate change simulation algorithm",
+        "Integration of real-time 3D visualizations with interactive GLSL shaders",
+        "Development of an immersive and explorable 3D environment for climate resilience strategies"
+      ],
+      "visual_identity": "Earth tones, natural textures, and organic shapes",
+      "safety_notes": "No safety concerns",
+      "file_count": 3,
+      "loc": 402,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 4,
+        "canvasCount": 1,
+        "title": "Climate Resilience Portal"
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -4453,7 +4504,8 @@
     250,
     120,
     150,
-    630
+    630,
+    720
   ],
   "concepts_explored": [
     "neural networks",
@@ -4771,7 +4823,10 @@
     "Retro aesthetics",
     "Artificial Intelligence",
     "Puzzle Design",
-    "Emergent Complexity"
+    "Emergent Complexity",
+    "Climate resilience strategies",
+    "Urban planning and community engagement",
+    "Environmental science and sustainability"
   ],
   "patterns_used": [
     "visualizer",
@@ -4864,7 +4919,8 @@
     "social-network-simulator",
     "retro-terminal-prank",
     "ai-driven-puzzle-game",
-    "interactive-3d-simulation"
+    "interactive-3d-simulation",
+    "interactive-climate-resilience-exploration"
   ],
   "domains_used": [
     "Mathematics",
@@ -4957,7 +5013,8 @@
     "Sociology",
     "Computer Science",
     "Artificial Intelligence",
-    "Mathematics"
+    "Mathematics",
+    "Environmental Science"
   ],
   "ceo_reviews": [
     {
