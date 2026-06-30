@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 99 |
+| Projects shipped | 100 |
 | Builds auto-refused (quality gate) | 318+ |
-| Peak complexity | 850 (open-ended scale) |
-| Average complexity | 167.2 |
+| Peak complexity | 920 (open-ended scale) |
+| Average complexity | 174.7 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
 | Latest run | 2026-06-30 |
 
 **Languages explored:** GLSL, HTML+JS, HTML, CSS, JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (17), web_3d (11), python_tool (10), saas_app (8), game_web (7), generative_art (7), enterprise_webapp (5), data_viz (4), shader_art (4), b2b_dashboard (4), document (4), cli_tool (3), system_design (2), database_showcase (2), typescript_app (2), research_showcase (1), edu_platform (1), prank_entertainment (1), social_toolkit (1), saas_landing (1), devtool (1), api_platform (1), creative_tool (1), ai_concept (1)  
+**Project types shipped:** web_interactive (17), web_3d (11), python_tool (10), saas_app (8), game_web (7), generative_art (7), enterprise_webapp (5), data_viz (4), shader_art (4), b2b_dashboard (4), document (4), cli_tool (3), edu_platform (2), system_design (2), database_showcase (2), typescript_app (2), research_showcase (1), prank_entertainment (1), social_toolkit (1), saas_landing (1), devtool (1), api_platform (1), creative_tool (1), ai_concept (1)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-06-30 | [fractal-learning-platform](https://github.com/dipeshrayg/2026-06-30-fractal-learning-platform) | JavaScript | 920 | interactive-educational-platform | Mathematics Education | Real-time rendering, Interactive exploration, Mathematical concepts | [▶ run](https://dipeshrayg.github.io/2026-06-30-fractal-learning-platform/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-30-fractal-learning-platform) |
 | 2026-06-30 | [biomechanical-research-showcase](https://github.com/dipeshrayg/2026-06-30-biomechanical-research-showcase) | JavaScript | 850 | biomechanical-simulation-showcase | Biomechanical Engineering | Biomechanics, Physics-based simulations, Real-time 3D rendering | [▶ run](https://dipeshrayg.github.io/2026-06-30-biomechanical-research-showcase/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-30-biomechanical-research-showcase) |
 | 2026-06-30 | [climate-resilience-portal](https://github.com/dipeshrayg/2026-06-30-climate-resilience-portal) | JavaScript | 720 | interactive-climate-resilience-exploration | Environmental Science | Climate resilience strategies, Urban planning and community engagement, Environmental science and sustainability | [▶ run](https://dipeshrayg.github.io/2026-06-30-climate-resilience-portal/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-30-climate-resilience-portal) |
 | 2026-06-29 | [aurora-origami](https://github.com/dipeshrayg/2026-06-29-aurora-origami) | JavaScript | 630 | interactive-3d-simulation | Mathematics | Real-time 3D rendering, Physics-based simulation, Interactive control of complex systems | [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-06-29-aurora-origami) |

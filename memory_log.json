@@ -4465,6 +4465,57 @@
         "dead_controls_count": 2,
         "missing_features_count": 1
       }
+    },
+    {
+      "date": "2026-06-30",
+      "completed_at": "2026-06-30T15:05:57Z",
+      "completed_at_unix": 1782831957,
+      "name": "fractal-learning-platform",
+      "repo_url": "https://github.com/dipeshrayg/2026-06-30-fractal-learning-platform",
+      "pages_url": "https://dipeshrayg.github.io/2026-06-30-fractal-learning-platform/",
+      "language": "JavaScript",
+      "project_type": "edu_platform",
+      "tech_stack": [
+        "Three.js",
+        "GLSL"
+      ],
+      "complexity_score": 920,
+      "concepts_demonstrated": [
+        "Real-time rendering",
+        "Interactive exploration",
+        "Mathematical concepts",
+        "GLSL programming"
+      ],
+      "novel_concepts": [
+        "Application of fractals to educational platforms",
+        "Utilization of Three.js and GLSL for interactive simulations",
+        "Real-time rendering of complex mathematical concepts"
+      ],
+      "advancement_axis": "Interactive educational content with algorithmic depth and visual spectacle",
+      "pattern": "interactive-educational-platform",
+      "domain": "Mathematics Education",
+      "visual_theme": "minimal-glass",
+      "complexity_justification": [
+        "Real-time rendering of fractals using Three.js and GLSL",
+        "Interactive exploration of mathematical concepts such as self-similarity and scaling",
+        "Implementation of the Mandelbrot set and its mathematical foundations",
+        "Utilization of advanced numerical methods for fractal generation"
+      ],
+      "visual_identity": "Frosted glass panels, subtle gradients, and a minimalist design",
+      "safety_notes": "The project complies with GitHub TOS and does not contain any active malware or exploits.",
+      "file_count": 3,
+      "loc": 398,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 5,
+        "canvasCount": 1,
+        "title": "Fractal Learning Platform"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 1,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -4566,7 +4617,8 @@
     150,
     630,
     720,
-    850
+    850,
+    920
   ],
   "concepts_explored": [
     "neural networks",
@@ -4890,7 +4942,9 @@
     "Environmental science and sustainability",
     "Biomechanics",
     "Physics-based simulations",
-    "GLSL shader programming"
+    "GLSL shader programming",
+    "Interactive exploration",
+    "GLSL programming"
   ],
   "patterns_used": [
     "visualizer",
@@ -4985,7 +5039,8 @@
     "ai-driven-puzzle-game",
     "interactive-3d-simulation",
     "interactive-climate-resilience-exploration",
-    "biomechanical-simulation-showcase"
+    "biomechanical-simulation-showcase",
+    "interactive-educational-platform"
   ],
   "domains_used": [
     "Mathematics",
@@ -5080,7 +5135,8 @@
     "Artificial Intelligence",
     "Mathematics",
     "Environmental Science",
-    "Biomechanical Engineering"
+    "Biomechanical Engineering",
+    "Mathematics Education"
   ],
   "ceo_reviews": [
     {
