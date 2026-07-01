@@ -4615,6 +4615,54 @@
         "dead_controls_count": 1,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-07-01",
+      "completed_at": "2026-07-01T11:03:28Z",
+      "completed_at_unix": 1782903808,
+      "name": "ai-cognitive-architecture",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-01-ai-cognitive-architecture",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-01-ai-cognitive-architecture/",
+      "language": "JavaScript",
+      "project_type": "ai_concept",
+      "tech_stack": [
+        "TensorFlow.js",
+        "Bayesian Inference Library"
+      ],
+      "complexity_score": 980,
+      "concepts_demonstrated": [
+        "Machine Learning",
+        "Bayesian Inference",
+        "Cognitive Architecture"
+      ],
+      "novel_concepts": [
+        "Hybrid cognitive architecture",
+        "Explainable AI for decision-making"
+      ],
+      "advancement_axis": "Cognitive architectures for AI decision-making",
+      "pattern": "ai-driven-cognitive-architecture",
+      "domain": "Cognitive Science",
+      "visual_theme": "futuristic",
+      "complexity_justification": [
+        "Implementation of a Bayesian inference engine in JavaScript",
+        "Integration of machine learning models for decision-making",
+        "Development of a cognitive architecture for real-time decision-making"
+      ],
+      "visual_identity": "Dark navy and electric blue color scheme, sharp geometry, and HUD overlays",
+      "safety_notes": "No safety concerns identified",
+      "file_count": 3,
+      "loc": 363,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 4,
+        "canvasCount": 0,
+        "title": "AI Cognitive Architecture"
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -4719,7 +4767,8 @@
     850,
     920,
     950,
-    870
+    870,
+    980
   ],
   "concepts_explored": [
     "neural networks",
@@ -5049,7 +5098,8 @@
     "Machine Learning",
     "Natural Language Processing",
     "Interactive Web Development",
-    "Real-time Data Visualization"
+    "Real-time Data Visualization",
+    "Cognitive Architecture"
   ],
   "patterns_used": [
     "visualizer",
@@ -5147,7 +5197,8 @@
     "biomechanical-simulation-showcase",
     "interactive-educational-platform",
     "ai-driven-mood-analysis",
-    "ai-driven-optimization"
+    "ai-driven-optimization",
+    "ai-driven-cognitive-architecture"
   ],
   "domains_used": [
     "Mathematics",
@@ -5245,7 +5296,8 @@
     "Biomechanical Engineering",
     "Mathematics Education",
     "Human-Computer Interaction",
-    "Artificial Intelligence"
+    "Artificial Intelligence",
+    "Cognitive Science"
   ],
   "ceo_reviews": [
     {
