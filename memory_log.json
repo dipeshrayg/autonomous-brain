@@ -4663,6 +4663,56 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-07-01",
+      "completed_at": "2026-07-01T17:15:40Z",
+      "completed_at_unix": 1782926140,
+      "name": "ai-powered-portfolio-optimizer",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-01-ai-powered-portfolio-optimizer",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-01-ai-powered-portfolio-optimizer/",
+      "language": "JavaScript",
+      "project_type": "saas_landing",
+      "tech_stack": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Machine Learning"
+      ],
+      "complexity_score": 1050,
+      "concepts_demonstrated": [
+        "Machine Learning",
+        "Bayesian Inference",
+        "Interactive Web Development"
+      ],
+      "novel_concepts": [
+        "AI-driven portfolio optimization",
+        "Interactive demo with real-time data visualization"
+      ],
+      "advancement_axis": "AI-driven optimization with interactive demo",
+      "pattern": "ai-driven-portfolio-optimization",
+      "domain": "Financial Technology",
+      "visual_theme": "futuristic",
+      "complexity_justification": [
+        "Implementing a machine learning model in JavaScript for portfolio optimization",
+        "Integrating Bayesian inference for risk assessment and portfolio generation",
+        "Developing an interactive demo with real-time data visualization and user input handling"
+      ],
+      "visual_identity": "color palette + typography + layout personality consistent with futuristic theme",
+      "safety_notes": "The project will not contain any active malware or exploits, and will comply with GitHub TOS.",
+      "file_count": 4,
+      "loc": 551,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 3,
+        "canvasCount": 1,
+        "title": "AI-Powered Portfolio Optimizer"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 2,
+        "missing_features_count": 1
+      }
     }
   ],
   "complexity_trajectory": [
@@ -4768,7 +4818,8 @@
     920,
     950,
     870,
-    980
+    980,
+    1050
   ],
   "concepts_explored": [
     "neural networks",
@@ -5198,7 +5249,8 @@
     "interactive-educational-platform",
     "ai-driven-mood-analysis",
     "ai-driven-optimization",
-    "ai-driven-cognitive-architecture"
+    "ai-driven-cognitive-architecture",
+    "ai-driven-portfolio-optimization"
   ],
   "domains_used": [
     "Mathematics",
@@ -5297,7 +5349,8 @@
     "Mathematics Education",
     "Human-Computer Interaction",
     "Artificial Intelligence",
-    "Cognitive Science"
+    "Cognitive Science",
+    "Financial Technology"
   ],
   "ceo_reviews": [
     {
