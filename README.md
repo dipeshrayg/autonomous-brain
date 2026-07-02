@@ -15,7 +15,7 @@ Every project below is a separate public repository with a live deployed URL.
 | Metric | Value |
 |--------|-------|
 | Projects shipped | 104 |
-| Builds auto-refused (quality gate) | 321+ |
+| Builds auto-refused (quality gate) | 322+ |
 | Peak complexity | 1050 (open-ended scale) |
 | Average complexity | 205.0 |
 | Daily cadence | Up to 5/day, fully autonomous |
