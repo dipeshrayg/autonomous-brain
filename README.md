@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 112 |
+| Projects shipped | 113 |
 | Builds auto-refused (quality gate) | 332+ |
 | Peak complexity | 1220 (open-ended scale) |
-| Average complexity | 251.9 |
+| Average complexity | 255.1 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
 | Latest run | 2026-07-04 |
 
 **Languages explored:** GLSL, HTML+JS, HTML, CSS, JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (17), web_3d (12), python_tool (10), saas_app (8), game_web (7), generative_art (7), enterprise_webapp (5), data_viz (4), shader_art (4), b2b_dashboard (4), document (4), prank_entertainment (3), devtool (3), ai_concept (3), cli_tool (3), social_toolkit (2), research_showcase (2), api_platform (2), saas_landing (2), creative_tool (2), edu_platform (2), system_design (2), database_showcase (2), typescript_app (2)  
+**Project types shipped:** web_interactive (17), web_3d (12), python_tool (10), saas_app (8), game_web (7), generative_art (7), shader_art (5), enterprise_webapp (5), data_viz (4), b2b_dashboard (4), document (4), prank_entertainment (3), devtool (3), ai_concept (3), cli_tool (3), social_toolkit (2), research_showcase (2), api_platform (2), saas_landing (2), creative_tool (2), edu_platform (2), system_design (2), database_showcase (2), typescript_app (2)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-07-04 | [fluid-dynamics-simulator](https://github.com/dipeshrayg/2026-07-04-fluid-dynamics-simulator) | GLSL | 620 | fluid-dynamics-simulation | Physics | Navier-Stokes equations, Fluid dynamics, Cinematic lighting | [▶ run](https://dipeshrayg.github.io/2026-07-04-fluid-dynamics-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-04-fluid-dynamics-simulator) |
 | 2026-07-04 | [echo-pong](https://github.com/dipeshrayg/2026-07-04-echo-pong) | JavaScript | 1220 | procedural-game-generation | Entertainment Technology | Procedural generation, Bayesian inference, GLSL shader art | [▶ run](https://dipeshrayg.github.io/2026-07-04-echo-pong/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-04-echo-pong) |
 | 2026-07-04 | [neon-dreamscapes](https://github.com/dipeshrayg/2026-07-04-neon-dreamscapes) | JavaScript | 820 | procedural-urban-exploration | Computer Graphics | Procedural content generation, Real-time graphics rendering, Interactive shader programming | [▶ run](https://dipeshrayg.github.io/2026-07-04-neon-dreamscapes/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-04-neon-dreamscapes) |
 | 2026-07-03 | [glitch-art-generator](https://github.com/dipeshrayg/2026-07-03-glitch-art-generator) | JavaScript | 420 | interactive-glitch-art | Digital Art | Procedural generation, GLSL shader art, Interactive visualization | [▶ run](https://dipeshrayg.github.io/2026-07-03-glitch-art-generator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-03-glitch-art-generator) |
