@@ -5014,6 +5014,57 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-07-04",
+      "completed_at": "2026-07-04T07:41:03Z",
+      "completed_at_unix": 1783150863,
+      "name": "neon-dreamscapes",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-04-neon-dreamscapes",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-04-neon-dreamscapes/",
+      "language": "JavaScript",
+      "project_type": "social_toolkit",
+      "tech_stack": [
+        "GLSL",
+        "HTML5",
+        "CSS3",
+        "JavaScript"
+      ],
+      "complexity_score": 820,
+      "concepts_demonstrated": [
+        "Procedural content generation",
+        "Real-time graphics rendering",
+        "Interactive shader programming"
+      ],
+      "novel_concepts": [
+        "Infinite cityscape generation with varied architectural styles",
+        "Interactive shader adjustment for user-driven visual exploration"
+      ],
+      "advancement_axis": "Procedural generation and real-time shader interaction",
+      "pattern": "procedural-urban-exploration",
+      "domain": "Computer Graphics",
+      "visual_theme": "neon-cyber",
+      "complexity_justification": [
+        "Procedural generation of city layouts with varying densities and architectural styles",
+        "Real-time GLSL shader programming for dynamic lighting and texture effects",
+        "Interactive control of shader parameters for user customization",
+        "Incorporation of a sharing mechanism for generated cityscapes"
+      ],
+      "visual_identity": "Neon color palette, sharp geometry, and urban landscapes",
+      "safety_notes": "No user input is stored or transmitted; all data is generated locally.",
+      "file_count": 3,
+      "loc": 483,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 4,
+        "canvasCount": 1,
+        "title": "Neon Dreamscapes"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 4,
+        "missing_features_count": 2
+      }
     }
   ],
   "complexity_trajectory": [
@@ -5126,7 +5177,8 @@
     1080,
     920,
     1180,
-    420
+    420,
+    820
   ],
   "concepts_explored": [
     "neural networks",
@@ -5465,7 +5517,9 @@
     "WebAssembly integration",
     "Real-time 3D visualization",
     "Real-time code analysis",
-    "GLSL shader art"
+    "GLSL shader art",
+    "Real-time graphics rendering",
+    "Interactive shader programming"
   ],
   "patterns_used": [
     "visualizer",
@@ -5571,7 +5625,8 @@
     "browser-based-developer-utility",
     "interactive-3d-portfolio-optimization",
     "browser-based-developer-utility",
-    "interactive-glitch-art"
+    "interactive-glitch-art",
+    "procedural-urban-exploration"
   ],
   "domains_used": [
     "Mathematics",
@@ -5677,7 +5732,8 @@
     "Software Development",
     "Financial Mathematics",
     "Software Development",
-    "Digital Art"
+    "Digital Art",
+    "Computer Graphics"
   ],
   "ceo_reviews": [
     {
