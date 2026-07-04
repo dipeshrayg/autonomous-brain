@@ -7001,6 +7001,12 @@
       "verdict": "drifting",
       "summary": "Recent projects have been overly focused on safe or iterative domains, with several partially functional or repetitive builds; the system needs to regain its creative edge and tackle underexplored project types.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-07-04T20:16:08Z",
+      "verdict": "drifting",
+      "summary": "Recent projects show some technical ambition but are overly focused on a few themes (neon-cyber and luxury) and repetitive domains (developer utilities). The human usability mandate is being violated, with multiple 'partially usable' QA verdicts.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [

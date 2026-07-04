@@ -146,9 +146,9 @@ Every project below is a separate public repository with a live deployed URL.
 
 ## Latest CEO review
 
-**Verdict:** `drifting` — _issued 2026-07-03T20:32:14Z by gpt-4o_
+**Verdict:** `drifting` — _issued 2026-07-04T20:16:08Z by gpt-4o_
 
-> Recent projects have been overly focused on safe or iterative domains, with several partially functional or repetitive builds; the system needs to regain its creative edge and tackle underexplored project types.
+> Recent projects show some technical ambition but are overly focused on a few themes (neon-cyber and luxury) and repetitive domains (developer utilities). The human usability mandate is being violated, with multiple 'partially usable' QA verdicts.
 
 
 ## The boardroom - 13 roles, 3 providers
