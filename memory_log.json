@@ -5272,6 +5272,66 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-07-05",
+      "completed_at": "2026-07-05T17:16:53Z",
+      "completed_at_unix": 1783271813,
+      "name": "procedural-ecosystem-simulator",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-05-procedural-ecosystem-simulator",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-05-procedural-ecosystem-simulator/",
+      "language": "JavaScript",
+      "project_type": "research_showcase",
+      "tech_stack": [
+        "Three.js",
+        "WebGL",
+        "GLSL",
+        "JavaScript"
+      ],
+      "complexity_score": 950,
+      "concepts_demonstrated": [
+        "Procedural content generation",
+        "Physics-based simulations",
+        "Real-time data visualization",
+        "Genetic algorithms for species adaptation"
+      ],
+      "novel_concepts": [
+        "Ecosystem modeling with emergent behavior",
+        "Interactive species distribution visualization"
+      ],
+      "advancement_axis": "Integration of procedural content generation, physics-based simulations, and genetic algorithms to model complex ecosystem dynamics",
+      "pattern": "procedural-ecosystem-simulation",
+      "domain": "Ecological Modeling",
+      "visual_theme": "cinematic",
+      "complexity_justification": [
+        "Real-time 3D rendering with physics-based simulations",
+        "Procedural terrain generation using midpoint displacement",
+        "Species adaptation and evolution modeling using genetic algorithms",
+        "Interactive data visualization with real-time species distribution updates"
+      ],
+      "visual_identity": {
+        "color_palette": [
+          "#3498db",
+          "#2ecc71",
+          "#9b59b6"
+        ],
+        "typography": "Open Sans",
+        "layout": "Responsive grid system"
+      },
+      "safety_notes": "No known hazards or warnings associated with this project",
+      "file_count": 4,
+      "loc": 578,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 4,
+        "canvasCount": 1,
+        "title": "Procedural Ecosystem Simulator"
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -5389,7 +5449,8 @@
     1220,
     620,
     850,
-    630
+    630,
+    950
   ],
   "concepts_explored": [
     "neural networks",
@@ -5736,7 +5797,8 @@
     "Cinematic lighting",
     "Graph algorithms",
     "fluid dynamics",
-    "cinematic lighting"
+    "cinematic lighting",
+    "Genetic algorithms for species adaptation"
   ],
   "patterns_used": [
     "visualizer",
@@ -5847,7 +5909,8 @@
     "procedural-game-generation",
     "fluid-dynamics-simulation",
     "procedural-3d-exploration",
-    "procedural-bioluminescent-simulation"
+    "procedural-bioluminescent-simulation",
+    "procedural-ecosystem-simulation"
   ],
   "domains_used": [
     "Mathematics",
@@ -5958,7 +6021,8 @@
     "Entertainment Technology",
     "Physics",
     "Computer Science",
-    "Marine Biology"
+    "Marine Biology",
+    "Ecological Modeling"
   ],
   "ceo_reviews": [
     {
