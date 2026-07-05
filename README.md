@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 114 |
+| Projects shipped | 115 |
 | Builds auto-refused (quality gate) | 332+ |
 | Peak complexity | 1220 (open-ended scale) |
-| Average complexity | 260.3 |
+| Average complexity | 263.6 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
 | Latest run | 2026-07-05 |
 
 **Languages explored:** GLSL, HTML+JS, HTML, CSS, JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (17), web_3d (13), python_tool (10), saas_app (8), game_web (7), generative_art (7), shader_art (5), enterprise_webapp (5), data_viz (4), b2b_dashboard (4), document (4), prank_entertainment (3), devtool (3), ai_concept (3), cli_tool (3), social_toolkit (2), research_showcase (2), api_platform (2), saas_landing (2), creative_tool (2), edu_platform (2), system_design (2), database_showcase (2), typescript_app (2)  
+**Project types shipped:** web_interactive (17), web_3d (13), python_tool (10), saas_app (8), game_web (7), generative_art (7), shader_art (6), enterprise_webapp (5), data_viz (4), b2b_dashboard (4), document (4), prank_entertainment (3), devtool (3), ai_concept (3), cli_tool (3), social_toolkit (2), research_showcase (2), api_platform (2), saas_landing (2), creative_tool (2), edu_platform (2), system_design (2), database_showcase (2), typescript_app (2)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-07-05 | [bioluminescent-ocean](https://github.com/dipeshrayg/2026-07-05-bioluminescent-ocean) | GLSL | 630 | procedural-bioluminescent-simulation | Marine Biology | fluid dynamics, cinematic lighting, procedural generation | [▶ run](https://dipeshrayg.github.io/2026-07-05-bioluminescent-ocean/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-05-bioluminescent-ocean) |
 | 2026-07-05 | [procedural-architecture-explorer](https://github.com/dipeshrayg/2026-07-05-procedural-architecture-explorer) | JavaScript | 850 | procedural-3d-exploration | Computer Science | Procedural generation, 3D rendering, Graph algorithms | [▶ run](https://dipeshrayg.github.io/2026-07-05-procedural-architecture-explorer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-05-procedural-architecture-explorer) |
 | 2026-07-04 | [fluid-dynamics-simulator](https://github.com/dipeshrayg/2026-07-04-fluid-dynamics-simulator) | GLSL | 620 | fluid-dynamics-simulation | Physics | Navier-Stokes equations, Fluid dynamics, Cinematic lighting | [▶ run](https://dipeshrayg.github.io/2026-07-04-fluid-dynamics-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-04-fluid-dynamics-simulator) |
 | 2026-07-04 | [echo-pong](https://github.com/dipeshrayg/2026-07-04-echo-pong) | JavaScript | 1220 | procedural-game-generation | Entertainment Technology | Procedural generation, Bayesian inference, GLSL shader art | [▶ run](https://dipeshrayg.github.io/2026-07-04-echo-pong/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-04-echo-pong) |
