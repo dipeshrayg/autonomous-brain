@@ -5166,6 +5166,55 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-07-05",
+      "completed_at": "2026-07-05T05:43:09Z",
+      "completed_at_unix": 1783230189,
+      "name": "procedural-architecture-explorer",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-05-procedural-architecture-explorer",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-05-procedural-architecture-explorer/",
+      "language": "JavaScript",
+      "project_type": "web_3d",
+      "tech_stack": [
+        "Three.js",
+        "GLSL",
+        "WebGL"
+      ],
+      "complexity_score": 850,
+      "concepts_demonstrated": [
+        "Procedural generation",
+        "3D rendering",
+        "Graph algorithms"
+      ],
+      "novel_concepts": [
+        "Procedural architecture generation",
+        "Real-time 3D exploration"
+      ],
+      "advancement_axis": "Technical depth and visual polish",
+      "pattern": "procedural-3d-exploration",
+      "domain": "Computer Science",
+      "visual_theme": "cinematic",
+      "complexity_justification": [
+        "Procedural generation of 3D architecture using noise functions and graph algorithms",
+        "Real-time rendering of generated buildings using Three.js and WebGL",
+        "Implementation of orbit controls for user navigation and inspection"
+      ],
+      "visual_identity": "Desaturated color palette, film-grain texture, and dramatic contrast",
+      "safety_notes": "No known safety concerns",
+      "file_count": 3,
+      "loc": 392,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 4,
+        "canvasCount": 1,
+        "title": "Procedural Architecture Explorer"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 4,
+        "missing_features_count": 1
+      }
     }
   ],
   "complexity_trajectory": [
@@ -5281,7 +5330,8 @@
     420,
     820,
     1220,
-    620
+    620,
+    850
   ],
   "concepts_explored": [
     "neural networks",
@@ -5625,7 +5675,8 @@
     "Interactive shader programming",
     "Navier-Stokes equations",
     "Fluid dynamics",
-    "Cinematic lighting"
+    "Cinematic lighting",
+    "Graph algorithms"
   ],
   "patterns_used": [
     "visualizer",
@@ -5734,7 +5785,8 @@
     "interactive-glitch-art",
     "procedural-urban-exploration",
     "procedural-game-generation",
-    "fluid-dynamics-simulation"
+    "fluid-dynamics-simulation",
+    "procedural-3d-exploration"
   ],
   "domains_used": [
     "Mathematics",
@@ -5843,7 +5895,8 @@
     "Digital Art",
     "Computer Graphics",
     "Entertainment Technology",
-    "Physics"
+    "Physics",
+    "Computer Science"
   ],
   "ceo_reviews": [
     {

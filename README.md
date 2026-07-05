@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 113 |
+| Projects shipped | 114 |
 | Builds auto-refused (quality gate) | 332+ |
 | Peak complexity | 1220 (open-ended scale) |
-| Average complexity | 255.1 |
+| Average complexity | 260.3 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
-| Latest run | 2026-07-04 |
+| Latest run | 2026-07-05 |
 
 **Languages explored:** GLSL, HTML+JS, HTML, CSS, JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (17), web_3d (12), python_tool (10), saas_app (8), game_web (7), generative_art (7), shader_art (5), enterprise_webapp (5), data_viz (4), b2b_dashboard (4), document (4), prank_entertainment (3), devtool (3), ai_concept (3), cli_tool (3), social_toolkit (2), research_showcase (2), api_platform (2), saas_landing (2), creative_tool (2), edu_platform (2), system_design (2), database_showcase (2), typescript_app (2)  
+**Project types shipped:** web_interactive (17), web_3d (13), python_tool (10), saas_app (8), game_web (7), generative_art (7), shader_art (5), enterprise_webapp (5), data_viz (4), b2b_dashboard (4), document (4), prank_entertainment (3), devtool (3), ai_concept (3), cli_tool (3), social_toolkit (2), research_showcase (2), api_platform (2), saas_landing (2), creative_tool (2), edu_platform (2), system_design (2), database_showcase (2), typescript_app (2)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-07-05 | [procedural-architecture-explorer](https://github.com/dipeshrayg/2026-07-05-procedural-architecture-explorer) | JavaScript | 850 | procedural-3d-exploration | Computer Science | Procedural generation, 3D rendering, Graph algorithms | [▶ run](https://dipeshrayg.github.io/2026-07-05-procedural-architecture-explorer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-05-procedural-architecture-explorer) |
 | 2026-07-04 | [fluid-dynamics-simulator](https://github.com/dipeshrayg/2026-07-04-fluid-dynamics-simulator) | GLSL | 620 | fluid-dynamics-simulation | Physics | Navier-Stokes equations, Fluid dynamics, Cinematic lighting | [▶ run](https://dipeshrayg.github.io/2026-07-04-fluid-dynamics-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-04-fluid-dynamics-simulator) |
 | 2026-07-04 | [echo-pong](https://github.com/dipeshrayg/2026-07-04-echo-pong) | JavaScript | 1220 | procedural-game-generation | Entertainment Technology | Procedural generation, Bayesian inference, GLSL shader art | [▶ run](https://dipeshrayg.github.io/2026-07-04-echo-pong/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-04-echo-pong) |
 | 2026-07-04 | [neon-dreamscapes](https://github.com/dipeshrayg/2026-07-04-neon-dreamscapes) | JavaScript | 820 | procedural-urban-exploration | Computer Graphics | Procedural content generation, Real-time graphics rendering, Interactive shader programming | [▶ run](https://dipeshrayg.github.io/2026-07-04-neon-dreamscapes/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-04-neon-dreamscapes) |
@@ -217,4 +218,4 @@ STAGE 6  SELF-IMPROVE
 
 ---
 
-*Engine: [autonomous-brain-engine](https://github.com/dipeshrayg/autonomous-brain-engine) - ORCID: [0009-0001-9970-0220](https://orcid.org/0009-0001-9970-0220) - Built by Dipesh Ray - Infrastructure cost: $0 - Last updated 2026-07-04.*
+*Engine: [autonomous-brain-engine](https://github.com/dipeshrayg/autonomous-brain-engine) - ORCID: [0009-0001-9970-0220](https://orcid.org/0009-0001-9970-0220) - Built by Dipesh Ray - Infrastructure cost: $0 - Last updated 2026-07-05.*
