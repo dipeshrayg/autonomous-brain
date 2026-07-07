@@ -5643,6 +5643,60 @@
         "dead_controls_count": 0,
         "missing_features_count": 2
       }
+    },
+    {
+      "date": "2026-07-07",
+      "completed_at": "2026-07-07T16:12:29Z",
+      "completed_at_unix": 1783440749,
+      "name": "research-insights-explorer",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-07-research-insights-explorer",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-07-research-insights-explorer/",
+      "language": "JavaScript",
+      "project_type": "research_showcase",
+      "tech_stack": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Three.js",
+        "GLSL"
+      ],
+      "complexity_score": 1200,
+      "concepts_demonstrated": [
+        "Data visualization",
+        "Generative art",
+        "Shader art",
+        "3D rendering",
+        "Hierarchical clustering",
+        "Graph traversal"
+      ],
+      "novel_concepts": [
+        "Novel algorithm for dynamic data visualization",
+        "Combining cinematic themes with generative art and data visualization"
+      ],
+      "advancement_axis": "Incorporating cinematic themes and generative art into data visualization",
+      "pattern": "research-insights-exploration",
+      "domain": "Information Science",
+      "visual_theme": "luxury",
+      "complexity_justification": [
+        "Implementing a novel algorithm for dynamic data visualization",
+        "Incorporating shader art and 3D elements for visual ambition",
+        " Designing a highly interactive front-end interface for user engagement"
+      ],
+      "visual_identity": "Luxury theme with deep black and champagne gold color scheme, thin serifs, and generous whitespace",
+      "safety_notes": "No external tools or dead buttons are used in the project",
+      "file_count": 3,
+      "loc": 348,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 4,
+        "canvasCount": 2,
+        "title": "Research Insights Explorer"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 4,
+        "missing_features_count": 1
+      }
     }
   ],
   "complexity_trajectory": [
@@ -5767,7 +5821,8 @@
     1280,
     1300,
     1050,
-    1400
+    1400,
+    1200
   ],
   "concepts_explored": [
     "neural networks",
@@ -6128,7 +6183,9 @@
     "Data Visualization",
     "Interactive Exploration",
     "Shader Art",
-    "3D Rendering"
+    "3D Rendering",
+    "Shader art",
+    "Graph traversal"
   ],
   "patterns_used": [
     "visualizer",
@@ -6246,7 +6303,8 @@
     "interactive-api-visualization",
     "database-exploration-platform",
     "retro-ai-interaction",
-    "interactive-educational-experience"
+    "interactive-educational-experience",
+    "research-insights-exploration"
   ],
   "domains_used": [
     "Mathematics",
@@ -6364,7 +6422,8 @@
     "Computer Networks",
     "Computer Science",
     "Artificial Intelligence",
-    "Data Science"
+    "Data Science",
+    "Information Science"
   ],
   "ceo_reviews": [
     {
