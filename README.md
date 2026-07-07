@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 121 |
+| Projects shipped | 122 |
 | Builds auto-refused (quality gate) | 334+ |
-| Peak complexity | 1300 (open-ended scale) |
-| Average complexity | 303.2 |
+| Peak complexity | 1400 (open-ended scale) |
+| Average complexity | 312.2 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
 | Latest run | 2026-07-07 |
 
 **Languages explored:** GLSL, HTML+JS, HTML, CSS, JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (17), web_3d (13), python_tool (10), saas_app (8), game_web (7), generative_art (7), shader_art (6), enterprise_webapp (5), ai_concept (4), api_platform (4), data_viz (4), b2b_dashboard (4), document (4), database_showcase (3), creative_tool (3), research_showcase (3), prank_entertainment (3), devtool (3), cli_tool (3), social_toolkit (2), saas_landing (2), edu_platform (2), system_design (2), typescript_app (2)  
+**Project types shipped:** web_interactive (17), web_3d (13), python_tool (10), saas_app (8), game_web (7), generative_art (7), shader_art (6), enterprise_webapp (5), ai_concept (4), api_platform (4), data_viz (4), b2b_dashboard (4), document (4), edu_platform (3), database_showcase (3), creative_tool (3), research_showcase (3), prank_entertainment (3), devtool (3), cli_tool (3), social_toolkit (2), saas_landing (2), system_design (2), typescript_app (2)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-07-07 | [edu-platform-prototype](https://github.com/dipeshrayg/2026-07-07-edu-platform-prototype) | JavaScript | 1400 | interactive-educational-experience | Data Science | Data Visualization, Interactive Exploration, Shader Art | [▶ run](https://dipeshrayg.github.io/2026-07-07-edu-platform-prototype/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-07-edu-platform-prototype) |
 | 2026-07-07 | [retro-ai-assistant](https://github.com/dipeshrayg/2026-07-07-retro-ai-assistant) | JavaScript | 1050 | retro-ai-interaction | Artificial Intelligence | Natural Language Processing, Machine Learning, Information Retrieval | [▶ run](https://dipeshrayg.github.io/2026-07-07-retro-ai-assistant/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-07-retro-ai-assistant) |
 | 2026-07-06 | [hierarchical-clustering-explorer](https://github.com/dipeshrayg/2026-07-06-hierarchical-clustering-explorer) | JavaScript | 1300 | database-exploration-platform | Computer Science | Hierarchical clustering, 3D visualization, Generative art | [▶ run](https://dipeshrayg.github.io/2026-07-06-hierarchical-clustering-explorer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-06-hierarchical-clustering-explorer) |
 | 2026-07-06 | [real-time-genetic-api-optimizer](https://github.com/dipeshrayg/2026-07-06-real-time-genetic-api-optimizer) | JavaScript | 1280 | interactive-api-visualization | Computer Networks | Real-time data visualization, Genetic algorithms, API optimization | [▶ run](https://dipeshrayg.github.io/2026-07-06-real-time-genetic-api-optimizer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-06-real-time-genetic-api-optimizer) |
