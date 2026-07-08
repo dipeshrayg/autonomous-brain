@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 126 |
+| Projects shipped | 127 |
 | Builds auto-refused (quality gate) | 341+ |
-| Peak complexity | 1550 (open-ended scale) |
-| Average complexity | 344.0 |
+| Peak complexity | 1600 (open-ended scale) |
+| Average complexity | 353.9 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
 | Latest run | 2026-07-08 |
 
 **Languages explored:** GLSL, HTML+JS, HTML, CSS, JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (17), web_3d (13), python_tool (10), saas_app (8), game_web (7), generative_art (7), shader_art (6), enterprise_webapp (5), social_toolkit (4), creative_tool (4), research_showcase (4), ai_concept (4), api_platform (4), data_viz (4), b2b_dashboard (4), document (4), edu_platform (3), database_showcase (3), prank_entertainment (3), devtool (3), cli_tool (3), saas_landing (2), system_design (2), typescript_app (2)  
+**Project types shipped:** web_interactive (17), web_3d (13), python_tool (10), saas_app (8), game_web (7), generative_art (7), shader_art (6), enterprise_webapp (5), social_toolkit (4), creative_tool (4), research_showcase (4), ai_concept (4), api_platform (4), data_viz (4), b2b_dashboard (4), document (4), typescript_app (3), edu_platform (3), database_showcase (3), prank_entertainment (3), devtool (3), cli_tool (3), saas_landing (2), system_design (2)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-07-08 | [modular-fractal-explorer](https://github.com/dipeshrayg/2026-07-08-modular-fractal-explorer) | JavaScript | 1600 | interactive-generative-art | Mathematics | Real-time audio processing, Procedural generation, Interactive visualization | [▶ run](https://dipeshrayg.github.io/2026-07-08-modular-fractal-explorer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-08-modular-fractal-explorer) |
 | 2026-07-08 | [meme-morpher](https://github.com/dipeshrayg/2026-07-08-meme-morpher) | JavaScript | 1550 | collaborative-meme-generation | Digital Media | Real-time image processing, Collaborative filtering, Social media sharing | [▶ run](https://dipeshrayg.github.io/2026-07-08-meme-morpher/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-08-meme-morpher) |
 | 2026-07-08 | [echo-chamber-studio](https://github.com/dipeshrayg/2026-07-08-echo-chamber-studio) | JavaScript | 1450 | real-time-collaborative-audio-editing | Digital Audio | Real-time audio processing, AI-powered noise reduction, WebRTC-based collaboration | [▶ run](https://dipeshrayg.github.io/2026-07-08-echo-chamber-studio/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-08-echo-chamber-studio) |
 | 2026-07-07 | [meme-forge-studio](https://github.com/dipeshrayg/2026-07-07-meme-forge-studio) | JavaScript | 1050 | collaborative-meme-generation | Digital Media | Real-time collaboration, Browser-based multimedia editing, Interactive 2D visualization | [▶ run](https://dipeshrayg.github.io/2026-07-07-meme-forge-studio/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-07-meme-forge-studio) |
