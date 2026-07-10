@@ -17,7 +17,7 @@ Every project below is a separate public repository with a live deployed URL.
 | Projects shipped | 131 |
 | Builds auto-refused (quality gate) | 345+ |
 | Peak complexity | 1850 (open-ended scale) |
-| Average complexity | 394.2 |
+| Average complexity | 389.2 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
@@ -31,7 +31,7 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
-| 2026-07-10 | [crypto-automaton](https://github.com/dipeshrayg/2026-07-10-crypto-automaton) | Rust | 1850 | cryptographic-cli-tool | Cryptography | Cryptographic operations, Constraint satisfaction problems, Formal verification techniques | [▶ run](https://dipeshrayg.github.io/2026-07-10-crypto-automaton/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-10-crypto-automaton) |
+| 2026-07-10 | [cellular-automata-simulator](https://github.com/dipeshrayg/2026-07-10-cellular-automata-simulator) | Python | 1200 | interactive-cli-tool | Complexity Science | Cellular automata simulations, Interactive visualization, Command-line interface design | [▶ run](https://dipeshrayg.github.io/2026-07-10-cellular-automata-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-10-cellular-automata-simulator) |
 | 2026-07-09 | [neon-rhythm-generator](https://github.com/dipeshrayg/2026-07-09-neon-rhythm-generator) | JavaScript | 1850 | real-time-audio-visualization | Music Generation | Interactive Web Development, Real-time Data Visualization, Procedural Generation | [▶ run](https://dipeshrayg.github.io/2026-07-09-neon-rhythm-generator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-09-neon-rhythm-generator) |
 | 2026-07-09 | [stellar-navigator](https://github.com/dipeshrayg/2026-07-09-stellar-navigator) | JavaScript | 1200 | procedural-galaxy-exploration | Astronomy | Procedural Generation, Real-time Physics Simulations, Interactive 3D Visualization | [▶ run](https://dipeshrayg.github.io/2026-07-09-stellar-navigator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-09-stellar-navigator) |
 | 2026-07-09 | [system-design-constraint-solver](https://github.com/dipeshrayg/2026-07-09-system-design-constraint-solver) | JavaScript | 1800 | interactive-system-design | Computer Science | Constraint satisfaction, DPLL algorithm, Conflict-driven clause learning | [▶ run](https://dipeshrayg.github.io/2026-07-09-system-design-constraint-solver/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-09-system-design-constraint-solver) |

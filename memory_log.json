@@ -6056,51 +6056,50 @@
     },
     {
       "date": "2026-07-10",
-      "completed_at": "2026-07-10T06:15:32Z",
-      "completed_at_unix": 1783664132,
-      "name": "crypto-automaton",
-      "repo_url": "https://github.com/dipeshrayg/2026-07-10-crypto-automaton",
-      "pages_url": "https://dipeshrayg.github.io/2026-07-10-crypto-automaton/",
-      "language": "Rust",
+      "completed_at": "2026-07-10T06:58:49Z",
+      "completed_at_unix": 1783666729,
+      "name": "cellular-automata-simulator",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-10-cellular-automata-simulator",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-10-cellular-automata-simulator/",
+      "language": "Python",
       "project_type": "cli_tool",
       "tech_stack": [
-        "Rust",
-        "CSS",
-        "HTML",
-        "JavaScript"
+        "Python",
+        "JavaScript",
+        "HTML/CSS"
       ],
-      "complexity_score": 1850,
+      "complexity_score": 1200,
       "concepts_demonstrated": [
-        "Cryptographic operations",
-        "Constraint satisfaction problems",
-        "Formal verification techniques"
+        "Cellular automata simulations",
+        "Interactive visualization",
+        "Command-line interface design"
       ],
       "novel_concepts": [
-        "Application of cryptographic techniques in a CLI tool",
-        "Use of constraint satisfaction problems in cryptographic operations"
+        "Customizable automata rules",
+        "Real-time visualization of simulation results"
       ],
-      "advancement_axis": "Technical depth in cryptographic operations and constraint satisfaction problems",
-      "pattern": "cryptographic-cli-tool",
-      "domain": "Cryptography",
+      "advancement_axis": "novel application of cellular automata to real-world problems",
+      "pattern": "interactive-cli-tool",
+      "domain": "Complexity Science",
       "visual_theme": "retro-terminal",
       "complexity_justification": [
-        "Implementing cryptographic algorithms, such as AES and RSA",
-        "Developing a constraint satisfaction problem solver to ensure correctness",
-        "Creating a visually engaging animated terminal showcase using CSS and JavaScript"
+        "Implementing a cellular automata simulator with custom rule support",
+        "Creating an interactive visualization using a web-based terminal showcase",
+        "Handling user input and updating the simulation in real-time"
       ],
-      "visual_identity": "Monochrome color scheme, retro-style typography, and a minimalist layout",
-      "safety_notes": "The project does not involve any active malware or exploits against systems without consent.",
-      "file_count": 5,
-      "loc": 510,
-      "quality_cycles_used": 0,
+      "visual_identity": "color palette: green/amber phosphor on black, typography: monospace, layout: terminal-like",
+      "safety_notes": "No active malware or exploits",
+      "file_count": 6,
+      "loc": 692,
+      "quality_cycles_used": 8,
       "final_verify_metrics": {
-        "interactiveCount": 4,
+        "interactiveCount": 5,
         "canvasCount": 0,
-        "title": "Crypto Automaton Showcase"
+        "title": "Cellular Automata Simulator"
       },
       "qa_review": {
-        "verdict": "shippable",
-        "dead_controls_count": 0,
+        "verdict": "partially_usable",
+        "dead_controls_count": 1,
         "missing_features_count": 0
       }
     }
@@ -6236,7 +6235,7 @@
     1800,
     1200,
     1850,
-    1850
+    1200
   ],
   "concepts_explored": [
     "neural networks",
@@ -6616,8 +6615,8 @@
     "Real-time Physics Simulations",
     "Interactive 3D Visualization",
     "Physics Simulation",
-    "Cryptographic operations",
-    "Constraint satisfaction problems"
+    "Cellular automata simulations",
+    "Command-line interface design"
   ],
   "patterns_used": [
     "visualizer",
@@ -6744,7 +6743,7 @@
     "interactive-system-design",
     "procedural-galaxy-exploration",
     "real-time-audio-visualization",
-    "cryptographic-cli-tool"
+    "interactive-cli-tool"
   ],
   "domains_used": [
     "Mathematics",
@@ -6871,7 +6870,7 @@
     "Computer Science",
     "Astronomy",
     "Music Generation",
-    "Cryptography"
+    "Complexity Science"
   ],
   "ceo_reviews": [
     {
