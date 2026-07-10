@@ -6103,6 +6103,56 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-07-10",
+      "completed_at": "2026-07-10T17:02:09Z",
+      "completed_at_unix": 1783702929,
+      "name": "bayes-waveform",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-10-bayes-waveform",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-10-bayes-waveform/",
+      "language": "python",
+      "project_type": "cli_tool",
+      "tech_stack": [
+        "python",
+        "numpy",
+        "scipy",
+        "matplotlib"
+      ],
+      "complexity_score": 2200,
+      "concepts_demonstrated": [
+        "Bayesian inference",
+        "Audio signal processing",
+        "Interactive visualization"
+      ],
+      "novel_concepts": [
+        "Application of Bayesian inference to audio waveforms",
+        "Real-time signal processing with interactive visualization"
+      ],
+      "advancement_axis": "novel application of Bayesian inference",
+      "pattern": "bayesian-inference-cli",
+      "domain": "Signal Processing",
+      "visual_theme": "retro-terminal",
+      "complexity_justification": [
+        "Bayesian inference on large audio datasets",
+        "Real-time audio signal processing",
+        "Interactive visualization of waveform data"
+      ],
+      "visual_identity": "color palette + typography + layout personality consistent with retro-terminal",
+      "safety_notes": "No active malware, no exploits against systems without consent",
+      "file_count": 4,
+      "loc": 520,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 3,
+        "canvasCount": 0,
+        "title": "Bayes Waveform CLI Showcase"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 1,
+        "missing_features_count": 2
+      }
     }
   ],
   "complexity_trajectory": [
@@ -6236,7 +6286,8 @@
     1800,
     1200,
     1850,
-    1850
+    1850,
+    2200
   ],
   "concepts_explored": [
     "neural networks",
@@ -6617,7 +6668,8 @@
     "Interactive 3D Visualization",
     "Physics Simulation",
     "Cryptographic operations",
-    "Constraint satisfaction problems"
+    "Constraint satisfaction problems",
+    "Audio signal processing"
   ],
   "patterns_used": [
     "visualizer",
@@ -6744,7 +6796,8 @@
     "interactive-system-design",
     "procedural-galaxy-exploration",
     "real-time-audio-visualization",
-    "cryptographic-cli-tool"
+    "cryptographic-cli-tool",
+    "bayesian-inference-cli"
   ],
   "domains_used": [
     "Mathematics",
@@ -6871,7 +6924,8 @@
     "Computer Science",
     "Astronomy",
     "Music Generation",
-    "Cryptography"
+    "Cryptography",
+    "Signal Processing"
   ],
   "ceo_reviews": [
     {

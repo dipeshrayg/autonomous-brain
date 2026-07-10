@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 131 |
+| Projects shipped | 132 |
 | Builds auto-refused (quality gate) | 349+ |
-| Peak complexity | 1850 (open-ended scale) |
-| Average complexity | 394.2 |
+| Peak complexity | 2200 (open-ended scale) |
+| Average complexity | 407.9 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
 | Latest run | 2026-07-10 |
 
 **Languages explored:** GLSL, HTML+JS, HTML, CSS, JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (17), web_3d (14), python_tool (10), saas_app (8), game_web (7), generative_art (7), shader_art (6), enterprise_webapp (5), cli_tool (4), typescript_app (4), social_toolkit (4), creative_tool (4), research_showcase (4), ai_concept (4), api_platform (4), data_viz (4), b2b_dashboard (4), document (4), system_design (3), edu_platform (3), database_showcase (3), prank_entertainment (3), devtool (3), saas_landing (2)  
+**Project types shipped:** web_interactive (17), web_3d (14), python_tool (10), saas_app (8), game_web (7), generative_art (7), shader_art (6), cli_tool (5), enterprise_webapp (5), typescript_app (4), social_toolkit (4), creative_tool (4), research_showcase (4), ai_concept (4), api_platform (4), data_viz (4), b2b_dashboard (4), document (4), system_design (3), edu_platform (3), database_showcase (3), prank_entertainment (3), devtool (3), saas_landing (2)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-07-10 | [bayes-waveform](https://github.com/dipeshrayg/2026-07-10-bayes-waveform) | python | 2200 | bayesian-inference-cli | Signal Processing | Bayesian inference, Audio signal processing, Interactive visualization | [▶ run](https://dipeshrayg.github.io/2026-07-10-bayes-waveform/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-10-bayes-waveform) |
 | 2026-07-10 | [crypto-automaton](https://github.com/dipeshrayg/2026-07-10-crypto-automaton) | Rust | 1850 | cryptographic-cli-tool | Cryptography | Cryptographic operations, Constraint satisfaction problems, Formal verification techniques | [▶ run](https://dipeshrayg.github.io/2026-07-10-crypto-automaton/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-10-crypto-automaton) |
 | 2026-07-09 | [neon-rhythm-generator](https://github.com/dipeshrayg/2026-07-09-neon-rhythm-generator) | JavaScript | 1850 | real-time-audio-visualization | Music Generation | Interactive Web Development, Real-time Data Visualization, Procedural Generation | [▶ run](https://dipeshrayg.github.io/2026-07-09-neon-rhythm-generator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-09-neon-rhythm-generator) |
 | 2026-07-09 | [stellar-navigator](https://github.com/dipeshrayg/2026-07-09-stellar-navigator) | JavaScript | 1200 | procedural-galaxy-exploration | Astronomy | Procedural Generation, Real-time Physics Simulations, Interactive 3D Visualization | [▶ run](https://dipeshrayg.github.io/2026-07-09-stellar-navigator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-09-stellar-navigator) |
