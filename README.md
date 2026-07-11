@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 135 |
+| Projects shipped | 136 |
 | Builds auto-refused (quality gate) | 354+ |
 | Peak complexity | 2400 (open-ended scale) |
-| Average complexity | 442.5 |
+| Average complexity | 448.1 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
 | Latest run | 2026-07-11 |
 
 **Languages explored:** GLSL, HTML+JS, HTML, CSS, JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (17), web_3d (14), python_tool (10), saas_app (8), game_web (7), generative_art (7), b2b_dashboard (6), shader_art (6), data_viz (5), cli_tool (5), enterprise_webapp (5), typescript_app (4), social_toolkit (4), creative_tool (4), research_showcase (4), ai_concept (4), api_platform (4), document (4), system_design (3), edu_platform (3), database_showcase (3), prank_entertainment (3), devtool (3), saas_landing (2)  
+**Project types shipped:** web_interactive (17), web_3d (14), python_tool (10), saas_app (8), game_web (7), generative_art (7), b2b_dashboard (6), shader_art (6), document (5), data_viz (5), cli_tool (5), enterprise_webapp (5), typescript_app (4), social_toolkit (4), creative_tool (4), research_showcase (4), ai_concept (4), api_platform (4), system_design (3), edu_platform (3), database_showcase (3), prank_entertainment (3), devtool (3), saas_landing (2)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-07-11 | [cellular-automata-explorer](https://github.com/dipeshrayg/2026-07-11-cellular-automata-explorer) | markdown | 1200 | research-article-with-interactive-simulations | Mathematics | cellular automata, Conway's Game of Life, algorithmic novelty | [▶ run](https://dipeshrayg.github.io/2026-07-11-cellular-automata-explorer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-11-cellular-automata-explorer) |
 | 2026-07-11 | [financial-risk-propagation](https://github.com/dipeshrayg/2026-07-11-financial-risk-propagation) | JavaScript | 2400 | financial-risk-analysis | Finance | Data Visualization, Interactive Exploration, Financial Modeling | [▶ run](https://dipeshrayg.github.io/2026-07-11-financial-risk-propagation/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-11-financial-risk-propagation) |
 | 2026-07-11 | [socio-economic-network-visualizer](https://github.com/dipeshrayg/2026-07-11-socio-economic-network-visualizer) | JavaScript | 2300 | socio-economic-network-analysis | Sociology | Network analysis, Data visualization, Interactive exploration | [▶ run](https://dipeshrayg.github.io/2026-07-11-socio-economic-network-visualizer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-11-socio-economic-network-visualizer) |
 | 2026-07-10 | [stellar-data-vault](https://github.com/dipeshrayg/2026-07-10-stellar-data-vault) | Python | 1200 | data-visualization-platform | Astrophysics | Data Visualization, Celestial Mechanics, Bayesian Inference | [▶ run](https://dipeshrayg.github.io/2026-07-10-stellar-data-vault/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-10-stellar-data-vault) |

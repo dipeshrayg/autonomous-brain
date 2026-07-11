@@ -6308,6 +6308,55 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-07-11",
+      "completed_at": "2026-07-11T20:48:07Z",
+      "completed_at_unix": 1783802887,
+      "name": "cellular-automata-explorer",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-11-cellular-automata-explorer",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-11-cellular-automata-explorer/",
+      "language": "markdown",
+      "project_type": "document",
+      "tech_stack": [
+        "markdown",
+        "python",
+        "glsl"
+      ],
+      "complexity_score": 1200,
+      "concepts_demonstrated": [
+        "cellular automata",
+        "Conway's Game of Life",
+        "algorithmic novelty"
+      ],
+      "novel_concepts": [
+        "application of information-theoretic concepts to cellular automata",
+        "utilization of deep-tech concepts in a markdown-based research article"
+      ],
+      "advancement_axis": "technical depth and visual presentation",
+      "pattern": "research-article-with-interactive-simulations",
+      "domain": "Mathematics",
+      "visual_theme": "futuristic",
+      "complexity_justification": [
+        "Implementation of Conway's Game of Life in Python and GLSL",
+        "In-depth analysis of cellular automata variants and their applications",
+        "Creation of interactive simulations using WebGL and Python"
+      ],
+      "visual_identity": "dark navy/electric-blue color palette, sharp geometry, and HUD overlays",
+      "safety_notes": "The project does not contain any active malware or exploits and complies with GitHub TOS.",
+      "file_count": 4,
+      "loc": 584,
+      "quality_cycles_used": 1,
+      "final_verify_metrics": {
+        "interactiveCount": null,
+        "canvasCount": null,
+        "title": null
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -6445,7 +6494,8 @@
     2200,
     1200,
     2300,
-    2400
+    2400,
+    1200
   ],
   "concepts_explored": [
     "neural networks",
@@ -6831,7 +6881,9 @@
     "Celestial Mechanics",
     "Orbital Trajectory Simulation",
     "Network analysis",
-    "Financial Modeling"
+    "Financial Modeling",
+    "Conway's Game of Life",
+    "algorithmic novelty"
   ],
   "patterns_used": [
     "visualizer",
@@ -6962,7 +7014,8 @@
     "bayesian-inference-cli",
     "data-visualization-platform",
     "socio-economic-network-analysis",
-    "financial-risk-analysis"
+    "financial-risk-analysis",
+    "research-article-with-interactive-simulations"
   ],
   "domains_used": [
     "Mathematics",
@@ -7093,7 +7146,8 @@
     "Signal Processing",
     "Astrophysics",
     "Sociology",
-    "Finance"
+    "Finance",
+    "Mathematics"
   ],
   "ceo_reviews": [
     {
