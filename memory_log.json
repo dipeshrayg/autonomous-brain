@@ -6257,6 +6257,57 @@
         "dead_controls_count": 3,
         "missing_features_count": 1
       }
+    },
+    {
+      "date": "2026-07-11",
+      "completed_at": "2026-07-11T14:02:13Z",
+      "completed_at_unix": 1783778533,
+      "name": "financial-risk-propagation",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-11-financial-risk-propagation",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-11-financial-risk-propagation/",
+      "language": "JavaScript",
+      "project_type": "b2b_dashboard",
+      "tech_stack": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "D3.js"
+      ],
+      "complexity_score": 2400,
+      "concepts_demonstrated": [
+        "Data Visualization",
+        "Interactive Exploration",
+        "Financial Modeling"
+      ],
+      "novel_concepts": [
+        "Financial risk propagation simulation",
+        "Dynamic visualization of portfolio risk"
+      ],
+      "advancement_axis": "novel algorithm for financial risk simulation",
+      "pattern": "financial-risk-analysis",
+      "domain": "Finance",
+      "visual_theme": "cinematic",
+      "complexity_justification": [
+        "Novel algorithm for simulating financial risk propagation",
+        "Real-time interactive visualization of complex financial data",
+        "Dynamic updating of visualization based on user input",
+        "Integration of multiple data sources for accurate simulation"
+      ],
+      "visual_identity": "color palette + typography + layout personality consistent with cinematic theme",
+      "safety_notes": "No active malware, no exploits against systems without consent",
+      "file_count": 3,
+      "loc": 258,
+      "quality_cycles_used": 1,
+      "final_verify_metrics": {
+        "interactiveCount": 4,
+        "canvasCount": 0,
+        "title": "Financial Risk Propagation"
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -6393,7 +6444,8 @@
     1850,
     2200,
     1200,
-    2300
+    2300,
+    2400
   ],
   "concepts_explored": [
     "neural networks",
@@ -6778,7 +6830,8 @@
     "Audio signal processing",
     "Celestial Mechanics",
     "Orbital Trajectory Simulation",
-    "Network analysis"
+    "Network analysis",
+    "Financial Modeling"
   ],
   "patterns_used": [
     "visualizer",
@@ -6908,7 +6961,8 @@
     "cryptographic-cli-tool",
     "bayesian-inference-cli",
     "data-visualization-platform",
-    "socio-economic-network-analysis"
+    "socio-economic-network-analysis",
+    "financial-risk-analysis"
   ],
   "domains_used": [
     "Mathematics",
@@ -7038,7 +7092,8 @@
     "Cryptography",
     "Signal Processing",
     "Astrophysics",
-    "Sociology"
+    "Sociology",
+    "Finance"
   ],
   "ceo_reviews": [
     {
