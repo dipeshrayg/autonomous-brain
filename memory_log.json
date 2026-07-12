@@ -6357,6 +6357,55 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-07-12",
+      "completed_at": "2026-07-12T07:47:51Z",
+      "completed_at_unix": 1783842471,
+      "name": "crypto-zoo",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-12-crypto-zoo",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-12-crypto-zoo/",
+      "language": "Markdown",
+      "project_type": "document",
+      "tech_stack": [
+        "Markdown",
+        "HTML",
+        "CSS"
+      ],
+      "complexity_score": 1300,
+      "concepts_demonstrated": [
+        "Cryptography",
+        "Algorithmic complexity",
+        "Information theory"
+      ],
+      "novel_concepts": [
+        "Interactive markdown document",
+        "Futuristic visual theme for technical content"
+      ],
+      "advancement_axis": "Novel application of document type for interactive technical content",
+      "pattern": "research-article-with-interactive-simulations",
+      "domain": "Cryptography",
+      "visual_theme": "futuristic",
+      "complexity_justification": [
+        "Incorporation of interactive simulations",
+        "Use of ASCII diagrams and code snippets",
+        "Exploration of cryptographic concepts"
+      ],
+      "visual_identity": "Futuristic color palette, typography, and layout",
+      "safety_notes": "The project adheres to GitHub TOS and does not contain active malware or exploits.",
+      "file_count": 3,
+      "loc": 425,
+      "quality_cycles_used": 1,
+      "final_verify_metrics": {
+        "interactiveCount": null,
+        "canvasCount": null,
+        "title": null
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -6495,7 +6544,8 @@
     1200,
     2300,
     2400,
-    1200
+    1200,
+    1300
   ],
   "concepts_explored": [
     "neural networks",
@@ -6883,7 +6933,9 @@
     "Network analysis",
     "Financial Modeling",
     "Conway's Game of Life",
-    "algorithmic novelty"
+    "algorithmic novelty",
+    "Algorithmic complexity",
+    "Information theory"
   ],
   "patterns_used": [
     "visualizer",
@@ -7015,6 +7067,7 @@
     "data-visualization-platform",
     "socio-economic-network-analysis",
     "financial-risk-analysis",
+    "research-article-with-interactive-simulations",
     "research-article-with-interactive-simulations"
   ],
   "domains_used": [
@@ -7147,7 +7200,8 @@
     "Astrophysics",
     "Sociology",
     "Finance",
-    "Mathematics"
+    "Mathematics",
+    "Cryptography"
   ],
   "ceo_reviews": [
     {
