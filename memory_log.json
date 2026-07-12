@@ -6454,6 +6454,57 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-07-12",
+      "completed_at": "2026-07-12T21:17:43Z",
+      "completed_at_unix": 1783891063,
+      "name": "reactive-diffusion-studio",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-12-reactive-diffusion-studio",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-12-reactive-diffusion-studio/",
+      "language": "GLSL",
+      "project_type": "shader_art",
+      "tech_stack": [
+        "GLSL",
+        "WebGL",
+        "HTML/CSS"
+      ],
+      "complexity_score": 1700,
+      "concepts_demonstrated": [
+        "Reaction-diffusion systems",
+        "GLSL shaders",
+        "Interactive visualization",
+        "Cinematic lighting"
+      ],
+      "novel_concepts": [
+        "Dynamic parameter adjustment in reaction-diffusion systems",
+        "Real-time cinematic lighting effects in GLSL shaders"
+      ],
+      "advancement_axis": "technical",
+      "pattern": "interactive-shader-art",
+      "domain": "Chemistry",
+      "visual_theme": "minimal-glass",
+      "complexity_justification": [
+        "Real-time reaction-diffusion simulation using GLSL shaders",
+        "Dynamic parameter adjustment with interactive visualization",
+        "Cinematic lighting effects with GLSL",
+        "Browser-based deployment with WebGL"
+      ],
+      "visual_identity": "minimal-glass",
+      "safety_notes": "No active malware or exploits",
+      "file_count": 3,
+      "loc": 423,
+      "quality_cycles_used": 3,
+      "final_verify_metrics": {
+        "interactiveCount": 4,
+        "canvasCount": 1,
+        "title": "Reactive Diffusion Studio"
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -6594,7 +6645,8 @@
     2400,
     1200,
     1300,
-    1200
+    1200,
+    1700
   ],
   "concepts_explored": [
     "neural networks",
@@ -6985,7 +7037,8 @@
     "algorithmic novelty",
     "Algorithmic complexity",
     "Information theory",
-    "Fractal geometry"
+    "Fractal geometry",
+    "Reaction-diffusion systems"
   ],
   "patterns_used": [
     "visualizer",
@@ -7119,7 +7172,8 @@
     "financial-risk-analysis",
     "research-article-with-interactive-simulations",
     "research-article-with-interactive-simulations",
-    "interactive-visualization"
+    "interactive-visualization",
+    "interactive-shader-art"
   ],
   "domains_used": [
     "Mathematics",
@@ -7253,7 +7307,8 @@
     "Finance",
     "Mathematics",
     "Cryptography",
-    "Mathematics"
+    "Mathematics",
+    "Chemistry"
   ],
   "ceo_reviews": [
     {
@@ -10831,7 +10886,7 @@
       "reviewed_project_count": 8
     }
   ],
-  "expansion_mode": true,
+  "expansion_mode": false,
   "expansion_mode_since": "2026-06-28T21:15:48.480864+00:00",
   "enterprise_mode": false,
   "enterprise_mode_since": "2026-06-16T08:03:24.286031+00:00",

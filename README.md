@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 138 |
+| Projects shipped | 139 |
 | Builds auto-refused (quality gate) | 360+ |
 | Peak complexity | 2400 (open-ended scale) |
-| Average complexity | 459.7 |
+| Average complexity | 468.6 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
 | Latest run | 2026-07-12 |
 
 **Languages explored:** GLSL, HTML+JS, HTML, CSS, JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (17), web_3d (14), python_tool (11), saas_app (8), game_web (7), generative_art (7), document (6), b2b_dashboard (6), shader_art (6), data_viz (5), cli_tool (5), enterprise_webapp (5), typescript_app (4), social_toolkit (4), creative_tool (4), research_showcase (4), ai_concept (4), api_platform (4), system_design (3), edu_platform (3), database_showcase (3), prank_entertainment (3), devtool (3), saas_landing (2)  
+**Project types shipped:** web_interactive (17), web_3d (14), python_tool (11), saas_app (8), shader_art (7), game_web (7), generative_art (7), document (6), b2b_dashboard (6), data_viz (5), cli_tool (5), enterprise_webapp (5), typescript_app (4), social_toolkit (4), creative_tool (4), research_showcase (4), ai_concept (4), api_platform (4), system_design (3), edu_platform (3), database_showcase (3), prank_entertainment (3), devtool (3), saas_landing (2)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-07-12 | [reactive-diffusion-studio](https://github.com/dipeshrayg/2026-07-12-reactive-diffusion-studio) | GLSL | 1700 | interactive-shader-art | Chemistry | Reaction-diffusion systems, GLSL shaders, Interactive visualization | [▶ run](https://dipeshrayg.github.io/2026-07-12-reactive-diffusion-studio/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-12-reactive-diffusion-studio) |
 | 2026-07-12 | [fractal-geometry-explorer](https://github.com/dipeshrayg/2026-07-12-fractal-geometry-explorer) | Python | 1200 | interactive-visualization | Mathematics | Fractal geometry, Interactive visualization | [▶ run](https://dipeshrayg.github.io/2026-07-12-fractal-geometry-explorer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-12-fractal-geometry-explorer) |
 | 2026-07-12 | [crypto-zoo](https://github.com/dipeshrayg/2026-07-12-crypto-zoo) | Markdown | 1300 | research-article-with-interactive-simulations | Cryptography | Cryptography, Algorithmic complexity, Information theory | [▶ run](https://dipeshrayg.github.io/2026-07-12-crypto-zoo/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-12-crypto-zoo) |
 | 2026-07-11 | [cellular-automata-explorer](https://github.com/dipeshrayg/2026-07-11-cellular-automata-explorer) | markdown | 1200 | research-article-with-interactive-simulations | Mathematics | cellular automata, Conway's Game of Life, algorithmic novelty | [▶ run](https://dipeshrayg.github.io/2026-07-11-cellular-automata-explorer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-11-cellular-automata-explorer) |
