@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 140 |
+| Projects shipped | 141 |
 | Builds auto-refused (quality gate) | 363+ |
 | Peak complexity | 2400 (open-ended scale) |
-| Average complexity | 466.6 |
+| Average complexity | 474.6 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
 | Latest run | 2026-07-13 |
 
 **Languages explored:** GLSL, HTML+JS, HTML, CSS, JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (17), web_3d (14), python_tool (11), game_web (8), saas_app (8), shader_art (7), generative_art (7), document (6), b2b_dashboard (6), data_viz (5), cli_tool (5), enterprise_webapp (5), typescript_app (4), social_toolkit (4), creative_tool (4), research_showcase (4), ai_concept (4), api_platform (4), system_design (3), edu_platform (3), database_showcase (3), prank_entertainment (3), devtool (3), saas_landing (2)  
+**Project types shipped:** web_interactive (17), web_3d (14), python_tool (11), generative_art (8), game_web (8), saas_app (8), shader_art (7), document (6), b2b_dashboard (6), data_viz (5), cli_tool (5), enterprise_webapp (5), typescript_app (4), social_toolkit (4), creative_tool (4), research_showcase (4), ai_concept (4), api_platform (4), system_design (3), edu_platform (3), database_showcase (3), prank_entertainment (3), devtool (3), saas_landing (2)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-07-13 | [aurora-formation](https://github.com/dipeshrayg/2026-07-13-aurora-formation) | JavaScript | 1600 | interactive-generative-art | Chemistry | Reaction-diffusion systems, Interactive visualization, WebGL rendering | [▶ run](https://dipeshrayg.github.io/2026-07-13-aurora-formation/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-13-aurora-formation) |
 | 2026-07-13 | [echo-chamber](https://github.com/dipeshrayg/2026-07-13-echo-chamber) | JavaScript | 180 | music-composition-tool | Music Generation | Web Audio API, Dynamic sound wave manipulation, Music composition | [▶ run](https://dipeshrayg.github.io/2026-07-13-echo-chamber/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-13-echo-chamber) |
 | 2026-07-12 | [reactive-diffusion-studio](https://github.com/dipeshrayg/2026-07-12-reactive-diffusion-studio) | GLSL | 1700 | interactive-shader-art | Chemistry | Reaction-diffusion systems, GLSL shaders, Interactive visualization | [▶ run](https://dipeshrayg.github.io/2026-07-12-reactive-diffusion-studio/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-12-reactive-diffusion-studio) |
 | 2026-07-12 | [fractal-geometry-explorer](https://github.com/dipeshrayg/2026-07-12-fractal-geometry-explorer) | Python | 1200 | interactive-visualization | Mathematics | Fractal geometry, Interactive visualization | [▶ run](https://dipeshrayg.github.io/2026-07-12-fractal-geometry-explorer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-12-fractal-geometry-explorer) |
