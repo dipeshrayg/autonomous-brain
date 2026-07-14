@@ -6815,6 +6815,58 @@
         "dead_controls_count": 3,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-07-14",
+      "completed_at": "2026-07-14T21:49:24Z",
+      "completed_at_unix": 1784065764,
+      "name": "eco-system-simulator",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-14-eco-system-simulator",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-14-eco-system-simulator/",
+      "language": "JavaScript",
+      "project_type": "saas_app",
+      "tech_stack": [
+        "Three.js",
+        "JavaScript",
+        "HTML/CSS"
+      ],
+      "complexity_score": 2600,
+      "concepts_demonstrated": [
+        "Interactive 3D visualization",
+        "Real-time data analysis",
+        "Procedural content generation",
+        "Real-time collaboration"
+      ],
+      "novel_concepts": [
+        "Dynamic ecosystem simulation with user input",
+        "Real-time data analysis and visualization in 3D",
+        "Procedural generation of ecosystem components"
+      ],
+      "advancement_axis": "Technical ambition and visual impact",
+      "pattern": "ecosystem-simulation",
+      "domain": "Ecology",
+      "visual_theme": "retro-terminal",
+      "complexity_justification": [
+        "Real-time 3D rendering of ecosystem simulations",
+        "Interactive data analysis and visualization",
+        "Procedural content generation for ecosystem creation",
+        "Real-time collaboration features for multiple users"
+      ],
+      "visual_identity": "color palette: green, blue, earthy tones; typography: monospaced; layout: interactive 3D visualization",
+      "safety_notes": "No active malware, no exploits against systems without consent",
+      "file_count": 3,
+      "loc": 375,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 3,
+        "canvasCount": 1,
+        "title": "Eco-System Simulator"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 1,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -6962,7 +7014,8 @@
     2100,
     850,
     900,
-    950
+    950,
+    2600
   ],
   "concepts_explored": [
     "neural networks",
@@ -7366,7 +7419,8 @@
     "Quantum superposition",
     "Quantum entanglement",
     "3D puzzle-solving",
-    "Cinematic lighting and PBR materials"
+    "Cinematic lighting and PBR materials",
+    "Real-time data analysis"
   ],
   "patterns_used": [
     "visualizer",
@@ -7507,7 +7561,8 @@
     "real-time-3d-simulation",
     "strategic-colonization-game",
     "real-time-3d-city-builder",
-    "quantum-puzzle-game"
+    "quantum-puzzle-game",
+    "ecosystem-simulation"
   ],
   "domains_used": [
     "Mathematics",
@@ -7648,7 +7703,8 @@
     "Physics",
     "Computer Science",
     "Urban Planning",
-    "Quantum Physics"
+    "Quantum Physics",
+    "Ecology"
   ],
   "ceo_reviews": [
     {

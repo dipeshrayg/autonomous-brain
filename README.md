@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 145 |
+| Projects shipped | 146 |
 | Builds auto-refused (quality gate) | 363+ |
-| Peak complexity | 2400 (open-ended scale) |
-| Average complexity | 494.6 |
+| Peak complexity | 2600 (open-ended scale) |
+| Average complexity | 509.0 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
 | Latest run | 2026-07-14 |
 
 **Languages explored:** GLSL, HTML+JS, HTML, CSS, JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (17), web_3d (14), python_tool (11), game_web (10), saas_app (9), generative_art (8), shader_art (7), enterprise_webapp (6), document (6), b2b_dashboard (6), data_viz (5), cli_tool (5), typescript_app (4), social_toolkit (4), creative_tool (4), research_showcase (4), ai_concept (4), api_platform (4), system_design (3), edu_platform (3), database_showcase (3), prank_entertainment (3), devtool (3), saas_landing (2)  
+**Project types shipped:** web_interactive (17), web_3d (14), python_tool (11), saas_app (10), game_web (10), generative_art (8), shader_art (7), enterprise_webapp (6), document (6), b2b_dashboard (6), data_viz (5), cli_tool (5), typescript_app (4), social_toolkit (4), creative_tool (4), research_showcase (4), ai_concept (4), api_platform (4), system_design (3), edu_platform (3), database_showcase (3), prank_entertainment (3), devtool (3), saas_landing (2)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-07-14 | [eco-system-simulator](https://github.com/dipeshrayg/2026-07-14-eco-system-simulator) | JavaScript | 2600 | ecosystem-simulation | Ecology | Interactive 3D visualization, Real-time data analysis, Procedural content generation | [▶ run](https://dipeshrayg.github.io/2026-07-14-eco-system-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-14-eco-system-simulator) |
 | 2026-07-14 | [quantum-maze](https://github.com/dipeshrayg/2026-07-14-quantum-maze) | JavaScript | 950 | quantum-puzzle-game | Quantum Physics | Quantum superposition, Quantum entanglement, 3D puzzle-solving | [▶ run](https://dipeshrayg.github.io/2026-07-14-quantum-maze/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-14-quantum-maze) |
 | 2026-07-14 | [luxury-city-builder](https://github.com/dipeshrayg/2026-07-14-luxury-city-builder) | JavaScript | 900 | real-time-3d-city-builder | Urban Planning | Real-time 3D rendering, Physics-based gameplay, Strategic planning and resource management | [▶ run](https://dipeshrayg.github.io/2026-07-14-luxury-city-builder/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-14-luxury-city-builder) |
 | 2026-07-14 | [terra-formers](https://github.com/dipeshrayg/2026-07-14-terra-formers) | JavaScript | 850 | strategic-colonization-game | Computer Science | Real-time 3D rendering, Physics-based gameplay, Strategic planning and resource management | [▶ run](https://dipeshrayg.github.io/2026-07-14-terra-formers/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-14-terra-formers) |
