@@ -6705,6 +6705,64 @@
         "dead_controls_count": 1,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-07-14",
+      "completed_at": "2026-07-14T11:03:11Z",
+      "completed_at_unix": 1784026991,
+      "name": "luxury-city-builder",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-14-luxury-city-builder",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-14-luxury-city-builder/",
+      "language": "JavaScript",
+      "project_type": "saas_app",
+      "tech_stack": [
+        "Three.js",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "complexity_score": 900,
+      "concepts_demonstrated": [
+        "Real-time 3D rendering",
+        "Physics-based gameplay",
+        "Strategic planning and resource management"
+      ],
+      "novel_concepts": [
+        "Physics-based city building",
+        "Dynamic weather and day-night cycle"
+      ],
+      "advancement_axis": "Combining physics-based gameplay with strategic planning and resource management",
+      "pattern": "real-time-3d-city-builder",
+      "domain": "Urban Planning",
+      "visual_theme": "luxury",
+      "complexity_justification": [
+        "Implementing physics-based gameplay with collision detection and response",
+        "Creating a dynamic weather system and day-night cycle",
+        "Developing a strategic planning and resource management system"
+      ],
+      "visual_identity": {
+        "color_palette": [
+          "#333333",
+          "#666666",
+          "#999999"
+        ],
+        "typography": "Open Sans",
+        "layout_personality": "Modern and sleek"
+      },
+      "safety_notes": "No safety concerns identified",
+      "file_count": 3,
+      "loc": 456,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 5,
+        "canvasCount": 1,
+        "title": "Luxury City Builder"
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -6850,7 +6908,8 @@
     180,
     1600,
     2100,
-    850
+    850,
+    900
   ],
   "concepts_explored": [
     "neural networks",
@@ -7389,7 +7448,8 @@
     "music-composition-tool",
     "interactive-generative-art",
     "real-time-3d-simulation",
-    "strategic-colonization-game"
+    "strategic-colonization-game",
+    "real-time-3d-city-builder"
   ],
   "domains_used": [
     "Mathematics",
@@ -7528,7 +7588,8 @@
     "Music Generation",
     "Chemistry",
     "Physics",
-    "Computer Science"
+    "Computer Science",
+    "Urban Planning"
   ],
   "ceo_reviews": [
     {
