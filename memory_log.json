@@ -6763,6 +6763,58 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-07-14",
+      "completed_at": "2026-07-14T16:18:28Z",
+      "completed_at_unix": 1784045908,
+      "name": "quantum-maze",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-14-quantum-maze",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-14-quantum-maze/",
+      "language": "JavaScript",
+      "project_type": "game_web",
+      "tech_stack": [
+        "Three.js",
+        "PBR Materials",
+        "Cinematic Lighting",
+        "Quantum Mechanics"
+      ],
+      "complexity_score": 950,
+      "concepts_demonstrated": [
+        "Quantum superposition",
+        "Quantum entanglement",
+        "3D puzzle-solving",
+        "Cinematic lighting and PBR materials"
+      ],
+      "novel_concepts": [
+        "Quantum mechanics-based gameplay",
+        "Dynamic soundtrack responding to player actions"
+      ],
+      "advancement_axis": "Combination of quantum mechanics and 3D puzzle-solving",
+      "pattern": "quantum-puzzle-game",
+      "domain": "Quantum Physics",
+      "visual_theme": "futuristic",
+      "complexity_justification": [
+        "Implementation of quantum mechanics-based gameplay",
+        "Creation of a 3D maze with realistic physics",
+        "Integration of cinematic lighting and PBR materials",
+        "Development of a dynamic soundtrack responding to player actions"
+      ],
+      "visual_identity": "Dark navy and electric blue color scheme, sharp geometry, HUD overlays, monospace accents",
+      "safety_notes": "No known safety concerns",
+      "file_count": 4,
+      "loc": 611,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 3,
+        "canvasCount": 1,
+        "title": "Quantum Maze"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 3,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -6909,7 +6961,8 @@
     1600,
     2100,
     850,
-    900
+    900,
+    950
   ],
   "concepts_explored": [
     "neural networks",
@@ -7309,7 +7362,11 @@
     "Real-time fluid simulation",
     "Interactive 3D environment",
     "Physics-based gameplay",
-    "Strategic planning and resource management"
+    "Strategic planning and resource management",
+    "Quantum superposition",
+    "Quantum entanglement",
+    "3D puzzle-solving",
+    "Cinematic lighting and PBR materials"
   ],
   "patterns_used": [
     "visualizer",
@@ -7449,7 +7506,8 @@
     "interactive-generative-art",
     "real-time-3d-simulation",
     "strategic-colonization-game",
-    "real-time-3d-city-builder"
+    "real-time-3d-city-builder",
+    "quantum-puzzle-game"
   ],
   "domains_used": [
     "Mathematics",
@@ -7589,7 +7647,8 @@
     "Chemistry",
     "Physics",
     "Computer Science",
-    "Urban Planning"
+    "Urban Planning",
+    "Quantum Physics"
   ],
   "ceo_reviews": [
     {
