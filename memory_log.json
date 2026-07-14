@@ -8922,6 +8922,12 @@
       "verdict": "drifting",
       "summary": "Recent projects show heavy repetition of maxed-out types and themes, with declining ambition and no clear domain leaps.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-07-14T20:21:23Z",
+      "verdict": "drifting",
+      "summary": "Recent projects show high visual ambition, but usability issues and repetition indicate stagnation in technical depth and creativity.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
