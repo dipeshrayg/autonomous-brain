@@ -6654,6 +6654,57 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-07-14",
+      "completed_at": "2026-07-14T04:46:18Z",
+      "completed_at_unix": 1784004378,
+      "name": "terra-formers",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-14-terra-formers",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-14-terra-formers/",
+      "language": "JavaScript",
+      "project_type": "game_web",
+      "tech_stack": [
+        "Three.js",
+        "JavaScript",
+        "HTML5",
+        "CSS3"
+      ],
+      "complexity_score": 850,
+      "concepts_demonstrated": [
+        "Real-time 3D rendering",
+        "Physics-based gameplay",
+        "Strategic planning and resource management"
+      ],
+      "novel_concepts": [
+        "Planetary colonization and management",
+        "Competitive multiplayer support in a game_web project"
+      ],
+      "advancement_axis": "Combination of strategic planning, resource management, and physics-based gameplay in a real-time 3D environment",
+      "pattern": "strategic-colonization-game",
+      "domain": "Computer Science",
+      "visual_theme": "brutalist",
+      "complexity_justification": [
+        "Real-time 3D terrain generation using Perlin noise and Marching Squares algorithm",
+        "Physics-based gameplay with collision detection and response",
+        "Strategic resource management and colonization planning",
+        "Competitive multiplayer support with real-time updating of game state"
+      ],
+      "visual_identity": "High-contrast B&W color scheme, oversized typography, and intentional asymmetry",
+      "safety_notes": "No security risks or concerns identified",
+      "file_count": 3,
+      "loc": 529,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 5,
+        "canvasCount": 1,
+        "title": "Terra-Formers"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 1,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -6798,7 +6849,8 @@
     1700,
     180,
     1600,
-    2100
+    2100,
+    850
   ],
   "concepts_explored": [
     "neural networks",
@@ -7196,7 +7248,9 @@
     "Music composition",
     "WebGL rendering",
     "Real-time fluid simulation",
-    "Interactive 3D environment"
+    "Interactive 3D environment",
+    "Physics-based gameplay",
+    "Strategic planning and resource management"
   ],
   "patterns_used": [
     "visualizer",
@@ -7334,7 +7388,8 @@
     "interactive-shader-art",
     "music-composition-tool",
     "interactive-generative-art",
-    "real-time-3d-simulation"
+    "real-time-3d-simulation",
+    "strategic-colonization-game"
   ],
   "domains_used": [
     "Mathematics",
@@ -7472,7 +7527,8 @@
     "Chemistry",
     "Music Generation",
     "Chemistry",
-    "Physics"
+    "Physics",
+    "Computer Science"
   ],
   "ceo_reviews": [
     {
