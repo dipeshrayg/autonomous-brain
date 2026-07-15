@@ -9093,6 +9093,12 @@
       "verdict": "drifting",
       "summary": "Recent projects show high visual ambition, but usability issues and repetition indicate stagnation in technical depth and creativity.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-07-15T20:17:55Z",
+      "verdict": "alarming",
+      "summary": "Recent projects are frequently partially usable, with recurring issues of broken interactivity and missing depth in execution. The system needs a pivot to avoid further portfolio pollution.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
