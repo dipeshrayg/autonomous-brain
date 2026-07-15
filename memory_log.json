@@ -6968,6 +6968,57 @@
         "dead_controls_count": 4,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-07-15",
+      "completed_at": "2026-07-15T21:31:01Z",
+      "completed_at_unix": 1784151061,
+      "name": "symbol-collapse",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-15-symbol-collapse",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-15-symbol-collapse/",
+      "language": "JavaScript",
+      "project_type": "game_web",
+      "tech_stack": [
+        "D3.js",
+        "Canvas API",
+        "WebGL",
+        "HTML/CSS"
+      ],
+      "complexity_score": 2801,
+      "concepts_demonstrated": [
+        "Interactive constraint satisfaction",
+        "Procedural puzzle generation",
+        "Dynamic graph coloring"
+      ],
+      "novel_concepts": [
+        "Real-time evolution of puzzle constraints based on player actions",
+        "Reverse constraint satisfaction for unified collapse"
+      ],
+      "advancement_axis": "Design innovation in constraint satisfaction puzzles and gameplay mechanics",
+      "pattern": "interactive-constraint-satisfaction-game",
+      "domain": "Logic Puzzles",
+      "visual_theme": "retro-terminal",
+      "complexity_justification": [
+        "Implementation of a procedural constraint-satisfaction generator for unique puzzles",
+        "Dynamic visualization of grid states and transitions",
+        "Integration of user actions into the underlying algorithm for generating new constraints during gameplay",
+        "Optimization for real-time feedback and fluid interaction"
+      ],
+      "visual_identity": "Retro terminal aesthetic with bright monochrome symbols and minimalistic grid lines",
+      "safety_notes": "No personal data is collected or used in this project.",
+      "file_count": 3,
+      "loc": 436,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 3,
+        "canvasCount": 1,
+        "title": "Symbol Collapse"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 3,
+        "missing_features_count": 1
+      }
     }
   ],
   "complexity_trajectory": [
@@ -7118,7 +7169,8 @@
     950,
     2600,
     2800,
-    1900
+    1900,
+    2801
   ],
   "concepts_explored": [
     "neural networks",
@@ -7525,7 +7577,10 @@
     "Cinematic lighting and PBR materials",
     "Real-time data analysis",
     "Orbital mechanics",
-    "Celestial mechanics"
+    "Celestial mechanics",
+    "Interactive constraint satisfaction",
+    "Procedural puzzle generation",
+    "Dynamic graph coloring"
   ],
   "patterns_used": [
     "visualizer",
@@ -7669,7 +7724,8 @@
     "quantum-puzzle-game",
     "ecosystem-simulation",
     "ecosystem-simulation",
-    "astronomical-simulation"
+    "astronomical-simulation",
+    "interactive-constraint-satisfaction-game"
   ],
   "domains_used": [
     "Mathematics",
@@ -7813,7 +7869,8 @@
     "Quantum Physics",
     "Ecology",
     "Ecology",
-    "Astronomy"
+    "Astronomy",
+    "Logic Puzzles"
   ],
   "ceo_reviews": [
     {
@@ -11469,8 +11526,8 @@
       "reviewed_project_count": 8
     }
   ],
-  "expansion_mode": false,
-  "expansion_mode_since": "2026-06-28T21:15:48.480864+00:00",
+  "expansion_mode": true,
+  "expansion_mode_since": "2026-07-15T21:12:09.338801+00:00",
   "enterprise_mode": false,
   "enterprise_mode_since": "2026-06-16T08:03:24.286031+00:00",
   "banned_domains": [
