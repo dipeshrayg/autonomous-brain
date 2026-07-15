@@ -6919,6 +6919,55 @@
         "dead_controls_count": 3,
         "missing_features_count": 1
       }
+    },
+    {
+      "date": "2026-07-15",
+      "completed_at": "2026-07-15T12:26:48Z",
+      "completed_at_unix": 1784118408,
+      "name": "stellar-orbit-simulator",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-15-stellar-orbit-simulator",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-15-stellar-orbit-simulator/",
+      "language": "JavaScript",
+      "project_type": "game_web",
+      "tech_stack": [
+        "Three.js",
+        "WebGL",
+        "JavaScript"
+      ],
+      "complexity_score": 1900,
+      "concepts_demonstrated": [
+        "Orbital mechanics",
+        "Celestial mechanics",
+        "3D visualization"
+      ],
+      "novel_concepts": [
+        "Real-time planetary collision detection",
+        "User-controlled orbital perturbations"
+      ],
+      "advancement_axis": "Introducing a novel, interactive approach to understanding complex celestial mechanics",
+      "pattern": "astronomical-simulation",
+      "domain": "Astronomy",
+      "visual_theme": "futuristic",
+      "complexity_justification": [
+        "Implementing a realistic collision detection system",
+        "Developing an efficient and accurate orbital mechanics engine",
+        "Integrating a user-friendly interface for adjusting simulation parameters"
+      ],
+      "visual_identity": "Dark background, neon accents, futuristic font",
+      "safety_notes": "No known safety concerns",
+      "file_count": 3,
+      "loc": 387,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 4,
+        "canvasCount": 0,
+        "title": "Stellar Orbit Simulator"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 4,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -7068,7 +7117,8 @@
     900,
     950,
     2600,
-    2800
+    2800,
+    1900
   ],
   "concepts_explored": [
     "neural networks",
@@ -7473,7 +7523,9 @@
     "Quantum entanglement",
     "3D puzzle-solving",
     "Cinematic lighting and PBR materials",
-    "Real-time data analysis"
+    "Real-time data analysis",
+    "Orbital mechanics",
+    "Celestial mechanics"
   ],
   "patterns_used": [
     "visualizer",
@@ -7616,7 +7668,8 @@
     "real-time-3d-city-builder",
     "quantum-puzzle-game",
     "ecosystem-simulation",
-    "ecosystem-simulation"
+    "ecosystem-simulation",
+    "astronomical-simulation"
   ],
   "domains_used": [
     "Mathematics",
@@ -7759,7 +7812,8 @@
     "Urban Planning",
     "Quantum Physics",
     "Ecology",
-    "Ecology"
+    "Ecology",
+    "Astronomy"
   ],
   "ceo_reviews": [
     {
