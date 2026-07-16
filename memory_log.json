@@ -9270,6 +9270,12 @@
       "verdict": "alarming",
       "summary": "Recent projects are frequently partially usable, with recurring issues of broken interactivity and missing depth in execution. The system needs a pivot to avoid further portfolio pollution.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-07-16T20:10:33Z",
+      "verdict": "drifting",
+      "summary": "Recent projects show repetitive themes and declining usability, with multiple partially usable builds. The absence of refused build data makes it hard to assess risks but suggests lack of innovation or audacity in recent directives.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
