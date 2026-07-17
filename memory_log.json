@@ -7123,6 +7123,58 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-07-17",
+      "completed_at": "2026-07-17T07:12:24Z",
+      "completed_at_unix": 1784272344,
+      "name": "crypto-cli-tool",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-17-crypto-cli-tool",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-17-crypto-cli-tool/",
+      "language": "Rust",
+      "project_type": "cli_tool",
+      "tech_stack": [
+        "Rust",
+        "clap",
+        "crossterm",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "complexity_score": 1400,
+      "concepts_demonstrated": [
+        "cryptography",
+        "CLI tool development",
+        "terminal animations"
+      ],
+      "novel_concepts": [
+        "novel encryption/decryption algorithms",
+        "dynamic terminal animations"
+      ],
+      "advancement_axis": "novel application of cryptographic techniques",
+      "pattern": "crypto-tool",
+      "domain": "Cryptography",
+      "visual_theme": "luxury",
+      "complexity_justification": [
+        "Implementing a novel encryption algorithm with CLI interface",
+        "Creating an animated terminal showcase with ASCII art",
+        "Ensuring flawless usability and error handling for both CLI and web showcase"
+      ],
+      "visual_identity": "luxury theme with ASCII art and dynamic terminal animations",
+      "safety_notes": "The project will comply with GitHub TOS and will not contain any active malware or exploits.",
+      "file_count": 4,
+      "loc": 558,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 4,
+        "canvasCount": 0,
+        "title": "Crypto CLI Tool Showcase"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 2,
+        "missing_features_count": 2
+      }
     }
   ],
   "complexity_trajectory": [
@@ -7276,7 +7328,8 @@
     1900,
     2801,
     2805,
-    1800
+    1800,
+    1400
   ],
   "concepts_explored": [
     "neural networks",
@@ -7690,7 +7743,10 @@
     "Real-time physics simulation",
     "Interactive procedural modeling",
     "Advanced material deformation algorithms",
-    "Gesture-based user interaction"
+    "Gesture-based user interaction",
+    "cryptography",
+    "CLI tool development",
+    "terminal animations"
   ],
   "patterns_used": [
     "visualizer",
@@ -7837,7 +7893,8 @@
     "astronomical-simulation",
     "interactive-constraint-satisfaction-game",
     "interactive-3d-sculpting",
-    "interactive-shader-art"
+    "interactive-shader-art",
+    "crypto-tool"
   ],
   "domains_used": [
     "Mathematics",
@@ -7984,7 +8041,8 @@
     "Astronomy",
     "Logic Puzzles",
     "Material Science",
-    "Physics"
+    "Physics",
+    "Cryptography"
   ],
   "ceo_reviews": [
     {
