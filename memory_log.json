@@ -7178,51 +7178,52 @@
     },
     {
       "date": "2026-07-17",
-      "completed_at": "2026-07-17T16:28:46Z",
-      "completed_at_unix": 1784305726,
-      "name": "quantum-circuit-simulator",
-      "repo_url": "https://github.com/dipeshrayg/2026-07-17-quantum-circuit-simulator",
-      "pages_url": "https://dipeshrayg.github.io/2026-07-17-quantum-circuit-simulator/",
-      "language": "JavaScript",
-      "project_type": "research_showcase",
+      "completed_at": "2026-07-17T16:40:28Z",
+      "completed_at_unix": 1784306428,
+      "name": "novel-crypto-edu-platform",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-17-novel-crypto-edu-platform",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-17-novel-crypto-edu-platform/",
+      "language": "Python",
+      "project_type": "edu_platform",
       "tech_stack": [
+        "Python",
         "JavaScript",
-        "HTML",
-        "CSS",
-        "WebGL"
+        "HTML/CSS",
+        "DPLL algorithm"
       ],
-      "complexity_score": 2806,
+      "complexity_score": 2900,
       "concepts_demonstrated": [
-        "Quantum Computing",
-        "Interactive Visualization",
-        "WebGL"
+        "Constraint satisfaction",
+        "Cryptography",
+        "Interactive system design"
       ],
       "novel_concepts": [
-        "Quantum Circuit Simulation",
-        "Interactive Quantum Gate Manipulation"
+        "DPLL algorithm with conflict-driven clause learning",
+        "Novel encryption algorithms"
       ],
-      "advancement_axis": "Novel application of quantum computing concepts in an interactive visual interface",
-      "pattern": "interactive-quantum-simulation",
-      "domain": "Quantum Physics",
+      "advancement_axis": "novel-algorithmic-techniques",
+      "pattern": "interactive-educational-platform",
+      "domain": "Cryptography and Computer Science",
       "visual_theme": "luxury",
       "complexity_justification": [
-        "Implementing a quantum circuit simulator with a visual interface",
-        "Integrating WebGL for 3D visualization of quantum circuits",
-        "Developing interactive controls for quantum gate manipulation"
+        "Implementing a DPLL algorithm with conflict-driven clause learning for constraint satisfaction",
+        "Novel encryption/decryption algorithms with interactive visualizations",
+        "Real-time simulation and animation of cryptographic processes",
+        "Integration of information-theoretic concepts, such as Bayesian inference"
       ],
-      "visual_identity": "Luxury theme with a focus on 3D visualization",
-      "safety_notes": "The project will not include any active malware or exploits.",
-      "file_count": 4,
-      "loc": 380,
+      "visual_identity": "Luxury theme with elegant typography and sophisticated color palette",
+      "safety_notes": "No active malware, no exploits against systems without consent",
+      "file_count": 3,
+      "loc": 398,
       "quality_cycles_used": 8,
       "final_verify_metrics": {
         "interactiveCount": 3,
-        "canvasCount": 1,
-        "title": "Quantum Circuit Simulator"
+        "canvasCount": 0,
+        "title": "Novel Crypto Edu Platform"
       },
       "qa_review": {
-        "verdict": "shippable",
-        "dead_controls_count": 0,
+        "verdict": "partially_usable",
+        "dead_controls_count": 1,
         "missing_features_count": 0
       }
     }
@@ -7380,7 +7381,7 @@
     2805,
     1800,
     1400,
-    2806
+    2900
   ],
   "concepts_explored": [
     "neural networks",
@@ -7797,9 +7798,7 @@
     "Gesture-based user interaction",
     "cryptography",
     "CLI tool development",
-    "terminal animations",
-    "Quantum Computing",
-    "WebGL"
+    "terminal animations"
   ],
   "patterns_used": [
     "visualizer",
@@ -7948,7 +7947,7 @@
     "interactive-3d-sculpting",
     "interactive-shader-art",
     "crypto-tool",
-    "interactive-quantum-simulation"
+    "interactive-educational-platform"
   ],
   "domains_used": [
     "Mathematics",
@@ -8097,7 +8096,7 @@
     "Material Science",
     "Physics",
     "Cryptography",
-    "Quantum Physics"
+    "Cryptography and Computer Science"
   ],
   "ceo_reviews": [
     {
