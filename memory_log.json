@@ -7276,6 +7276,56 @@
         "dead_controls_count": 1,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-07-18",
+      "completed_at": "2026-07-18T14:04:17Z",
+      "completed_at_unix": 1784383457,
+      "name": "neuromorphic-circuits",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-18-neuromorphic-circuits",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-18-neuromorphic-circuits/",
+      "language": "JavaScript",
+      "project_type": "research_showcase",
+      "tech_stack": [
+        "Markdown",
+        "D3.js",
+        "SVG",
+        "Three.js"
+      ],
+      "complexity_score": 2200,
+      "concepts_demonstrated": [
+        "Neuromorphic circuits",
+        "Bayesian inference",
+        "Entropy analysis"
+      ],
+      "novel_concepts": [
+        "Neuromorphic circuit simulation algorithm",
+        "Interactive diagram for circuit visualization"
+      ],
+      "advancement_axis": "Novel application of Bayesian inference and entropy analysis in neuromorphic circuits",
+      "pattern": "interactive-research-article",
+      "domain": "Artificial Intelligence",
+      "visual_theme": "cinematic",
+      "complexity_justification": [
+        "Implementation of a novel algorithm for simulating neuromorphic circuits",
+        "Development of an interactive and dynamic diagram for visualizing circuit behavior",
+        "Use of Bayesian inference and entropy analysis for optimizing circuit performance"
+      ],
+      "visual_identity": "Dark background, neon accents, futuristic typography",
+      "safety_notes": "No safety concerns",
+      "file_count": 4,
+      "loc": 517,
+      "quality_cycles_used": 3,
+      "final_verify_metrics": {
+        "interactiveCount": 4,
+        "canvasCount": 0,
+        "title": "Neuromorphic Circuits"
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -7432,7 +7482,8 @@
     1800,
     1400,
     2806,
-    201
+    201,
+    2200
   ],
   "concepts_explored": [
     "neural networks",
@@ -7853,7 +7904,8 @@
     "Quantum Computing",
     "WebGL",
     "artificial life",
-    "complex systems"
+    "complex systems",
+    "Neuromorphic circuits"
   ],
   "patterns_used": [
     "visualizer",
@@ -8003,7 +8055,8 @@
     "interactive-shader-art",
     "crypto-tool",
     "interactive-quantum-simulation",
-    "research-article-with-interactive-diagram"
+    "research-article-with-interactive-diagram",
+    "interactive-research-article"
   ],
   "domains_used": [
     "Mathematics",
@@ -8153,7 +8206,8 @@
     "Physics",
     "Cryptography",
     "Quantum Physics",
-    "Artificial Life"
+    "Artificial Life",
+    "Artificial Intelligence"
   ],
   "ceo_reviews": [
     {
