@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 155 |
+| Projects shipped | 156 |
 | Builds auto-refused (quality gate) | 395+ |
 | Peak complexity | 2806 (open-ended scale) |
-| Average complexity | 600.2 |
+| Average complexity | 597.6 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
 | Latest run | 2026-07-18 |
 
 **Languages explored:** GLSL, HTML+JS, HTML, CSS, JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (18), web_3d (15), game_web (12), python_tool (11), saas_app (10), shader_art (8), generative_art (8), research_showcase (7), cli_tool (6), enterprise_webapp (6), document (6), b2b_dashboard (6), data_viz (5), typescript_app (4), social_toolkit (4), creative_tool (4), ai_concept (4), api_platform (4), system_design (3), edu_platform (3), database_showcase (3), prank_entertainment (3), devtool (3), saas_landing (2)  
+**Project types shipped:** web_interactive (18), web_3d (15), game_web (12), python_tool (11), saas_app (10), shader_art (9), generative_art (8), research_showcase (7), cli_tool (6), enterprise_webapp (6), document (6), b2b_dashboard (6), data_viz (5), typescript_app (4), social_toolkit (4), creative_tool (4), ai_concept (4), api_platform (4), system_design (3), edu_platform (3), database_showcase (3), prank_entertainment (3), devtool (3), saas_landing (2)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-07-18 | [neon-dreamscapes](https://github.com/dipeshrayg/2026-07-18-neon-dreamscapes) | GLSL | 201 | real-time-raymarching | Computer Graphics | Real-time raymarching, Dynamic camera motion, Interactive lighting and color manipulation | [▶ run](https://dipeshrayg.github.io/2026-07-18-neon-dreamscapes/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-18-neon-dreamscapes) |
 | 2026-07-18 | [neuromorphic-circuits](https://github.com/dipeshrayg/2026-07-18-neuromorphic-circuits) | JavaScript | 2200 | interactive-research-article | Artificial Intelligence | Neuromorphic circuits, Bayesian inference, Entropy analysis | [▶ run](https://dipeshrayg.github.io/2026-07-18-neuromorphic-circuits/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-18-neuromorphic-circuits) |
 | 2026-07-18 | [cellular-life-simulator](https://github.com/dipeshrayg/2026-07-18-cellular-life-simulator) | JavaScript | 201 | research-article-with-interactive-diagram | Artificial Life | cellular automata, artificial life, complex systems | [▶ run](https://dipeshrayg.github.io/2026-07-18-cellular-life-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-18-cellular-life-simulator) |
 | 2026-07-17 | [quantum-circuit-simulator](https://github.com/dipeshrayg/2026-07-17-quantum-circuit-simulator) | JavaScript | 2806 | interactive-quantum-simulation | Quantum Physics | Quantum Computing, Interactive Visualization, WebGL | [▶ run](https://dipeshrayg.github.io/2026-07-17-quantum-circuit-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-17-quantum-circuit-simulator) |

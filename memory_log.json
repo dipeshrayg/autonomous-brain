@@ -7326,6 +7326,55 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-07-18",
+      "completed_at": "2026-07-18T23:43:55Z",
+      "completed_at_unix": 1784418235,
+      "name": "neon-dreamscapes",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-18-neon-dreamscapes",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-18-neon-dreamscapes/",
+      "language": "GLSL",
+      "project_type": "shader_art",
+      "tech_stack": [
+        "GLSL",
+        "WebGL",
+        "JavaScript"
+      ],
+      "complexity_score": 201,
+      "concepts_demonstrated": [
+        "Real-time raymarching",
+        "Dynamic camera motion",
+        "Interactive lighting and color manipulation"
+      ],
+      "novel_concepts": [
+        "Neon-cyber themed environment",
+        "User-influenced geometry and lighting"
+      ],
+      "advancement_axis": "Technical and visual depth",
+      "pattern": "real-time-raymarching",
+      "domain": "Computer Graphics",
+      "visual_theme": "neon-cyber",
+      "complexity_justification": [
+        "Real-time raymarching with dynamic camera motion",
+        "Interactive lighting and color manipulation",
+        "Utilization of GLSL shaders for polished visuals"
+      ],
+      "visual_identity": "Neon colors, dark background, futuristic typography",
+      "safety_notes": "None",
+      "file_count": 3,
+      "loc": 427,
+      "quality_cycles_used": 1,
+      "final_verify_metrics": {
+        "interactiveCount": 4,
+        "canvasCount": 1,
+        "title": "Neon Dreamscapes"
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -7483,7 +7532,8 @@
     1400,
     2806,
     201,
-    2200
+    2200,
+    201
   ],
   "concepts_explored": [
     "neural networks",
@@ -7905,7 +7955,10 @@
     "WebGL",
     "artificial life",
     "complex systems",
-    "Neuromorphic circuits"
+    "Neuromorphic circuits",
+    "Real-time raymarching",
+    "Dynamic camera motion",
+    "Interactive lighting and color manipulation"
   ],
   "patterns_used": [
     "visualizer",
@@ -8056,7 +8109,8 @@
     "crypto-tool",
     "interactive-quantum-simulation",
     "research-article-with-interactive-diagram",
-    "interactive-research-article"
+    "interactive-research-article",
+    "real-time-raymarching"
   ],
   "domains_used": [
     "Mathematics",
@@ -8207,7 +8261,8 @@
     "Cryptography",
     "Quantum Physics",
     "Artificial Life",
-    "Artificial Intelligence"
+    "Artificial Intelligence",
+    "Computer Graphics"
   ],
   "ceo_reviews": [
     {
