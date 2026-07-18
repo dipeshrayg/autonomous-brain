@@ -189,9 +189,9 @@ Every project below is a separate public repository with a live deployed URL.
 
 ## Latest CEO review
 
-**Verdict:** `drifting` — _issued 2026-07-17T20:13:55Z by gpt-4o_
+**Verdict:** `drifting` — _issued 2026-07-18T20:07:28Z by gpt-4o_
 
-> Recent projects show moderate ambition, but the system is stuck in a local minimum of repeating 'partially usable' outputs and failing to achieve full human usability.
+> The system is stuck in a 'research_showcase' rut, and the recent ships are overly safe despite their technical depth. The architect team must pivot to a different type with bold visual ambition.
 
 
 ## The boardroom - 13 roles, 3 providers

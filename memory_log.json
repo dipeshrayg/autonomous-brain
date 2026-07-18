@@ -9505,6 +9505,12 @@
       "verdict": "drifting",
       "summary": "Recent projects show moderate ambition, but the system is stuck in a local minimum of repeating 'partially usable' outputs and failing to achieve full human usability.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-07-18T20:07:28Z",
+      "verdict": "drifting",
+      "summary": "The system is stuck in a 'research_showcase' rut, and the recent ships are overly safe despite their technical depth. The architect team must pivot to a different type with bold visual ambition.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
