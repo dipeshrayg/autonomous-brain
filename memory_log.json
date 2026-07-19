@@ -7375,6 +7375,57 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-07-19",
+      "completed_at": "2026-07-19T07:49:58Z",
+      "completed_at_unix": 1784447398,
+      "name": "neuro-sculptor",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-19-neuro-sculptor",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-19-neuro-sculptor/",
+      "language": "JavaScript",
+      "project_type": "edu_platform",
+      "tech_stack": [
+        "WebGL",
+        "GLSL",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "complexity_score": 2100,
+      "concepts_demonstrated": [
+        "Neural networks",
+        "3D visualization",
+        "Real-time interaction"
+      ],
+      "novel_concepts": [
+        "Neural network sculpting",
+        "Real-time neural network simulation"
+      ],
+      "advancement_axis": "Technical depth and visual captivation",
+      "pattern": "interactive-3d-visualization",
+      "domain": "Artificial Intelligence",
+      "visual_theme": "luxury",
+      "complexity_justification": [
+        "Real-time 3D rendering",
+        "Neural network simulation",
+        "Interactive sculpting and exploration"
+      ],
+      "visual_identity": "Deep black and champagne gold color scheme, thin serifs, and generous whitespace",
+      "safety_notes": "None",
+      "file_count": 4,
+      "loc": 495,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 3,
+        "canvasCount": 1,
+        "title": "Neuro-Sculptor"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 2,
+        "missing_features_count": 1
+      }
     }
   ],
   "complexity_trajectory": [
@@ -7533,7 +7584,8 @@
     2806,
     201,
     2200,
-    201
+    201,
+    2100
   ],
   "concepts_explored": [
     "neural networks",
@@ -7958,7 +8010,8 @@
     "Neuromorphic circuits",
     "Real-time raymarching",
     "Dynamic camera motion",
-    "Interactive lighting and color manipulation"
+    "Interactive lighting and color manipulation",
+    "Real-time interaction"
   ],
   "patterns_used": [
     "visualizer",
@@ -8110,7 +8163,8 @@
     "interactive-quantum-simulation",
     "research-article-with-interactive-diagram",
     "interactive-research-article",
-    "real-time-raymarching"
+    "real-time-raymarching",
+    "interactive-3d-visualization"
   ],
   "domains_used": [
     "Mathematics",
@@ -8262,7 +8316,8 @@
     "Quantum Physics",
     "Artificial Life",
     "Artificial Intelligence",
-    "Computer Graphics"
+    "Computer Graphics",
+    "Artificial Intelligence"
   ],
   "ceo_reviews": [
     {
