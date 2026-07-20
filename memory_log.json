@@ -9795,6 +9795,12 @@
       "verdict": "drifting",
       "summary": "Recent projects have been visually impressive but lack consistent usability and domain unpredictability, with several partially usable builds and repetitive themes.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-07-20T20:39:19Z",
+      "verdict": "drifting",
+      "summary": "Recent projects have been overly safe, with repeated project types (prank_entertainment) and themes (retro-terminal), while previous projects suffered from usability issues and lack of technical ambition.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
