@@ -195,9 +195,9 @@ Every project below is a separate public repository with a live deployed URL.
 
 ## Latest CEO review
 
-**Verdict:** `drifting` — _issued 2026-07-20T20:39:19Z by gpt-4o_
+**Verdict:** `drifting` — _issued 2026-07-21T20:35:16Z by gpt-4o_
 
-> Recent projects have been overly safe, with repeated project types (prank_entertainment) and themes (retro-terminal), while previous projects suffered from usability issues and lack of technical ambition.
+> Recent projects show technical ambition but lack user-centered usability, with repeated patterns and themes risking stagnation.
 
 
 ## The boardroom - 13 roles, 3 providers
