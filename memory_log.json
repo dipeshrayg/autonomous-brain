@@ -7578,6 +7578,54 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-07-21",
+      "completed_at": "2026-07-21T09:47:02Z",
+      "completed_at_unix": 1784627222,
+      "name": "volumetric-nebula-explorer",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-21-volumetric-nebula-explorer",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-21-volumetric-nebula-explorer/",
+      "language": "GLSL",
+      "project_type": "shader_art",
+      "tech_stack": [
+        "WebGL",
+        "JavaScript",
+        "GLSL"
+      ],
+      "complexity_score": 2200,
+      "concepts_demonstrated": [
+        "Volumetric rendering",
+        "Raymarching",
+        "Procedural geometry"
+      ],
+      "novel_concepts": [
+        "Real-time, interactive volumetric nebula simulation"
+      ],
+      "advancement_axis": "Technical ambition and visual spectacle",
+      "pattern": "interactive-shader-art",
+      "domain": "Computer Graphics",
+      "visual_theme": "futuristic",
+      "complexity_justification": [
+        "Implementation of volumetric effects using raymarching",
+        "Real-time interaction through JavaScript-controlled UI",
+        "Advanced procedural geometry for nebula simulation"
+      ],
+      "visual_identity": "Dark background, vibrant colors, and sleek UI",
+      "safety_notes": "No security concerns or potential hazards",
+      "file_count": 3,
+      "loc": 272,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 1,
+        "canvasCount": 1,
+        "title": "Volumetric Nebula Explorer"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 2,
+        "missing_features_count": 1
+      }
     }
   ],
   "complexity_trajectory": [
@@ -7740,7 +7788,8 @@
     2100,
     1200,
     2200,
-    2300
+    2300,
+    2200
   ],
   "concepts_explored": [
     "neural networks",
@@ -8173,7 +8222,10 @@
     "Interactive audio",
     "Real-time Physics Simulation",
     "Generative Audio",
-    "Interactive Terminal Interface"
+    "Interactive Terminal Interface",
+    "Volumetric rendering",
+    "Raymarching",
+    "Procedural geometry"
   ],
   "patterns_used": [
     "visualizer",
@@ -8329,7 +8381,8 @@
     "interactive-3d-visualization",
     "ai-powered-social-media-toolkit",
     "retro-terminal-prank",
-    "retro-terminal-prank"
+    "retro-terminal-prank",
+    "interactive-shader-art"
   ],
   "domains_used": [
     "Mathematics",
@@ -8485,7 +8538,8 @@
     "Artificial Intelligence",
     "Marketing Technology",
     "Entertainment Technology",
-    "Entertainment Technology"
+    "Entertainment Technology",
+    "Computer Graphics"
   ],
   "ceo_reviews": [
     {
