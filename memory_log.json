@@ -7731,6 +7731,56 @@
         "dead_controls_count": 1,
         "missing_features_count": 1
       }
+    },
+    {
+      "date": "2026-07-22",
+      "completed_at": "2026-07-22T23:08:14Z",
+      "completed_at_unix": 1784761694,
+      "name": "crypto-entropy-showcase",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-22-crypto-entropy-showcase",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-22-crypto-entropy-showcase/",
+      "language": "JavaScript",
+      "project_type": "research_showcase",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "WebGL"
+      ],
+      "complexity_score": 2100,
+      "concepts_demonstrated": [
+        "Cryptographic entropy",
+        "Information theory",
+        "Real-time simulations"
+      ],
+      "novel_concepts": [
+        "Interactive entropy visualization",
+        "Real-time cryptographic entropy calculations"
+      ],
+      "advancement_axis": "Novel algorithmic approach to visualizing cryptographic entropy",
+      "pattern": "interactive-cryptographic-visualization",
+      "domain": "Information Theory and Cryptography",
+      "visual_theme": "luxury",
+      "complexity_justification": [
+        "Real-time simulation of cryptographic entropy calculations",
+        "Implementation of a novel algorithm for visualizing entropy",
+        "Use of WebGL for creating interactive and cinematic visualizations"
+      ],
+      "visual_identity": "High-end, sophisticated aesthetic with a focus on cinematic visualizations",
+      "safety_notes": "No security risks or concerns, as the project only visualizes cryptographic entropy and does not handle sensitive information",
+      "file_count": 4,
+      "loc": 396,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 4,
+        "canvasCount": 1,
+        "title": "Crypto Entropy Showcase"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 2,
+        "missing_features_count": 2
+      }
     }
   ],
   "complexity_trajectory": [
@@ -7896,7 +7946,8 @@
     2300,
     2200,
     1600,
-    2200
+    2200,
+    2100
   ],
   "concepts_explored": [
     "neural networks",
@@ -8338,7 +8389,9 @@
     "TUI-based Visualization",
     "Database query optimization",
     "Cryptographic query analysis",
-    "Constraint solving using DPLL"
+    "Constraint solving using DPLL",
+    "Cryptographic entropy",
+    "Real-time simulations"
   ],
   "patterns_used": [
     "visualizer",
@@ -8497,7 +8550,8 @@
     "retro-terminal-prank",
     "interactive-shader-art",
     "crypto-compression-console",
-    "cryptographic-query-optimization"
+    "cryptographic-query-optimization",
+    "interactive-cryptographic-visualization"
   ],
   "domains_used": [
     "Mathematics",
@@ -8656,7 +8710,8 @@
     "Entertainment Technology",
     "Computer Graphics",
     "Cryptography and Data Compression",
-    "Cryptography and Database Systems"
+    "Cryptography and Database Systems",
+    "Information Theory and Cryptography"
   ],
   "ceo_reviews": [
     {
