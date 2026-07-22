@@ -7731,56 +7731,6 @@
         "dead_controls_count": 1,
         "missing_features_count": 1
       }
-    },
-    {
-      "date": "2026-07-22",
-      "completed_at": "2026-07-22T20:20:10Z",
-      "completed_at_unix": 1784751610,
-      "name": "crypto-compression-workbench",
-      "repo_url": "https://github.com/dipeshrayg/2026-07-22-crypto-compression-workbench",
-      "pages_url": "https://dipeshrayg.github.io/2026-07-22-crypto-compression-workbench/",
-      "language": "JavaScript",
-      "project_type": "database_showcase",
-      "tech_stack": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "GitHub Pages"
-      ],
-      "complexity_score": 2500,
-      "concepts_demonstrated": [
-        "cryptography",
-        "data compression",
-        "information-theoretic concepts"
-      ],
-      "novel_concepts": [
-        "live encoding/decoding",
-        "visualizing cryptographic/compression process"
-      ],
-      "advancement_axis": "algorithmic challenge and interactive visualization",
-      "pattern": "crypto-compression-workbench",
-      "domain": "Cryptography and Data Compression",
-      "visual_theme": "brutalist",
-      "complexity_justification": [
-        "Implementing a cryptographic query analysis and compression tool",
-        "Emulating a CLI tool in JavaScript for interactive web-based terminal",
-        "Integrating information-theoretic concepts such as compression and entropy"
-      ],
-      "visual_identity": "raw, high-contrast B&W, oversized type, intentional asymmetry",
-      "safety_notes": "No active malware or exploits",
-      "file_count": 3,
-      "loc": 248,
-      "quality_cycles_used": 2,
-      "final_verify_metrics": {
-        "interactiveCount": 3,
-        "canvasCount": 0,
-        "title": "Crypto Compression Workbench"
-      },
-      "qa_review": {
-        "verdict": "shippable",
-        "dead_controls_count": 0,
-        "missing_features_count": 0
-      }
     }
   ],
   "complexity_trajectory": [
@@ -7946,8 +7896,7 @@
     2300,
     2200,
     1600,
-    2200,
-    2500
+    2200
   ],
   "concepts_explored": [
     "neural networks",
@@ -8389,9 +8338,7 @@
     "TUI-based Visualization",
     "Database query optimization",
     "Cryptographic query analysis",
-    "Constraint solving using DPLL",
-    "data compression",
-    "information-theoretic concepts"
+    "Constraint solving using DPLL"
   ],
   "patterns_used": [
     "visualizer",
@@ -8550,8 +8497,7 @@
     "retro-terminal-prank",
     "interactive-shader-art",
     "crypto-compression-console",
-    "cryptographic-query-optimization",
-    "crypto-compression-workbench"
+    "cryptographic-query-optimization"
   ],
   "domains_used": [
     "Mathematics",
@@ -8710,8 +8656,7 @@
     "Entertainment Technology",
     "Computer Graphics",
     "Cryptography and Data Compression",
-    "Cryptography and Database Systems",
-    "Cryptography and Data Compression"
+    "Cryptography and Database Systems"
   ],
   "ceo_reviews": [
     {
@@ -10032,6 +9977,12 @@
       "issued_at": "2026-07-21T20:35:16Z",
       "verdict": "drifting",
       "summary": "Recent projects show technical ambition but lack user-centered usability, with repeated patterns and themes risking stagnation.",
+      "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-07-22T20:19:46Z",
+      "verdict": "drifting",
+      "summary": "The system is delivering visually and technically ambitious projects, but there is a concerning over-reliance on partially usable builds and repeated themes.",
       "model": "gpt-4o"
     }
   ],
@@ -12574,5 +12525,5 @@
       "warm-amber"
     ]
   },
-  "failed_builds_count": 431
+  "failed_builds_count": 432
 }

@@ -14,24 +14,23 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 164 |
-| Builds auto-refused (quality gate) | 431+ |
+| Projects shipped | 163 |
+| Builds auto-refused (quality gate) | 432+ |
 | Peak complexity | 2806 (open-ended scale) |
-| Average complexity | 667.9 |
+| Average complexity | 656.6 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
 | Latest run | 2026-07-22 |
 
 **Languages explored:** GLSL, HTML+JS, HTML, CSS, JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (18), web_3d (15), game_web (12), python_tool (11), shader_art (10), saas_app (10), generative_art (8), cli_tool (7), research_showcase (7), enterprise_webapp (6), document (6), b2b_dashboard (6), database_showcase (5), prank_entertainment (5), social_toolkit (5), data_viz (5), edu_platform (4), typescript_app (4), creative_tool (4), ai_concept (4), api_platform (4), system_design (3), devtool (3), saas_landing (2)  
+**Project types shipped:** web_interactive (18), web_3d (15), game_web (12), python_tool (11), shader_art (10), saas_app (10), generative_art (8), cli_tool (7), research_showcase (7), enterprise_webapp (6), document (6), b2b_dashboard (6), prank_entertainment (5), social_toolkit (5), data_viz (5), database_showcase (4), edu_platform (4), typescript_app (4), creative_tool (4), ai_concept (4), api_platform (4), system_design (3), devtool (3), saas_landing (2)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
-| 2026-07-22 | [crypto-compression-workbench](https://github.com/dipeshrayg/2026-07-22-crypto-compression-workbench) | JavaScript | 2500 | crypto-compression-workbench | Cryptography and Data Compression | cryptography, data compression, information-theoretic concepts | [▶ run](https://dipeshrayg.github.io/2026-07-22-crypto-compression-workbench/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-22-crypto-compression-workbench) |
 | 2026-07-22 | [crypto-query-workbench](https://github.com/dipeshrayg/2026-07-22-crypto-query-workbench) | Python | 2200 | cryptographic-query-optimization | Cryptography and Database Systems | Database query optimization, Cryptographic query analysis, Information-theoretic concepts | [▶ run](https://dipeshrayg.github.io/2026-07-22-crypto-query-workbench/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-22-crypto-query-workbench) |
 | 2026-07-21 | [crypto-compression-console](https://github.com/dipeshrayg/2026-07-21-crypto-compression-console) | Rust | 1600 | crypto-compression-console | Cryptography and Data Compression | Cryptography, Data Compression, CLI Tool Development | [▶ run](https://dipeshrayg.github.io/2026-07-21-crypto-compression-console/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-21-crypto-compression-console) |
 | 2026-07-21 | [volumetric-nebula-explorer](https://github.com/dipeshrayg/2026-07-21-volumetric-nebula-explorer) | GLSL | 2200 | interactive-shader-art | Computer Graphics | Volumetric rendering, Raymarching, Procedural geometry | [▶ run](https://dipeshrayg.github.io/2026-07-21-volumetric-nebula-explorer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-21-volumetric-nebula-explorer) |
@@ -198,9 +197,9 @@ Every project below is a separate public repository with a live deployed URL.
 
 ## Latest CEO review
 
-**Verdict:** `drifting` — _issued 2026-07-21T20:35:16Z by gpt-4o_
+**Verdict:** `drifting` — _issued 2026-07-22T20:19:46Z by gpt-4o_
 
-> Recent projects show technical ambition but lack user-centered usability, with repeated patterns and themes risking stagnation.
+> The system is delivering visually and technically ambitious projects, but there is a concerning over-reliance on partially usable builds and repeated themes.
 
 
 ## The boardroom - 13 roles, 3 providers
