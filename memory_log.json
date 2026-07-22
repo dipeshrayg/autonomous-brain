@@ -7678,6 +7678,59 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-07-22",
+      "completed_at": "2026-07-22T09:56:04Z",
+      "completed_at_unix": 1784714164,
+      "name": "crypto-query-workbench",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-22-crypto-query-workbench",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-22-crypto-query-workbench/",
+      "language": "Python",
+      "project_type": "database_showcase",
+      "tech_stack": [
+        "Python",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "SQLite"
+      ],
+      "complexity_score": 2200,
+      "concepts_demonstrated": [
+        "Database query optimization",
+        "Cryptographic query analysis",
+        "Information-theoretic concepts",
+        "Constraint solving using DPLL"
+      ],
+      "novel_concepts": [
+        "Application of information-theoretic concepts to cryptographic query optimization",
+        "Integration of DPLL with conflict-driven clause learning for constraint solving in database queries"
+      ],
+      "advancement_axis": "novel application of information-theoretic concepts to cryptographic query optimization",
+      "pattern": "cryptographic-query-optimization",
+      "domain": "Cryptography and Database Systems",
+      "visual_theme": "brutalist",
+      "complexity_justification": [
+        "Implementation of DPLL with conflict-driven clause learning for constraint solving",
+        "Integration of information-theoretic concepts for database query optimization",
+        "Development of an interactive web-based terminal for showcasing CLI tool functionality",
+        "Creation of a unique algorithmic challenge for live encoding/decoding and visualization"
+      ],
+      "visual_identity": "raw, high-contrast B&W, oversized type, intentional asymmetry",
+      "safety_notes": "No active malware, no exploits against systems without consent. Educational/diagnostic/synthetic demos only.",
+      "file_count": 3,
+      "loc": 435,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 3,
+        "canvasCount": 0,
+        "title": "Crypto Query Workbench"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 1,
+        "missing_features_count": 1
+      }
     }
   ],
   "complexity_trajectory": [
@@ -7842,7 +7895,8 @@
     2200,
     2300,
     2200,
-    1600
+    1600,
+    2200
   ],
   "concepts_explored": [
     "neural networks",
@@ -8281,7 +8335,10 @@
     "Procedural geometry",
     "Data Compression",
     "CLI Tool Development",
-    "TUI-based Visualization"
+    "TUI-based Visualization",
+    "Database query optimization",
+    "Cryptographic query analysis",
+    "Constraint solving using DPLL"
   ],
   "patterns_used": [
     "visualizer",
@@ -8439,7 +8496,8 @@
     "retro-terminal-prank",
     "retro-terminal-prank",
     "interactive-shader-art",
-    "crypto-compression-console"
+    "crypto-compression-console",
+    "cryptographic-query-optimization"
   ],
   "domains_used": [
     "Mathematics",
@@ -8597,7 +8655,8 @@
     "Entertainment Technology",
     "Entertainment Technology",
     "Computer Graphics",
-    "Cryptography and Data Compression"
+    "Cryptography and Data Compression",
+    "Cryptography and Database Systems"
   ],
   "ceo_reviews": [
     {
