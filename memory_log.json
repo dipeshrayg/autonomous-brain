@@ -9978,6 +9978,12 @@
       "verdict": "drifting",
       "summary": "Recent projects show technical ambition but lack user-centered usability, with repeated patterns and themes risking stagnation.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-07-22T20:19:46Z",
+      "verdict": "drifting",
+      "summary": "The system is delivering visually and technically ambitious projects, but there is a concerning over-reliance on partially usable builds and repeated themes.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
