@@ -7781,6 +7781,66 @@
         "dead_controls_count": 2,
         "missing_features_count": 2
       }
+    },
+    {
+      "date": "2026-07-23",
+      "completed_at": "2026-07-23T10:26:28Z",
+      "completed_at_unix": 1784802388,
+      "name": "crypto-entropy-visualizer",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-23-crypto-entropy-visualizer",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-23-crypto-entropy-visualizer/",
+      "language": "javascript",
+      "project_type": "research_showcase",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "ESM"
+      ],
+      "complexity_score": 300,
+      "concepts_demonstrated": [
+        "Cryptography",
+        "Entropy",
+        "Information Theory",
+        "Interactive Visualization"
+      ],
+      "novel_concepts": [
+        "Real-time entropy calculation using JavaScript",
+        "Interactive 3D visualization of entropy",
+        "Soft-organic visual theme for a cryptographic project"
+      ],
+      "advancement_axis": "Algorithmic depth and interactive visualization",
+      "pattern": "interactive-entropy-visualization",
+      "domain": "Cryptography and Information Theory",
+      "visual_theme": "soft-organic",
+      "complexity_justification": [
+        "Implementation of a novel algorithm for calculating cryptographic entropy",
+        "Real-time visualization of entropy using interactive 3D graphics",
+        "Incorporation of mathematical correctness, including correct numerical methods and probability"
+      ],
+      "visual_identity": {
+        "color_palette": [
+          "#F7F7F7",
+          "#C9E4CA",
+          "#8BC34A"
+        ],
+        "typography": "Open Sans",
+        "layout_personality": "Minimalist and intuitive"
+      },
+      "safety_notes": "No known security vulnerabilities or concerns",
+      "file_count": 4,
+      "loc": 446,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 5,
+        "canvasCount": 1,
+        "title": "Crypto Entropy Visualizer"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 1,
+        "missing_features_count": 2
+      }
     }
   ],
   "complexity_trajectory": [
@@ -7947,7 +8007,8 @@
     2200,
     1600,
     2200,
-    2100
+    2100,
+    300
   ],
   "concepts_explored": [
     "neural networks",
@@ -8551,7 +8612,8 @@
     "interactive-shader-art",
     "crypto-compression-console",
     "cryptographic-query-optimization",
-    "interactive-cryptographic-visualization"
+    "interactive-cryptographic-visualization",
+    "interactive-entropy-visualization"
   ],
   "domains_used": [
     "Mathematics",
@@ -8711,7 +8773,8 @@
     "Computer Graphics",
     "Cryptography and Data Compression",
     "Cryptography and Database Systems",
-    "Information Theory and Cryptography"
+    "Information Theory and Cryptography",
+    "Cryptography and Information Theory"
   ],
   "ceo_reviews": [
     {
