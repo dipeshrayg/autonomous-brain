@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 167 |
+| Projects shipped | 168 |
 | Builds auto-refused (quality gate) | 455+ |
 | Peak complexity | 2806 (open-ended scale) |
-| Average complexity | 683.4 |
+| Average complexity | 691.9 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
 | Latest run | 2026-07-24 |
 
 **Languages explored:** GLSL, HTML+JS, HTML, CSS, JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (18), web_3d (15), game_web (12), python_tool (11), shader_art (10), saas_app (10), research_showcase (9), generative_art (8), cli_tool (7), enterprise_webapp (6), document (6), b2b_dashboard (6), edu_platform (5), prank_entertainment (5), social_toolkit (5), data_viz (5), database_showcase (4), typescript_app (4), creative_tool (4), ai_concept (4), api_platform (4), saas_landing (3), system_design (3), devtool (3)  
+**Project types shipped:** web_interactive (18), web_3d (15), game_web (12), python_tool (11), shader_art (10), saas_app (10), research_showcase (9), generative_art (8), cli_tool (7), enterprise_webapp (6), document (6), b2b_dashboard (6), ai_concept (5), edu_platform (5), prank_entertainment (5), social_toolkit (5), data_viz (5), database_showcase (4), typescript_app (4), creative_tool (4), api_platform (4), saas_landing (3), system_design (3), devtool (3)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-07-24 | [neural-oscillator](https://github.com/dipeshrayg/2026-07-24-neural-oscillator) | JavaScript | 2100 | interactive-simulation | Artificial Intelligence | Neural networks, Oscillators, Complex systems | [▶ run](https://dipeshrayg.github.io/2026-07-24-neural-oscillator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-24-neural-oscillator) |
 | 2026-07-24 | [galactic-simulator](https://github.com/dipeshrayg/2026-07-24-galactic-simulator) | JavaScript | 2200 | galaxy-simulator | Astrophysics and Computer Science | Real-time physics simulation, Procedural animation, Interactive 3D environment | [▶ run](https://dipeshrayg.github.io/2026-07-24-galactic-simulator/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-24-galactic-simulator) |
 | 2026-07-23 | [neural-sculptor-workbench](https://github.com/dipeshrayg/2026-07-23-neural-sculptor-workbench) | JavaScript | 2500 | interactive-3d-visualization | Artificial Intelligence | Neural Network Architecture, Real-time 3D Visualization, Machine Learning Algorithms | [▶ run](https://dipeshrayg.github.io/2026-07-23-neural-sculptor-workbench/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-23-neural-sculptor-workbench) |
 | 2026-07-23 | [crypto-entropy-visualizer](https://github.com/dipeshrayg/2026-07-23-crypto-entropy-visualizer) | javascript | 300 | interactive-entropy-visualization | Cryptography and Information Theory | Cryptography, Entropy, Information Theory | [▶ run](https://dipeshrayg.github.io/2026-07-23-crypto-entropy-visualizer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-23-crypto-entropy-visualizer) |

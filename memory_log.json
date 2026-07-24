@@ -7947,6 +7947,55 @@
         "dead_controls_count": 2,
         "missing_features_count": 1
       }
+    },
+    {
+      "date": "2026-07-24",
+      "completed_at": "2026-07-24T20:13:19Z",
+      "completed_at_unix": 1784923999,
+      "name": "neural-oscillator",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-24-neural-oscillator",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-24-neural-oscillator/",
+      "language": "JavaScript",
+      "project_type": "ai_concept",
+      "tech_stack": [
+        "ES6",
+        "WebGL",
+        "TensorFlow.js"
+      ],
+      "complexity_score": 2100,
+      "concepts_demonstrated": [
+        "Neural networks",
+        "Oscillators",
+        "Complex systems"
+      ],
+      "novel_concepts": [
+        "Neural network-based oscillators",
+        "Real-time simulation of complex systems"
+      ],
+      "advancement_axis": "Technical depth and algorithmic innovation",
+      "pattern": "interactive-simulation",
+      "domain": "Artificial Intelligence",
+      "visual_theme": "futuristic",
+      "complexity_justification": [
+        "Implementation of a novel neural network algorithm",
+        "Real-time simulation and visualization of neural network behavior",
+        "Interactive parameter manipulation and feedback loop"
+      ],
+      "visual_identity": "Dark background, neon accents, futuristic typography",
+      "safety_notes": "No personal data collection or storage",
+      "file_count": 4,
+      "loc": 374,
+      "quality_cycles_used": 0,
+      "final_verify_metrics": {
+        "interactiveCount": 4,
+        "canvasCount": 1,
+        "title": "Neural Oscillator"
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -8116,7 +8165,8 @@
     2100,
     300,
     2500,
-    2200
+    2200,
+    2100
   ],
   "concepts_explored": [
     "neural networks",
@@ -8565,7 +8615,9 @@
     "Real-time 3D Visualization",
     "Machine Learning Algorithms",
     "Procedural animation",
-    "Constraint programming"
+    "Constraint programming",
+    "Oscillators",
+    "Complex systems"
   ],
   "patterns_used": [
     "visualizer",
@@ -8728,7 +8780,8 @@
     "interactive-cryptographic-visualization",
     "interactive-entropy-visualization",
     "interactive-3d-visualization",
-    "galaxy-simulator"
+    "galaxy-simulator",
+    "interactive-simulation"
   ],
   "domains_used": [
     "Mathematics",
@@ -8891,7 +8944,8 @@
     "Information Theory and Cryptography",
     "Cryptography and Information Theory",
     "Artificial Intelligence",
-    "Astrophysics and Computer Science"
+    "Astrophysics and Computer Science",
+    "Artificial Intelligence"
   ],
   "ceo_reviews": [
     {
