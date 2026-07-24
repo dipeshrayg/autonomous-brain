@@ -10279,6 +10279,12 @@
       "verdict": "alarming",
       "summary": "The system is drifting with repetitive and partially usable outputs, failing to deliver impactful or genuinely ambitious projects.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-07-24T20:40:05Z",
+      "verdict": "drifting",
+      "summary": "Recent projects are visually ambitious but lack usability, while the refusal data suggests a systemic bottleneck in the architect's ability to execute reliably.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
