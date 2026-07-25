@@ -7996,6 +7996,55 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-07-25",
+      "completed_at": "2026-07-25T09:11:30Z",
+      "completed_at_unix": 1784970690,
+      "name": "retro-glitch-terminal",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-25-retro-glitch-terminal",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-25-retro-glitch-terminal/",
+      "language": "JavaScript",
+      "project_type": "prank_entertainment",
+      "tech_stack": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "complexity_score": 1800,
+      "concepts_demonstrated": [
+        "Retro-terminal interface design",
+        "Dynamic sound synthesis",
+        "Randomized behavior"
+      ],
+      "novel_concepts": [
+        "Unconventional input methods",
+        "Novel algorithm for dynamic sound effects"
+      ],
+      "advancement_axis": "Incorporating a novel algorithm for dynamic sound synthesis and randomized behavior",
+      "pattern": "retro-terminal-prank",
+      "domain": "Entertainment Technology",
+      "visual_theme": "retro-terminal",
+      "complexity_justification": [
+        "Implementing a dynamic sound synthesis algorithm",
+        "Creating a randomized behavior system for the terminal interface",
+        "Developing an unconventional input method for user interaction"
+      ],
+      "visual_identity": "Green/amber phosphor on black, CRT scanlines, monospace, old-computer feel",
+      "safety_notes": "No external installations or broken links required. Fully usable and interactive.",
+      "file_count": 3,
+      "loc": 286,
+      "quality_cycles_used": 4,
+      "final_verify_metrics": {
+        "interactiveCount": 3,
+        "canvasCount": 0,
+        "title": "Retro Glitch Terminal"
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -8166,7 +8215,8 @@
     300,
     2500,
     2200,
-    2100
+    2100,
+    1800
   ],
   "concepts_explored": [
     "neural networks",
@@ -8617,7 +8667,10 @@
     "Procedural animation",
     "Constraint programming",
     "Oscillators",
-    "Complex systems"
+    "Complex systems",
+    "Retro-terminal interface design",
+    "Dynamic sound synthesis",
+    "Randomized behavior"
   ],
   "patterns_used": [
     "visualizer",
@@ -8781,7 +8834,8 @@
     "interactive-entropy-visualization",
     "interactive-3d-visualization",
     "galaxy-simulator",
-    "interactive-simulation"
+    "interactive-simulation",
+    "retro-terminal-prank"
   ],
   "domains_used": [
     "Mathematics",
@@ -8945,7 +8999,8 @@
     "Cryptography and Information Theory",
     "Artificial Intelligence",
     "Astrophysics and Computer Science",
-    "Artificial Intelligence"
+    "Artificial Intelligence",
+    "Entertainment Technology"
   ],
   "ceo_reviews": [
     {
