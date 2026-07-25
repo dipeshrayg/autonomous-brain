@@ -10396,6 +10396,12 @@
       "verdict": "drifting",
       "summary": "Recent projects are visually ambitious but lack usability, while the refusal data suggests a systemic bottleneck in the architect's ability to execute reliably.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-07-25T20:14:58Z",
+      "verdict": "drifting",
+      "summary": "The recent projects show a lack of human usability, thematic repetition, and excessive reliance on partially interactive, visually safe outputs. Despite high complexity, the portfolio is becoming stagnant and risks losing its 'wow' factor.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
