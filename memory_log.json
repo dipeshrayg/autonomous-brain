@@ -8149,6 +8149,58 @@
         "dead_controls_count": 1,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-07-26",
+      "completed_at": "2026-07-26T19:16:54Z",
+      "completed_at_unix": 1785093414,
+      "name": "chaos-theory-simulator",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-26-chaos-theory-simulator",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-26-chaos-theory-simulator/",
+      "language": "JavaScript",
+      "project_type": "research_showcase",
+      "tech_stack": [
+        "GLSL",
+        "WebGL",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "complexity_score": 2400,
+      "concepts_demonstrated": [
+        "Chaos Theory",
+        "Complex Systems",
+        "Real-Time Simulation",
+        "Novel Shader Techniques"
+      ],
+      "novel_concepts": [
+        "Real-Time Chaos Theory Simulation",
+        "Interactive Visualization of Complex Systems"
+      ],
+      "advancement_axis": "Real-Time Simulation and Visualization of Complex Systems",
+      "pattern": "chaos-theory-simulator",
+      "domain": "Physics and Mathematics",
+      "visual_theme": "futuristic",
+      "complexity_justification": [
+        "Real-time simulation of complex systems",
+        "Implementation of novel shader techniques for visualization",
+        "User-adjustable parameters for exploring different scenarios"
+      ],
+      "visual_identity": "Dark background with neon accents, futuristic font, and interactive 3D visualizations",
+      "safety_notes": "No known safety concerns",
+      "file_count": 4,
+      "loc": 459,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 3,
+        "canvasCount": 1,
+        "title": "Chaos Theory Simulator"
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -8322,7 +8374,8 @@
     2100,
     1800,
     1800,
-    2800
+    2800,
+    2400
   ],
   "concepts_explored": [
     "neural networks",
@@ -8779,7 +8832,11 @@
     "Randomized behavior",
     "dynamic sound synthesis",
     "randomized behavior",
-    "constraint satisfaction"
+    "constraint satisfaction",
+    "Chaos Theory",
+    "Complex Systems",
+    "Real-Time Simulation",
+    "Novel Shader Techniques"
   ],
   "patterns_used": [
     "visualizer",
@@ -8946,7 +9003,8 @@
     "interactive-simulation",
     "retro-terminal-prank",
     "retro-terminal-prank",
-    "interactive-3d-simulation"
+    "interactive-3d-simulation",
+    "chaos-theory-simulator"
   ],
   "domains_used": [
     "Mathematics",
@@ -9113,7 +9171,8 @@
     "Artificial Intelligence",
     "Entertainment Technology",
     "Entertainment Technology",
-    "Physics and Complex Systems"
+    "Physics and Complex Systems",
+    "Physics and Mathematics"
   ],
   "ceo_reviews": [
     {
