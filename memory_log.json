@@ -8095,6 +8095,60 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-07-26",
+      "completed_at": "2026-07-26T09:31:47Z",
+      "completed_at_unix": 1785058307,
+      "name": "neural-flux-reactor",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-26-neural-flux-reactor",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-26-neural-flux-reactor/",
+      "language": "JavaScript",
+      "project_type": "research_showcase",
+      "tech_stack": [
+        "WebGL",
+        "GLSL",
+        "HTML5",
+        "CSS3"
+      ],
+      "complexity_score": 2800,
+      "concepts_demonstrated": [
+        "Cellular automata",
+        "Complex systems",
+        "Generative art",
+        "Real-time rendering",
+        "Interactive simulation"
+      ],
+      "novel_concepts": [
+        "3D cellular automaton simulation",
+        "Interactive and customizable interface",
+        "Generative art principles in simulation"
+      ],
+      "advancement_axis": "Integration of generative art principles with complex systems and real-time rendering",
+      "pattern": "interactive-3d-simulation",
+      "domain": "Physics and Complex Systems",
+      "visual_theme": "futuristic",
+      "complexity_justification": [
+        "Implementation of a 3D cellular automaton simulator using WebGL and GLSL shaders",
+        "Development of a customizable and interactive interface",
+        "Integration of real-time rendering and camera controls",
+        "Incorporation of generative art principles to create dynamic and visually stunning visuals"
+      ],
+      "visual_identity": "Futuristic and sleek, with a focus on dynamic and interactive visuals",
+      "safety_notes": "No known safety concerns",
+      "file_count": 4,
+      "loc": 527,
+      "quality_cycles_used": 8,
+      "final_verify_metrics": {
+        "interactiveCount": 3,
+        "canvasCount": 1,
+        "title": "Neural Flux Reactor - 3D Cellular Automaton Simulator"
+      },
+      "qa_review": {
+        "verdict": "partially_usable",
+        "dead_controls_count": 1,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -8267,7 +8321,8 @@
     2200,
     2100,
     1800,
-    1800
+    1800,
+    2800
   ],
   "concepts_explored": [
     "neural networks",
@@ -8890,7 +8945,8 @@
     "galaxy-simulator",
     "interactive-simulation",
     "retro-terminal-prank",
-    "retro-terminal-prank"
+    "retro-terminal-prank",
+    "interactive-3d-simulation"
   ],
   "domains_used": [
     "Mathematics",
@@ -9056,7 +9112,8 @@
     "Astrophysics and Computer Science",
     "Artificial Intelligence",
     "Entertainment Technology",
-    "Entertainment Technology"
+    "Entertainment Technology",
+    "Physics and Complex Systems"
   ],
   "ceo_reviews": [
     {
