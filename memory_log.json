@@ -10645,6 +10645,12 @@
       "verdict": "drifting",
       "summary": "The recent projects exhibit technical ambition but suffer from a lack of usability, with several rated only 'partially usable.' Type diversity is stagnating due to over-reliance on certain maxed-out project types.",
       "model": "gpt-4o"
+    },
+    {
+      "issued_at": "2026-07-27T20:42:05Z",
+      "verdict": "drifting",
+      "summary": "Recent projects show thematic repetition and lack of technical ambition, with several partially usable outputs and no meaningful evolution.",
+      "model": "gpt-4o"
     }
   ],
   "security_audits": [
