@@ -8201,6 +8201,58 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-07-27",
+      "completed_at": "2026-07-27T10:55:33Z",
+      "completed_at_unix": 1785149733,
+      "name": "fluid-simulator",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-27-fluid-simulator",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-27-fluid-simulator/",
+      "language": "GLSL",
+      "project_type": "shader_art",
+      "tech_stack": [
+        "GLSL",
+        "WebGL",
+        "HTML",
+        "CSS"
+      ],
+      "complexity_score": 2100,
+      "concepts_demonstrated": [
+        "Real-time Fluid Simulation",
+        "Procedural Geometry",
+        "Procedural Noise",
+        "Real-time Physics-based Rendering"
+      ],
+      "novel_concepts": [
+        "Novel GLSL-based Interactive Fluid Simulation",
+        "Minimal-glass Visual Theme"
+      ],
+      "advancement_axis": "Advanced Shader Techniques",
+      "pattern": "interactive-shader-art",
+      "domain": "Computer Graphics",
+      "visual_theme": "minimal-glass",
+      "complexity_justification": [
+        "Implementation of real-time fluid simulation using GLSL",
+        "Utilization of signed distance functions (SDFs) for procedural geometry",
+        "Integration of procedural noise for realistic texture generation",
+        "Real-time physics-based rendering for accurate simulation"
+      ],
+      "visual_identity": "Reflective Surfaces, Transparency Effects, Minimalistic Design",
+      "safety_notes": "No known safety concerns",
+      "file_count": 3,
+      "loc": 479,
+      "quality_cycles_used": 3,
+      "final_verify_metrics": {
+        "interactiveCount": 6,
+        "canvasCount": 1,
+        "title": "Fluid Simulator"
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -8375,7 +8427,8 @@
     1800,
     1800,
     2800,
-    2400
+    2400,
+    2100
   ],
   "concepts_explored": [
     "neural networks",
@@ -8836,7 +8889,11 @@
     "Chaos Theory",
     "Complex Systems",
     "Real-Time Simulation",
-    "Novel Shader Techniques"
+    "Novel Shader Techniques",
+    "Real-time Fluid Simulation",
+    "Procedural Geometry",
+    "Procedural Noise",
+    "Real-time Physics-based Rendering"
   ],
   "patterns_used": [
     "visualizer",
@@ -9004,7 +9061,8 @@
     "retro-terminal-prank",
     "retro-terminal-prank",
     "interactive-3d-simulation",
-    "chaos-theory-simulator"
+    "chaos-theory-simulator",
+    "interactive-shader-art"
   ],
   "domains_used": [
     "Mathematics",
@@ -9172,7 +9230,8 @@
     "Entertainment Technology",
     "Entertainment Technology",
     "Physics and Complex Systems",
-    "Physics and Mathematics"
+    "Physics and Mathematics",
+    "Computer Graphics"
   ],
   "ceo_reviews": [
     {
