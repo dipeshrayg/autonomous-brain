@@ -13347,7 +13347,7 @@
       "reviewed_project_count": 8
     }
   ],
-  "expansion_mode": true,
+  "expansion_mode": false,
   "expansion_mode_since": "2026-07-15T21:12:09.338801+00:00",
   "enterprise_mode": false,
   "enterprise_mode_since": "2026-06-16T08:03:24.286031+00:00",
@@ -13376,5 +13376,5 @@
       "warm-amber"
     ]
   },
-  "failed_builds_count": 491
+  "failed_builds_count": 492
 }
