@@ -8361,6 +8361,58 @@
         "dead_controls_count": 0,
         "missing_features_count": 0
       }
+    },
+    {
+      "date": "2026-07-28",
+      "completed_at": "2026-07-28T22:06:43Z",
+      "completed_at_unix": 1785276403,
+      "name": "brutalist-sdf-scene",
+      "repo_url": "https://github.com/dipeshrayg/2026-07-28-brutalist-sdf-scene",
+      "pages_url": "https://dipeshrayg.github.io/2026-07-28-brutalist-sdf-scene/",
+      "language": "GLSL",
+      "project_type": "shader_art",
+      "tech_stack": [
+        "WebGL",
+        "GLSL",
+        "HTML",
+        "CSS"
+      ],
+      "complexity_score": 2200,
+      "concepts_demonstrated": [
+        "SDF scene generation",
+        "raymarching",
+        "procedural geometry",
+        "cinematic lighting"
+      ],
+      "novel_concepts": [
+        "Brutalist geometry generation",
+        "Advanced raymarching techniques for SDF scenes"
+      ],
+      "advancement_axis": "Visual distinctiveness and algorithmic depth in shader art",
+      "pattern": "brutalist-sdf-scene",
+      "domain": "Computer Graphics",
+      "visual_theme": "brutalist",
+      "complexity_justification": [
+        "Implementing advanced raymarching techniques for SDF scene generation",
+        "Creating dynamic procedural geometry for the brutalist scene",
+        "Developing a cinematic lighting system with adjustable parameters",
+        "Ensuring full interactivity and usability on GitHub Pages"
+      ],
+      "visual_identity": "Brutalist geometry, cinematic lighting, and a dark color palette",
+      "safety_notes": "No known safety concerns",
+      "file_count": 3,
+      "loc": 495,
+      "quality_cycles_used": 4,
+      "final_verify_metrics": {
+        "interactiveCount": 4,
+        "canvasCount": 1,
+        "title": "Brutalist SDF Scene"
+      },
+      "qa_review": {
+        "verdict": "shippable",
+        "dead_controls_count": 0,
+        "missing_features_count": 0
+      }
     }
   ],
   "complexity_trajectory": [
@@ -8538,7 +8590,8 @@
     2400,
     2100,
     2200,
-    2801
+    2801,
+    2200
   ],
   "concepts_explored": [
     "neural networks",
@@ -9007,7 +9060,10 @@
     "3D Visualization",
     "Real-time Interaction",
     "encryption algorithms",
-    "digital signatures"
+    "digital signatures",
+    "SDF scene generation",
+    "raymarching",
+    "procedural geometry"
   ],
   "patterns_used": [
     "visualizer",
@@ -9178,7 +9234,8 @@
     "chaos-theory-simulator",
     "interactive-shader-art",
     "interactive-3d-visualization",
-    "cryptography-workbench"
+    "cryptography-workbench",
+    "brutalist-sdf-scene"
   ],
   "domains_used": [
     "Mathematics",
@@ -9349,7 +9406,8 @@
     "Physics and Mathematics",
     "Computer Graphics",
     "Artificial Intelligence",
-    "Cryptography and Information Security"
+    "Cryptography and Information Security",
+    "Computer Graphics"
   ],
   "ceo_reviews": [
     {
