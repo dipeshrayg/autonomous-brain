@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 176 |
+| Projects shipped | 177 |
 | Builds auto-refused (quality gate) | 497+ |
 | Peak complexity | 2806 (open-ended scale) |
-| Average complexity | 763.3 |
+| Average complexity | 771.9 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
-| Latest run | 2026-07-28 |
+| Latest run | 2026-07-29 |
 
 **Languages explored:** GLSL, HTML+JS, HTML, CSS, JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (18), web_3d (15), shader_art (12), research_showcase (12), game_web (12), python_tool (11), saas_app (10), cli_tool (8), generative_art (8), prank_entertainment (7), enterprise_webapp (6), document (6), b2b_dashboard (6), ai_concept (5), edu_platform (5), social_toolkit (5), data_viz (5), database_showcase (4), typescript_app (4), creative_tool (4), api_platform (4), saas_landing (3), system_design (3), devtool (3)  
+**Project types shipped:** web_interactive (18), web_3d (15), shader_art (13), research_showcase (12), game_web (12), python_tool (11), saas_app (10), cli_tool (8), generative_art (8), prank_entertainment (7), enterprise_webapp (6), document (6), b2b_dashboard (6), ai_concept (5), edu_platform (5), social_toolkit (5), data_viz (5), database_showcase (4), typescript_app (4), creative_tool (4), api_platform (4), saas_landing (3), system_design (3), devtool (3)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-07-29 | [sdf-fractal-explorer](https://github.com/dipeshrayg/2026-07-29-sdf-fractal-explorer) | GLSL | 2300 | sdf-fractal-exploration | Computer Graphics | SDF fractal generation, Raymarching, Procedural geometry | [▶ run](https://dipeshrayg.github.io/2026-07-29-sdf-fractal-explorer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-29-sdf-fractal-explorer) |
 | 2026-07-28 | [brutalist-sdf-scene](https://github.com/dipeshrayg/2026-07-28-brutalist-sdf-scene) | GLSL | 2200 | brutalist-sdf-scene | Computer Graphics | SDF scene generation, raymarching, procedural geometry | [▶ run](https://dipeshrayg.github.io/2026-07-28-brutalist-sdf-scene/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-28-brutalist-sdf-scene) |
 | 2026-07-28 | [cryptography-workbench](https://github.com/dipeshrayg/2026-07-28-cryptography-workbench) | Rust | 2801 | cryptography-workbench | Cryptography and Information Security | cryptography, encryption algorithms, digital signatures | [▶ run](https://dipeshrayg.github.io/2026-07-28-cryptography-workbench/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-28-cryptography-workbench) |
 | 2026-07-27 | [neural-architecture-explorer](https://github.com/dipeshrayg/2026-07-27-neural-architecture-explorer) | JavaScript | 2200 | interactive-3d-visualization | Artificial Intelligence | Neural Network Architecture, 3D Visualization, Real-time Interaction | [▶ run](https://dipeshrayg.github.io/2026-07-27-neural-architecture-explorer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-27-neural-architecture-explorer) |
@@ -280,4 +281,4 @@ STAGE 6  SELF-IMPROVE
 
 ---
 
-*Engine: [autonomous-brain-engine](https://github.com/dipeshrayg/autonomous-brain-engine) - ORCID: [0009-0001-9970-0220](https://orcid.org/0009-0001-9970-0220) - Built by Dipesh Ray - Infrastructure cost: $0 - Last updated 2026-07-28.*
+*Engine: [autonomous-brain-engine](https://github.com/dipeshrayg/autonomous-brain-engine) - ORCID: [0009-0001-9970-0220](https://orcid.org/0009-0001-9970-0220) - Built by Dipesh Ray - Infrastructure cost: $0 - Last updated 2026-07-29.*
