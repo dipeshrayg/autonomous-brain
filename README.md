@@ -14,23 +14,24 @@ Every project below is a separate public repository with a live deployed URL.
 
 | Metric | Value |
 |--------|-------|
-| Projects shipped | 177 |
+| Projects shipped | 178 |
 | Builds auto-refused (quality gate) | 501+ |
 | Peak complexity | 2806 (open-ended scale) |
-| Average complexity | 771.9 |
+| Average complexity | 769.3 |
 | Daily cadence | Up to 5/day, fully autonomous |
 | Infrastructure cost | $0 |
 | Human interventions | 0 |
 | Latest run | 2026-07-29 |
 
 **Languages explored:** GLSL, HTML+JS, HTML, CSS, JS, JavaScript, Markdown, Python, Rust, TypeScript, html, javascript, markdown, python  
-**Project types shipped:** web_interactive (18), web_3d (15), shader_art (13), research_showcase (12), game_web (12), python_tool (11), saas_app (10), cli_tool (8), generative_art (8), prank_entertainment (7), enterprise_webapp (6), document (6), b2b_dashboard (6), ai_concept (5), edu_platform (5), social_toolkit (5), data_viz (5), database_showcase (4), typescript_app (4), creative_tool (4), api_platform (4), saas_landing (3), system_design (3), devtool (3)  
+**Project types shipped:** web_interactive (18), web_3d (15), shader_art (14), research_showcase (12), game_web (12), python_tool (11), saas_app (10), cli_tool (8), generative_art (8), prank_entertainment (7), enterprise_webapp (6), document (6), b2b_dashboard (6), ai_concept (5), edu_platform (5), social_toolkit (5), data_viz (5), database_showcase (4), typescript_app (4), creative_tool (4), api_platform (4), saas_landing (3), system_design (3), devtool (3)  
 **Domains explored:** Mathematics, Healthcare, Environmental Science, Logistics, Arts, Sports, History, Bioinformatics
 
 ## Latest creations
 
 | Date | Project | Lang | Complexity | Pattern | Domain | Concepts | Run |
 |------|---------|------|------------|---------|--------|----------|-----|
+| 2026-07-29 | [brutalist-geometry-explorer](https://github.com/dipeshrayg/2026-07-29-brutalist-geometry-explorer) | GLSL | 300 | brutalist-geometry-exploration | Computer Graphics | Raymarching, SDF functions, Cinematic lighting | [▶ run](https://dipeshrayg.github.io/2026-07-29-brutalist-geometry-explorer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-29-brutalist-geometry-explorer) |
 | 2026-07-29 | [sdf-fractal-explorer](https://github.com/dipeshrayg/2026-07-29-sdf-fractal-explorer) | GLSL | 2300 | sdf-fractal-exploration | Computer Graphics | SDF fractal generation, Raymarching, Procedural geometry | [▶ run](https://dipeshrayg.github.io/2026-07-29-sdf-fractal-explorer/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-29-sdf-fractal-explorer) |
 | 2026-07-28 | [brutalist-sdf-scene](https://github.com/dipeshrayg/2026-07-28-brutalist-sdf-scene) | GLSL | 2200 | brutalist-sdf-scene | Computer Graphics | SDF scene generation, raymarching, procedural geometry | [▶ run](https://dipeshrayg.github.io/2026-07-28-brutalist-sdf-scene/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-28-brutalist-sdf-scene) |
 | 2026-07-28 | [cryptography-workbench](https://github.com/dipeshrayg/2026-07-28-cryptography-workbench) | Rust | 2801 | cryptography-workbench | Cryptography and Information Security | cryptography, encryption algorithms, digital signatures | [▶ run](https://dipeshrayg.github.io/2026-07-28-cryptography-workbench/) · [⚡ codespaces](https://codespaces.new/dipeshrayg/2026-07-28-cryptography-workbench) |
